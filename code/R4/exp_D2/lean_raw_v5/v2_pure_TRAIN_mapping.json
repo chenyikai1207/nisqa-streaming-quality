@@ -1,0 +1,103 @@
+{
+  "family": "cubic",
+  "maps": [
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.0034938226478189935,
+        0.0034356681399543274,
+        1.010021348950946,
+        0.04996688506156146
+      ],
+      "linear_coef": [
+        0.9358021200492096,
+        0.18406136872635653
+      ],
+      "prediction_range": [
+        -0.1328085,
+        4.8784895
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.07755870090964745,
+        0.6479136695060962,
+        -0.6928444679725061,
+        1.3972763306849523
+      ],
+      "linear_coef": [
+        0.9824111665529988,
+        0.08302858227015954
+      ],
+      "prediction_range": [
+        0.8942819,
+        4.8049455
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.029919514117522115,
+        0.24504640467954802,
+        0.3009947858871492,
+        0.6869929869175332
+      ],
+      "linear_coef": [
+        0.9305750668340661,
+        0.18213106614058533
+      ],
+      "prediction_range": [
+        0.79887474,
+        4.5995827
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.004182246651446418,
+        0.014812000741295179,
+        0.91059228546226,
+        0.30597976544752226
+      ],
+      "linear_coef": [
+        0.8713442630990487,
+        0.4312165489460345
+      ],
+      "prediction_range": [
+        0.8711098,
+        4.7116995
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "linear",
+      "coef": [
+        0.9522160274762926,
+        0.11785001360436777
+      ],
+      "linear_coef": [
+        0.9522160274762926,
+        0.11785001360436777
+      ],
+      "prediction_range": [
+        -5.6793375,
+        4.676222
+      ]
+    }
+  ],
+  "fit_source": "fixed seed0 original A2 TRAIN grouped fivefold OOF,11020 unique files",
+  "unique_files": 11020,
+  "selection_using_target": false,
+  "requested": "cubic; original monotonicity check and linear fallback",
+  "raw_main": true
+}

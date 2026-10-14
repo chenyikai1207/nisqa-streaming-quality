@@ -1,0 +1,43 @@
+{
+  "instrumented_stages_ns": {
+    "L": 521132200,
+    "R": 1649057900,
+    "G": 6613917100,
+    "F": 1001261500,
+    "I": 14126310500,
+    "O": 125735300
+  },
+  "adapter": "adapters.v2_native:Runner96",
+  "core": 2,
+  "actual_affinity": [
+    2
+  ],
+  "n_files": 600,
+  "warmup_files": 20,
+  "wall_ns": 24092114600,
+  "stages_ns": {
+    "L": 521132200,
+    "R": 1649057900,
+    "G": 6613917100,
+    "F": 1001261500,
+    "I": 14126310500,
+    "O": 180435400
+  },
+  "cold_ns": 2560333800,
+  "rss_end_bytes": 303923200,
+  "t_start": 1791898457.3271008,
+  "t_end": 1791898481.4191756,
+  "metadata": {
+    "frozen_folder": "code/R4/exp_A/frozen_v3/v2_pure",
+    "candidate": "v2_pure",
+    "precision": "frozen CPU fp32",
+    "stages": "exclusive nested timing; G raw level/side statistics; F mainSTFT/mel/log/norm and actualunused48kbandFFT; R actualfrozenpolyphase; O tensor/formatcopy; I wholeGRU/pool/head",
+    "torch_threads": 1
+  },
+  "threads_actual": 8,
+  "torch_num_threads": 1,
+  "scope": "CLEAN_COST_V3_VAL600_ONE_ROUND",
+  "pagecache": "allfilesreadbeforewarmup",
+  "timing_observer": "no sampling thread, no perfile output",
+  "O_unattributed_ns": 54700100
+}

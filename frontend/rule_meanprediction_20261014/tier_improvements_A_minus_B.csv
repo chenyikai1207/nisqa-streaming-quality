@@ -1,0 +1,3 @@
+dim,comparison,metric,improvement,ci_low,ci_high,direction,source_comparison,n_boot,n_boot_finite
+mos,A-B,MAE,0.03372795743635293,0.018402880107076823,0.04989916464346467,positive improves,B-A,2000,2000
+loud,A-B,MAE,0.28232129614845974,0.25918707464671087,0.3054094628713019,positive improves,B-A,2000,2000

@@ -1,0 +1,2 @@
+comparison,protocol,dim,metric,aggregation,MAE_B,MAE_D,difference,ci_low,ci_high,n_boot,n_boot_finite,bootstrap_seed,unit,files,ref_groups,direction,post_result_auxiliary,tier_input,model_selection,public_main_table_use,only_purpose
+B-D,SIM_TO_LIVE,mos,MAE,HISTORICAL_mean_seedwise_MAE_metrics,0.44469449969768654,0.4385914918472868,0.006103007850399744,-0.007116318725979884,0.01899977944029572,2000,2000,20261014,ref_group,1020,495,positive means B worse than D,True,False,False,False,explain historical v30 .0061; not mixed with new meanprediction table

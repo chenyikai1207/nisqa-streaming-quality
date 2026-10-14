@@ -1,0 +1,6 @@
+model,n,n_references,n_distinct_planning_MOS,Spearman,scope,network_conditions,across_impairment_validation,matched_burst_minus_random_direction_agreement,matched_Ppl_curve_comparison,unavailable_joint_coefficient_rows
+NISQA5D,100,100,64,-0.04133754449178555,G113 I.5 G71120ms Repeat1/silence targetBr4 and Ppl1%; formulaBr1; source-duration rounding variation only,1,False,,,13900
+PLCMOS,100,100,64,0.30469857827515634,G113 I.5 G71120ms Repeat1/silence targetBr4 and Ppl1%; formulaBr1; source-duration rounding variation only,1,False,,,13900
+v1_GRU,100,100,64,0.06606084139343571,G113 I.5 G71120ms Repeat1/silence targetBr4 and Ppl1%; formulaBr1; source-duration rounding variation only,1,False,,,13900
+G0_oldT,100,100,64,0.18767857429492535,G113 I.5 G71120ms Repeat1/silence targetBr4 and Ppl1%; formulaBr1; source-duration rounding variation only,1,False,,,13900
+selected_v2,100,100,64,-0.06545461342862226,G113 I.5 G71120ms Repeat1/silence targetBr4 and Ppl1%; formulaBr1; source-duration rounding variation only,1,False,,,13900

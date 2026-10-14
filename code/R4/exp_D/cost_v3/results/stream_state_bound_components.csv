@@ -1,0 +1,41 @@
+method,input_sr,component,dtype,itemsize_bytes,length_upper,component_bytes_upper,bytes_at_joint_max,sum_of_marginal_maxima_is_not_joint_max
+v2_pure,16000,GRU_hidden,float32,4,192,768,768,True
+v2_pure,16000,attention_numerator,float64,8,96,768,768,True
+v2_pure,16000,attention_maximum_denominator,float64 / logical64,8,2,16,16,True
+v2_pure,16000,mel_residual,float32,4,319,1276,1276,True
+v2_pure,16000,side_RMS_residual,float32,4,959,3836,3828,True
+v2_pure,16000,main_FIR_history,float32,4,0,0,0,True
+v2_pure,16000,side_FIR_history,float32,4,20,80,40,True
+v2_pure,16000,main_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_pure,16000,side_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_pure,16000,other_stream_logical_registers,11 logical64 slots (Python scalar storage separate),8,11,88,88,True
+v2_pure,48000,GRU_hidden,float32,4,192,768,768,True
+v2_pure,48000,attention_numerator,float64,8,96,768,768,True
+v2_pure,48000,attention_maximum_denominator,float64 / logical64,8,2,16,16,True
+v2_pure,48000,mel_residual,float32,4,319,1276,1236,True
+v2_pure,48000,side_RMS_residual,float32,4,959,3836,3836,True
+v2_pure,48000,main_FIR_history,float32,4,63,252,248,True
+v2_pure,48000,side_FIR_history,float32,4,0,0,0,True
+v2_pure,48000,main_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_pure,48000,side_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_pure,48000,other_stream_logical_registers,11 logical64 slots (Python scalar storage separate),8,11,88,88,True
+v2_64,16000,GRU_hidden,float32,4,128,512,512,True
+v2_64,16000,attention_numerator,float64,8,64,512,512,True
+v2_64,16000,attention_maximum_denominator,float64 / logical64,8,2,16,16,True
+v2_64,16000,mel_residual,float32,4,319,1276,1276,True
+v2_64,16000,side_RMS_residual,float32,4,959,3836,3828,True
+v2_64,16000,main_FIR_history,float32,4,0,0,0,True
+v2_64,16000,side_FIR_history,float32,4,20,80,40,True
+v2_64,16000,main_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_64,16000,side_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_64,16000,other_stream_logical_registers,11 logical64 slots (Python scalar storage separate),8,11,88,88,True
+v2_64,48000,GRU_hidden,float32,4,128,512,512,True
+v2_64,48000,attention_numerator,float64,8,64,512,512,True
+v2_64,48000,attention_maximum_denominator,float64 / logical64,8,2,16,16,True
+v2_64,48000,mel_residual,float32,4,319,1276,1236,True
+v2_64,48000,side_RMS_residual,float32,4,959,3836,3836,True
+v2_64,48000,main_FIR_history,float32,4,63,252,248,True
+v2_64,48000,side_FIR_history,float32,4,0,0,0,True
+v2_64,48000,main_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_64,48000,side_FIR_logical_registers,7 logical64 slots (Python scalar storage separate),8,7,56,56,True
+v2_64,48000,other_stream_logical_registers,11 logical64 slots (Python scalar storage separate),8,11,88,88,True

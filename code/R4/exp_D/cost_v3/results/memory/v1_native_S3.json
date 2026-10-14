@@ -1,0 +1,19 @@
+{
+  "adapter": "adapters.v1_native:Runner",
+  "core": 16,
+  "n_files": 600,
+  "baseline_rss_bytes": 277766144,
+  "baseline_rss_mb": 277.766144,
+  "peak_rss_bytes": 377024512,
+  "peak_rss_mb": 377.024512,
+  "sampling_interval_ms": 10,
+  "samples": 1736,
+  "lifetime_peak_working_set_bytes": 377159680,
+  "scope": "independentmemorypass; afterlibraries/modelbeforefirstaudio baseline; notRTF",
+  "metadata": {
+    "frozen_folder": "code/R4/exp_A/frozen/A_distill",
+    "precision": "CPU fp32 originalruntime",
+    "stages": "L decode+mono; R originalresample; G peak normalization; F librosa mel/log; I originalmodel (includes normalized inputcopy); O outputformat",
+    "threads": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "adapter": "adapters.v2_candidate1:Runner64F32",
+  "core": null,
+  "n_files": 600,
+  "baseline_rss_bytes": 257490944,
+  "baseline_rss_mb": 257.490944,
+  "peak_rss_bytes": 292442112,
+  "peak_rss_mb": 292.442112,
+  "sampling_interval_ms": 10,
+  "samples": 5449,
+  "lifetime_peak_working_set_bytes": 294318080,
+  "scope": "independentmemorypass; afterlibraries/modelbeforefirstaudio baseline; notRTF",
+  "metadata": {
+    "implementation_version": "candidate1",
+    "candidate": "v2_64",
+    "precision": "float32",
+    "implementation": "candidate1 offline scipy.upfirdn exactcachedcoeff/offset, whole TorchGRU unchangedweights, NumPyattention/head; originalNumPystream unchanged",
+    "weights_changed": false,
+    "frontend_parameters_changed": false,
+    "status": "unselected pendingactualbounded2 then newqualificationifrootchooses"
+  }
+}

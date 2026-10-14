@@ -1,0 +1,79 @@
+{
+  "time": "2026-10-14T13:12:13.381465+08:00",
+  "evaluation_status": "ACTUAL_POST_RESULT_HUMAN_TIER_EVALUATED",
+  "tier": 1,
+  "status": "MOS_AND_LOUD_PASS",
+  "within_original_rule": true,
+  "judgment_protocol": "SIM_TO_LIVE",
+  "judgment_dims": [
+    "mos",
+    "loud"
+  ],
+  "delta_definition": "MAE(A)-MAE(B); positive improvement",
+  "inputs": {
+    "mos": {
+      "dim": "mos",
+      "comparison": "A-B",
+      "metric": "MAE",
+      "improvement": 0.03372795743635293,
+      "ci_low": 0.018402880107076823,
+      "ci_high": 0.04989916464346467,
+      "direction": "positive improves",
+      "source_comparison": "B-A",
+      "n_boot": 2000,
+      "n_boot_finite": 2000
+    },
+    "loud": {
+      "dim": "loud",
+      "comparison": "A-B",
+      "metric": "MAE",
+      "improvement": 0.28232129614845974,
+      "ci_low": 0.25918707464671087,
+      "ci_high": 0.3054094628713019,
+      "direction": "positive improves",
+      "source_comparison": "B-A",
+      "n_boot": 2000,
+      "n_boot_finite": 2000
+    }
+  },
+  "original_B_reproduction_gate": {
+    "reference": 0.4176,
+    "tolerance": 0.002,
+    "actual": 0.41758075429657593,
+    "absolute_difference": 1.9245703424097815e-05,
+    "passed": true,
+    "scope": "pipeline reproduction check; no hyperparameter/seed retuning or model selection"
+  },
+  "original_gate_aggregation": "mean seedwise CV equal-domain MOS MAE, unchanged",
+  "new_meanprediction_gate_not_refitted": true,
+  "original_gate_source": "frontend/SUMMARY_COMPLETE.json",
+  "statistical_rule_received_after_fit_results": true,
+  "registration_receipt": "frontend/RULE_GIT_REGISTRATION_20261014.json",
+  "registration_record": {
+    "recorded_at": "2026-10-14T13:11:00.211946+08:00",
+    "rule_received_after_original_fit_results": true,
+    "original_fit_complete": "2026-10-14T10:32:47+08:00",
+    "original_statistics_complete": "2026-10-14T10:32:51+08:00",
+    "new_meanprediction_calculation_started": false,
+    "original_prereg_and_old_statistics_preserved": true,
+    "git_registration_before_new_aggregation": true,
+    "original_science_tag_unchanged": "nisqa-paper1-science-freeze-20261014",
+    "new_training": 0,
+    "new_cost": 0,
+    "frozen_science_changed": false,
+    "committed_at": "2026-10-14T13:11:27.871591+08:00",
+    "git_commit": "c955a254944272ab6537aeb6f53204e2b590a0d7",
+    "previous_commit": "53a2631770bc5a1fb2f2e347f1758cdbf0198517",
+    "registered_paths": [
+      "ROOT/postfreeze_frontend_reporting_rule_20261014/postprocess_meanprediction.py",
+      "ROOT/postfreeze_frontend_reporting_rule_20261014/prereg_gru96_frontend_at_registration.md",
+      "ROOT/postfreeze_frontend_reporting_rule_20261014/REGISTRATION_CHRONOLOGY.json",
+      "ROOT/postfreeze_frontend_reporting_rule_20261014/USER_REPORTING_RULE_ORIGINAL_20261014.txt"
+    ],
+    "original_staged_before_after_equal": true,
+    "original_science_tag_commit": "53a2631770bc5a1fb2f2e347f1758cdbf0198517",
+    "pushed": false
+  },
+  "model_selection": false,
+  "frozen_changed": false
+}

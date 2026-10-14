@@ -1,0 +1,2 @@
+comparison,protocol,dim,metric,aggregation,MAE_B,MAE_D,difference,ci_low,ci_high,n_boot,n_boot_finite,bootstrap_seed,unit,files,ref_groups,direction,post_result_auxiliary,tier_input,model_selection
+B-D,SIM_TO_LIVE,mos,MAE,mean_seed_predictions_first,0.4165181060644254,0.41214128886585755,0.004376817198567862,-0.009583245397822435,0.018082349291698226,2000,2000,20261014,ref_group,1020,495,positive means B worse than D,True,False,False

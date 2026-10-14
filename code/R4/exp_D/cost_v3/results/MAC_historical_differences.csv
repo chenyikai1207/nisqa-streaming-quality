@@ -1,0 +1,6 @@
+old_value,source,cause
+v1 2.9020,D2_MAC_summary_with_attention_pool.csv,oldTRAIN200 durationweight/window-log-normalization scalar pricing; newVALmean full frontend policy nowexplicit
+v1 2.9563,v1_v15_sameTRAIN200_totals_v5.csv,sameTRAIN200 componentmatched scalar/bias/window proxies differ fromoldregistered2.9020; newtable excludesGRUbias andunifiesmeanframepolicy
+v2 13.1444,ROOT/A_CAPACITY_COST_v2.csv historicalscreen,"pre-freeze screenestimate, frame/side/scalarcoverage; replacedbynewactualfrozenrecipecomponenttable"
+v2 13.3611,A7_D200_COST_v3/v2_pure/COMPLETE.json,actualTRAIN200 incremental frame/FIR andscalarproxy scope; newVALmean+windowN/log/normalization policy andNNbias exclusion
+v2 13.3683,v1_v15_sameTRAIN200_totals_v5.csv,sameTRAIN200 matched fullnative components slightscalarpricingdifferent fromincremental; nowunifiednewtable

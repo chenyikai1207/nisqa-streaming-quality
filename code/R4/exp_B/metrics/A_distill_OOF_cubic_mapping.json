@@ -1,0 +1,96 @@
+{
+  "mos": {
+    "requested": "cubic",
+    "used": "cubic",
+    "coef": [
+      -0.029560677025914327,
+      0.24572201684084263,
+      0.3317376414266851,
+      0.5907450608150016
+    ],
+    "n": 11020,
+    "prediction_range": [
+      0.462232381105423,
+      4.780961513519287
+    ],
+    "reason": "",
+    "linear_coef": [
+      0.9655975195988354,
+      0.0930157057780238
+    ]
+  },
+  "noi": {
+    "requested": "cubic",
+    "used": "linear",
+    "coef": [
+      0.9729099114166598,
+      0.11593171884578526
+    ],
+    "n": 11020,
+    "prediction_range": [
+      0.7827116250991821,
+      5.089162826538086
+    ],
+    "reason": "cubic nonmonotone on TRAIN/OOF prediction interval; linear fallback",
+    "linear_coef": [
+      0.9729099114166598,
+      0.11593171884578526
+    ]
+  },
+  "col": {
+    "requested": "cubic",
+    "used": "linear",
+    "coef": [
+      0.9849053255370098,
+      0.013498162042068232
+    ],
+    "n": 11020,
+    "prediction_range": [
+      0.7069786787033081,
+      4.339260101318359
+    ],
+    "reason": "cubic nonmonotone on TRAIN/OOF prediction interval; linear fallback",
+    "linear_coef": [
+      0.9849053255370098,
+      0.013498162042068232
+    ]
+  },
+  "dis": {
+    "requested": "cubic",
+    "used": "cubic",
+    "coef": [
+      -0.08447122687610845,
+      0.7461979209400557,
+      -1.0976994457171767,
+      1.8217713947656962
+    ],
+    "n": 11020,
+    "prediction_range": [
+      1.1713597774505615,
+      4.535583019256592
+    ],
+    "reason": "",
+    "linear_coef": [
+      0.9882533492710063,
+      0.01355786031458297
+    ]
+  },
+  "loud": {
+    "requested": "cubic",
+    "used": "linear",
+    "coef": [
+      0.9662679335356598,
+      0.06922219781290327
+    ],
+    "n": 11020,
+    "prediction_range": [
+      0.9339895248413086,
+      4.73361873626709
+    ],
+    "reason": "cubic nonmonotone on TRAIN/OOF prediction interval; linear fallback",
+    "linear_coef": [
+      0.9662679335356598,
+      0.06922219781290327
+    ]
+  }
+}

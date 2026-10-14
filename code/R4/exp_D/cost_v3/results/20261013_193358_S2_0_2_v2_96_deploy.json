@@ -1,0 +1,45 @@
+{
+  "instrumented_stages_ns": {
+    "L": 521013900,
+    "R": 1670395200,
+    "G": 2925630400,
+    "F": 1219452500,
+    "I": 14135805100,
+    "O": 6226200
+  },
+  "adapter": "adapters.v2_candidate1:Runner96F32",
+  "core": 2,
+  "actual_affinity": [
+    2
+  ],
+  "n_files": 600,
+  "warmup_files": 20,
+  "wall_ns": 20566152300,
+  "stages_ns": {
+    "L": 521013900,
+    "R": 1670395200,
+    "G": 2925630400,
+    "F": 1219452500,
+    "I": 14135805100,
+    "O": 93855200
+  },
+  "cold_ns": 2150423200,
+  "rss_end_bytes": 265211904,
+  "t_start": 1791898379.979489,
+  "t_end": 1791898400.5459054,
+  "metadata": {
+    "implementation_version": "candidate1",
+    "candidate": "v2_pure",
+    "precision": "float32",
+    "implementation": "candidate1 offline scipy.upfirdn exactcachedcoeff/offset, whole TorchGRU unchangedweights, NumPyattention/head; originalNumPystream unchanged",
+    "weights_changed": false,
+    "frontend_parameters_changed": false,
+    "status": "unselected pendingactualbounded2 then newqualificationifrootchooses"
+  },
+  "threads_actual": 8,
+  "torch_num_threads": 1,
+  "scope": "CLEAN_COST_V3_VAL600_ONE_ROUND",
+  "pagecache": "allfilesreadbeforewarmup",
+  "timing_observer": "no sampling thread, no perfile output",
+  "O_unattributed_ns": 87629000
+}

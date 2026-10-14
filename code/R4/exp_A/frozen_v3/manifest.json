@@ -1,0 +1,253 @@
+{
+  "time": "2026-10-13T04:56:49.956328",
+  "protocol_revision": "v3_synthetic_review",
+  "review_revision": "v5_submission_freeze_review",
+  "v2_comparator": "v2_pure",
+  "main_model": "v2_pure",
+  "main_seed": 20261011,
+  "fit_seeds": [
+    0,
+    1,
+    2
+  ],
+  "CV_gain": 0.0728564057385988,
+  "LOSO_gain": 0.09750376745852041,
+  "v1_cv_mae": 0.4904371600351747,
+  "v1_loso_mae": 0.6514556915422715,
+  "v2_cv_mae": 0.4175807542965759,
+  "v2_loso_mae": 0.553951924083751,
+  "stop_small": false,
+  "stop_rule": "CV_gain<.01 AND four equal SIM LOSO gain<.01; no extra CI gate",
+  "score_rule": ".4CV+.4fourSIM_LOSO+.2SIMLIVE;diff<.005low total frontendMAC then bytes then ID",
+  "selected_score": 0.4775519712916681,
+  "selection_source_C": "exp_C2/results/C_A7_fixed_shortlist_TRAIN_v5.csv",
+  "paired_source_C": "exp_C2/results/C_A7_fixed_shortlist_paired_v5_full_precision.csv",
+  "decision_uses_unfinished_search_results": false,
+  "base_training_target": ".7 real five-dimensional labels + .3 fixed official NISQA5D",
+  "future_search_excluded": [
+    "distill_search",
+    "auxiliary",
+    "CCC",
+    "fusion",
+    "strict_inner_replay"
+  ],
+  "VAL_used_for_selection": false,
+  "TEST_used_for_selection": false,
+  "VAL_candidate_count": 3,
+  "VAL_TRAIN_selected_shortlist": [
+    "v2_pure",
+    "v2_64",
+    "v2_conv64"
+  ],
+  "D200_cost_acceptance": "code/R4/ROOT/A7_D200_COST_ACCEPTANCE_v3.json",
+  "candidates": [
+    {
+      "name": "v2_pure",
+      "candidate": "A2V3_gru96_layers2",
+      "folder": "code/R4/exp_A/frozen_v3/v2_pure",
+      "spec": "code/R4/exp_A/frozen_v3/v2_pure/spec.json"
+    },
+    {
+      "name": "v2_64",
+      "candidate": "A2V3_gru64_layers2",
+      "folder": "code/R4/exp_A/frozen_v3/v2_64",
+      "spec": "code/R4/exp_A/frozen_v3/v2_64/spec.json"
+    },
+    {
+      "name": "v2_conv64",
+      "candidate": "A2V3_dsconvK5_gru64",
+      "folder": "code/R4/exp_A/frozen_v3/v2_conv64",
+      "spec": "code/R4/exp_A/frozen_v3/v2_conv64/spec.json"
+    }
+  ],
+  "models": [
+    {
+      "name": "v2_pure",
+      "candidate": "A2V3_gru96_layers2",
+      "folder": "code/R4/exp_A/frozen_v3/v2_pure",
+      "spec": "code/R4/exp_A/frozen_v3/v2_pure/spec.json"
+    },
+    {
+      "name": "v2_64",
+      "candidate": "A2V3_gru64_layers2",
+      "folder": "code/R4/exp_A/frozen_v3/v2_64",
+      "spec": "code/R4/exp_A/frozen_v3/v2_64/spec.json"
+    },
+    {
+      "name": "v2_conv64",
+      "candidate": "A2V3_dsconvK5_gru64",
+      "folder": "code/R4/exp_A/frozen_v3/v2_conv64",
+      "spec": "code/R4/exp_A/frozen_v3/v2_conv64/spec.json"
+    }
+  ],
+  "models_directory": "code/R4/exp_A/frozen_v3",
+  "runtime": "code/R4/exp_A/frozen_v3/code/runtime_model_v3.py",
+  "predict_entry": "code/R4/exp_A/frozen_v3/code/predict.py",
+  "frozen": true,
+  "final_main_model": "v2_pure",
+  "selected_v2": "v2_pure",
+  "predict_model_aliases": {
+    "v1": "v1_A_distill",
+    "selected_v2": "v2_pure",
+    "final_main_model": "v2_pure"
+  },
+  "predict_CLI": "--stage STAGE --model selected_v2|final_main_model|v1|concrete_candidate --manifest file_path_csv --output csv --device cuda; G1-only",
+  "code_commit": "9f953d927b31f0229070740545514a173e15a919",
+  "dependency_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "torch": "2.8.0",
+    "scipy": "1.18.0",
+    "soundfile": "0.14.0",
+    "librosa": "0.11.0",
+    "scikit-learn": "1.9.0"
+  },
+  "file_list": [
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/audit_frontend_v3.py",
+      "relative_path": "code/audit_frontend_v3.py",
+      "bytes": 420
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/causal_resampler_v3.py",
+      "relative_path": "code/causal_resampler_v3.py",
+      "bytes": 2742
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/frontend_v3.py",
+      "relative_path": "code/frontend_v3.py",
+      "bytes": 6653
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/mapping_v3.py",
+      "relative_path": "code/mapping_v3.py",
+      "bytes": 739
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/models_post_v3.py",
+      "relative_path": "code/models_post_v3.py",
+      "bytes": 4362
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/models_v3.py",
+      "relative_path": "code/models_v3.py",
+      "bytes": 4737
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/predict.py",
+      "relative_path": "code/predict.py",
+      "bytes": 4388
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/qualified_b2_v3.py",
+      "relative_path": "code/qualified_b2_v3.py",
+      "bytes": 583
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/runtime_model_v3.py",
+      "relative_path": "code/runtime_model_v3.py",
+      "bytes": 8128
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/code/stream_time_features_v3.py",
+      "relative_path": "code/stream_time_features_v3.py",
+      "bytes": 9730
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/requirements.txt",
+      "relative_path": "requirements.txt",
+      "bytes": 108
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_64/EXPORT_RECEIPT.json",
+      "relative_path": "v2_64/EXPORT_RECEIPT.json",
+      "bytes": 395
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_64/feature_list.json",
+      "relative_path": "v2_64/feature_list.json",
+      "bytes": 329
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_64/mapping.json",
+      "relative_path": "v2_64/mapping.json",
+      "bytes": 2077
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_64/model.pt",
+      "relative_path": "v2_64/model.pt",
+      "bytes": 193564
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_64/spec.json",
+      "relative_path": "v2_64/spec.json",
+      "bytes": 4908
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_conv64/EXPORT_RECEIPT.json",
+      "relative_path": "v2_conv64/EXPORT_RECEIPT.json",
+      "bytes": 404
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_conv64/feature_list.json",
+      "relative_path": "v2_conv64/feature_list.json",
+      "bytes": 329
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_conv64/mapping.json",
+      "relative_path": "v2_conv64/mapping.json",
+      "bytes": 2078
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_conv64/model.pt",
+      "relative_path": "v2_conv64/model.pt",
+      "bytes": 139371
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_conv64/spec.json",
+      "relative_path": "v2_conv64/spec.json",
+      "bytes": 4925
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_pure/EXPORT_RECEIPT.json",
+      "relative_path": "v2_pure/EXPORT_RECEIPT.json",
+      "bytes": 399
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_pure/feature_list.json",
+      "relative_path": "v2_pure/feature_list.json",
+      "bytes": 329
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_pure/mapping.json",
+      "relative_path": "v2_pure/mapping.json",
+      "bytes": 2141
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_pure/model.pt",
+      "relative_path": "v2_pure/model.pt",
+      "bytes": 398620
+    },
+    {
+      "path": "code/R4/exp_A/frozen_v3/v2_pure/spec.json",
+      "relative_path": "v2_pure/spec.json",
+      "bytes": 4913
+    }
+  ],
+  "dependencies": {
+    "runtime_packages": [
+      "numpy",
+      "pandas",
+      "torch",
+      "scipy",
+      "soundfile",
+      "librosa",
+      "scikit-learn"
+    ],
+    "B2_qualified_interfaces": [],
+    "actual_D200_cost_acceptance": "code/R4/ROOT/A7_D200_COST_ACCEPTANCE_v3.json",
+    "TRAIN_decision": "code/R4/exp_A/A7_TRAIN_DECISION_v3.json",
+    "legacy_v1_model_directory": "code/R4/exp_A/frozen/A_distill",
+    "legacy_v1_predict_entry": "code/R4/exp_A/frozen/code/runtime.py"
+  }
+}

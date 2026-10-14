@@ -1,0 +1,37 @@
+{
+  "status": "ACTUAL_TWO_FULLVAL_PASSES_COMPLETE",
+  "results": [
+    {
+      "method": "v2_96",
+      "path": "deploy",
+      "n_files": 2700,
+      "audio_s": 23352.884166666667,
+      "rtf_fullVAL_single": 0.011530596198663685,
+      "rtf_bench600_fiveround_median": 0.012002928491472093,
+      "relative_difference": 0.03935142104228928,
+      "within5percent": true,
+      "fullVAL_source": "code/R4/exp_D/cost_v3/results/representativeness/20261014_032457_v2_96.json",
+      "bench600_session": "20261013_235416",
+      "scope": "one completed fullVAL check; not a five-round cost replacement"
+    },
+    {
+      "method": "NISQA_MOS",
+      "path": "official",
+      "n_files": 2700,
+      "audio_s": 23352.884166666667,
+      "rtf_fullVAL_single": 0.02169770926296363,
+      "rtf_bench600_fiveround_median": 0.021921587840208402,
+      "relative_difference": 0.010212698955781696,
+      "within5percent": true,
+      "fullVAL_source": "code/R4/exp_D/cost_v3/results/representativeness/20261014_034219_NISQA_MOS_recovered_once.json",
+      "bench600_session": "20261014_002857",
+      "scope": "one completed fullVAL check; not a five-round cost replacement"
+    }
+  ],
+  "all_within5percent": true,
+  "formal_cost_replacement": false,
+  "original_read_failure_preserved": true,
+  "NISQA_recovery_attempts": 1,
+  "NISQA_recovery_exit_code": 0,
+  "additional_recovery_allowed": false
+}

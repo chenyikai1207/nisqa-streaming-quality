@@ -1,0 +1,1142 @@
+{
+  "time": "2026-10-14T03:52:36.447696+08:00",
+  "status": "ACTUAL_SAVED_CONTRASTS_WITH_EXPLICIT_PENDING",
+  "sensitivity_definition": "For each matched latest complete five-round session d=max calib_drift; hypothetical median*(1+-d); lower=k*(1-d_ref)/(1+d_target), upper=k*(1+d_ref)/(1-d_target); d>=1 unavailable",
+  "sensitivity_is_confidence_interval": false,
+  "sensitivity_guarantees_true_error_bounds": false,
+  "posthoc_human_requested": true,
+  "reference_acceptance_not_promoted": true,
+  "sources": {
+    "cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+    "gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json",
+    "index": "code/R4/exp_D/cost_v3/results/run_index.csv",
+    "MAC": "code/R4/exp_D/cost_v3/results/mac_table.csv"
+  },
+  "contrasts": [
+    {
+      "comparison": "S3_NISQA_MOS_over_main_deploy",
+      "setting": "S3",
+      "reference": "NISQA_MOS/official",
+      "target": "v2_96/deploy",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261014_002857",
+      "target_session": "20261013_235416",
+      "reference_accepted": false,
+      "target_accepted": true,
+      "reference_rtf_median": 0.021921587840208402,
+      "target_rtf_median": 0.012002928491472093,
+      "d_reference": 0.05753121520335558,
+      "d_target": 0.022078814873916497,
+      "observed_k": 1.8263532816831636,
+      "sensitivity_lower": 1.6840980685130744,
+      "sensitivity_upper": 1.975031970618382,
+      "interpretation": "OBSERVED_RATIO_AND_SENSITIVITY_ONLY; environment not accepted; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S3_PLCMOS_over_main_deploy",
+      "setting": "S3",
+      "reference": "PLCMOS/official",
+      "target": "v2_96/deploy",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261014_011138",
+      "target_session": "20261013_235416",
+      "reference_accepted": false,
+      "target_accepted": true,
+      "reference_rtf_median": 0.11764963218232985,
+      "target_rtf_median": 0.012002928491472093,
+      "d_reference": 0.060700369610249494,
+      "d_target": 0.022078814873916497,
+      "observed_k": 9.801743988220725,
+      "sensitivity_lower": 9.007890948650992,
+      "sensitivity_upper": 10.631443135972471,
+      "interpretation": "USER_LOWER_GT5_SENSITIVITY_ONLY; environment not accepted; not an accepted measured speedup; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_main_deploy",
+      "setting": "S2",
+      "reference": "NISQA_MOS/official",
+      "target": "v2_96/deploy",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.008883786016379775,
+      "target_rtf_median": 0.0039904156512148604,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.015306444423630161,
+      "observed_k": 2.2262808671761185,
+      "sensitivity_lower": 2.1630297620435806,
+      "sensitivity_upper": 2.2914983699152245,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_v2_96_native_over_main_deploy",
+      "setting": "S2",
+      "reference": "v2_96/native",
+      "target": "v2_96/deploy",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.004631646035384897,
+      "target_rtf_median": 0.0039904156512148604,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.015306444423630161,
+      "observed_k": 1.1606926295948186,
+      "sensitivity_lower": 1.1277160664740182,
+      "sensitivity_upper": 1.194694392744262,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_v1_native_over_main_deploy",
+      "setting": "S2",
+      "reference": "v1/native",
+      "target": "v2_96/deploy",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.0018662234710079874,
+      "target_rtf_median": 0.0039904156512148604,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.015306444423630161,
+      "observed_k": 0.46767646133300067,
+      "sensitivity_lower": 0.454389255095942,
+      "sensitivity_upper": 0.48137675016344295,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_v2_96_native",
+      "setting": "S2",
+      "reference": "NISQA_MOS/official",
+      "target": "v2_96/native",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.008883786016379775,
+      "target_rtf_median": 0.004631646035384897,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.013539536155379062,
+      "observed_k": 1.9180623796614282,
+      "sensitivity_lower": 1.8668168702139962,
+      "sensitivity_upper": 1.9707146163998055,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_v1_native",
+      "setting": "S2",
+      "reference": "NISQA_MOS/official",
+      "target": "v1/native",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.008883786016379775,
+      "target_rtf_median": 0.0018662234710079874,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.013539536155379062,
+      "observed_k": 4.76030130066977,
+      "sensitivity_lower": 4.633118750267443,
+      "sensitivity_upper": 4.890975106530616,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    },
+    {
+      "comparison": "S2_v2_96_native_over_v1_native",
+      "setting": "S2",
+      "reference": "v2_96/native",
+      "target": "v1/native",
+      "status": "ACTUAL_SAVED_CONTRAST",
+      "reference_session": "20261013_193358",
+      "target_session": "20261013_193358",
+      "reference_accepted": true,
+      "target_accepted": true,
+      "reference_rtf_median": 0.004631646035384897,
+      "target_rtf_median": 0.0018662234710079874,
+      "d_reference": 0.013539536155379062,
+      "d_target": 0.013539536155379062,
+      "observed_k": 2.4818281986793607,
+      "sensitivity_lower": 2.4155203706593062,
+      "sensitivity_upper": 2.549956225820956,
+      "interpretation": "ENVIRONMENT_ACCEPTED_ACTUAL_RATIO; sensitivity assumption separately reported; assumes medians times (1 +/- max calibration drift), not CI or true-error guarantee",
+      "source_cost": "code/R4/exp_D/cost_v3/results/cost_final.csv",
+      "source_gate": "code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json"
+    }
+  ],
+  "MAC_contrasts": [
+    {
+      "reference": "PLCMOS_official",
+      "target": "v2_96_native",
+      "reference_total_mmac_per_audio_second": 2374.395849393478,
+      "target_total_mmac_per_audio_second": 13.713864623020761,
+      "estimated_MAC_ratio": 173.13834682367371,
+      "unit": "MMAC-equivalent estimate per audio second",
+      "source_mac": "code/R4/exp_D/cost_v3/results/mac_table.csv",
+      "scope": "VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF",
+      "interpretation": "Front-end-included arithmetic estimates; FFT/FIR bounds are estimates; native and wholedeploy counted separately; not an RTF predictor"
+    },
+    {
+      "reference": "PLCMOS_official",
+      "target": "v2_96_deploy",
+      "reference_total_mmac_per_audio_second": 2374.395849393478,
+      "target_total_mmac_per_audio_second": 12.276662958007599,
+      "estimated_MAC_ratio": 193.40726853177557,
+      "unit": "MMAC-equivalent estimate per audio second",
+      "source_mac": "code/R4/exp_D/cost_v3/results/mac_table.csv",
+      "scope": "VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF",
+      "interpretation": "Front-end-included arithmetic estimates; FFT/FIR bounds are estimates; native and wholedeploy counted separately; not an RTF predictor"
+    },
+    {
+      "reference": "NISQA_MOS_official",
+      "target": "v2_96_native",
+      "reference_total_mmac_per_audio_second": 146.03382667472803,
+      "target_total_mmac_per_audio_second": 13.713864623020761,
+      "estimated_MAC_ratio": 10.648626823221555,
+      "unit": "MMAC-equivalent estimate per audio second",
+      "source_mac": "code/R4/exp_D/cost_v3/results/mac_table.csv",
+      "scope": "VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF",
+      "interpretation": "Front-end-included arithmetic estimates; FFT/FIR bounds are estimates; native and wholedeploy counted separately; not an RTF predictor"
+    },
+    {
+      "reference": "NISQA_MOS_official",
+      "target": "v2_96_deploy",
+      "reference_total_mmac_per_audio_second": 146.03382667472803,
+      "target_total_mmac_per_audio_second": 12.276662958007599,
+      "estimated_MAC_ratio": 11.895237913937821,
+      "unit": "MMAC-equivalent estimate per audio second",
+      "source_mac": "code/R4/exp_D/cost_v3/results/mac_table.csv",
+      "scope": "VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF",
+      "interpretation": "Front-end-included arithmetic estimates; FFT/FIR bounds are estimates; native and wholedeploy counted separately; not an RTF predictor"
+    }
+  ],
+  "actual_object_evidence": [
+    {
+      "comparison": "S3_NISQA_MOS_over_main_deploy",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "NISQA_MOS",
+          "official",
+          "S3"
+        ],
+        "session": "20261014_002857",
+        "rtf": 0.021921587840208402,
+        "d": 0.05753121520335558,
+        "accepted": false,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261014_002857_S3_0_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261014_002857_S3_1_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261014_002857_S3_2_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261014_002857_S3_3_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261014_002857_S3_4_0_NISQA_MOS_official.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/NISQA_MOS_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 0.0007946663208007188,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_B/preds/NISQA_MOSONLY/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            false,
+            false,
+            true,
+            false,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "deploy",
+          "S3"
+        ],
+        "session": "20261013_235416",
+        "rtf": 0.012002928491472093,
+        "d": 0.022078814873916497,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_235416_S3_0_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_1_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_2_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_3_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_4_0_v2_96_deploy.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 6.4373016357421875e-06,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": true,
+          "prediction_max_abs": 1.4781951904296875e-05,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S3_PLCMOS_over_main_deploy",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "PLCMOS",
+          "official",
+          "S3"
+        ],
+        "session": "20261014_011138",
+        "rtf": 0.11764963218232985,
+        "d": 0.060700369610249494,
+        "accepted": false,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261014_011138_S3_0_0_PLCMOS_official.json|code/R4/exp_D/cost_v3/results/20261014_011138_S3_1_0_PLCMOS_official.json|code/R4/exp_D/cost_v3/results/20261014_011138_S3_2_0_PLCMOS_official.json|code/R4/exp_D/cost_v3/results/20261014_011138_S3_3_0_PLCMOS_official.json|code/R4/exp_D/cost_v3/results/20261014_011138_S3_4_0_PLCMOS_official.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/PLCMOS_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 0.005164241790771129,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_B/preds/PLCMOS/NONTEST.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            false,
+            false,
+            false,
+            true,
+            false
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "deploy",
+          "S3"
+        ],
+        "session": "20261013_235416",
+        "rtf": 0.012002928491472093,
+        "d": 0.022078814873916497,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_235416_S3_0_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_1_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_2_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_3_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_235416_S3_4_0_v2_96_deploy.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 6.4373016357421875e-06,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": true,
+          "prediction_max_abs": 1.4781951904296875e-05,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_main_deploy",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "NISQA_MOS",
+          "official",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.008883786016379775,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_2_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_1_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_3_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_1_NISQA_MOS_official.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/NISQA_MOS_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 0.0007946663208007188,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_B/preds/NISQA_MOSONLY/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "deploy",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0039904156512148604,
+        "d": 0.015306444423630161,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_1_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_3_v2_96_deploy.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 6.4373016357421875e-06,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": true,
+          "prediction_max_abs": 1.4781951904296875e-05,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_v2_96_native_over_main_deploy",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.004631646035384897,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_3_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_1_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_2_v2_96_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 1.5020370483398438e-05,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "deploy",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0039904156512148604,
+        "d": 0.015306444423630161,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_1_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_3_v2_96_deploy.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 6.4373016357421875e-06,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": true,
+          "prediction_max_abs": 1.4781951904296875e-05,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_v1_native_over_main_deploy",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v1",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0018662234710079874,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_1_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_2_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_0_v1_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v1_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 6.716824340724514e-06,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_A/val/A_distill.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "deploy",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0039904156512148604,
+        "d": 0.015306444423630161,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_1_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_2_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_0_v2_96_deploy.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_3_v2_96_deploy.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 6.4373016357421875e-06,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": true,
+          "prediction_max_abs": 1.4781951904296875e-05,
+          "prediction_threshold": 0.001,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_v2_96_native",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "NISQA_MOS",
+          "official",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.008883786016379775,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_2_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_1_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_3_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_1_NISQA_MOS_official.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/NISQA_MOS_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 0.0007946663208007188,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_B/preds/NISQA_MOSONLY/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.004631646035384897,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_3_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_1_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_2_v2_96_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 1.5020370483398438e-05,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_NISQA_MOS_official_over_v1_native",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "NISQA_MOS",
+          "official",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.008883786016379775,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_0_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_2_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_1_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_3_NISQA_MOS_official.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_1_NISQA_MOS_official.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/NISQA_MOS_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 0.0007946663208007188,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_B/preds/NISQA_MOSONLY/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v1",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0018662234710079874,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_1_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_2_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_0_v1_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v1_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 6.716824340724514e-06,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_A/val/A_distill.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    },
+    {
+      "comparison": "S2_v2_96_native_over_v1_native",
+      "reference": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v2_96",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.004631646035384897,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_3_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_0_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_1_v2_96_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_2_v2_96_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v2_96_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 1.5020370483398438e-05,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_C2/preds/v3/v2_pure/VAL.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      },
+      "target": {
+        "status": "ACTUAL_SAVED_FIVE_ROUND_OBJECT",
+        "key": [
+          "v1",
+          "native",
+          "S2"
+        ],
+        "session": "20261013_193358",
+        "rtf": 0.0018662234710079874,
+        "d": 0.013539536155379062,
+        "accepted": true,
+        "source_results": "code/R4/exp_D/cost_v3/results/20261013_193358_S2_0_1_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_1_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_2_3_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_3_2_v1_native.json|code/R4/exp_D/cost_v3/results/20261013_193358_S2_4_0_v1_native.json",
+        "same_CPU_prediction": {
+          "prediction_pass": true,
+          "prediction_max_abs": 0.0,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_D/cost_v3/results/cpu_reference/single/v1_VAL600.csv",
+          "prediction_reference_device": "Independent original frozenCPU wholeproducer, humanapproved sameCPU protocol; legacy C CUDA difference preserved separately",
+          "prediction_missing": 0,
+          "prediction_failure": ""
+        },
+        "historical_prediction_check": {
+          "prediction_pass": false,
+          "prediction_max_abs": 6.716824340724514e-06,
+          "prediction_threshold": 1e-06,
+          "prediction_reference": "code/R4/exp_A/val/A_distill.csv",
+          "prediction_reference_device": "registered C original device (CUDA); sameCPU2file isnot substitute",
+          "prediction_missing": 0,
+          "prediction_failure": "actualstrictnumericalqualificationfailed; no tolerancechange"
+        },
+        "gate_summary": {
+          "dispersion_pass": true,
+          "calibration_pass": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_coverage": [
+            true,
+            true,
+            true,
+            true,
+            true
+          ],
+          "frequency_drop": [
+            false,
+            false,
+            false,
+            false,
+            false
+          ]
+        }
+      }
+    }
+  ],
+  "new_forward": 0,
+  "new_measurements": 0,
+  "quality_recalculations": 0,
+  "all_cost_accepted": false,
+  "rerunnable_after_root_post_cost_refresh": true
+}

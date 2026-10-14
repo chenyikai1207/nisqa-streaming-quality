@@ -1,0 +1,2583 @@
+{
+  "PLCMOS_official": [
+    {
+      "node": "Conv_0",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          1,
+          542,
+          257
+        ],
+        [
+          32,
+          1,
+          3,
+          3
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          540,
+          257
+        ]
+      ],
+      "affine_MAC": 39968640
+    },
+    {
+      "node": "Constant_11",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_14",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_24",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_30",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_31",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_32",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_36",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          3
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_38",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_39",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_40",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_44",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_46",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_48",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          64
+        ],
+        [
+          128,
+          64
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 8192
+    },
+    {
+      "node": "Constant_74",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Constant_76",
+      "op": "Constant",
+      "input_shapes": [],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_1",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32,
+          540,
+          257
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          540,
+          257
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_49",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "MaxPool_2",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          32,
+          540,
+          257
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          540,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_50",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 16384
+    },
+    {
+      "node": "Conv_3",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          32,
+          540,
+          64
+        ],
+        [
+          64,
+          32,
+          3,
+          3
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          538,
+          64
+        ]
+      ],
+      "affine_MAC": 634650624
+    },
+    {
+      "node": "LeakyRelu_51",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_4",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          64,
+          538,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          538,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_52",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 16384
+    },
+    {
+      "node": "MaxPool_5",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          64,
+          538,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          538,
+          16
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_53",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Conv_6",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          64,
+          538,
+          16
+        ],
+        [
+          128,
+          64,
+          3,
+          3
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          536,
+          16
+        ]
+      ],
+      "affine_MAC": 632291328
+    },
+    {
+      "node": "Gemm_54",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 16384
+    },
+    {
+      "node": "LeakyRelu_7",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128,
+          536,
+          16
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          536,
+          16
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_55",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "MaxPool_8",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          128,
+          536,
+          16
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          536,
+          4
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_56",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 16384
+    },
+    {
+      "node": "Transpose_9",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          128,
+          536,
+          4
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          536,
+          4,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_57",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Shape_10",
+      "op": "Shape",
+      "input_shapes": [
+        [
+          1,
+          536,
+          4,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          4
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Shape_13",
+      "op": "Shape",
+      "input_shapes": [
+        [
+          1,
+          536,
+          4,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          4
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_58",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          64,
+          128
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 8192
+    },
+    {
+      "node": "Gather_12",
+      "op": "Gather",
+      "input_shapes": [
+        [
+          4
+        ],
+        []
+      ],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gather_15",
+      "op": "Gather",
+      "input_shapes": [
+        [
+          4
+        ],
+        []
+      ],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "LeakyRelu_59",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Unsqueeze_16",
+      "op": "Unsqueeze",
+      "input_shapes": [
+        []
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Unsqueeze_17",
+      "op": "Unsqueeze",
+      "input_shapes": [
+        []
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Concat_18",
+      "op": "Concat",
+      "input_shapes": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          3
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Reshape_19",
+      "op": "Reshape",
+      "input_shapes": [
+        [
+          1,
+          536,
+          4,
+          128
+        ],
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          536,
+          512
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose_20",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          536,
+          512
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          512,
+          536
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Conv_21",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          512,
+          536
+        ],
+        [
+          128,
+          512,
+          1
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          536
+        ]
+      ],
+      "affine_MAC": 35127296
+    },
+    {
+      "node": "Transpose_22",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          128,
+          536
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          536,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose_29",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          128,
+          536
+        ]
+      ],
+      "output_shapes": [
+        [
+          536,
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Shape_23",
+      "op": "Shape",
+      "input_shapes": [
+        [
+          1,
+          536,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          3
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gather_25",
+      "op": "Gather",
+      "input_shapes": [
+        [
+          3
+        ],
+        []
+      ],
+      "output_shapes": [
+        []
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Unsqueeze_26",
+      "op": "Unsqueeze",
+      "input_shapes": [
+        []
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Concat_27",
+      "op": "Concat",
+      "input_shapes": [
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          3
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "ConstantOfShape_28",
+      "op": "ConstantOfShape",
+      "input_shapes": [
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          4,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Slice_33",
+      "op": "Slice",
+      "input_shapes": [
+        [
+          4,
+          1,
+          32
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Slice_41",
+      "op": "Slice",
+      "input_shapes": [
+        [
+          4,
+          1,
+          32
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "GRU_34",
+      "op": "GRU",
+      "input_shapes": [
+        [
+          536,
+          1,
+          128
+        ],
+        [
+          2,
+          96,
+          128
+        ],
+        [
+          2,
+          96,
+          32
+        ],
+        [
+          2,
+          192
+        ],
+        [],
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          536,
+          2,
+          1,
+          32
+        ],
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 16465920
+    },
+    {
+      "node": "Transpose_35",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          536,
+          2,
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          536,
+          1,
+          2,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Reshape_37",
+      "op": "Reshape",
+      "input_shapes": [
+        [
+          536,
+          1,
+          2,
+          32
+        ],
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          536,
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "GRU_42",
+      "op": "GRU",
+      "input_shapes": [
+        [
+          536,
+          1,
+          64
+        ],
+        [
+          2,
+          96,
+          64
+        ],
+        [
+          2,
+          96,
+          32
+        ],
+        [
+          2,
+          192
+        ],
+        [],
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          536,
+          2,
+          1,
+          32
+        ],
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 9879552
+    },
+    {
+      "node": "Concat_43",
+      "op": "Concat",
+      "input_shapes": [
+        [
+          2,
+          1,
+          32
+        ],
+        [
+          2,
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          4,
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gather_45",
+      "op": "Gather",
+      "input_shapes": [
+        [
+          4,
+          1,
+          32
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gather_47",
+      "op": "Gather",
+      "input_shapes": [
+        [
+          4,
+          1,
+          32
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Concat_60",
+      "op": "Concat",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_61",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          32,
+          128
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 4096
+    },
+    {
+      "node": "LeakyRelu_62",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_63",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 1024
+    },
+    {
+      "node": "LeakyRelu_64",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_65",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 1024
+    },
+    {
+      "node": "LeakyRelu_66",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_67",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 1024
+    },
+    {
+      "node": "LeakyRelu_68",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_69",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 1024
+    },
+    {
+      "node": "LeakyRelu_70",
+      "op": "LeakyRelu",
+      "input_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Gemm_71",
+      "op": "Gemm",
+      "input_shapes": [
+        [
+          1,
+          32
+        ],
+        [
+          1,
+          32
+        ],
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          1
+        ]
+      ],
+      "affine_MAC": 32
+    },
+    {
+      "node": "Squeeze_72",
+      "op": "Squeeze",
+      "input_shapes": [
+        [
+          1,
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Sigmoid_73",
+      "op": "Sigmoid",
+      "input_shapes": [
+        [
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Mul_75",
+      "op": "Mul",
+      "input_shapes": [
+        [
+          1
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Add_77",
+      "op": "Add",
+      "input_shapes": [
+        [
+          1
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    }
+  ],
+  "DNSMOS_official": [
+    {
+      "node": "input_1:01_cropping",
+      "op": "Slice",
+      "input_shapes": [
+        [
+          1,
+          144160
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          144000
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "input_1:01_cropping_1",
+      "op": "Slice",
+      "input_shapes": [
+        [
+          1,
+          144160
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          144000
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/Reshape_reshape",
+      "op": "Reshape",
+      "input_shapes": [
+        [
+          1,
+          144000
+        ],
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          160
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/Reshape_1_reshape",
+      "op": "Reshape",
+      "input_shapes": [
+        [
+          1,
+          144000
+        ],
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          160
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/concat_concat",
+      "op": "Concat",
+      "input_shapes": [
+        [
+          1,
+          900,
+          160
+        ],
+        [
+          1,
+          900,
+          160
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          320
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose15",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          900,
+          320
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          320,
+          900
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose17",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          900,
+          320
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          320,
+          900
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "stft-real",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          320,
+          900
+        ],
+        [
+          161,
+          320,
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          161,
+          900
+        ]
+      ],
+      "affine_MAC": 46368000
+    },
+    {
+      "node": "stft-imag",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          320,
+          900
+        ],
+        [
+          161,
+          320,
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          161,
+          900
+        ]
+      ],
+      "affine_MAC": 46368000
+    },
+    {
+      "node": "Transpose16",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          161,
+          900
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose18",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          161,
+          900
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/time2freq/Square",
+      "op": "Mul",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ],
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/time2freq/Square_1",
+      "op": "Mul",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ],
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/time2freq/Add",
+      "op": "Add",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ],
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/time2freq/Sqrt",
+      "op": "Sqrt",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/pow",
+      "op": "Pow",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/Maximum_max",
+      "op": "Max",
+      "input_shapes": [
+        [],
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/Log",
+      "op": "Log",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/truediv",
+      "op": "Div",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ],
+        []
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/ExpandDims",
+      "op": "Unsqueeze",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          900,
+          161,
+          1
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "Transpose13",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          900,
+          161,
+          1
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          1,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          1,
+          900,
+          161
+        ],
+        [
+          128,
+          1,
+          3,
+          3
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 166924800
+    },
+    {
+      "node": "Relu6",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          128,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_1",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          128,
+          900,
+          161
+        ],
+        [
+          64,
+          128,
+          3,
+          3
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 10683187200
+    },
+    {
+      "node": "Relu5",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_2",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ],
+        [
+          64,
+          64,
+          3,
+          3
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 5341593600
+    },
+    {
+      "node": "Relu4",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_3",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          64,
+          900,
+          161
+        ],
+        [
+          32,
+          64,
+          3,
+          3
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 2670796800
+    },
+    {
+      "node": "Relu3",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          32,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          900,
+          161
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/conv2d_3/Relu:0_pooling",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          32,
+          900,
+          161
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_4",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ],
+        [
+          32,
+          32,
+          3,
+          3
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ]
+      ],
+      "affine_MAC": 331776000
+    },
+    {
+      "node": "Relu2",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/max_pooling2d/MaxPool_1_conv",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          32,
+          450,
+          80
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_5",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ],
+        [
+          32,
+          32,
+          3,
+          3
+        ],
+        [
+          32
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ]
+      ],
+      "affine_MAC": 82944000
+    },
+    {
+      "node": "Relu1",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/max_pooling2d/MaxPool_2_conv",
+      "op": "MaxPool",
+      "input_shapes": [
+        [
+          1,
+          32,
+          225,
+          40
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          32,
+          112,
+          20
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "conv2d_6",
+      "op": "Conv",
+      "input_shapes": [
+        [
+          1,
+          32,
+          112,
+          20
+        ],
+        [
+          64,
+          32,
+          3,
+          3
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          112,
+          20
+        ]
+      ],
+      "affine_MAC": 41287680
+    },
+    {
+      "node": "Relu",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          64,
+          112,
+          20
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64,
+          112,
+          20
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "PushTranspose_0",
+      "op": "Transpose",
+      "input_shapes": [
+        [
+          1,
+          64,
+          112,
+          20
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          112,
+          20,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/global_max_pooling2d/Max_reducemax",
+      "op": "ReduceMax",
+      "input_shapes": [
+        [
+          1,
+          112,
+          20,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/dense/MatMul_add",
+      "op": "MatMul",
+      "input_shapes": [
+        [
+          1,
+          64
+        ],
+        [
+          64,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 8192
+    },
+    {
+      "node": "mos_estimator_logpow/dense/BiasAdd_add",
+      "op": "Add",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/dense/Relu",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          128
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/dense_1/MatMul_add",
+      "op": "MatMul",
+      "input_shapes": [
+        [
+          1,
+          128
+        ],
+        [
+          128,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 8192
+    },
+    {
+      "node": "mos_estimator_logpow/dense_1/BiasAdd_add",
+      "op": "Add",
+      "input_shapes": [
+        [
+          1,
+          64
+        ],
+        [
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/dense_1/Relu",
+      "op": "Relu",
+      "input_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          64
+        ]
+      ],
+      "affine_MAC": 0
+    },
+    {
+      "node": "mos_estimator_logpow/dense_3/MatMul_add",
+      "op": "MatMul",
+      "input_shapes": [
+        [
+          1,
+          64
+        ],
+        [
+          64,
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          3
+        ]
+      ],
+      "affine_MAC": 192
+    },
+    {
+      "node": "mos_estimator_logpow/dense_3/BiasAdd_add",
+      "op": "Add",
+      "input_shapes": [
+        [
+          1,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "output_shapes": [
+        [
+          1,
+          3
+        ]
+      ],
+      "affine_MAC": 0
+    }
+  ],
+  "SQUIM_official": {
+    "Conv1d": 70828032,
+    "LSTM": 36926652416,
+    "Linear": 11415520000,
+    "GroupNorm": 9015296,
+    "Conv2d": 576978944,
+    "MultiheadAttention": 32105018880,
+    "LayerNorm": 6640128
+  }
+}

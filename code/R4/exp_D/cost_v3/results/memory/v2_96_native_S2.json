@@ -1,0 +1,20 @@
+{
+  "adapter": "adapters.v2_native:Runner96",
+  "core": 2,
+  "n_files": 600,
+  "baseline_rss_bytes": 279855104,
+  "baseline_rss_mb": 279.855104,
+  "peak_rss_bytes": 323039232,
+  "peak_rss_mb": 323.039232,
+  "sampling_interval_ms": 10,
+  "samples": 1336,
+  "lifetime_peak_working_set_bytes": 324964352,
+  "scope": "independentmemorypass; afterlibraries/modelbeforefirstaudio baseline; notRTF",
+  "metadata": {
+    "frozen_folder": "code/R4/exp_A/frozen_v3/v2_pure",
+    "candidate": "v2_pure",
+    "precision": "frozen CPU fp32",
+    "stages": "exclusive nested timing; G raw level/side statistics; F mainSTFT/mel/log/norm and actualunused48kbandFFT; R actualfrozenpolyphase; O tensor/formatcopy; I wholeGRU/pool/head",
+    "torch_threads": 1
+  }
+}

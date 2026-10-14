@@ -1,0 +1,19 @@
+{
+  "adapter": "adapters.official:NISQAMOS",
+  "core": null,
+  "n_files": 600,
+  "baseline_rss_bytes": 379625472,
+  "baseline_rss_mb": 379.625472,
+  "peak_rss_bytes": 619311104,
+  "peak_rss_mb": 619.311104,
+  "sampling_interval_ms": 10,
+  "samples": 4305,
+  "lifetime_peak_working_set_bytes": 620830720,
+  "scope": "independentmemorypass; afterlibraries/modelbeforefirstaudio baseline; notRTF",
+  "metadata": {
+    "weights": "code/R4/exp_C/weights/nisqa_mos_only.tar",
+    "stages": "officialdataset frontend F merges authorlevel handling/STFT/mel; decodeL/resampleR nestedexclusive; officialwholemodel I",
+    "parameters": 218402,
+    "official_output_heads": 1
+  }
+}

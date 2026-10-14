@@ -1,0 +1,16 @@
+{
+  "logmel_channels": 48,
+  "sr": 16000,
+  "window_ms": 20,
+  "hop_ms": 10,
+  "side_columns": [
+    "running_rms_dbfs",
+    "active_frame_level_dbfs",
+    "clipping_fraction",
+    "nearzero_fraction"
+  ],
+  "train_fixed_gain": true,
+  "normalizer": "all TRAIN only",
+  "temporal_fusion": false,
+  "teacher_at_inference": false
+}

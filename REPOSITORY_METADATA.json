@@ -1,0 +1,15 @@
+{
+  "title": "面向流式部署的轻量无参考语音质量评估 — scientific data and code",
+  "authors": [],
+  "DOI": null,
+  "repository_url": null,
+  "repository_tag": null,
+  "access_status": null,
+  "upload_target": "existing author Git; exact URL/tag/access supplied by root",
+  "upload_status": "target confirmed; awaiting root actual repository creation and push",
+  "Zenodo_upload_requested": false,
+  "license_for_original_code_and_derived_data": null,
+  "intended_repository_url": "https://github.com/chenyikai1207/nisqa-streaming-quality",
+  "intended_repository_tag": "nisqa-paper1-ecice-v32-20261014",
+  "intended_access_status": "public"
+}

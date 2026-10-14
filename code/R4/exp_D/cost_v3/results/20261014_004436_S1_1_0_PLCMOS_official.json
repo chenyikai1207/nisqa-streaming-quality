@@ -1,0 +1,68 @@
+{
+  "instrumented_stages_ns": {
+    "L": 1324290600,
+    "R": 4640759300,
+    "G": 0,
+    "F": 5573245300,
+    "I": 173077955900,
+    "O": 711138700
+  },
+  "adapter": "adapters.official:PLCMOS",
+  "core": null,
+  "actual_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "n_files": 600,
+  "warmup_files": 20,
+  "wall_ns": 186230181800,
+  "stages_ns": {
+    "L": 1324290600,
+    "R": 4640759300,
+    "G": 0,
+    "F": 5573245300,
+    "I": 173077955900,
+    "O": 1613930700
+  },
+  "cold_ns": 2452733500,
+  "rss_end_bytes": 402956288,
+  "t_start": 1791910219.3691106,
+  "t_end": 1791910405.5998836,
+  "metadata": {
+    "weights": "code/R4/exp_B/official/PLC_WEIGHT.onnx",
+    "calls": 15,
+    "stages": "L mono decode; R originaltorchaudio16k; F authorSTFT once; I all15fullofficialcalls noencoderreuse; O peraudio seed23/15rater generation+float32conversion/mean",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "rater_embedding_precomputed": false
+  },
+  "threads_actual": 77,
+  "torch_num_threads": 16,
+  "scope": "CLEAN_COST_V3_VAL600_ONE_ROUND",
+  "pagecache": "allfilesreadbeforewarmup",
+  "timing_observer": "no sampling thread, no perfile output",
+  "O_unattributed_ns": 902792000
+}

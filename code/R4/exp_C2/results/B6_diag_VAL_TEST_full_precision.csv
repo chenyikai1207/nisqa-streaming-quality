@@ -1,0 +1,622 @@
+model,dataset,dim,stratification,category,n,n_refs,MAE,mean_signed_error,scope
+v1_A_distill,VAL,mos,source,AusTalk,1000,1000,0.5657662475228572,-0.08656902883079368,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,source,DNS,1200,1102,0.5693604036342592,0.05465352077050267,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,source,UKIRE,500,500,0.6248336038761904,-0.002165105082539654,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,native_sr_proxy,>32k,2700,2602,0.5783020495637272,-0.00817309498054084,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.729594805925926,0.662739045925926,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.48086266956521745,0.13325268260869566,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.5806644037258865,-0.0273887142968784,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.5378832069233367,0.33581076967240797,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,loss_type,burst,469,469,0.6117721190929706,0.27905349929129863,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,loss_type,none,1448,1448,0.5512448997922696,-0.2829308891174471,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,loss_type,other,26,26,0.6294967653846155,-0.34250224999999995,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,loss_type,random,557,557,0.6803167223590095,0.4625111551195464,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,loss_type,unknown,200,102,0.4049423240714286,0.04013412462698417,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.346766512,0.06582138399999998,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.3941633683141321,-0.03541399504224271,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.5285055071091871,-0.10896184292448285,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.5496651395755306,0.07475880499375785,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.5538253464176094,-0.10331899293168466,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,snr_bin,nan,2027,1929,0.6011760839329371,0.001998430612759504,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,mos_bin,"[0, 2)",563,542,0.6570367339166596,0.5931800010913756,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,mos_bin,"[2, 3)",699,674,0.5581172059063969,0.2574103875400232,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,mos_bin,"[3, 4)",763,753,0.4775888909733924,-0.15626331761010212,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,mos,mos_bin,"[4, 6)",675,675,0.6473771879788359,-0.6173757727642563,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,source,AusTalk,1000,1000,0.42117232097460316,-0.06783564091936506,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,source,DNS,1200,1102,0.46723309861917994,-0.0747397258660053,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,source,UKIRE,500,500,0.4824748801920635,0.1469609857596825,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,native_sr_proxy,>32k,2700,2602,0.4529961034865373,-0.031126970029159314,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,level_bin,"[-15.0, inf)",15,15,0.5137791631111114,0.144958249777778,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,level_bin,"[-25.0, -15.0)",46,46,0.42536216793478265,0.11550185510869566,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,level_bin,"[-35.0, -25.0)",2545,2493,0.4449013302343219,-0.017263037471419218,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,level_bin,"[-inf, -35.0)",94,87,0.6759813488897333,-0.5063388063365417,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,loss_type,burst,469,469,0.4219327922858497,0.044714826700511044,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,loss_type,none,1448,1448,0.4436984026883276,-0.06357386139754886,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,loss_type,other,26,26,0.5172733603846155,-0.2842494396153846,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,loss_type,random,557,557,0.46047163046878115,0.09239531197515029,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,loss_type,unknown,200,102,0.563979535988889,-0.2851641241888889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,"[-inf, 0.0)",25,25,0.5578737970857144,-0.21790923148571445,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,"[0.0, 10.0)",124,124,0.380237621296083,0.10451984648041476,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,"[10.0, 20.0)",165,165,0.4260468184415584,0.11511485153920158,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,"[20.0, 30.0)",178,178,0.5867749545474407,0.3727423360642945,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,"[30.0, inf)",181,181,0.47903375952731736,0.13505788802508112,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,snr_bin,nan,2027,1929,0.44427449038926864,-0.0993305936413967,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,mos_bin,"[0, 2)",563,542,0.5032725540990723,0.09935672268206037,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,mos_bin,"[2, 3)",699,674,0.4553777389509957,0.10139138416910777,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,mos_bin,"[3, 4)",763,753,0.4321609836899041,-0.007112164599638033,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,noi,mos_bin,"[4, 6)",675,675,0.43214690573885944,-0.30433577761987063,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,source,AusTalk,1000,1000,0.5314838542124602,-0.049893051465634955,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,source,DNS,1200,1102,0.5530233730035053,0.14182124225734127,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,source,UKIRE,500,500,0.5441203047573017,-0.0709769711988889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,native_sr_proxy,>32k,2700,2602,0.5433970571093768,0.03140887171990003,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,level_bin,"[-15.0, inf)",15,15,0.6075274190370373,0.24535516637037072,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,level_bin,"[-25.0, -15.0)",46,46,0.47348039163043476,0.10043767141304348,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,level_bin,"[-35.0, -25.0)",2545,2493,0.5444760071527739,0.02799365720846975,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,level_bin,"[-inf, -35.0)",94,87,0.538166028627153,0.055953570932117454,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,loss_type,burst,469,469,0.530145021075913,0.19574034420618,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,loss_type,none,1448,1448,0.5308337430825222,-0.171686193315246,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,loss_type,other,26,26,0.6691625976923076,-0.4665951246153846,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,loss_type,random,557,557,0.6202187467024308,0.39113826109358524,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,loss_type,unknown,200,102,0.4351335493698413,0.1793540097119047,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,"[-inf, 0.0)",25,25,0.5965954188,-0.2647888748,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,"[0.0, 10.0)",124,124,0.5190895450076805,-0.1653572929109063,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,"[10.0, 20.0)",165,165,0.6361788201111112,-0.13932938202356904,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,"[20.0, 30.0)",178,178,0.5064780819194757,-0.020451076788389505,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,"[30.0, inf)",181,181,0.5430345479031834,-0.04390524393405248,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,snr_bin,nan,2027,1929,0.5399497819802117,0.07227650157324529,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,mos_bin,"[0, 2)",563,542,0.5898096753009671,0.3832589035464772,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,mos_bin,"[2, 3)",699,674,0.5686674371211708,0.2546705978346618,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,mos_bin,"[3, 4)",763,753,0.4920021786006574,0.006266326226362068,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,col,mos_bin,"[4, 6)",675,675,0.5366118610087008,-0.4648396501482657,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,source,AusTalk,1000,1000,0.6572176635393651,0.08167589049507934,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,source,DNS,1200,1102,0.644920474044246,0.05616152678763226,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,source,UKIRE,500,500,0.7179768395690476,-0.00965929404269847,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,native_sr_proxy,>32k,2700,2602,0.6630039452507349,0.05342225022921807,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,level_bin,"[-15.0, inf)",15,15,0.6775150060370374,0.41831072603703734,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,level_bin,"[-25.0, -15.0)",46,46,0.6691586064130435,0.08845107445652169,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,level_bin,"[-35.0, -25.0)",2545,2493,0.6662819528116132,0.05773361203505158,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,level_bin,"[-inf, -35.0)",94,87,0.5689261838922662,-0.13867422687098963,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,loss_type,burst,469,469,0.8274222192945138,0.5338362274185195,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,loss_type,none,1448,1448,0.5459603782447053,-0.3255698472887069,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,loss_type,other,26,26,0.5056817446153846,0.11880939153846157,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,loss_type,random,557,557,0.8987995128864952,0.6991736444615428,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,loss_type,unknown,200,102,0.4885997479587303,-0.1361637015571428,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,"[-inf, 0.0)",25,25,0.6544002988285716,-0.026479478028571604,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,"[0.0, 10.0)",124,124,0.6635231644604453,0.003306497532641991,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,"[10.0, 20.0)",165,165,0.7079006751717173,-0.0288139750909091,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,"[20.0, 30.0)",178,178,0.5743526512890137,0.09002159636392017,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,"[30.0, inf)",181,181,0.580625943398667,-0.0639548992997457,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,snr_bin,nan,2027,1929,0.6745644268501422,0.07143480778787947,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,mos_bin,"[0, 2)",563,542,0.8738939920350164,0.559963954273309,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,mos_bin,"[2, 3)",699,674,0.7427500418177897,0.3027520679587619,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,mos_bin,"[3, 4)",763,753,0.5579918532542804,-0.09550818212652644,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,dis,mos_bin,"[4, 6)",675,675,0.5232270687372136,-0.45891938248536157,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,source,AusTalk,1000,1000,0.48568146003595236,-0.10190752414325396,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,source,DNS,1200,1102,0.5009533663927249,0.10470295352023806,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,source,UKIRE,500,500,0.4423058451623809,0.015942500287777783,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,native_sr_proxy,>32k,2700,2602,0.4844364526994121,0.011743433416637269,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,level_bin,"[-15.0, inf)",15,15,1.4891020622222222,1.4891020622222222,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,level_bin,"[-25.0, -15.0)",46,46,0.5213497466304347,0.046393065326086946,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,level_bin,"[-35.0, -25.0)",2545,2493,0.4590853574649328,-0.032702994673402576,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,level_bin,"[-inf, -35.0)",94,87,0.9924209389555892,0.962401912025498,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,loss_type,burst,469,469,0.48075296317561855,0.09678353772565741,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,loss_type,none,1448,1448,0.4581235752724064,-0.12661460176598266,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,loss_type,other,26,26,0.6087232719230768,-0.3820401173076924,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,loss_type,random,557,557,0.508530890517939,0.17556664282935797,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,loss_type,unknown,200,102,0.6003191723805555,0.4089807869138889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,"[-inf, 0.0)",25,25,0.5584756014285717,0.21378815057142841,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,"[0.0, 10.0)",124,124,0.4502539109312596,-0.019128418619431712,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,"[10.0, 20.0)",165,165,0.5892859256440597,-0.21560586707840312,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,"[20.0, 30.0)",178,178,0.5287985505305868,-0.08981703887640449,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,"[30.0, inf)",181,181,0.467119433737613,-0.13553008897220037,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,snr_bin,nan,2027,1929,0.47473019736803157,0.05171575602434593,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,mos_bin,"[0, 2)",563,542,0.5613714583379853,0.3052203367529391,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,mos_bin,"[2, 3)",699,674,0.5249410467131048,0.12926825381894771,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,mos_bin,"[3, 4)",763,753,0.4798071734927916,-0.06941111016299487,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v1_A_distill,VAL,loud,mos_bin,"[4, 6)",675,675,0.38355500180246915,-0.2630068321956496,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,source,AusTalk,1000,1000,0.4624330063237085,0.01945483112032451,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,source,DNS,1200,1102,0.46179263304560275,0.09053758356842417,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,source,UKIRE,500,500,0.4886041524364834,0.12917345859512455,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,native_sr_proxy,>32k,2700,2602,0.4669949045172865,0.07136542988888733,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.3493739751533226,0.16013428246533437,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.4184986171515091,0.12205892386643784,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.47490870549494635,0.07172508823483878,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.29523447548686865,0.022655174547818346,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,loss_type,burst,469,469,0.5282577795010353,0.18302863099778632,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,loss_type,none,1448,1448,0.42454463357383054,-0.062115989118817085,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,loss_type,other,26,26,0.4300985684761634,-0.2018281863285945,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,loss_type,random,557,557,0.5583109174489886,0.33662787841740244,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,loss_type,unknown,200,102,0.38115485198157173,0.07267994786065728,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.26492126369476326,-0.07204777240753171,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.3364960470415663,0.03572088821509278,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.4573656244768782,-0.027606019570083143,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.4115947181068259,0.07925524607430985,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.4791781482744204,0.04553312961546924,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,snr_bin,nan,2027,1929,0.4820312126649137,0.08498496686677318,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,mos_bin,"[0, 2)",563,542,0.48001389192457333,0.41160832807018793,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,mos_bin,"[2, 3)",699,674,0.4960698941608437,0.22500383797552084,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,mos_bin,"[3, 4)",763,753,0.47583967218058004,0.018325501099443094,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,mos,mos_bin,"[4, 6)",675,675,0.4160294742976687,-0.31156869346264315,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,source,AusTalk,1000,1000,0.3923405387430529,-0.0039149641116471585,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,source,DNS,1200,1102,0.4109512547988596,0.014480130438879328,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,source,UKIRE,500,500,0.3851333054029296,0.11862898054419181,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,native_sr_proxy,>32k,2700,2602,0.39927729526042566,0.026953956550779236,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,level_bin,"[-15.0, inf)",15,15,0.5137024062555204,-0.11978434217351595,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,level_bin,"[-25.0, -15.0)",46,46,0.4342355057831938,0.019926397023295538,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,level_bin,"[-35.0, -25.0)",2545,2493,0.39599647468298144,0.03410702102070488,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,level_bin,"[-inf, -35.0)",94,87,0.45273723165001906,-0.1398567546921151,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,loss_type,burst,469,469,0.389916763808883,0.06621968358261207,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,loss_type,none,1448,1448,0.3887451049605557,-0.005686541595179244,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,loss_type,other,26,26,0.3968724588094624,-0.017797829894010166,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,loss_type,random,557,557,0.4155824095021921,0.10213351876002977,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,loss_type,unknown,200,102,0.45238368486065655,-0.03236431527706944,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,"[-inf, 0.0)",25,25,0.32743640188213774,-0.07116404353435943,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,"[0.0, 10.0)",124,124,0.30967214764366924,0.07129795803071509,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,"[10.0, 20.0)",165,165,0.378450061425343,0.04809476733248293,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,"[20.0, 30.0)",178,178,0.447396279554406,0.17621478996344667,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,"[30.0, inf)",181,181,0.45280817084578096,0.07018049526587396,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,snr_bin,nan,2027,1929,0.3983346640499894,0.0067633439137532725,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,mos_bin,"[0, 2)",563,542,0.42616496134143594,0.13789236122633886,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,mos_bin,"[2, 3)",699,674,0.4151116216559908,0.11674773193783625,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,mos_bin,"[3, 4)",763,753,0.4110666173630606,0.05017864599586513,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,noi,mos_bin,"[4, 6)",675,675,0.34712736501091557,-0.18481583437439625,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,source,AusTalk,1000,1000,0.4735028349564162,0.05281219360101393,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,source,DNS,1200,1102,0.46848744029184836,0.13646301028803115,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,source,UKIRE,500,500,0.46219708825392286,0.08607158756840241,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,native_sr_proxy,>32k,2700,2602,0.46918011386429465,0.09614948138179723,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,level_bin,"[-15.0, inf)",15,15,0.4484357322743217,-0.10501726421444783,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,level_bin,"[-25.0, -15.0)",46,46,0.42505937699940566,0.0544457328524913,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,level_bin,"[-35.0, -25.0)",2545,2493,0.46985914835054227,0.10449999588660687,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,level_bin,"[-inf, -35.0)",94,87,0.47569688888700146,-0.07742696328255165,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,loss_type,burst,469,469,0.4800429984949879,0.1501206263303004,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,loss_type,none,1448,1448,0.45300729098775494,0.006161653910995415,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,loss_type,other,26,26,0.46512898748543374,-0.08766090982075611,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,loss_type,random,557,557,0.5327462661634158,0.28381866411365303,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,loss_type,unknown,200,102,0.3842927993076667,0.12233569431427593,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,"[-inf, 0.0)",25,25,0.4454765225516968,-0.1861683667470826,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,"[0.0, 10.0)",124,124,0.4430042500715998,-0.0049430554726182805,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,"[10.0, 20.0)",165,165,0.5708961790189196,0.03556279003834652,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,"[20.0, 30.0)",178,178,0.4416506946628807,0.08135854818349321,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,"[30.0, inf)",181,181,0.4601484450528347,0.1032093451769469,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,snr_bin,nan,2027,1929,0.4660179110104821,0.1114159715678924,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,mos_bin,"[0, 2)",563,542,0.4675365839263335,0.2789447579822573,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,mos_bin,"[2, 3)",699,674,0.5169289146285602,0.2146656570832889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,mos_bin,"[3, 4)",763,753,0.4876277805098293,0.12849616072149656,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,col,mos_bin,"[4, 6)",675,675,0.40025170789438014,-0.21560913177019136,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,source,AusTalk,1000,1000,0.5315409555323983,0.06870699700937166,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,source,DNS,1200,1102,0.5271679020567723,0.09360885287414833,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,source,UKIRE,500,500,0.5736742378314109,0.12235687937216179,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,native_sr_proxy,>32k,2700,2602,0.5373998358949003,0.08970965190534466,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,level_bin,"[-15.0, inf)",15,15,0.4302991266012872,0.17082507012537554,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,level_bin,"[-25.0, -15.0)",46,46,0.5584079015015047,0.06655211206492555,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,level_bin,"[-35.0, -25.0)",2545,2493,0.5378163552726217,0.09279992444119933,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,level_bin,"[-inf, -35.0)",94,87,0.5329327912693573,0.0044306301565009,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,loss_type,burst,469,469,0.7008921401127086,0.2944007730850775,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,loss_type,none,1448,1448,0.4335719788735664,-0.1082204835022055,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,loss_type,other,26,26,0.45426559301483144,-0.0920702719575852,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,loss_type,random,557,557,0.7019670474126625,0.4669745930514866,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,loss_type,unknown,200,102,0.45821183483603667,0.01567168209970994,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,"[-inf, 0.0)",25,25,0.483570203666682,0.054196939587663716,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,"[0.0, 10.0)",124,124,0.5985191164567132,0.020685269463164322,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,"[10.0, 20.0)",165,165,0.6168058044923238,0.02352076633589863,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,"[20.0, 30.0)",178,178,0.5143641793181645,0.09224099158073552,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,"[30.0, inf)",181,181,0.48310875284117705,0.018177206523884992,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,snr_bin,nan,2027,1929,0.5347318527182099,0.10592317015968881,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,mos_bin,"[0, 2)",563,542,0.6344198005092333,0.3302590917584812,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,mos_bin,"[2, 3)",699,674,0.6394572030637669,0.23801762929341397,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,mos_bin,"[3, 4)",763,753,0.516540346979708,0.04534030450404657,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,dis,mos_bin,"[4, 6)",675,675,0.37437087339621017,-0.2143537536715233,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,source,AusTalk,1000,1000,0.4042171494636756,0.0448377012197862,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,source,DNS,1200,1102,0.4147982413323472,0.10833453582134614,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,source,UKIRE,500,500,0.3825814411608286,0.10639231352902537,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,native_sr_proxy,>32k,2700,2602,0.40491324431218756,0.084457518877746,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,level_bin,"[-15.0, inf)",15,15,0.9171933489880911,0.7867042636634655,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,level_bin,"[-25.0, -15.0)",46,46,0.5000135158574178,0.1851109744490847,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,level_bin,"[-35.0, -25.0)",2545,2493,0.40356806063940975,0.07819058166278953,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,level_bin,"[-inf, -35.0)",94,87,0.31304812075900046,0.09281491338835139,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,loss_type,burst,469,469,0.43452732668184346,0.1412946367351831,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,loss_type,none,1448,1448,0.37911222460543187,0.024251416600785693,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,loss_type,other,26,26,0.45686135990497306,-0.08219501278991705,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,loss_type,random,557,557,0.4429240746296648,0.18547442201852568,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,loss_type,unknown,200,102,0.40965418637102047,0.12739941185697362,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,"[-inf, 0.0)",25,25,0.40956398064386695,-0.013802808048017408,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,"[0.0, 10.0)",124,124,0.4045913863328337,0.07947557423391756,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,"[10.0, 20.0)",165,165,0.47691677780016484,-0.025288785006213343,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,"[20.0, 30.0)",178,178,0.4028828163645701,0.038226142698624836,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,"[30.0, inf)",181,181,0.3890734445101445,0.06083333669009007,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,snr_bin,nan,2027,1929,0.4006071164850921,0.10107694235366185,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,mos_bin,"[0, 2)",563,542,0.4537268011513906,0.2275643835578544,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,mos_bin,"[2, 3)",699,674,0.4586618318149908,0.17064249046267863,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,mos_bin,"[3, 4)",763,753,0.40844620442381907,0.0697785227410339,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+v2_pure,VAL,loud,mos_bin,"[4, 6)",675,675,0.30454592026758676,-0.10756083060441333,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,source,AusTalk,1000,1000,0.5405339751701506,-0.01922080958192309,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,source,DNS,1200,1102,0.552578551874905,0.33023497456186035,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,source,UKIRE,500,500,0.5125862377620879,0.2054457409571088,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,native_sr_proxy,>32k,2700,2602,0.5407116134448448,0.17769778902624583,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.684201056515729,0.684201056515729,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.552484909866167,0.3323797127474909,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.533257650092003,0.15683298235661963,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.7138650544186536,0.586080932331343,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,loss_type,burst,469,469,0.5837429187655041,0.35211458402498697,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,loss_type,none,1448,1448,0.5012322491262081,0.015272224118529139,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,loss_type,other,26,26,0.48671750472142156,0.06422963509192837,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,loss_type,random,557,557,0.6041455532641543,0.40826925316464624,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,loss_type,unknown,200,102,0.5559895118720949,0.3172608270720831,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.7978681869506837,0.7579245090484619,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.5798233850577277,0.40700151511967275,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.5546398831400062,0.2166389684667951,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.5947432141774306,0.33687460157606347,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.5290700160671951,0.12798140268937172,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,snr_bin,nan,2027,1929,0.5303083404688256,0.14380561766427036,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,mos_bin,"[0, 2)",563,542,0.7290275812861567,0.711170543028284,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,mos_bin,"[2, 3)",699,674,0.5483971852032866,0.359127208005587,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,mos_bin,"[3, 4)",763,753,0.4773807815557194,0.055565953509639845,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+PLCMOS,VAL,mos,mos_bin,"[4, 6)",675,675,0.4472706063005379,-0.3170840389301047,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,source,AusTalk,1000,1000,0.628917247476275,-0.4315957629710908,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,source,DNS,1200,1102,0.6369474757458797,-0.4482856870306231,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,source,UKIRE,500,500,0.6918865900274307,-0.4958447718431079,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,native_sr_proxy,>32k,2700,2602,0.6441472271796467,-0.45091147160347883,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.28342464641288484,0.14276755527213764,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.4407562924467999,-0.281228248451067,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.6552776242376106,-0.4698049802619852,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.49989149522958515,-0.11715226024439593,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,loss_type,burst,469,469,0.5179919236613381,-0.1592354058904664,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,loss_type,none,1448,1448,0.7297626713321029,-0.5963588341614515,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,loss_type,other,26,26,0.6203155783506542,0.28258274610225975,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,loss_type,random,557,557,0.4784928631298098,-0.24434064751878593,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,loss_type,unknown,200,102,0.7845711164928617,-0.7525069341583859,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.2871426239013672,-0.10295559883117676,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.5541452256398999,-0.4697239778191996,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.8225815921176105,-0.7567441699297283,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.6761285923542303,-0.531997428821416,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.6530529708012587,-0.4858963291028043,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,snr_bin,nan,2027,1929,0.6359277256806501,-0.41891255262595345,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,mos_bin,"[0, 2)",563,542,0.3578350129437113,0.11571196032295057,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,mos_bin,"[2, 3)",699,674,0.6050333753248152,-0.34719653690744057,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,mos_bin,"[3, 4)",763,753,0.6829490115230923,-0.5875490135740724,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+SQUIM,VAL,mos,mos_bin,"[4, 6)",675,675,0.8795970014126985,-0.8764689338309565,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,source,AusTalk,1000,1000,0.390659136988254,-0.12820542087079365,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,source,DNS,1200,1102,0.3625836620870371,-0.07245757557116402,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,source,UKIRE,500,500,0.40890774304,-0.006297986322539659,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,native_sr_proxy,>32k,2700,2602,0.38156051963433274,-0.08085314989535568,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.3149794274074073,0.10589598592592599,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.4041115826086957,-0.001371799999999981,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.3848914254608788,-0.08513107483125953,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.2909670319537318,-0.033726130433975016,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,loss_type,burst,469,469,0.4417262076325853,-0.13013739358716617,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,loss_type,none,1448,1448,0.36335636203806015,-0.04365302583706044,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,loss_type,other,26,26,0.34505858461538463,-0.1503574076923077,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,loss_type,random,557,557,0.40252223688723604,-0.14496873243880193,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,loss_type,unknown,200,102,0.31863695127857133,-0.04701304572301586,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.29558822160000003,-0.2168061976,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.33623744056835636,-0.12183742850998465,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.3805359574025974,-0.16232520413660406,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.40788363156054935,-0.05510446489388259,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.409154249302815,-0.09242412552836973,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,snr_bin,nan,2027,1929,0.38070134007360945,-0.07126516452290897,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,mos_bin,"[0, 2)",563,542,0.2889160668273703,0.07905395620682854,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,mos_bin,"[2, 3)",699,674,0.3946869035878919,-0.06572909886913275,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,mos_bin,"[3, 4)",763,753,0.45914060547962304,-0.12366827357340489,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,mos,mos_bin,"[4, 6)",675,675,0.35754552562962966,-0.18149236920870082,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,source,AusTalk,1000,1000,0.4111085375393651,-0.18810792871936508,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,source,DNS,1200,1102,0.38192359956785715,-0.09578275144933862,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,source,UKIRE,500,500,0.3732702588285714,0.012825116159682513,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,native_sr_proxy,>32k,2700,2602,0.3911303653463257,-0.10986469347360377,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,level_bin,"[-15.0, inf)",15,15,0.5392793357777779,-0.22950287022222202,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,level_bin,"[-25.0, -15.0)",46,46,0.45465754967391303,-0.1435895644565217,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,level_bin,"[-35.0, -25.0)",2545,2493,0.38789787498312905,-0.10545722902348208,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,level_bin,"[-inf, -35.0)",94,87,0.42391975831222556,-0.193599590379095,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,loss_type,burst,469,469,0.39275325281822177,-0.08820250805428641,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,loss_type,none,1448,1448,0.37788934241855215,-0.10825336733677537,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,loss_type,other,26,26,0.4522828357692309,0.05766329115384609,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,loss_type,random,557,557,0.40378423128352003,-0.08977894798894306,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,loss_type,unknown,200,102,0.439998862431746,-0.2500459586888889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,"[-inf, 0.0)",25,25,0.35311921491428566,-0.11017323148571444,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,"[0.0, 10.0)",124,124,0.28328085561635946,-0.10100502206797236,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,"[10.0, 20.0)",165,165,0.36011203726887925,-0.12759327088504083,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,"[20.0, 30.0)",178,178,0.415368613611111,-0.033353861688514425,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,"[30.0, inf)",181,181,0.4838938310698938,-0.21207332578707355,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,snr_bin,nan,2027,1929,0.39030996407005425,-0.10655183513128325,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,mos_bin,"[0, 2)",563,542,0.39148428192167806,-0.004586281936056852,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,mos_bin,"[2, 3)",699,674,0.3893492576284715,-0.08477777520142153,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,mos_bin,"[3, 4)",763,753,0.4213473706927542,-0.13103881335455284,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,noi,mos_bin,"[4, 6)",675,675,0.3585232011737801,-0.19971898695320395,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,source,AusTalk,1000,1000,0.3936784710821428,-0.005856444265634966,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,source,DNS,1200,1102,0.3949522634232143,0.09410445224900793,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,source,UKIRE,500,500,0.4240451440534921,0.0904006344011111,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,native_sr_proxy,>32k,2700,2602,0.3998680589691651,0.056396005790270404,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,level_bin,"[-15.0, inf)",15,15,0.5825806710370374,0.1458891463703707,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,level_bin,"[-25.0, -15.0)",46,46,0.45237674923913035,0.08444379097826085,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,level_bin,"[-35.0, -25.0)",2545,2493,0.39578429730002807,0.058731410406898034,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,level_bin,"[-inf, -35.0)",94,87,0.4555817240172238,-0.034840164174265574,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,loss_type,burst,469,469,0.41645214567367245,-0.016757603618979915,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,loss_type,none,1448,1448,0.392270536576778,0.09130642361845563,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,loss_type,other,26,26,0.4566787292307693,0.3343455215384616,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,loss_type,random,557,557,0.41548071318386487,-0.005531957398335756,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,loss_type,unknown,200,102,0.36511780864603166,0.11152573521190469,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,"[-inf, 0.0)",25,25,0.5138579332,-0.20842395079999998,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,"[0.0, 10.0)",124,124,0.4756112926804916,-0.004752415491551467,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,"[10.0, 20.0)",165,165,0.465801448878788,0.07109358827946127,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,"[20.0, 30.0)",178,178,0.42708705050249696,0.11254373079588016,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,"[30.0, inf)",181,181,0.37339849057353336,0.11228242015434532,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,snr_bin,nan,2027,1929,0.3884349530074549,0.052285530206693735,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,mos_bin,"[0, 2)",563,542,0.37428725144492375,0.08303739535820007,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,mos_bin,"[2, 3)",699,674,0.4260166328020755,0.09337440842121399,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,mos_bin,"[3, 4)",763,753,0.4502052042406749,0.0908695475894027,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,col,mos_bin,"[4, 6)",675,675,0.33722642887254556,-0.04308594703715464,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,source,AusTalk,1000,1000,0.4310752383660318,0.020500833755079342,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,source,DNS,1200,1102,0.41932313000019844,0.038428861454298927,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,source,UKIRE,500,500,0.48373833669253974,0.06068985543730151,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,native_sr_proxy,>32k,2700,2602,0.4356045047083481,0.035911257488477344,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,level_bin,"[-15.0, inf)",15,15,0.5262132820370374,0.3022552260370373,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,level_bin,"[-25.0, -15.0)",46,46,0.5072378161956523,0.09884857228260867,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,level_bin,"[-35.0, -25.0)",2545,2493,0.42890708479034517,0.03559743021186887,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,level_bin,"[-inf, -35.0)",94,87,0.5674201398463359,-0.02889284453056403,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,loss_type,burst,469,469,0.5246595136573933,-0.03778864516143778,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,loss_type,none,1448,1448,0.3789832984090261,0.09214586721405549,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,loss_type,other,26,26,0.34190015769230764,-0.14067885076923076,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,loss_type,random,557,557,0.499975175241515,-0.044133699631814495,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,loss_type,unknown,200,102,0.4696172900071429,0.047480874442857195,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,"[-inf, 0.0)",25,25,0.5495607339714286,0.04393954357142839,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,"[0.0, 10.0)",124,124,0.5815111568413979,0.07492484833909364,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,"[10.0, 20.0)",165,165,0.49410256317171714,0.06630457339393936,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,"[20.0, 30.0)",178,178,0.4330475124313359,0.1009537328807741,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,"[30.0, inf)",181,181,0.3753664421077787,0.005563725562132763,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,snr_bin,nan,2027,1929,0.4261149752132717,0.027949764206231714,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,mos_bin,"[0, 2)",563,542,0.4795859303574953,0.10348428979728774,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,mos_bin,"[2, 3)",699,674,0.4875193421590935,0.026301657944455742,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,mos_bin,"[3, 4)",763,753,0.4716781278522541,0.01903328523913541,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,dis,mos_bin,"[4, 6)",675,675,0.30438348474191657,0.008579977070193973,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,source,AusTalk,1000,1000,0.3823758202594445,0.053881198056746016,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,source,DNS,1200,1102,0.38553107315171964,0.12036303273690475,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,source,UKIRE,500,500,0.3931530943179365,0.11626537708777777,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,native_sr_proxy,>32k,2700,2602,0.3857739463705467,0.09498130588330393,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,level_bin,"[-15.0, inf)",15,15,0.7037526828888887,0.518268582222222,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,level_bin,"[-25.0, -15.0)",46,46,0.5628536214130433,0.0035084392391304194,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,level_bin,"[-35.0, -25.0)",2545,2493,0.38461667852752046,0.09412116723622416,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,level_bin,"[-inf, -35.0)",94,87,0.2797090587191828,0.09548657798294488,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,loss_type,burst,469,469,0.40677825002944457,0.07960054126510305,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,loss_type,none,1448,1448,0.3635061146271814,0.10152172744672454,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,loss_type,other,26,26,0.5309452511538463,0.23441485576923068,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,loss_type,random,557,557,0.4187260807031718,0.07034281410404379,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,loss_type,unknown,200,102,0.3870939923742063,0.1341883849138889,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,"[-inf, 0.0)",25,25,0.4336455054285716,-0.1300788614285716,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,"[0.0, 10.0)",124,124,0.42491171489439306,0.01465119912250378,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,"[10.0, 20.0)",165,165,0.43534154172486783,-0.01756378829052435,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,"[20.0, 30.0)",178,178,0.3952249289138576,0.0642076684269663,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,"[30.0, inf)",181,181,0.3621323349030956,0.06971440716039629,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,snr_bin,nan,2027,1929,0.38003557995516873,0.11679107110081362,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,mos_bin,"[0, 2)",563,542,0.43046611086920966,0.1332307549767402,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,mos_bin,"[2, 3)",699,674,0.43624517700785703,0.1308905727030679,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,mos_bin,"[3, 4)",763,753,0.4087192808663588,0.08407349180292914,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+NISQA5D,VAL,loud,mos_bin,"[4, 6)",675,675,0.27029488111346267,0.03822226113768372,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,source,AusTalk,1000,1000,0.6256728462517196,0.020469459174076023,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,source,DNS,1200,1102,0.6592787428965274,0.09480616628137405,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,source,UKIRE,500,500,0.6764175303792065,0.02589030734671925,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,native_sr_proxy,>32k,2700,2602,0.650005964043391,0.054511856438920196,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.7944564441621963,0.5819090407386758,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.5725295481007862,0.14380977156574865,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.6593272653139497,0.05366209956205744,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.4125000725328129,-0.0503395330154918,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,loss_type,burst,469,469,0.7022317802302036,0.4029946212270554,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,loss_type,none,1448,1448,0.5876728076817147,-0.2930953422238865,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,loss_type,other,26,26,0.5704926145836452,0.16867741494346322,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,loss_type,random,557,557,0.8434521588806936,0.6596732849902114,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,loss_type,unknown,200,102,0.4504175599517308,0.053779790208526815,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.38705136325647366,0.19674181982085023,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.45096724506534197,0.10451914778149266,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.6052921722674913,0.07461732968769522,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.5357108652006177,0.19044813981273895,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.6374883781649232,-0.0014701981090534642,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,snr_bin,nan,2027,1929,0.6802194087666228,0.041123616249264736,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,mos_bin,"[0, 2)",563,542,0.906004653721977,0.8802120682114759,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,mos_bin,"[2, 3)",699,674,0.6027516907447715,0.3932901650462623,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,mos_bin,"[3, 4)",763,753,0.4205538907816744,-0.15844934767513413,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,mos,mos_bin,"[4, 6)",675,675,0.7447843442587698,-0.7442820075691651,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,source,AusTalk,1000,1000,0.4443924842832546,-0.015482944340986344,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,source,DNS,1200,1102,0.4760301729728733,0.033238864651872625,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,source,UKIRE,500,500,0.4533991669747016,0.11195585865889664,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,native_sr_proxy,>32k,2700,2602,0.4601215834585384,0.029770971322484855,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,level_bin,"[-15.0, inf)",15,15,0.47860571083517306,0.1355353494274338,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,level_bin,"[-25.0, -15.0)",46,46,0.5528425214978647,0.07046818902803743,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,level_bin,"[-35.0, -25.0)",2545,2493,0.45707227739389206,0.032908413407705096,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,level_bin,"[-inf, -35.0)",94,87,0.49435625233158437,-0.09196655838937844,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,loss_type,burst,469,469,0.45372673485379095,0.13250763267649857,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,loss_type,none,1448,1448,0.45039384740548527,-0.0781894437504871,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,loss_type,other,26,26,0.38588928194156175,0.028777053803013524,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,loss_type,random,557,557,0.48723301056709023,0.23083702670456527,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,loss_type,unknown,200,102,0.47969118716066556,0.010647150614077092,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,"[-inf, 0.0)",25,25,0.3675827816988664,0.06535190232295351,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,"[0.0, 10.0)",124,124,0.3428089954871495,0.06568419789099425,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,"[10.0, 20.0)",165,165,0.4140475570309003,0.10838334699197241,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,"[20.0, 30.0)",178,178,0.5774133246669697,0.4076686587401896,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,"[30.0, inf)",181,181,0.5504081563373998,0.24746942439231648,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,snr_bin,nan,2027,1929,0.453827871414547,-0.03188813756797557,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,mos_bin,"[0, 2)",563,542,0.5056909156266484,0.3214658684805404,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,mos_bin,"[2, 3)",699,674,0.46749610316886553,0.20090185802143276,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,mos_bin,"[3, 4)",763,753,0.42844329003079873,0.016774743640000925,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,noi,mos_bin,"[4, 6)",675,675,0.45028486434328013,-0.3760491696861293,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,source,AusTalk,1000,1000,0.5697537369327599,0.02816457766610803,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,source,DNS,1200,1102,0.5966611654738468,0.11344379132784534,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,source,UKIRE,500,500,0.5651044640628415,-0.018716715232587725,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,native_sr_proxy,>32k,2700,2602,0.5808516176047397,0.057384729497492064,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,level_bin,"[-15.0, inf)",15,15,0.7243943056625187,0.12633793343903357,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,level_bin,"[-25.0, -15.0)",46,46,0.5154789888634754,0.14236127398165466,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,level_bin,"[-35.0, -25.0)",2545,2493,0.5834708686783688,0.0584931847494544,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,level_bin,"[-inf, -35.0)",94,87,0.5190219007839442,-0.025213544136962193,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,loss_type,burst,469,469,0.5775004482247474,0.25572939296985364,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,loss_type,none,1448,1448,0.567577536581587,-0.1805462860564661,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,loss_type,other,26,26,0.5907182502949919,-0.003511380088503303,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,loss_type,random,557,557,0.6876834432943554,0.48757995837612084,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,loss_type,unknown,200,102,0.38600515961313314,0.12470982808465983,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,"[-inf, 0.0)",25,25,0.5376945108449324,0.12407513254290059,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,"[0.0, 10.0)",124,124,0.554123454370194,0.026925369752441256,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,"[10.0, 20.0)",165,165,0.684240221680343,0.05291511879178239,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,"[20.0, 30.0)",178,178,0.5415484260799122,0.09970294506872451,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,"[30.0, inf)",181,181,0.5906407489865312,-0.005242492208945399,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,snr_bin,nan,2027,1929,0.5771802981912809,0.06066547496166522,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,mos_bin,"[0, 2)",563,542,0.7120802465475966,0.5976632854295261,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,mos_bin,"[2, 3)",699,674,0.5794824114813807,0.31112546709531314,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,mos_bin,"[3, 4)",763,753,0.4617726043305251,-0.023765870447895614,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,col,mos_bin,"[4, 6)",675,675,0.6074184977730731,-0.5642800035577393,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,source,AusTalk,1000,1000,0.7033914959668767,0.09834112445111266,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,source,DNS,1200,1102,0.7092924260145291,0.05936938049798004,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,source,UKIRE,500,500,0.7297353402189263,-0.022023273043063597,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,native_sr_proxy,>32k,2700,2602,0.7108926212199166,0.05873064612116924,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,level_bin,"[-15.0, inf)",15,15,0.9430843394802157,0.3679513516019649,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,level_bin,"[-25.0, -15.0)",46,46,0.7008998190014467,0.08332660025278439,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,level_bin,"[-35.0, -25.0)",2545,2493,0.7141461480185114,0.05969687176383919,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,level_bin,"[-inf, -35.0)",94,87,0.5906433385148222,-0.028809446781610286,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,loss_type,burst,469,469,0.8492961720583445,0.5595621806952755,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,loss_type,none,1448,1448,0.588821677423591,-0.38315957226449693,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,loss_type,other,26,26,0.6428654232633058,0.39707979117112424,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,loss_type,random,557,557,0.9894535355445462,0.8132567520943621,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,loss_type,unknown,200,102,0.5031813169294654,-0.06177471533472317,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,"[-inf, 0.0)",25,25,0.6119869396148956,0.24075507570768775,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,"[0.0, 10.0)",124,124,0.6813489430583253,0.04721019973181166,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,"[10.0, 20.0)",165,165,0.6990431247229598,0.04522570415823809,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,"[20.0, 30.0)",178,178,0.5995595719110728,0.0194275687129142,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,"[30.0, inf)",181,181,0.7002496684222201,-0.13434759022370413,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,snr_bin,nan,2027,1929,0.7256113593982678,0.07898192811110138,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,mos_bin,"[0, 2)",563,542,0.9784442767199782,0.7710736387677922,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,mos_bin,"[2, 3)",699,674,0.7477361855793918,0.37192516975998213,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,mos_bin,"[3, 4)",763,753,0.541817172241004,-0.15299890524212212,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,dis,mos_bin,"[4, 6)",675,675,0.6406990420156237,-0.6204136934245903,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,source,AusTalk,1000,1000,0.46002453804492793,0.012047036042560797,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,source,DNS,1200,1102,0.4945061247266955,0.07179605353667079,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,source,UKIRE,500,500,0.4324764086058655,-0.013699516813704918,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,native_sr_proxy,>32k,2700,2602,0.47024818222959086,0.03383427477026418,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,level_bin,"[-15.0, inf)",15,15,0.7174261577751776,0.6770793014435454,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,level_bin,"[-25.0, -15.0)",46,46,0.514598453610956,-0.05282571457245308,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,level_bin,"[-35.0, -25.0)",2545,2493,0.47466058126390487,0.03476280855607185,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,level_bin,"[-inf, -35.0)",94,87,0.2896382071332525,-0.05154268666819055,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,loss_type,burst,469,469,0.4843700663772977,0.18061120763424163,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,loss_type,none,1448,1448,0.4507338332624764,-0.11198177184035088,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,loss_type,other,26,26,0.4590723342968086,0.02656889003420802,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,loss_type,random,557,557,0.5304856741492413,0.28873738112102765,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,loss_type,unknown,200,102,0.41210769566016225,0.036389893493901176,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,"[-inf, 0.0)",25,25,0.4307666743955055,0.12237881164028597,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,"[0.0, 10.0)",124,124,0.4385672319032784,0.10837919214909875,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,"[10.0, 20.0)",165,165,0.560699386805237,0.006408960867337997,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,"[20.0, 30.0)",178,178,0.45231543102579785,0.06852586049919347,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,"[30.0, inf)",181,181,0.46608982713057395,-0.011726405138450796,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,snr_bin,nan,2027,1929,0.467256430265373,0.031436334178742135,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,mos_bin,"[0, 2)",563,542,0.5914913414387457,0.4574325193083951,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,mos_bin,"[2, 3)",699,674,0.48844346321390786,0.21039039575416077,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,mos_bin,"[3, 4)",763,753,0.3951811499687009,-0.07576423835825571,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_G0,VAL,loud,mos_bin,"[4, 6)",675,675,0.4351337312255423,-0.3784247988973666,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,source,AusTalk,1000,1000,0.5996881776499342,0.020163781343249972,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,source,DNS,1200,1102,0.6282631758525187,0.08565873463788433,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,source,UKIRE,500,500,0.6427286825485696,0.0475583928565555,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,native_sr_proxy,>32k,2700,2602,0.6203586407212005,0.05434572568036627,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,level_bin,"[-15.0, inf)",15,15,0.7729894294113606,0.570839452281885,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,level_bin,"[-25.0, -15.0)",46,46,0.5471341625833811,0.13542961441721593,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,level_bin,"[-35.0, -25.0)",2545,2493,0.6284306530704545,0.05283819355529632,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,level_bin,"[-inf, -35.0)",94,87,0.4132904783290269,-0.026937205411281036,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,loss_type,burst,469,469,0.6524632696221758,0.3475696106894382,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,loss_type,none,1448,1448,0.5699865535401564,-0.25220852244873826,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,loss_type,other,26,26,0.46016578471164293,0.029958404721452895,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,loss_type,random,557,557,0.791726561805968,0.6121390151037789,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,loss_type,unknown,200,102,0.45333260819933757,0.03590451246926432,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,"[-inf, 0.0)",25,25,0.33757238385249133,0.15926350875834494,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,"[0.0, 10.0)",124,124,0.4558718414708099,0.11427357325630627,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,"[10.0, 20.0)",165,165,0.5976394131053927,0.09222555268095439,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,"[20.0, 30.0)",178,178,0.5154277135166089,0.2209115323305217,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,"[30.0, inf)",181,181,0.598115418949463,0.021188602162879357,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,snr_bin,nan,2027,1929,0.6469587493884311,0.034636084161606726,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,mos_bin,"[0, 2)",563,542,0.8496260114913373,0.8226599455827203,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,mos_bin,"[2, 3)",699,674,0.5695377878953569,0.37330553455508697,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,mos_bin,"[3, 4)",763,753,0.4262341028177509,-0.13844406549187538,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,mos,mos_bin,"[4, 6)",675,675,0.7011931130204742,-0.6988619803107962,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,source,AusTalk,1000,1000,0.4433912630150814,-0.0001982149472238941,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,source,DNS,1200,1102,0.4700687859789976,0.023244643609079466,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,source,UKIRE,500,500,0.45124941414263503,0.11158352995906926,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,native_sr_proxy,>32k,2700,2602,0.4567031530597023,0.030921156430817075,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,level_bin,"[-15.0, inf)",15,15,0.4481012710429853,0.16875478592669266,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,level_bin,"[-25.0, -15.0)",46,46,0.5301425069543175,0.06819607818711314,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,level_bin,"[-35.0, -25.0)",2545,2493,0.4537183557995075,0.03373588504274913,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,level_bin,"[-inf, -35.0)",94,87,0.5029491847436837,-0.08552177080955357,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,loss_type,burst,469,469,0.44959988306802673,0.12533958225010564,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,loss_type,none,1448,1448,0.44672867608819766,-0.07550941883272982,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,loss_type,other,26,26,0.38927393523185905,0.058926681014825906,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,loss_type,random,557,557,0.4822139570031674,0.23457785124256242,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,loss_type,unknown,200,102,0.4832937437989443,0.009242699546032913,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,"[-inf, 0.0)",25,25,0.3871139782419697,0.09657761393264144,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,"[0.0, 10.0)",124,124,0.3469433694248418,0.06139219155923367,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,"[10.0, 20.0)",165,165,0.42065087896890857,0.09649038347431863,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,"[20.0, 30.0)",178,178,0.551905710783583,0.37254533605862444,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,"[30.0, inf)",181,181,0.5329574582449484,0.23665145094679965,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,snr_bin,nan,2027,1929,0.45204132930675045,-0.025460209892216767,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,mos_bin,"[0, 2)",563,542,0.5030880314654601,0.30551031765746944,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,mos_bin,"[2, 3)",699,674,0.46074319524205054,0.2019552735735842,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,mos_bin,"[3, 4)",763,753,0.429993513204819,0.017160301177210395,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,noi,mos_bin,"[4, 6)",675,675,0.4440228259209954,-0.35966701111717936,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,source,AusTalk,1000,1000,0.551556925677485,0.029391454706794367,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,source,DNS,1200,1102,0.5748123477311388,0.10216487022215379,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,source,UKIRE,500,500,0.5584306767415215,0.005363368234029792,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,native_sr_proxy,>32k,2700,2602,0.5631655856761527,0.05728554929273844,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,level_bin,"[-15.0, inf)",15,15,0.7116740899389369,0.1609789842381471,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,level_bin,"[-25.0, -15.0)",46,46,0.5318723945896143,0.15764032094887206,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,level_bin,"[-35.0, -25.0)",2545,2493,0.5642320853202382,0.0582971940468964,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,level_bin,"[-inf, -35.0)",94,87,0.5259061987808485,-0.03576080091678539,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,loss_type,burst,469,469,0.5618286584859403,0.23444404942233413,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,loss_type,none,1448,1448,0.5497370495201617,-0.15800668795943967,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,loss_type,other,26,26,0.5652699146882091,0.026714017919086223,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,loss_type,random,557,557,0.6610979113520993,0.45924294902289564,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,loss_type,unknown,200,102,0.3905081919274964,0.08508760502469322,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,"[-inf, 0.0)",25,25,0.5665997947484502,0.08538056521721325,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,"[0.0, 10.0)",124,124,0.566184754447855,0.04128225520897041,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,"[10.0, 20.0)",165,165,0.6819827860659374,0.06861591658707436,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,"[20.0, 30.0)",178,178,0.5099936678773438,0.09302777138548488,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,"[30.0, inf)",181,181,0.5616740545198423,-0.007474377166450475,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,snr_bin,nan,2027,1929,0.5580691368792445,0.059639744468522486,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,mos_bin,"[0, 2)",563,542,0.6786321073725937,0.5491956532960419,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,mos_bin,"[2, 3)",699,674,0.5647479791426784,0.2983555208746396,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,mos_bin,"[3, 4)",763,753,0.46067885513790646,-0.003410778299684546,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,col,mos_bin,"[4, 6)",675,675,0.5810672607168699,-0.5340359332799874,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,source,AusTalk,1000,1000,0.6553921666386853,0.060503312583793406,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,source,DNS,1200,1102,0.6694196217737263,0.06776315674533365,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,source,UKIRE,500,500,0.6901025239554431,0.011147222836664299,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,native_sr_proxy,>32k,2700,2602,0.6680544350906957,0.0545898933690837,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,level_bin,"[-15.0, inf)",15,15,0.8730591102545886,0.31929045245164445,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,level_bin,"[-25.0, -15.0)",46,46,0.6770432645159924,0.02518890616916044,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,level_bin,"[-35.0, -25.0)",2545,2493,0.6697181890564261,0.05603077137546002,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,level_bin,"[-inf, -35.0)",94,87,0.5858968805821212,-0.012272846006125882,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,loss_type,burst,469,469,0.7764668546618751,0.46039072710751516,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,loss_type,none,1448,1448,0.5639198261223719,-0.33582910821162276,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,loss_type,other,26,26,0.5595037478642394,0.18913536488494775,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,loss_type,random,557,557,0.9208511343897808,0.742139144787702,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,loss_type,unknown,200,102,0.4778346619184313,-0.0026950668011382463,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,"[-inf, 0.0)",25,25,0.6199467608934159,0.20934801332231578,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,"[0.0, 10.0)",124,124,0.6843515658171964,0.04105454803229805,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,"[10.0, 20.0)",165,165,0.69146341168328,0.08893827318256249,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,"[20.0, 30.0)",178,178,0.5827430276700004,0.07989786520079097,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,"[30.0, inf)",181,181,0.6605264853036028,-0.08153340256233753,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,snr_bin,nan,2027,1929,0.6739090754160125,0.06064586018272455,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,mos_bin,"[0, 2)",563,542,0.9048307950727461,0.6990247694099329,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,mos_bin,"[2, 3)",699,674,0.6990116754822745,0.3432565242249738,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,mos_bin,"[3, 4)",763,753,0.5253031143255865,-0.1321827171201283,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,dis,mos_bin,"[4, 6)",675,675,0.5998693329279853,-0.5707246375583186,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,source,AusTalk,1000,1000,0.45070388274117507,0.014102590601851803,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,source,DNS,1200,1102,0.47433876144550463,0.06731493216637231,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,source,UKIRE,500,500,0.4269142584516802,0.011197732327523717,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,native_sr_proxy,>32k,2700,2602,0.45680278729689655,0.03721458346861498,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,level_bin,"[-15.0, inf)",15,15,0.708336263972918,0.6201069276228792,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,level_bin,"[-25.0, -15.0)",46,46,0.5246178525261557,-0.053181075507001095,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,level_bin,"[-35.0, -25.0)",2545,2493,0.4598653798281668,0.0386916461264144,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,level_bin,"[-inf, -35.0)",94,87,0.3005603070546737,-0.05155466454771647,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,loss_type,burst,469,469,0.46370347034507087,0.16607301461475296,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,loss_type,none,1448,1448,0.4371006578713095,-0.09778185239731352,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,loss_type,other,26,26,0.46298443102388376,0.007202490138976243,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,loss_type,random,557,557,0.5164746077650012,0.2854738745582087,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,loss_type,unknown,200,102,0.4162744689019985,0.02491520454857819,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,"[-inf, 0.0)",25,25,0.46716903990635417,0.15264487590859613,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,"[0.0, 10.0)",124,124,0.44490327577729566,0.11153653243233587,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,"[10.0, 20.0)",165,165,0.5376218921900208,0.021982020883569025,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,"[20.0, 30.0)",178,178,0.4295218597722026,0.0757037226237069,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,"[30.0, inf)",181,181,0.4404033937961221,-0.02489094045005745,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,snr_bin,nan,2027,1929,0.4546841519386648,0.03465006788090162,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,mos_bin,"[0, 2)",563,542,0.5795363443611304,0.4334927617619061,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,mos_bin,"[2, 3)",699,674,0.4719050954906125,0.2043431779554064,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,mos_bin,"[3, 4)",763,753,0.3908873157224585,-0.06332021490697212,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband
+A_newT,VAL,loud,mos_bin,"[4, 6)",675,675,0.4133035261957487,-0.35274015840518824,descriptive strata; no selection or confirmatory significance; native sampling rate not measured passband

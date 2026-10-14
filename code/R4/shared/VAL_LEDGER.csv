@@ -1,0 +1,8 @@
+registered_utc,lane,model,purpose,prediction_path,status,previous_val_exposure
+2026-10-11T15:44:21.949659+00:00,A,A_G0,single combined VAL2700 prediction; historically exposed VAL; selection already TRAIN_CV fixed,exp_A/val/A_G0.csv,registered_before_prediction,True
+2026-10-11T15:44:21.954207+00:00,A,A_newT,single combined VAL2700 prediction; historically exposed VAL; selection already TRAIN_CV fixed,exp_A/val/A_newT.csv,registered_before_prediction,True
+2026-10-11T15:44:21.955523+00:00,A,A_tiny,single combined VAL2700 prediction; historically exposed VAL; selection already TRAIN_CV fixed,exp_A/val/A_tiny.csv,registered_before_prediction,True
+2026-10-11T15:44:21.956488+00:00,A,A_distill,single combined VAL2700 prediction; historically exposed VAL; selection already TRAIN_CV fixed,exp_A/val/A_distill.csv,registered_before_prediction,True
+2026-10-12T20:57:12.259980+00:00,C,v2_pure,"v5 human-fixed A2 shortlist, frozen TRAIN choice; single combined VAL2700 evaluation",code/R4/exp_C2/preds/v3/v2_pure/VAL.csv,registered_before_prediction,True
+2026-10-12T20:59:51.029658+00:00,C,v2_64,"v5 human-fixed A2 shortlist, frozen TRAIN choice; single combined VAL2700 evaluation",code/R4/exp_C2/preds/v3/v2_64/VAL.csv,registered_before_prediction,True
+2026-10-12T21:01:40.454832+00:00,C,v2_conv64,"v5 human-fixed A2 shortlist, frozen TRAIN choice; single combined VAL2700 evaluation",code/R4/exp_C2/preds/v3/v2_conv64/VAL.csv,registered_before_prediction,True

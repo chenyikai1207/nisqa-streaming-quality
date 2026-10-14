@@ -1,0 +1,4202 @@
+{
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_00057_chp_0006_reader_07339_47_seg_live_skype_6.wav": {
+    "mos": 2.666222333908081,
+    "noi": 3.126081943511963,
+    "col": 2.57468581199646,
+    "dis": 4.100630283355713,
+    "loud": 2.471874952316284
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_00057_chp_0006_reader_07339_47_seg_live_skype_605.wav": {
+    "mos": 3.594855308532715,
+    "noi": 3.9076178073883057,
+    "col": 3.2031056880950928,
+    "dis": 4.21393346786499,
+    "loud": 3.438211441040039
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_00394_chp_0013_reader_05142_21_seg_live_skype_627.wav": {
+    "mos": 2.1262996196746826,
+    "noi": 2.6537013053894043,
+    "col": 2.3396403789520264,
+    "dis": 3.8347485065460205,
+    "loud": 1.9909965991973877
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_00625_chp_0018_reader_07723_17_seg_live_skype_46.wav": {
+    "mos": 2.077134132385254,
+    "noi": 2.866888999938965,
+    "col": 2.008540153503418,
+    "dis": 3.980191230773926,
+    "loud": 1.9318805932998657
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_01230_chp_0016_reader_09245_26_seg_live_skype_73.wav": {
+    "mos": 2.2592854499816895,
+    "noi": 2.3309826850891113,
+    "col": 2.444140911102295,
+    "dis": 4.020051956176758,
+    "loud": 2.2020926475524902
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_01779_chp_0037_reader_02322_4_seg_live_phone_94.wav": {
+    "mos": 2.5131752490997314,
+    "noi": 2.9641709327697754,
+    "col": 2.22786021232605,
+    "dis": 3.482447624206543,
+    "loud": 2.927323579788208
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02131_chp_0074_reader_02552_12_seg_live_skype_109.wav": {
+    "mos": 2.5884037017822266,
+    "noi": 2.7576828002929688,
+    "col": 2.4630911350250244,
+    "dis": 4.206902503967285,
+    "loud": 2.4307966232299805
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02397_chp_0011_reader_08260_16_seg_live_phone_125.wav": {
+    "mos": 1.745153784751892,
+    "noi": 1.9380232095718384,
+    "col": 2.1074724197387695,
+    "dis": 2.9693305492401123,
+    "loud": 2.5555014610290527
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02485_chp_0021_reader_02882_4_seg_live_skype_131.wav": {
+    "mos": 1.9992119073867798,
+    "noi": 2.690152168273926,
+    "col": 2.1422648429870605,
+    "dis": 3.9175024032592773,
+    "loud": 1.865525722503662
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02764_chp_0011_reader_02612_26_seg_live_skype_151.wav": {
+    "mos": 2.547182083129883,
+    "noi": 2.3263607025146484,
+    "col": 2.8118090629577637,
+    "dis": 3.852806568145752,
+    "loud": 2.654215097427368
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02857_chp_0013_reader_08034_7_seg_live_phone_155.wav": {
+    "mos": 2.196495771408081,
+    "noi": 2.8407533168792725,
+    "col": 2.1082143783569336,
+    "dis": 3.4079301357269287,
+    "loud": 2.481342315673828
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_02908_chp_0019_reader_07242_19_seg_live_phone_159.wav": {
+    "mos": 2.2056639194488525,
+    "noi": 2.8409698009490967,
+    "col": 2.074303150177002,
+    "dis": 3.3193399906158447,
+    "loud": 2.5972702503204346
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_03245_chp_0008_reader_05578_2_seg_live_phone_187.wav": {
+    "mos": 2.3729138374328613,
+    "noi": 3.1647191047668457,
+    "col": 2.0769898891448975,
+    "dis": 3.690042495727539,
+    "loud": 2.511127471923828
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_03324_chp_0017_reader_05437_8_seg_live_skype_192.wav": {
+    "mos": 2.422201156616211,
+    "noi": 2.8200244903564453,
+    "col": 2.406557559967041,
+    "dis": 3.9946236610412598,
+    "loud": 2.2225165367126465
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_03893_chp_0004_reader_06273_20_seg_live_skype_222.wav": {
+    "mos": 2.654634952545166,
+    "noi": 2.889411449432373,
+    "col": 2.6038620471954346,
+    "dis": 3.951916217803955,
+    "loud": 2.6682941913604736
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_03968_chp_0007_reader_10257_9_seg_live_phone_228.wav": {
+    "mos": 2.3989410400390625,
+    "noi": 2.980151653289795,
+    "col": 2.2064709663391113,
+    "dis": 3.5169758796691895,
+    "loud": 2.7295429706573486
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_04245_chp_0028_reader_05868_34_seg_live_skype_243.wav": {
+    "mos": 3.050428867340088,
+    "noi": 3.9565396308898926,
+    "col": 2.618938446044922,
+    "dis": 4.285719871520996,
+    "loud": 2.739457607269287
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_04288_chp_0092_reader_11224_0_seg_live_skype_249.wav": {
+    "mos": 3.1452717781066895,
+    "noi": 3.818892240524292,
+    "col": 2.9504313468933105,
+    "dis": 4.289590835571289,
+    "loud": 2.78478741645813
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_04329_chp_0002_reader_07963_0_seg_live_skype_252.wav": {
+    "mos": 3.0708603858947754,
+    "noi": 3.825202703475952,
+    "col": 2.9160146713256836,
+    "dis": 4.025832176208496,
+    "loud": 2.900851249694824
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_04366_chp_0011_reader_05727_123_seg_live_skype_254.wav": {
+    "mos": 2.8410861492156982,
+    "noi": 3.463468074798584,
+    "col": 2.739203929901123,
+    "dis": 4.226152420043945,
+    "loud": 2.482870101928711
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_04849_chp_0028_reader_02852_44_seg_live_skype_277.wav": {
+    "mos": 2.6201703548431396,
+    "noi": 3.2025070190429688,
+    "col": 2.53109073638916,
+    "dis": 4.0353546142578125,
+    "loud": 2.448511838912964
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_05399_chp_0024_reader_00405_37_seg_live_skype_308.wav": {
+    "mos": 2.5490312576293945,
+    "noi": 3.213531732559204,
+    "col": 2.585101366043091,
+    "dis": 3.9554221630096436,
+    "loud": 2.4658846855163574
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_05610_chp_0011_reader_10418_27_seg_live_phone_317.wav": {
+    "mos": 1.2744172811508179,
+    "noi": 2.798062324523926,
+    "col": 1.9500749111175537,
+    "dis": 2.9289422035217285,
+    "loud": 1.309052586555481
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06046_chp_0031_reader_00242_4_seg_live_skype_337.wav": {
+    "mos": 2.5267722606658936,
+    "noi": 3.318021774291992,
+    "col": 2.3845391273498535,
+    "dis": 4.248067855834961,
+    "loud": 2.213379383087158
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06289_chp_0001_reader_02455_22_seg_live_phone_352.wav": {
+    "mos": 1.8905118703842163,
+    "noi": 2.7379887104034424,
+    "col": 2.031181812286377,
+    "dis": 3.218820810317993,
+    "loud": 2.1234803199768066
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06294_chp_0001_reader_09211_2_seg_live_phone_353.wav": {
+    "mos": 2.3387980461120605,
+    "noi": 3.1794581413269043,
+    "col": 2.0013701915740967,
+    "dis": 3.5523264408111572,
+    "loud": 2.5325851440429688
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06294_chp_0001_reader_09211_2_seg_live_skype_353.wav": {
+    "mos": 1.884385347366333,
+    "noi": 2.1936497688293457,
+    "col": 2.347191333770752,
+    "dis": 3.5848007202148438,
+    "loud": 1.91348397731781
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06649_chp_0019_reader_11238_4_seg_live_skype_366.wav": {
+    "mos": 2.9803671836853027,
+    "noi": 2.952000617980957,
+    "col": 2.9571194648742676,
+    "dis": 3.9687414169311523,
+    "loud": 2.9679131507873535
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06880_chp_0013_reader_05755_23_seg_live_phone_382.wav": {
+    "mos": 1.2655974626541138,
+    "noi": 2.4344863891601562,
+    "col": 1.8412761688232422,
+    "dis": 2.970672607421875,
+    "loud": 1.3373011350631714
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06880_chp_0013_reader_05755_23_seg_live_skype_382.wav": {
+    "mos": 1.528785228729248,
+    "noi": 1.6883704662322998,
+    "col": 2.099503993988037,
+    "dis": 3.2725839614868164,
+    "loud": 1.810929298400879
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06891_chp_0006_reader_10584_5_seg_live_skype_384.wav": {
+    "mos": 1.4698148965835571,
+    "noi": 1.868762493133545,
+    "col": 1.9928900003433228,
+    "dis": 3.3910627365112305,
+    "loud": 1.7942428588867188
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_06939_chp_0043_reader_09896_9_seg_live_skype_386.wav": {
+    "mos": 1.8686538934707642,
+    "noi": 2.3192620277404785,
+    "col": 2.2299721240997314,
+    "dis": 3.5952908992767334,
+    "loud": 1.9032858610153198
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_07884_chp_0010_reader_01419_32_seg_live_phone_425.wav": {
+    "mos": 1.3703161478042603,
+    "noi": 2.4795336723327637,
+    "col": 1.7479866743087769,
+    "dis": 2.4171016216278076,
+    "loud": 1.9253712892532349
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_08058_chp_0007_reader_06485_2_seg_live_skype_438.wav": {
+    "mos": 2.062654972076416,
+    "noi": 2.398958683013916,
+    "col": 2.5061233043670654,
+    "dis": 3.551037311553955,
+    "loud": 2.331967353820801
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_08134_chp_0013_reader_08131_51_seg_live_skype_443.wav": {
+    "mos": 2.3483471870422363,
+    "noi": 2.8266589641571045,
+    "col": 2.629589080810547,
+    "dis": 3.8575382232666016,
+    "loud": 2.224398136138916
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_08240_chp_0008_reader_06319_13_seg_live_skype_451.wav": {
+    "mos": 3.0805492401123047,
+    "noi": 3.29280948638916,
+    "col": 2.9287867546081543,
+    "dis": 4.095710754394531,
+    "loud": 3.0065371990203857
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_08875_chp_0007_reader_10279_11_seg_live_phone_485.wav": {
+    "mos": 2.648195266723633,
+    "noi": 3.276578426361084,
+    "col": 2.1017746925354004,
+    "dis": 3.5337047576904297,
+    "loud": 3.076009511947632
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_09071_chp_0012_reader_06621_11_seg_live_skype_494.wav": {
+    "mos": 3.3656833171844482,
+    "noi": 3.5409576892852783,
+    "col": 3.147664785385132,
+    "dis": 4.217408180236816,
+    "loud": 3.1809544563293457
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_09145_chp_0010_reader_06754_2_seg_live_skype_500.wav": {
+    "mos": 3.4553627967834473,
+    "noi": 3.652069091796875,
+    "col": 3.1829652786254883,
+    "dis": 4.089513778686523,
+    "loud": 3.2690553665161133
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_09918_chp_0015_reader_06052_90_seg_live_skype_541.wav": {
+    "mos": 3.512816905975342,
+    "noi": 4.149878978729248,
+    "col": 3.227581739425659,
+    "dis": 4.2964324951171875,
+    "loud": 3.293832778930664
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_11020_chp_0008_reader_06271_17_seg_live_skype_581.wav": {
+    "mos": 2.4915332794189453,
+    "noi": 2.3146591186523438,
+    "col": 2.777009963989258,
+    "dis": 3.7577247619628906,
+    "loud": 2.710533380508423
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_11110_chp_0045_reader_09003_11_seg_live_skype_585.wav": {
+    "mos": 3.098115921020508,
+    "noi": 3.2091140747070312,
+    "col": 3.127364158630371,
+    "dis": 4.1889495849609375,
+    "loud": 2.9244399070739746
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_11203_chp_0029_reader_04927_20_seg_live_skype_590.wav": {
+    "mos": 1.5389316082000732,
+    "noi": 2.4147050380706787,
+    "col": 1.9568346738815308,
+    "dis": 3.4422645568847656,
+    "loud": 1.6333445310592651
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_LIVE/deg/book_11240_chp_0015_reader_01390_9_seg_live_skype_594.wav": {
+    "mos": 2.4253346920013428,
+    "noi": 2.936858654022217,
+    "col": 2.54020357131958,
+    "dis": 3.8511314392089844,
+    "loud": 2.2950797080993652
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0008_book_06222_chp_0018_reader_11377_6_seg.wav": {
+    "mos": 4.456779956817627,
+    "noi": 3.9402523040771484,
+    "col": 4.406258583068848,
+    "dis": 4.589498519897461,
+    "loud": 4.464998245239258
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0009_book_09254_chp_0069_reader_08193_5_seg.wav": {
+    "mos": 4.362058639526367,
+    "noi": 4.205678939819336,
+    "col": 4.002440929412842,
+    "dis": 4.34694766998291,
+    "loud": 4.290066719055176
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0013_book_02922_chp_0030_reader_02961_25_seg.wav": {
+    "mos": 2.3108997344970703,
+    "noi": 3.721146583557129,
+    "col": 3.2806296348571777,
+    "dis": 1.9383419752120972,
+    "loud": 3.724555015563965
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0025_book_03675_chp_0022_reader_05502_1_seg.wav": {
+    "mos": 3.8716392517089844,
+    "noi": 4.429587364196777,
+    "col": 3.240602731704712,
+    "dis": 3.9963932037353516,
+    "loud": 3.9863245487213135
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0036_book_05272_chp_0033_reader_05284_2_seg.wav": {
+    "mos": 4.335827827453613,
+    "noi": 4.24300479888916,
+    "col": 3.998814582824707,
+    "dis": 4.448627471923828,
+    "loud": 4.265700340270996
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0038_1_1327_2_7_001-ch6-speaker_seg18.wav": {
+    "mos": 3.993738889694214,
+    "noi": 4.071433067321777,
+    "col": 3.7279481887817383,
+    "dis": 4.179632186889648,
+    "loud": 3.9100446701049805
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0044_2_891_2_7_001-ch6-speaker_seg105.wav": {
+    "mos": 4.248089790344238,
+    "noi": 4.015522480010986,
+    "col": 4.122835159301758,
+    "dis": 4.304566383361816,
+    "loud": 4.224931240081787
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0049_nom_00610_00902035883_seg.wav": {
+    "mos": 3.738900661468506,
+    "noi": 3.9567666053771973,
+    "col": 3.389103889465332,
+    "dis": 4.029411315917969,
+    "loud": 3.924133777618408
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0050_3_387_2_7_001-ch6-speaker_seg41.wav": {
+    "mos": 2.741680145263672,
+    "noi": 2.5856122970581055,
+    "col": 3.4428110122680664,
+    "dis": 3.7933363914489746,
+    "loud": 2.72788143157959
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0052_4_695_2_7_001-ch6-speaker_seg35.wav": {
+    "mos": 1.2223334312438965,
+    "noi": 1.5165109634399414,
+    "col": 1.7488223314285278,
+    "dis": 2.318683624267578,
+    "loud": 2.1695663928985596
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0065_book_02919_chp_0003_reader_01441_25_seg.wav": {
+    "mos": 4.2025041580200195,
+    "noi": 4.008163928985596,
+    "col": 3.8618011474609375,
+    "dis": 4.3051629066467285,
+    "loud": 4.27323055267334
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0074_book_09027_chp_0001_reader_07466_17_seg.wav": {
+    "mos": 4.561257839202881,
+    "noi": 4.291604518890381,
+    "col": 4.235614776611328,
+    "dis": 4.373255729675293,
+    "loud": 4.448670387268066
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0076_book_06002_chp_0021_reader_06596_18_seg.wav": {
+    "mos": 4.676867961883545,
+    "noi": 4.601245403289795,
+    "col": 4.2981367111206055,
+    "dis": 4.524781703948975,
+    "loud": 4.570873260498047
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0083_book_03675_chp_0022_reader_05502_0_seg.wav": {
+    "mos": 4.402458190917969,
+    "noi": 4.5946044921875,
+    "col": 4.024095058441162,
+    "dis": 4.159391403198242,
+    "loud": 4.383234024047852
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0086_1_704_2_7_001-ch6-speaker_seg60.wav": {
+    "mos": 3.878843307495117,
+    "noi": 3.9556827545166016,
+    "col": 3.68612003326416,
+    "dis": 4.090602397918701,
+    "loud": 3.915297746658325
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0089_3_924_2_7_001-ch6-speaker_seg50.wav": {
+    "mos": 3.9035696983337402,
+    "noi": 3.748042106628418,
+    "col": 3.7181200981140137,
+    "dis": 4.122982025146484,
+    "loud": 3.9975666999816895
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0091_1_1327_2_7_001-ch6-speaker_seg75.wav": {
+    "mos": 2.705784559249878,
+    "noi": 2.658869743347168,
+    "col": 2.973792552947998,
+    "dis": 3.744668483734131,
+    "loud": 2.8510780334472656
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0098_3_997_2_7_001-ch6-speaker_seg23.wav": {
+    "mos": 2.9068336486816406,
+    "noi": 3.5314455032348633,
+    "col": 2.2880654335021973,
+    "dis": 3.870418071746826,
+    "loud": 3.123652696609497
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0099_4_644_2_7_001-ch6-speaker_seg112.wav": {
+    "mos": 2.7125322818756104,
+    "noi": 3.2094063758850098,
+    "col": 2.166400671005249,
+    "dis": 3.672492027282715,
+    "loud": 3.1071505546569824
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0101_2_283_2_7_001-ch6-speaker_seg30.wav": {
+    "mos": 3.2358388900756836,
+    "noi": 3.7085018157958984,
+    "col": 2.4743549823760986,
+    "dis": 3.897887706756592,
+    "loud": 3.485609292984009
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0112_book_02178_chp_0035_reader_00579_49_seg.wav": {
+    "mos": 4.178407669067383,
+    "noi": 4.204089641571045,
+    "col": 3.697929620742798,
+    "dis": 4.255166053771973,
+    "loud": 4.177883625030518
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0113_book_06945_chp_0008_reader_03510_6_seg.wav": {
+    "mos": 4.388176918029785,
+    "noi": 4.358118057250977,
+    "col": 3.9890542030334473,
+    "dis": 4.3361945152282715,
+    "loud": 4.316737174987793
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0121_som_00295_01318365968_seg.wav": {
+    "mos": 4.678208351135254,
+    "noi": 4.557344913482666,
+    "col": 4.377176284790039,
+    "dis": 4.455993175506592,
+    "loud": 4.606122016906738
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0122_book_02124_chp_0064_reader_02632_17_seg.wav": {
+    "mos": 4.585837364196777,
+    "noi": 4.52630615234375,
+    "col": 4.220707893371582,
+    "dis": 4.468955039978027,
+    "loud": 4.436324119567871
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0124_book_04471_chp_0004_reader_08310_20_seg.wav": {
+    "mos": 3.834693431854248,
+    "noi": 4.092503547668457,
+    "col": 3.4687275886535645,
+    "dis": 4.098334789276123,
+    "loud": 3.9139647483825684
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0125_nom_09697_01223888821_seg.wav": {
+    "mos": 3.9075114727020264,
+    "noi": 4.389240741729736,
+    "col": 3.598515033721924,
+    "dis": 3.748722553253174,
+    "loud": 4.208425998687744
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0127_som_08784_00298372515_seg.wav": {
+    "mos": 4.6133036613464355,
+    "noi": 4.492607116699219,
+    "col": 4.263830661773682,
+    "dis": 4.532068729400635,
+    "loud": 4.475188732147217
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0128_book_04723_chp_0026_reader_08095_13_seg.wav": {
+    "mos": 4.194836616516113,
+    "noi": 4.127592086791992,
+    "col": 3.922974109649658,
+    "dis": 4.257122039794922,
+    "loud": 4.231095314025879
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0129_3_567_2_7_001-ch6-speaker_seg73.wav": {
+    "mos": 4.089481353759766,
+    "noi": 3.8622753620147705,
+    "col": 3.8341941833496094,
+    "dis": 4.194684028625488,
+    "loud": 4.160694599151611
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0130_2_1369_2_7_001-ch6-speaker_seg37.wav": {
+    "mos": 3.339709997177124,
+    "noi": 3.5298283100128174,
+    "col": 3.3024888038635254,
+    "dis": 3.7877004146575928,
+    "loud": 3.5262293815612793
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0135_book_06958_chp_0025_reader_04612_19_seg.wav": {
+    "mos": 4.193453788757324,
+    "noi": 3.8846988677978516,
+    "col": 3.875927448272705,
+    "dis": 4.282319068908691,
+    "loud": 4.270049571990967
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0142_book_09423_chp_0020_reader_05319_65_seg.wav": {
+    "mos": 2.3404459953308105,
+    "noi": 2.7729389667510986,
+    "col": 2.0892043113708496,
+    "dis": 3.6436352729797363,
+    "loud": 2.717999219894409
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0150_4_606_2_7_001-ch6-speaker_seg11.wav": {
+    "mos": 3.059260368347168,
+    "noi": 3.0814151763916016,
+    "col": 3.165303945541382,
+    "dis": 3.6192073822021484,
+    "loud": 3.3291051387786865
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0152_book_09423_chp_0004_reader_00966_9_seg.wav": {
+    "mos": 4.101223945617676,
+    "noi": 3.8884971141815186,
+    "col": 3.876582622528076,
+    "dis": 4.381050109863281,
+    "loud": 4.1448564529418945
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0167_book_09587_chp_0003_reader_00683_31_seg.wav": {
+    "mos": 4.343194007873535,
+    "noi": 4.185419082641602,
+    "col": 4.0277910232543945,
+    "dis": 4.467179298400879,
+    "loud": 4.3223066329956055
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0168_wem_02484_00131381520_seg.wav": {
+    "mos": 4.522021293640137,
+    "noi": 4.24228572845459,
+    "col": 4.237322807312012,
+    "dis": 4.551939964294434,
+    "loud": 4.466863632202148
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0170_book_09123_chp_0008_reader_09714_2_seg.wav": {
+    "mos": 4.495050430297852,
+    "noi": 4.474133491516113,
+    "col": 4.0841898918151855,
+    "dis": 4.415885925292969,
+    "loud": 4.3921613693237305
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0176_1_704_2_7_001-ch6-speaker_seg101.wav": {
+    "mos": 2.9797887802124023,
+    "noi": 2.6107566356658936,
+    "col": 3.2150282859802246,
+    "dis": 3.5299572944641113,
+    "loud": 3.583484411239624
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0188_2_891_2_7_001-ch6-speaker_seg20.wav": {
+    "mos": 2.372195243835449,
+    "noi": 3.375696897506714,
+    "col": 2.122917652130127,
+    "dis": 2.884387493133545,
+    "loud": 3.2227768898010254
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0192_book_04633_chp_0003_reader_07326_23_seg.wav": {
+    "mos": 2.943457841873169,
+    "noi": 3.587477922439575,
+    "col": 2.4004368782043457,
+    "dis": 3.689401865005493,
+    "loud": 3.348022222518921
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0196_2_918_2_7_001-ch6-speaker_seg61.wav": {
+    "mos": 2.673450231552124,
+    "noi": 3.149444818496704,
+    "col": 2.312201499938965,
+    "dis": 3.6157331466674805,
+    "loud": 3.119108200073242
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0197_book_11020_chp_0008_reader_06271_0_seg.wav": {
+    "mos": 2.822540283203125,
+    "noi": 3.212440013885498,
+    "col": 2.2587814331054688,
+    "dis": 3.661816120147705,
+    "loud": 3.2809064388275146
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0200_book_09047_chp_0001_reader_07208_1_seg.wav": {
+    "mos": 2.4104163646698,
+    "noi": 3.2984256744384766,
+    "col": 2.1080713272094727,
+    "dis": 3.0800209045410156,
+    "loud": 2.968423843383789
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0203_3_878_2_7_001-ch6-speaker_seg114.wav": {
+    "mos": 3.0171241760253906,
+    "noi": 3.1363868713378906,
+    "col": 2.555746555328369,
+    "dis": 4.001294136047363,
+    "loud": 3.3412067890167236
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0206_som_02121_00639511777_seg.wav": {
+    "mos": 2.534630060195923,
+    "noi": 3.75101375579834,
+    "col": 2.1524057388305664,
+    "dis": 2.8739731311798096,
+    "loud": 3.223069190979004
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0213_3_132_2_7_001-ch6-speaker_seg129.wav": {
+    "mos": 1.122376561164856,
+    "noi": 2.7897582054138184,
+    "col": 2.0400805473327637,
+    "dis": 1.299489140510559,
+    "loud": 2.7779459953308105
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0217_book_04756_chp_0030_reader_07309_35_seg.wav": {
+    "mos": 1.7087255716323853,
+    "noi": 3.4482951164245605,
+    "col": 1.9158238172531128,
+    "dis": 1.8473873138427734,
+    "loud": 2.9285333156585693
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0218_1_947_2_7_001-ch6-speaker_seg159.wav": {
+    "mos": 1.3336981534957886,
+    "noi": 1.8345078229904175,
+    "col": 2.1578750610351562,
+    "dis": 2.2751247882843018,
+    "loud": 2.1699774265289307
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0227_book_06877_chp_0012_reader_02601_5_seg.wav": {
+    "mos": 1.7037055492401123,
+    "noi": 3.345654010772705,
+    "col": 2.1391024589538574,
+    "dis": 1.740209698677063,
+    "loud": 3.0543549060821533
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0235_4_1302_2_7_001-ch6-speaker_seg64.wav": {
+    "mos": 3.523261785507202,
+    "noi": 3.985391616821289,
+    "col": 3.3904075622558594,
+    "dis": 3.4804868698120117,
+    "loud": 3.8948214054107666
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0239_3_156_2_7_001-ch6-speaker_seg91.wav": {
+    "mos": 2.614741802215576,
+    "noi": 3.1479477882385254,
+    "col": 2.7366437911987305,
+    "dis": 2.7627384662628174,
+    "loud": 3.4075679779052734
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0241_book_11225_chp_0075_reader_00817_0_seg.wav": {
+    "mos": 3.7641396522521973,
+    "noi": 4.158618450164795,
+    "col": 3.5373289585113525,
+    "dis": 3.804739236831665,
+    "loud": 3.934358835220337
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0256_som_03397_00796843759_seg.wav": {
+    "mos": 1.4184828996658325,
+    "noi": 3.2103376388549805,
+    "col": 2.2766945362091064,
+    "dis": 1.41130530834198,
+    "loud": 3.0596213340759277
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0257_book_06942_chp_0003_reader_02428_7_seg.wav": {
+    "mos": 4.2786102294921875,
+    "noi": 4.348627090454102,
+    "col": 3.8157336711883545,
+    "dis": 4.293956756591797,
+    "loud": 4.218062400817871
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0262_som_03397_00322684497_seg.wav": {
+    "mos": 2.5010857582092285,
+    "noi": 3.782665252685547,
+    "col": 2.622499704360962,
+    "dis": 2.2960596084594727,
+    "loud": 3.4375193119049072
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0268_book_01696_chp_0019_reader_08033_0_seg.wav": {
+    "mos": 1.898626685142517,
+    "noi": 3.668821334838867,
+    "col": 2.054884433746338,
+    "dis": 1.882757544517517,
+    "loud": 3.049020767211914
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0272_2_283_2_7_001-ch6-speaker_seg2.wav": {
+    "mos": 2.427088499069214,
+    "noi": 3.5955724716186523,
+    "col": 2.5546653270721436,
+    "dis": 2.2558999061584473,
+    "loud": 3.401165008544922
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0275_4_666_2_7_001-ch6-speaker_seg22.wav": {
+    "mos": 3.9512953758239746,
+    "noi": 3.914703845977783,
+    "col": 3.867830753326416,
+    "dis": 3.887164831161499,
+    "loud": 4.137821197509766
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0276_book_03893_chp_0004_reader_06273_13_seg.wav": {
+    "mos": 3.6563730239868164,
+    "noi": 4.216610908508301,
+    "col": 3.4371073246002197,
+    "dis": 3.519503593444824,
+    "loud": 3.9449687004089355
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0283_book_09047_chp_0001_reader_07208_2_seg.wav": {
+    "mos": 2.1606011390686035,
+    "noi": 3.880573034286499,
+    "col": 2.474076986312866,
+    "dis": 2.101142168045044,
+    "loud": 3.1894216537475586
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0299_1_279_2_7_001-ch6-speaker_seg111.wav": {
+    "mos": 4.029138088226318,
+    "noi": 3.712125778198242,
+    "col": 3.819591999053955,
+    "dis": 4.244524955749512,
+    "loud": 4.1025390625
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0300_3_132_2_7_001-ch6-speaker_seg184.wav": {
+    "mos": 1.6470006704330444,
+    "noi": 3.1012096405029297,
+    "col": 2.227158308029175,
+    "dis": 2.0913748741149902,
+    "loud": 2.668689727783203
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0301_2_93_2_7_001-ch6-speaker_seg26.wav": {
+    "mos": 1.698243498802185,
+    "noi": 2.9093918800354004,
+    "col": 2.2384066581726074,
+    "dis": 1.6485718488693237,
+    "loud": 3.110764741897583
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0307_2_1021_2_7_001-ch6-speaker_seg21.wav": {
+    "mos": 2.8445920944213867,
+    "noi": 3.035306453704834,
+    "col": 3.217923641204834,
+    "dis": 2.6716384887695312,
+    "loud": 3.6779723167419434
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0308_book_11110_chp_0045_reader_09003_7_seg.wav": {
+    "mos": 2.8058676719665527,
+    "noi": 3.4516868591308594,
+    "col": 2.8509416580200195,
+    "dis": 2.9602808952331543,
+    "loud": 3.5522775650024414
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0311_2_182_2_7_001-ch6-speaker_seg60.wav": {
+    "mos": 4.3707756996154785,
+    "noi": 4.021989822387695,
+    "col": 4.161761283874512,
+    "dis": 4.338401794433594,
+    "loud": 4.392377853393555
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0316_1_929_2_7_001-ch6-speaker_seg53.wav": {
+    "mos": 3.4568381309509277,
+    "noi": 3.07769513130188,
+    "col": 3.708171844482422,
+    "dis": 3.6159071922302246,
+    "loud": 4.000280857086182
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0329_book_03487_chp_0007_reader_11315_1_seg.wav": {
+    "mos": 2.2838430404663086,
+    "noi": 3.0356898307800293,
+    "col": 2.4377660751342773,
+    "dis": 2.519695281982422,
+    "loud": 3.387716770172119
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0333_3_790_2_7_001-ch6-speaker_seg89.wav": {
+    "mos": 1.0761194229125977,
+    "noi": 1.5788284540176392,
+    "col": 1.5027371644973755,
+    "dis": 1.8147492408752441,
+    "loud": 2.2543914318084717
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0346_3_132_2_7_001-ch6-speaker_seg152.wav": {
+    "mos": 1.7063339948654175,
+    "noi": 2.337369680404663,
+    "col": 2.3669991493225098,
+    "dis": 1.8280856609344482,
+    "loud": 3.037376880645752
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0355_som_01208_01770971308_seg.wav": {
+    "mos": 4.453617095947266,
+    "noi": 4.519174575805664,
+    "col": 4.055511951446533,
+    "dis": 4.3339338302612305,
+    "loud": 4.389028549194336
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0359_2_1021_2_7_001-ch6-speaker_seg38.wav": {
+    "mos": 3.0411791801452637,
+    "noi": 3.217453956604004,
+    "col": 3.1949124336242676,
+    "dis": 2.9484055042266846,
+    "loud": 3.756307601928711
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0362_3_972_2_7_001-ch6-speaker_seg33.wav": {
+    "mos": 3.5423364639282227,
+    "noi": 3.708740234375,
+    "col": 3.593592882156372,
+    "dis": 3.470785617828369,
+    "loud": 3.944554567337036
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0365_som_00295_01142003027_seg.wav": {
+    "mos": 4.331793308258057,
+    "noi": 4.558465957641602,
+    "col": 4.145935535430908,
+    "dis": 3.866359233856201,
+    "loud": 4.529083251953125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0368_2_93_2_7_001-ch6-speaker_seg22.wav": {
+    "mos": 2.1934707164764404,
+    "noi": 3.2720367908477783,
+    "col": 2.6853227615356445,
+    "dis": 1.9758316278457642,
+    "loud": 3.4586849212646484
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0385_2_93_2_7_001-ch6-speaker_seg8.wav": {
+    "mos": 2.224742889404297,
+    "noi": 3.0749857425689697,
+    "col": 2.791813373565674,
+    "dis": 2.028531789779663,
+    "loud": 3.4820377826690674
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0393_4_1345_2_7_001-ch6-speaker_seg70.wav": {
+    "mos": 1.8270413875579834,
+    "noi": 3.2353062629699707,
+    "col": 2.3309597969055176,
+    "dis": 2.014735221862793,
+    "loud": 3.0990657806396484
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0395_nom_09697_02067012916_seg.wav": {
+    "mos": 4.314229965209961,
+    "noi": 4.454113006591797,
+    "col": 4.022890567779541,
+    "dis": 4.160382270812988,
+    "loud": 4.397452354431152
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0402_4_1203_2_7_001-ch6-speaker_seg29.wav": {
+    "mos": 4.179563045501709,
+    "noi": 3.9268746376037598,
+    "col": 3.988767623901367,
+    "dis": 4.191492080688477,
+    "loud": 4.201959609985352
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0403_book_09185_chp_0031_reader_06803_13_seg.wav": {
+    "mos": 4.26885986328125,
+    "noi": 3.9701039791107178,
+    "col": 4.066640377044678,
+    "dis": 4.356842994689941,
+    "loud": 4.298403739929199
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0404_som_08784_02048900566_seg.wav": {
+    "mos": 4.2670183181762695,
+    "noi": 4.500725746154785,
+    "col": 3.9052839279174805,
+    "dis": 4.266077995300293,
+    "loud": 4.08723783493042
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0406_2_1329_2_7_001-ch6-speaker_seg116.wav": {
+    "mos": 1.5213440656661987,
+    "noi": 2.562058925628662,
+    "col": 2.5347213745117188,
+    "dis": 1.5011705160140991,
+    "loud": 3.168776512145996
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0410_som_02484_02069052113_seg.wav": {
+    "mos": 3.869790554046631,
+    "noi": 4.2834978103637695,
+    "col": 3.2186660766601562,
+    "dis": 4.133049488067627,
+    "loud": 4.010721206665039
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0412_2_1369_2_7_001-ch6-speaker_seg38.wav": {
+    "mos": 2.6063783168792725,
+    "noi": 3.4405996799468994,
+    "col": 2.469874382019043,
+    "dis": 3.2649312019348145,
+    "loud": 2.9716310501098633
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0415_book_04474_chp_0109_reader_07365_10_seg.wav": {
+    "mos": 2.495816946029663,
+    "noi": 3.5379202365875244,
+    "col": 1.9375832080841064,
+    "dis": 3.342729091644287,
+    "loud": 2.9130020141601562
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0419_book_00057_chp_0006_reader_07339_39_seg.wav": {
+    "mos": 3.2072064876556396,
+    "noi": 3.8785300254821777,
+    "col": 2.4227120876312256,
+    "dis": 3.8925750255584717,
+    "loud": 3.414261817932129
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0423_book_09189_chp_0009_reader_05867_18_seg.wav": {
+    "mos": 1.7895108461380005,
+    "noi": 3.3901920318603516,
+    "col": 1.768763780593872,
+    "dis": 2.2154417037963867,
+    "loud": 2.52787184715271
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0425_book_11221_chp_0022_reader_00822_1_seg.wav": {
+    "mos": 3.000314712524414,
+    "noi": 3.658902168273926,
+    "col": 2.369570016860962,
+    "dis": 3.75740385055542,
+    "loud": 3.319030523300171
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0432_4_706_2_7_001-ch6-speaker_seg113.wav": {
+    "mos": 2.1824679374694824,
+    "noi": 3.023871660232544,
+    "col": 2.2296643257141113,
+    "dis": 2.557522773742676,
+    "loud": 3.030517339706421
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0449_book_08344_chp_0016_reader_01487_1_seg.wav": {
+    "mos": 2.290825843811035,
+    "noi": 3.574998378753662,
+    "col": 1.906935214996338,
+    "dis": 3.0429024696350098,
+    "loud": 2.695833683013916
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0455_3_417_2_7_001-ch6-speaker_seg71.wav": {
+    "mos": 1.8468276262283325,
+    "noi": 3.3972573280334473,
+    "col": 2.6541123390197754,
+    "dis": 1.6511332988739014,
+    "loud": 3.342561721801758
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0459_nom_09697_00877616194_seg.wav": {
+    "mos": 2.2908318042755127,
+    "noi": 3.8423526287078857,
+    "col": 2.6479456424713135,
+    "dis": 1.850678563117981,
+    "loud": 3.44683575630188
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0460_1_114_2_7_001-ch6-speaker_seg55.wav": {
+    "mos": 2.0419552326202393,
+    "noi": 3.3877484798431396,
+    "col": 2.769655227661133,
+    "dis": 1.6831488609313965,
+    "loud": 3.4732632637023926
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0470_nom_07049_01274435405_seg.wav": {
+    "mos": 4.635611534118652,
+    "noi": 4.562713623046875,
+    "col": 4.2363972663879395,
+    "dis": 4.460964679718018,
+    "loud": 4.485166549682617
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0472_book_03171_chp_0002_reader_11133_12_seg.wav": {
+    "mos": 3.70538067817688,
+    "noi": 4.056794166564941,
+    "col": 3.6462087631225586,
+    "dis": 3.583491086959839,
+    "loud": 4.040966033935547
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0473_wem_02484_00522139599_seg.wav": {
+    "mos": 2.5761942863464355,
+    "noi": 3.827836751937866,
+    "col": 2.7538657188415527,
+    "dis": 2.6191306114196777,
+    "loud": 3.5477564334869385
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0480_book_09254_chp_0069_reader_08193_0_seg.wav": {
+    "mos": 1.5323491096496582,
+    "noi": 3.319432497024536,
+    "col": 2.4138851165771484,
+    "dis": 1.3751455545425415,
+    "loud": 3.1011695861816406
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0486_nom_09697_01138158066_seg.wav": {
+    "mos": 2.2810864448547363,
+    "noi": 3.8018531799316406,
+    "col": 2.6615447998046875,
+    "dis": 2.1212964057922363,
+    "loud": 3.4468867778778076
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0489_som_08784_01310645350_seg.wav": {
+    "mos": 4.174383163452148,
+    "noi": 4.407902240753174,
+    "col": 3.926069736480713,
+    "dis": 4.092848777770996,
+    "loud": 4.178900241851807
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0492_book_09987_chp_0025_reader_01957_10_seg.wav": {
+    "mos": 2.106167793273926,
+    "noi": 3.3806891441345215,
+    "col": 2.689880132675171,
+    "dis": 2.0430684089660645,
+    "loud": 3.357206106185913
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0495_nom_08421_01131749734_seg.wav": {
+    "mos": 2.7522501945495605,
+    "noi": 3.8944013118743896,
+    "col": 3.148651599884033,
+    "dis": 2.434436321258545,
+    "loud": 3.833066940307617
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0500_1_1284_2_7_001-ch6-speaker_seg44.wav": {
+    "mos": 1.4415756464004517,
+    "noi": 3.2696776390075684,
+    "col": 2.3419551849365234,
+    "dis": 1.5026413202285767,
+    "loud": 2.9341049194335938
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0501_som_00295_00261678022_seg.wav": {
+    "mos": 3.4114623069763184,
+    "noi": 4.207041263580322,
+    "col": 3.2676196098327637,
+    "dis": 3.229243755340576,
+    "loud": 3.8633644580841064
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0507_1_802_2_7_001-ch6-speaker_seg12.wav": {
+    "mos": 2.233760356903076,
+    "noi": 3.453550338745117,
+    "col": 2.580375909805298,
+    "dis": 2.217482566833496,
+    "loud": 3.233860969543457
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0511_book_08450_chp_0004_reader_08295_35_seg.wav": {
+    "mos": 3.394601821899414,
+    "noi": 3.9938549995422363,
+    "col": 3.213831663131714,
+    "dis": 3.3779425621032715,
+    "loud": 3.7883121967315674
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0514_book_02952_chp_0044_reader_01253_15_seg.wav": {
+    "mos": 2.1976451873779297,
+    "noi": 3.47652530670166,
+    "col": 2.5655102729797363,
+    "dis": 2.1459813117980957,
+    "loud": 3.4330596923828125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0527_1_929_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.914501667022705,
+    "noi": 3.2986507415771484,
+    "col": 3.1198010444641113,
+    "dis": 2.941760301589966,
+    "loud": 3.6875767707824707
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0529_2_891_2_7_001-ch6-speaker_seg157.wav": {
+    "mos": 3.984541654586792,
+    "noi": 4.0704874992370605,
+    "col": 3.8029630184173584,
+    "dis": 3.993257999420166,
+    "loud": 4.125661849975586
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0532_book_02857_chp_0013_reader_08034_22_seg.wav": {
+    "mos": 4.1888017654418945,
+    "noi": 3.923295259475708,
+    "col": 3.993112564086914,
+    "dis": 4.36328125,
+    "loud": 4.2693281173706055
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0538_book_03552_chp_0007_reader_02130_8_seg.wav": {
+    "mos": 1.727796196937561,
+    "noi": 3.2732691764831543,
+    "col": 2.141361713409424,
+    "dis": 2.0232009887695312,
+    "loud": 2.9778177738189697
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0539_book_09716_chp_0004_reader_10498_7_seg.wav": {
+    "mos": 4.525914192199707,
+    "noi": 4.371609210968018,
+    "col": 4.1769561767578125,
+    "dis": 4.465968608856201,
+    "loud": 4.443916320800781
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0549_book_05448_chp_0058_reader_07772_0_seg.wav": {
+    "mos": 3.912161111831665,
+    "noi": 3.1863036155700684,
+    "col": 3.9315271377563477,
+    "dis": 4.277243614196777,
+    "loud": 4.125037670135498
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0557_book_06174_chp_0038_reader_07146_4_seg.wav": {
+    "mos": 1.8959051370620728,
+    "noi": 3.276822566986084,
+    "col": 2.2931809425354004,
+    "dis": 2.083569049835205,
+    "loud": 3.2333364486694336
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0563_2_464_2_7_001-ch6-speaker_seg60.wav": {
+    "mos": 4.029186248779297,
+    "noi": 3.8486528396606445,
+    "col": 3.977719306945801,
+    "dis": 4.0815277099609375,
+    "loud": 4.206370830535889
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0565_book_04471_chp_0006_reader_08006_10_seg.wav": {
+    "mos": 2.6571474075317383,
+    "noi": 3.566941022872925,
+    "col": 2.7789812088012695,
+    "dis": 2.8256421089172363,
+    "loud": 3.583148956298828
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0570_2_1258_2_7_001-ch6-speaker_seg23.wav": {
+    "mos": 3.4731879234313965,
+    "noi": 3.0898430347442627,
+    "col": 3.3876147270202637,
+    "dis": 3.8043618202209473,
+    "loud": 3.8986477851867676
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0572_som_09799_01550011647_seg.wav": {
+    "mos": 2.009307861328125,
+    "noi": 3.393641710281372,
+    "col": 2.2393455505371094,
+    "dis": 2.0128886699676514,
+    "loud": 3.208709955215454
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0573_sof_04310_01980776347_seg.wav": {
+    "mos": 2.3386483192443848,
+    "noi": 3.8131000995635986,
+    "col": 2.0226826667785645,
+    "dis": 2.913611888885498,
+    "loud": 2.924909830093384
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0579_1_704_2_7_001-ch6-speaker_seg4.wav": {
+    "mos": 1.7015410661697388,
+    "noi": 2.9571542739868164,
+    "col": 2.082268714904785,
+    "dis": 1.925310492515564,
+    "loud": 2.8551149368286133
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0580_nom_07508_00947896358_seg.wav": {
+    "mos": 4.801355838775635,
+    "noi": 4.533141136169434,
+    "col": 4.522430896759033,
+    "dis": 4.600399017333984,
+    "loud": 4.639204978942871
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0581_book_10970_chp_0019_reader_10741_10_seg.wav": {
+    "mos": 2.9154350757598877,
+    "noi": 3.9001057147979736,
+    "col": 2.828063488006592,
+    "dis": 2.9887561798095703,
+    "loud": 3.653909206390381
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0595_3_132_2_7_001-ch6-speaker_seg49.wav": {
+    "mos": 2.8369252681732178,
+    "noi": 3.187335252761841,
+    "col": 3.0371832847595215,
+    "dis": 2.9957594871520996,
+    "loud": 3.5809121131896973
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0597_book_00677_chp_0022_reader_06672_14_seg.wav": {
+    "mos": 3.9483437538146973,
+    "noi": 3.9001386165618896,
+    "col": 3.7054848670959473,
+    "dis": 4.132638454437256,
+    "loud": 4.113470077514648
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0607_2_1329_2_7_001-ch6-speaker_seg8.wav": {
+    "mos": 3.275078773498535,
+    "noi": 3.3902907371520996,
+    "col": 3.5033786296844482,
+    "dis": 3.221062183380127,
+    "loud": 3.8575613498687744
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0610_book_02308_chp_0005_reader_10130_13_seg.wav": {
+    "mos": 4.117741584777832,
+    "noi": 3.8894593715667725,
+    "col": 3.8923943042755127,
+    "dis": 4.253487586975098,
+    "loud": 4.1176252365112305
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0618_nom_04310_00033080806_seg.wav": {
+    "mos": 4.245986461639404,
+    "noi": 4.144407749176025,
+    "col": 4.102972030639648,
+    "dis": 4.170576095581055,
+    "loud": 4.3356218338012695
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0620_4_644_2_7_001-ch6-speaker_seg52.wav": {
+    "mos": 2.858297348022461,
+    "noi": 3.4645001888275146,
+    "col": 3.2189621925354004,
+    "dis": 2.6448867321014404,
+    "loud": 3.7097091674804688
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0621_som_00295_01469059584_seg.wav": {
+    "mos": 3.5779480934143066,
+    "noi": 4.3025054931640625,
+    "col": 3.4669711589813232,
+    "dis": 3.399641752243042,
+    "loud": 4.030817031860352
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0623_1_279_2_7_001-ch6-speaker_seg115.wav": {
+    "mos": 3.680263042449951,
+    "noi": 3.667494773864746,
+    "col": 3.4343149662017822,
+    "dis": 3.913174629211426,
+    "loud": 3.907775402069092
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0628_2_214_2_7_001-ch6-speaker_seg91.wav": {
+    "mos": 4.05776309967041,
+    "noi": 3.590773582458496,
+    "col": 4.069104194641113,
+    "dis": 4.238961219787598,
+    "loud": 4.1413140296936035
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0629_book_02397_chp_0011_reader_08260_41_seg.wav": {
+    "mos": 3.7378454208374023,
+    "noi": 3.2909622192382812,
+    "col": 3.8765125274658203,
+    "dis": 4.045819282531738,
+    "loud": 4.117049217224121
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0639_4_666_2_7_001-ch6-speaker_seg48.wav": {
+    "mos": 2.9915504455566406,
+    "noi": 3.3645429611206055,
+    "col": 3.1102397441864014,
+    "dis": 3.2163524627685547,
+    "loud": 3.5774221420288086
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0643_2_1280_2_7_001-ch6-speaker_seg62.wav": {
+    "mos": 2.6196579933166504,
+    "noi": 3.4002556800842285,
+    "col": 2.8088157176971436,
+    "dis": 2.3791017532348633,
+    "loud": 3.548191785812378
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0651_som_01208_01385771741_seg.wav": {
+    "mos": 2.0295403003692627,
+    "noi": 3.5213782787323,
+    "col": 2.914050817489624,
+    "dis": 1.7628231048583984,
+    "loud": 3.5705347061157227
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0654_nom_07049_01809754366_seg.wav": {
+    "mos": 4.477612018585205,
+    "noi": 4.434121131896973,
+    "col": 4.197752475738525,
+    "dis": 4.3276567459106445,
+    "loud": 4.438868522644043
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0659_book_09928_chp_0007_reader_03595_18_seg.wav": {
+    "mos": 4.272031784057617,
+    "noi": 4.302987575531006,
+    "col": 3.954430341720581,
+    "dis": 4.131697654724121,
+    "loud": 4.301546096801758
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0664_1_279_2_7_001-ch6-speaker_seg85.wav": {
+    "mos": 2.4579427242279053,
+    "noi": 3.325037717819214,
+    "col": 2.3607747554779053,
+    "dis": 2.709106922149658,
+    "loud": 3.1980819702148438
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0682_2_1369_2_7_001-ch6-speaker_seg45.wav": {
+    "mos": 2.957568645477295,
+    "noi": 2.743541955947876,
+    "col": 3.310436964035034,
+    "dis": 3.7163171768188477,
+    "loud": 3.4792792797088623
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0684_3_972_2_7_001-ch6-speaker_seg51.wav": {
+    "mos": 2.038255453109741,
+    "noi": 2.019958257675171,
+    "col": 2.325035810470581,
+    "dis": 3.000993251800537,
+    "loud": 2.8978874683380127
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0687_book_08367_chp_0010_reader_00605_2_seg.wav": {
+    "mos": 2.6621289253234863,
+    "noi": 1.9112673997879028,
+    "col": 3.2394156455993652,
+    "dis": 3.7992665767669678,
+    "loud": 3.412092685699463
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0693_book_04245_chp_0028_reader_05868_45_seg.wav": {
+    "mos": 3.9403624534606934,
+    "noi": 3.736067295074463,
+    "col": 3.6309118270874023,
+    "dis": 4.238518714904785,
+    "loud": 4.027406215667725
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0695_1_1284_2_7_001-ch6-speaker_seg60.wav": {
+    "mos": 3.1497862339019775,
+    "noi": 3.0338711738586426,
+    "col": 3.3323726654052734,
+    "dis": 3.425609827041626,
+    "loud": 3.7017226219177246
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0697_book_00693_chp_0015_reader_09533_6_seg.wav": {
+    "mos": 2.6510558128356934,
+    "noi": 2.2700343132019043,
+    "col": 2.90360164642334,
+    "dis": 3.6321945190429688,
+    "loud": 3.4015843868255615
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0699_3_132_2_7_001-ch6-speaker_seg14.wav": {
+    "mos": 3.2472188472747803,
+    "noi": 2.6637721061706543,
+    "col": 3.507139205932617,
+    "dis": 4.08964729309082,
+    "loud": 3.7842719554901123
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0700_book_06002_chp_0021_reader_06596_2_seg.wav": {
+    "mos": 3.355909824371338,
+    "noi": 2.5485727787017822,
+    "col": 3.5991783142089844,
+    "dis": 4.027771949768066,
+    "loud": 3.8005919456481934
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0711_1_301_2_7_001-ch6-speaker_seg77.wav": {
+    "mos": 2.564976930618286,
+    "noi": 3.0566420555114746,
+    "col": 2.8014330863952637,
+    "dis": 2.8632760047912598,
+    "loud": 3.3905014991760254
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0713_4_682_2_7_001-ch6-speaker_seg64.wav": {
+    "mos": 2.352351665496826,
+    "noi": 1.9707889556884766,
+    "col": 2.8329946994781494,
+    "dis": 3.5523722171783447,
+    "loud": 2.969846248626709
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0726_nom_08421_01877481728_seg.wav": {
+    "mos": 2.8551487922668457,
+    "noi": 2.1634044647216797,
+    "col": 3.4720029830932617,
+    "dis": 3.510624647140503,
+    "loud": 3.865769863128662
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0728_book_00827_chp_0003_reader_06966_1_seg.wav": {
+    "mos": 2.3242673873901367,
+    "noi": 1.740249752998352,
+    "col": 3.4164395332336426,
+    "dis": 3.7918434143066406,
+    "loud": 3.341919422149658
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0733_3_1035_2_7_001-ch6-speaker_seg93.wav": {
+    "mos": 2.3997507095336914,
+    "noi": 1.8085287809371948,
+    "col": 2.791938066482544,
+    "dis": 3.8457934856414795,
+    "loud": 2.8970654010772705
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0738_book_06294_chp_0001_reader_09211_3_seg.wav": {
+    "mos": 3.27793025970459,
+    "noi": 2.2180652618408203,
+    "col": 3.750983953475952,
+    "dis": 4.187657356262207,
+    "loud": 3.8848602771759033
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0739_2_1329_2_7_001-ch6-speaker_seg107.wav": {
+    "mos": 3.253145456314087,
+    "noi": 2.308987617492676,
+    "col": 3.5954365730285645,
+    "dis": 4.143561363220215,
+    "loud": 3.7810845375061035
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0744_4_1345_2_7_001-ch6-speaker_seg42.wav": {
+    "mos": 2.7274556159973145,
+    "noi": 1.7656065225601196,
+    "col": 3.5110015869140625,
+    "dis": 3.7657103538513184,
+    "loud": 3.4863405227661133
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0746_book_05149_chp_0018_reader_04006_21_seg.wav": {
+    "mos": 3.2289183139801025,
+    "noi": 3.1091909408569336,
+    "col": 2.9608001708984375,
+    "dis": 3.619349956512451,
+    "loud": 3.7381229400634766
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0754_2_740_2_7_001-ch6-speaker_seg11.wav": {
+    "mos": 3.0343189239501953,
+    "noi": 2.9286446571350098,
+    "col": 2.850891590118408,
+    "dis": 3.442936420440674,
+    "loud": 3.5418243408203125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0758_som_03397_01346908268_seg.wav": {
+    "mos": 2.9626688957214355,
+    "noi": 2.0025253295898438,
+    "col": 3.659717321395874,
+    "dis": 3.655121326446533,
+    "loud": 3.874073028564453
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0766_som_08784_01263585175_seg.wav": {
+    "mos": 2.440735340118408,
+    "noi": 2.8179008960723877,
+    "col": 2.887173652648926,
+    "dis": 2.5111162662506104,
+    "loud": 3.5442018508911133
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0769_book_10026_chp_0012_reader_00202_5_seg.wav": {
+    "mos": 2.001138687133789,
+    "noi": 1.6856472492218018,
+    "col": 2.930349111557007,
+    "dis": 2.8018667697906494,
+    "loud": 3.2908191680908203
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0772_nom_06136_00799360202_seg.wav": {
+    "mos": 3.4208076000213623,
+    "noi": 2.962785243988037,
+    "col": 3.4721977710723877,
+    "dis": 4.003157615661621,
+    "loud": 3.859891414642334
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0775_nom_08421_01964799814_seg.wav": {
+    "mos": 2.7949023246765137,
+    "noi": 2.4835965633392334,
+    "col": 2.818014144897461,
+    "dis": 3.500528573989868,
+    "loud": 3.5473692417144775
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0782_som_00295_00054257220_seg.wav": {
+    "mos": 2.2465157508850098,
+    "noi": 1.7119922637939453,
+    "col": 2.9371228218078613,
+    "dis": 3.6235318183898926,
+    "loud": 3.2136197090148926
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0787_book_09027_chp_0001_reader_07466_16_seg.wav": {
+    "mos": 4.350098609924316,
+    "noi": 4.274190902709961,
+    "col": 3.9805190563201904,
+    "dis": 4.371748924255371,
+    "loud": 4.274502754211426
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0793_book_07219_chp_0001_reader_10726_1_seg.wav": {
+    "mos": 3.634877920150757,
+    "noi": 3.6900620460510254,
+    "col": 3.4859371185302734,
+    "dis": 3.6848363876342773,
+    "loud": 4.048309326171875
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0798_1_1155_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.1840286254882812,
+    "noi": 3.0143039226531982,
+    "col": 2.1892895698547363,
+    "dis": 2.6178832054138184,
+    "loud": 2.914738893508911
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0801_book_07127_chp_0002_reader_08445_73_seg.wav": {
+    "mos": 2.5385384559631348,
+    "noi": 3.3172428607940674,
+    "col": 2.098254919052124,
+    "dis": 3.1154236793518066,
+    "loud": 3.1204311847686768
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0802_book_08095_chp_0001_reader_00038_0_seg.wav": {
+    "mos": 2.2126142978668213,
+    "noi": 3.4670138359069824,
+    "col": 1.97085440158844,
+    "dis": 2.842715263366699,
+    "loud": 2.7766010761260986
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0807_2_81_2_7_001-ch6-speaker_seg1.wav": {
+    "mos": 3.2827703952789307,
+    "noi": 3.4627294540405273,
+    "col": 2.8549723625183105,
+    "dis": 3.8986287117004395,
+    "loud": 3.643707036972046
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0822_4_920_2_7_001-ch6-speaker_seg23.wav": {
+    "mos": 1.758699655532837,
+    "noi": 2.583153486251831,
+    "col": 1.8805012702941895,
+    "dis": 2.3816394805908203,
+    "loud": 2.7432422637939453
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0824_book_09495_chp_0026_reader_02223_16_seg.wav": {
+    "mos": 1.7951105833053589,
+    "noi": 3.3674733638763428,
+    "col": 2.2202157974243164,
+    "dis": 1.6832071542739868,
+    "loud": 3.1117141246795654
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0834_som_09799_00277782272_seg.wav": {
+    "mos": 4.27083683013916,
+    "noi": 4.28317928314209,
+    "col": 3.814162254333496,
+    "dis": 4.306656837463379,
+    "loud": 4.210225582122803
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0837_book_00625_chp_0018_reader_07723_32_seg.wav": {
+    "mos": 3.2905220985412598,
+    "noi": 4.082215309143066,
+    "col": 3.153010129928589,
+    "dis": 3.339385509490967,
+    "loud": 3.7069873809814453
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0840_book_07907_chp_0011_reader_07487_19_seg.wav": {
+    "mos": 3.051499843597412,
+    "noi": 3.823190212249756,
+    "col": 2.8572332859039307,
+    "dis": 3.2109832763671875,
+    "loud": 3.594351291656494
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0845_book_07269_chp_0015_reader_11888_41_seg.wav": {
+    "mos": 4.38437032699585,
+    "noi": 4.163883209228516,
+    "col": 4.098182678222656,
+    "dis": 4.34859561920166,
+    "loud": 4.3385515213012695
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0847_4_920_2_7_001-ch6-speaker_seg71.wav": {
+    "mos": 3.8344976902008057,
+    "noi": 3.2665629386901855,
+    "col": 3.914564609527588,
+    "dis": 4.2608962059021,
+    "loud": 3.9836692810058594
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0856_book_08203_chp_0019_reader_10166_4_seg.wav": {
+    "mos": 3.1746344566345215,
+    "noi": 3.4766087532043457,
+    "col": 2.587062358856201,
+    "dis": 3.8303871154785156,
+    "loud": 3.5243515968322754
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0859_scm_08421_00383628290_seg.wav": {
+    "mos": 3.306915283203125,
+    "noi": 4.216644287109375,
+    "col": 3.502656936645508,
+    "dis": 2.9108834266662598,
+    "loud": 4.0539984703063965
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0861_book_01187_chp_0026_reader_02957_10_seg.wav": {
+    "mos": 2.906402349472046,
+    "noi": 3.7489943504333496,
+    "col": 2.957010269165039,
+    "dis": 2.922835111618042,
+    "loud": 3.6439170837402344
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0863_scm_08421_01136137567_seg.wav": {
+    "mos": 2.925171375274658,
+    "noi": 4.008871078491211,
+    "col": 3.0733933448791504,
+    "dis": 2.6061878204345703,
+    "loud": 3.8129005432128906
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0866_1_279_2_7_001-ch6-speaker_seg87.wav": {
+    "mos": 2.9917702674865723,
+    "noi": 3.527327537536621,
+    "col": 2.4454121589660645,
+    "dis": 3.933948040008545,
+    "loud": 3.253788948059082
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0867_book_07791_chp_0003_reader_04882_36_seg.wav": {
+    "mos": 2.7147347927093506,
+    "noi": 3.53640079498291,
+    "col": 2.422110080718994,
+    "dis": 3.1793909072875977,
+    "loud": 3.3344271183013916
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0870_nom_00610_01821069191_seg.wav": {
+    "mos": 4.351285457611084,
+    "noi": 4.358147144317627,
+    "col": 4.036888122558594,
+    "dis": 4.279436111450195,
+    "loud": 4.318580150604248
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0881_book_09501_chp_0011_reader_10098_38_seg.wav": {
+    "mos": 2.1394805908203125,
+    "noi": 3.5707924365997314,
+    "col": 2.3919947147369385,
+    "dis": 2.035935401916504,
+    "loud": 3.3972816467285156
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0883_4_1151_2_7_001-ch6-speaker_seg28.wav": {
+    "mos": 2.596151351928711,
+    "noi": 2.654566764831543,
+    "col": 2.373382568359375,
+    "dis": 3.551372528076172,
+    "loud": 3.131855010986328
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0885_book_00955_chp_0009_reader_06471_2_seg.wav": {
+    "mos": 4.170895576477051,
+    "noi": 4.052399158477783,
+    "col": 3.90460205078125,
+    "dis": 4.343411445617676,
+    "loud": 4.232110977172852
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0886_book_11177_chp_0002_reader_00346_15_seg.wav": {
+    "mos": 4.174657344818115,
+    "noi": 3.984916925430298,
+    "col": 3.974106550216675,
+    "dis": 4.271764278411865,
+    "loud": 4.193957328796387
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0888_4_1345_2_7_001-ch6-speaker_seg66.wav": {
+    "mos": 2.6570205688476562,
+    "noi": 3.078883409500122,
+    "col": 2.2679147720336914,
+    "dis": 3.3818323612213135,
+    "loud": 3.2011332511901855
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0895_nof_06136_02009243167_seg.wav": {
+    "mos": 2.054842710494995,
+    "noi": 2.951159715652466,
+    "col": 2.366509199142456,
+    "dis": 2.434622287750244,
+    "loud": 2.6847567558288574
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0897_book_00488_chp_0002_reader_01577_68_seg.wav": {
+    "mos": 3.85231351852417,
+    "noi": 3.8395965099334717,
+    "col": 3.6433682441711426,
+    "dis": 4.218181610107422,
+    "loud": 3.2999231815338135
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0899_4_1371_2_7_001-ch6-speaker_seg13.wav": {
+    "mos": 2.084588050842285,
+    "noi": 2.8032760620117188,
+    "col": 2.3067235946655273,
+    "dis": 2.220155954360962,
+    "loud": 3.1815366744995117
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0904_book_05250_chp_0043_reader_08475_1_seg.wav": {
+    "mos": 2.7585227489471436,
+    "noi": 3.128080368041992,
+    "col": 2.183239459991455,
+    "dis": 3.436410903930664,
+    "loud": 3.2581305503845215
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0909_book_01779_chp_0037_reader_02322_3_seg.wav": {
+    "mos": 3.963681221008301,
+    "noi": 4.301021575927734,
+    "col": 3.3227386474609375,
+    "dis": 4.174742221832275,
+    "loud": 4.05222225189209
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0914_book_00665_chp_0003_reader_05738_0_seg.wav": {
+    "mos": 3.4825119972229004,
+    "noi": 4.047669410705566,
+    "col": 3.2536044120788574,
+    "dis": 3.4505720138549805,
+    "loud": 3.978043556213379
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0916_1_947_2_7_001-ch6-speaker_seg133.wav": {
+    "mos": 3.7432212829589844,
+    "noi": 3.8723936080932617,
+    "col": 3.600080966949463,
+    "dis": 3.8866121768951416,
+    "loud": 3.8667449951171875
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0928_1_114_2_7_001-ch6-speaker_seg46.wav": {
+    "mos": 4.045605182647705,
+    "noi": 3.5996763706207275,
+    "col": 3.9695022106170654,
+    "dis": 4.199258327484131,
+    "loud": 4.1539177894592285
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0930_som_03397_00879539919_seg.wav": {
+    "mos": 4.5374979972839355,
+    "noi": 4.340991973876953,
+    "col": 4.262077331542969,
+    "dis": 4.514240264892578,
+    "loud": 4.443280220031738
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0932_nom_08421_01358899656_seg.wav": {
+    "mos": 4.676003932952881,
+    "noi": 4.495227813720703,
+    "col": 4.343175411224365,
+    "dis": 4.535436630249023,
+    "loud": 4.548577308654785
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0936_book_04988_chp_0025_reader_02019_20_seg.wav": {
+    "mos": 4.284440040588379,
+    "noi": 4.33969783782959,
+    "col": 3.856126308441162,
+    "dis": 4.306684494018555,
+    "loud": 4.210834980010986
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0946_book_04185_chp_0009_reader_07968_0_seg.wav": {
+    "mos": 1.6295316219329834,
+    "noi": 3.074955940246582,
+    "col": 1.4429199695587158,
+    "dis": 2.278548240661621,
+    "loud": 2.682297468185425
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0950_som_08784_01562240092_seg.wav": {
+    "mos": 2.6403913497924805,
+    "noi": 4.036018371582031,
+    "col": 3.4480037689208984,
+    "dis": 2.2057764530181885,
+    "loud": 3.8526296615600586
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0954_book_09628_chp_0013_reader_05511_9_seg.wav": {
+    "mos": 0.9240165948867798,
+    "noi": 3.2184600830078125,
+    "col": 1.2641476392745972,
+    "dis": 3.1484389305114746,
+    "loud": 1.540208101272583
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0956_book_01468_chp_0048_reader_10137_1_seg.wav": {
+    "mos": 3.709613084793091,
+    "noi": 4.336773872375488,
+    "col": 3.164057731628418,
+    "dis": 4.097221374511719,
+    "loud": 3.70253324508667
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0963_1_1284_2_7_001-ch6-speaker_seg96.wav": {
+    "mos": 4.454390525817871,
+    "noi": 4.076933860778809,
+    "col": 4.260385990142822,
+    "dis": 4.394598960876465,
+    "loud": 4.4236955642700195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0967_3_112_2_7_001-ch6-speaker_seg73.wav": {
+    "mos": 3.2279720306396484,
+    "noi": 3.3621065616607666,
+    "col": 2.8414061069488525,
+    "dis": 3.932847023010254,
+    "loud": 3.5286221504211426
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0971_nom_04310_00755106764_seg.wav": {
+    "mos": 3.8533380031585693,
+    "noi": 2.804690361022949,
+    "col": 4.090415954589844,
+    "dis": 4.350393295288086,
+    "loud": 4.2616682052612305
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0978_2_740_2_7_001-ch6-speaker_seg14.wav": {
+    "mos": 3.3766958713531494,
+    "noi": 3.6499719619750977,
+    "col": 3.380218505859375,
+    "dis": 3.294198513031006,
+    "loud": 3.9224135875701904
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0986_book_01130_chp_0010_reader_03590_1_seg.wav": {
+    "mos": 3.6156272888183594,
+    "noi": 3.158169746398926,
+    "col": 3.58388090133667,
+    "dis": 4.1883745193481445,
+    "loud": 3.6867055892944336
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0988_book_06300_chp_0026_reader_09947_12_seg.wav": {
+    "mos": 3.9875378608703613,
+    "noi": 4.241436004638672,
+    "col": 3.3941287994384766,
+    "dis": 4.228581428527832,
+    "loud": 4.116971015930176
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0990_book_08115_chp_0007_reader_01334_7_seg.wav": {
+    "mos": 2.4851059913635254,
+    "noi": 3.9422714710235596,
+    "col": 2.704404830932617,
+    "dis": 2.5223774909973145,
+    "loud": 3.3828582763671875
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c0997_nom_07049_01668879456_seg.wav": {
+    "mos": 0.7891572713851929,
+    "noi": 3.1943297386169434,
+    "col": 1.239983320236206,
+    "dis": 3.060938835144043,
+    "loud": 1.4784883260726929
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1005_som_00295_00560469794_seg.wav": {
+    "mos": 3.6594700813293457,
+    "noi": 2.602707624435425,
+    "col": 4.024070739746094,
+    "dis": 4.319986343383789,
+    "loud": 4.1233391761779785
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1008_3_758_2_7_001-ch6-speaker_seg51.wav": {
+    "mos": 4.079744338989258,
+    "noi": 3.7326951026916504,
+    "col": 3.9519119262695312,
+    "dis": 4.35150671005249,
+    "loud": 4.14268159866333
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1017_2_389_2_7_001-ch6-speaker_seg65.wav": {
+    "mos": 3.813973903656006,
+    "noi": 3.3209428787231445,
+    "col": 3.893555164337158,
+    "dis": 4.1699419021606445,
+    "loud": 3.984290599822998
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1025_book_09715_chp_0017_reader_05330_8_seg.wav": {
+    "mos": 3.956226348876953,
+    "noi": 3.9221887588500977,
+    "col": 3.6382346153259277,
+    "dis": 4.2797160148620605,
+    "loud": 4.195317268371582
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1029_1_374_2_7_001-ch6-speaker_seg41.wav": {
+    "mos": 3.07498836517334,
+    "noi": 2.180291175842285,
+    "col": 3.6067817211151123,
+    "dis": 4.106076240539551,
+    "loud": 3.63969087600708
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1041_book_02293_chp_0026_reader_09801_1_seg.wav": {
+    "mos": 1.8481595516204834,
+    "noi": 1.5444649457931519,
+    "col": 2.957050323486328,
+    "dis": 3.7704758644104004,
+    "loud": 2.8088059425354004
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1043_book_09331_chp_0019_reader_11192_3_seg.wav": {
+    "mos": 2.2652149200439453,
+    "noi": 3.4445178508758545,
+    "col": 2.1850249767303467,
+    "dis": 2.495922327041626,
+    "loud": 3.2332606315612793
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1049_book_00381_chp_0007_reader_00426_6_seg.wav": {
+    "mos": 2.169239044189453,
+    "noi": 1.734327793121338,
+    "col": 2.62770414352417,
+    "dis": 3.8206024169921875,
+    "loud": 2.797722339630127
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1059_nom_07508_01335215557_seg.wav": {
+    "mos": 3.8298110961914062,
+    "noi": 4.464046478271484,
+    "col": 3.9154040813446045,
+    "dis": 3.431131362915039,
+    "loud": 4.328442096710205
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1066_2_1027_2_7_001-ch6-speaker_seg24.wav": {
+    "mos": 4.072168827056885,
+    "noi": 3.5584115982055664,
+    "col": 4.06710958480835,
+    "dis": 4.102140426635742,
+    "loud": 4.2067999839782715
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1074_book_09716_chp_0004_reader_10498_12_seg.wav": {
+    "mos": 4.538685321807861,
+    "noi": 4.370006561279297,
+    "col": 4.150876045227051,
+    "dis": 4.428031921386719,
+    "loud": 4.431690216064453
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1076_nom_06136_01816256485_seg.wav": {
+    "mos": 1.329774260520935,
+    "noi": 2.8570384979248047,
+    "col": 1.5520983934402466,
+    "dis": 2.220974922180176,
+    "loud": 2.5998072624206543
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1079_1_148_2_7_001-ch6-speaker_seg11.wav": {
+    "mos": 1.617123007774353,
+    "noi": 2.1189725399017334,
+    "col": 2.065528392791748,
+    "dis": 2.5257973670959473,
+    "loud": 2.6772494316101074
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1080_1_1284_2_7_001-ch6-speaker_seg46.wav": {
+    "mos": 4.058594226837158,
+    "noi": 3.688075065612793,
+    "col": 4.002825736999512,
+    "dis": 4.203774452209473,
+    "loud": 4.174489498138428
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1081_book_02845_chp_0006_reader_01687_7_seg.wav": {
+    "mos": 2.3552045822143555,
+    "noi": 1.841223955154419,
+    "col": 3.1363108158111572,
+    "dis": 3.5744104385375977,
+    "loud": 3.4457695484161377
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1088_nom_07508_00940057870_seg.wav": {
+    "mos": 2.2290749549865723,
+    "noi": 1.8979412317276,
+    "col": 2.629503011703491,
+    "dis": 3.3895201683044434,
+    "loud": 2.9602513313293457
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1092_book_01107_chp_0027_reader_04829_25_seg.wav": {
+    "mos": 3.9394333362579346,
+    "noi": 4.234100341796875,
+    "col": 3.201066493988037,
+    "dis": 4.327844619750977,
+    "loud": 3.978177547454834
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1099_book_02418_chp_0018_reader_10869_2_seg.wav": {
+    "mos": 1.728354573249817,
+    "noi": 2.9925453662872314,
+    "col": 1.8271971940994263,
+    "dis": 2.0727691650390625,
+    "loud": 2.7212026119232178
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1113_nom_09697_01308031150_seg.wav": {
+    "mos": 4.0432891845703125,
+    "noi": 4.231667518615723,
+    "col": 3.615144729614258,
+    "dis": 4.146577835083008,
+    "loud": 4.141026496887207
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1119_4_706_2_7_001-ch6-speaker_seg76.wav": {
+    "mos": 3.4942479133605957,
+    "noi": 3.6794047355651855,
+    "col": 3.213080644607544,
+    "dis": 3.930769443511963,
+    "loud": 3.646160364151001
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1120_book_02764_chp_0011_reader_02612_21_seg.wav": {
+    "mos": 4.063071250915527,
+    "noi": 4.282077312469482,
+    "col": 3.722198247909546,
+    "dis": 4.168001651763916,
+    "loud": 4.124302864074707
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1121_book_07548_chp_0007_reader_01639_28_seg.wav": {
+    "mos": 2.7193827629089355,
+    "noi": 3.6053290367126465,
+    "col": 2.0675582885742188,
+    "dis": 3.73960018157959,
+    "loud": 2.976529598236084
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1122_book_06176_chp_0039_reader_00994_38_seg.wav": {
+    "mos": 1.2815669775009155,
+    "noi": 3.6001319885253906,
+    "col": 1.2528680562973022,
+    "dis": 3.630054235458374,
+    "loud": 1.7743104696273804
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1136_4_1345_2_7_001-ch6-speaker_seg44.wav": {
+    "mos": 4.119400978088379,
+    "noi": 3.9548909664154053,
+    "col": 4.064306259155273,
+    "dis": 4.181396961212158,
+    "loud": 4.1484785079956055
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1138_1_213_2_7_001-ch6-speaker_seg100.wav": {
+    "mos": 3.982311248779297,
+    "noi": 4.184893608093262,
+    "col": 3.8029470443725586,
+    "dis": 3.8958113193511963,
+    "loud": 4.066722869873047
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1148_book_00497_chp_0002_reader_06629_29_seg.wav": {
+    "mos": 0.8926957845687866,
+    "noi": 2.0796003341674805,
+    "col": 1.5395301580429077,
+    "dis": 1.916305422782898,
+    "loud": 2.388164520263672
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1149_sof_03397_00531470882_seg.wav": {
+    "mos": 3.2730729579925537,
+    "noi": 3.774566173553467,
+    "col": 2.5794730186462402,
+    "dis": 3.9243407249450684,
+    "loud": 3.545009136199951
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1151_3_156_2_7_001-ch6-speaker_seg48.wav": {
+    "mos": 3.286557912826538,
+    "noi": 3.716442584991455,
+    "col": 2.7469797134399414,
+    "dis": 3.920839786529541,
+    "loud": 3.5926146507263184
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1153_3_1026_2_7_001-ch6-speaker_seg31.wav": {
+    "mos": 4.007988929748535,
+    "noi": 3.95710825920105,
+    "col": 3.8289918899536133,
+    "dis": 3.9886040687561035,
+    "loud": 4.152975559234619
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1157_nom_07049_00507449361_seg.wav": {
+    "mos": 1.9611146450042725,
+    "noi": 3.6766157150268555,
+    "col": 1.6074779033660889,
+    "dis": 3.8518662452697754,
+    "loud": 2.294239044189453
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1159_book_08940_chp_0006_reader_06910_4_seg.wav": {
+    "mos": 3.945314884185791,
+    "noi": 4.045207977294922,
+    "col": 3.4084386825561523,
+    "dis": 4.297906875610352,
+    "loud": 3.9889605045318604
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1161_book_03746_chp_0003_reader_09127_9_seg.wav": {
+    "mos": 4.539588928222656,
+    "noi": 4.369172096252441,
+    "col": 4.111493110656738,
+    "dis": 4.494148254394531,
+    "loud": 4.411579132080078
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1163_book_04756_chp_0030_reader_07309_18_seg.wav": {
+    "mos": 2.03228497505188,
+    "noi": 2.0556609630584717,
+    "col": 2.0749287605285645,
+    "dis": 3.2450942993164062,
+    "loud": 2.635704517364502
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1166_1_89_2_7_001-ch6-speaker_seg94.wav": {
+    "mos": 4.0838799476623535,
+    "noi": 3.92038893699646,
+    "col": 3.935936212539673,
+    "dis": 4.165785789489746,
+    "loud": 4.221818923950195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1170_1_213_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.8714025020599365,
+    "noi": 3.6543350219726562,
+    "col": 2.3714332580566406,
+    "dis": 3.426717758178711,
+    "loud": 3.3379063606262207
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1173_nom_08421_01633401297_seg.wav": {
+    "mos": 4.519967555999756,
+    "noi": 4.255134105682373,
+    "col": 4.221749782562256,
+    "dis": 4.445395469665527,
+    "loud": 4.4490742683410645
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1178_1_279_2_7_001-ch6-speaker_seg20.wav": {
+    "mos": 4.02393913269043,
+    "noi": 3.420633316040039,
+    "col": 4.0006794929504395,
+    "dis": 4.24594259262085,
+    "loud": 4.166182041168213
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1181_nom_07049_00272366277_seg.wav": {
+    "mos": 4.725353240966797,
+    "noi": 4.689440727233887,
+    "col": 4.383454322814941,
+    "dis": 4.438555717468262,
+    "loud": 4.528764724731445
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1182_book_07495_chp_0009_reader_00720_2_seg.wav": {
+    "mos": 3.959517478942871,
+    "noi": 4.127387046813965,
+    "col": 3.6634435653686523,
+    "dis": 4.197964668273926,
+    "loud": 4.053155899047852
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1183_book_07548_chp_0007_reader_01639_0_seg.wav": {
+    "mos": 4.544995307922363,
+    "noi": 4.37741756439209,
+    "col": 4.186646461486816,
+    "dis": 4.514914035797119,
+    "loud": 4.39901065826416
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1193_2_182_2_7_001-ch6-speaker_seg8.wav": {
+    "mos": 3.7029237747192383,
+    "noi": 2.998342514038086,
+    "col": 3.889662265777588,
+    "dis": 4.045398712158203,
+    "loud": 4.113830089569092
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1197_1_1284_2_7_001-ch6-speaker_seg10.wav": {
+    "mos": 2.9541006088256836,
+    "noi": 2.2316248416900635,
+    "col": 3.592405319213867,
+    "dis": 3.994614601135254,
+    "loud": 3.642897129058838
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1200_book_07474_chp_0013_reader_08531_8_seg.wav": {
+    "mos": 4.073609828948975,
+    "noi": 3.741689920425415,
+    "col": 3.962996482849121,
+    "dis": 4.235493183135986,
+    "loud": 4.076918601989746
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1204_nom_06136_01259772121_seg.wav": {
+    "mos": 4.4905853271484375,
+    "noi": 4.47879695892334,
+    "col": 4.108407974243164,
+    "dis": 4.346848487854004,
+    "loud": 4.405277252197266
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1208_nof_06136_01223778360_seg.wav": {
+    "mos": 4.60128116607666,
+    "noi": 4.472046375274658,
+    "col": 4.284603595733643,
+    "dis": 4.541576385498047,
+    "loud": 4.500771999359131
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1209_1_89_2_7_001-ch6-speaker_seg19.wav": {
+    "mos": 4.076076984405518,
+    "noi": 3.8205783367156982,
+    "col": 4.018244743347168,
+    "dis": 4.092642784118652,
+    "loud": 4.246687889099121
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1211_2_182_2_7_001-ch6-speaker_seg134.wav": {
+    "mos": 1.8969156742095947,
+    "noi": 2.8063712120056152,
+    "col": 2.0393481254577637,
+    "dis": 2.092264175415039,
+    "loud": 3.1536366939544678
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1212_book_01239_chp_0008_reader_10191_1_seg.wav": {
+    "mos": 2.8969359397888184,
+    "noi": 2.0311338901519775,
+    "col": 3.732792615890503,
+    "dis": 3.8893394470214844,
+    "loud": 3.639482021331787
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1213_3_731_2_7_001-ch6-speaker_seg5.wav": {
+    "mos": 2.708865165710449,
+    "noi": 2.709472894668579,
+    "col": 2.424849033355713,
+    "dis": 3.7013700008392334,
+    "loud": 3.196535110473633
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1217_nom_06136_02030193255_seg.wav": {
+    "mos": 4.004777908325195,
+    "noi": 4.320201873779297,
+    "col": 3.6738953590393066,
+    "dis": 4.160829067230225,
+    "loud": 4.103787422180176
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1219_book_08875_chp_0007_reader_10279_12_seg.wav": {
+    "mos": 2.196620464324951,
+    "noi": 3.4162912368774414,
+    "col": 1.6357311010360718,
+    "dis": 3.796698570251465,
+    "loud": 2.634395122528076
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1224_som_03397_01447331367_seg.wav": {
+    "mos": 2.8335933685302734,
+    "noi": 2.0509300231933594,
+    "col": 3.6145315170288086,
+    "dis": 3.9036147594451904,
+    "loud": 3.6705472469329834
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1225_sof_05679_01753528175_seg.wav": {
+    "mos": 4.582353591918945,
+    "noi": 4.50691032409668,
+    "col": 4.196926593780518,
+    "dis": 4.50823450088501,
+    "loud": 4.377557277679443
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1226_sof_03397_00786714933_seg.wav": {
+    "mos": 4.558375358581543,
+    "noi": 4.506103515625,
+    "col": 4.227916717529297,
+    "dis": 4.517230987548828,
+    "loud": 4.490138053894043
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1227_3_731_2_7_001-ch6-speaker_seg40.wav": {
+    "mos": 3.987089157104492,
+    "noi": 3.613308906555176,
+    "col": 3.886338949203491,
+    "dis": 4.258808135986328,
+    "loud": 4.052369117736816
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1232_4_443_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 3.421983242034912,
+    "noi": 2.5186057090759277,
+    "col": 3.903158187866211,
+    "dis": 3.922771453857422,
+    "loud": 4.0546112060546875
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1237_2_918_2_7_001-ch6-speaker_seg6.wav": {
+    "mos": 3.1341214179992676,
+    "noi": 3.6320438385009766,
+    "col": 2.5023694038391113,
+    "dis": 3.879054546356201,
+    "loud": 3.4023027420043945
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1243_4_554_2_7_001-ch6-speaker_seg14.wav": {
+    "mos": 3.2162580490112305,
+    "noi": 2.955974817276001,
+    "col": 3.3669962882995605,
+    "dis": 3.8625807762145996,
+    "loud": 3.405289649963379
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1244_nof_06136_00561469183_seg.wav": {
+    "mos": 2.139942169189453,
+    "noi": 3.580681324005127,
+    "col": 1.8783211708068848,
+    "dis": 2.7832443714141846,
+    "loud": 3.0120155811309814
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1245_3_758_2_7_001-ch6-speaker_seg39.wav": {
+    "mos": 2.4993627071380615,
+    "noi": 2.8318166732788086,
+    "col": 2.136462688446045,
+    "dis": 3.7016448974609375,
+    "loud": 2.8708248138427734
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1248_book_06071_chp_0024_reader_09091_2_seg.wav": {
+    "mos": 3.1209473609924316,
+    "noi": 2.261176109313965,
+    "col": 3.615361452102661,
+    "dis": 4.0160369873046875,
+    "loud": 3.793433666229248
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1250_3_156_2_7_001-ch6-speaker_seg20.wav": {
+    "mos": 3.9143266677856445,
+    "noi": 3.7989766597747803,
+    "col": 3.6918833255767822,
+    "dis": 4.232697486877441,
+    "loud": 3.9583334922790527
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1257_book_11284_chp_0013_reader_05262_31_seg.wav": {
+    "mos": 4.339291572570801,
+    "noi": 4.045930862426758,
+    "col": 4.114320278167725,
+    "dis": 4.418498992919922,
+    "loud": 4.332369804382324
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1260_book_08134_chp_0017_reader_11094_6_seg.wav": {
+    "mos": 1.2153477668762207,
+    "noi": 2.541699171066284,
+    "col": 1.983406662940979,
+    "dis": 1.6633487939834595,
+    "loud": 2.808194637298584
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1262_som_08784_01541405152_seg.wav": {
+    "mos": 4.229491233825684,
+    "noi": 4.270721435546875,
+    "col": 3.918156862258911,
+    "dis": 4.255464553833008,
+    "loud": 4.311935901641846
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1264_4_1151_2_7_001-ch6-speaker_seg20.wav": {
+    "mos": 1.2743035554885864,
+    "noi": 2.5515923500061035,
+    "col": 2.2569193840026855,
+    "dis": 2.097538948059082,
+    "loud": 1.9731075763702393
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1267_nom_00610_01780259215_seg.wav": {
+    "mos": 2.382378339767456,
+    "noi": 1.7108824253082275,
+    "col": 3.115842580795288,
+    "dis": 3.7163286209106445,
+    "loud": 3.2737927436828613
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1269_1_1284_2_7_001-ch6-speaker_seg14.wav": {
+    "mos": 3.1505985260009766,
+    "noi": 3.8504528999328613,
+    "col": 2.3805060386657715,
+    "dis": 4.147629737854004,
+    "loud": 3.3191306591033936
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1270_2_1369_2_7_001-ch6-speaker_seg26.wav": {
+    "mos": 1.9760524034500122,
+    "noi": 2.972656726837158,
+    "col": 2.1620278358459473,
+    "dis": 2.2141523361206055,
+    "loud": 3.0873498916625977
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1274_3_878_2_7_001-ch6-speaker_seg16.wav": {
+    "mos": 3.460385799407959,
+    "noi": 3.777888536453247,
+    "col": 2.8473849296569824,
+    "dis": 4.21051025390625,
+    "loud": 3.527921676635742
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1285_book_04362_chp_0020_reader_11254_0_seg.wav": {
+    "mos": 2.795693874359131,
+    "noi": 2.234135627746582,
+    "col": 2.8088793754577637,
+    "dis": 3.7864532470703125,
+    "loud": 3.387809991836548
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1286_book_05143_chp_0000_reader_07006_38_seg.wav": {
+    "mos": 2.233884334564209,
+    "noi": 3.5851118564605713,
+    "col": 3.026243209838867,
+    "dis": 1.9142827987670898,
+    "loud": 3.615185260772705
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1293_sof_05679_01035557200_seg.wav": {
+    "mos": 3.138293504714966,
+    "noi": 3.859907388687134,
+    "col": 2.407407760620117,
+    "dis": 3.9815502166748047,
+    "loud": 3.293087959289551
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1297_2_1021_2_7_001-ch6-speaker_seg58.wav": {
+    "mos": 3.2547237873077393,
+    "noi": 2.8654141426086426,
+    "col": 3.4022929668426514,
+    "dis": 3.769164800643921,
+    "loud": 3.674555778503418
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1301_book_10184_chp_0030_reader_05711_0_seg.wav": {
+    "mos": 4.301774978637695,
+    "noi": 4.057339191436768,
+    "col": 3.9555976390838623,
+    "dis": 4.438389301300049,
+    "loud": 4.245877265930176
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1311_book_01309_chp_0006_reader_04947_26_seg.wav": {
+    "mos": 1.5877325534820557,
+    "noi": 3.191990375518799,
+    "col": 1.3838533163070679,
+    "dis": 3.2591826915740967,
+    "loud": 2.049798011779785
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1314_book_10434_chp_0009_reader_05333_3_seg.wav": {
+    "mos": 3.664827823638916,
+    "noi": 3.4750185012817383,
+    "col": 3.4846343994140625,
+    "dis": 3.9482338428497314,
+    "loud": 3.990093231201172
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1318_book_09273_chp_0008_reader_03265_23_seg.wav": {
+    "mos": 4.499826431274414,
+    "noi": 4.32024621963501,
+    "col": 3.971970796585083,
+    "dis": 4.374471664428711,
+    "loud": 4.4115214347839355
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1319_2_93_2_7_001-ch6-speaker_seg44.wav": {
+    "mos": 4.1305975914001465,
+    "noi": 3.701674222946167,
+    "col": 4.0990681648254395,
+    "dis": 4.255209445953369,
+    "loud": 4.287498474121094
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1320_book_04284_chp_0033_reader_03438_21_seg.wav": {
+    "mos": 3.2446391582489014,
+    "noi": 4.031174182891846,
+    "col": 3.1889748573303223,
+    "dis": 3.175393581390381,
+    "loud": 3.8130998611450195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1321_4_920_2_7_001-ch6-speaker_seg13.wav": {
+    "mos": 4.132973670959473,
+    "noi": 3.4004530906677246,
+    "col": 4.259322166442871,
+    "dis": 4.355048179626465,
+    "loud": 4.254157066345215
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1325_book_03171_chp_0002_reader_11133_40_seg.wav": {
+    "mos": 4.5418877601623535,
+    "noi": 4.408220291137695,
+    "col": 4.158182621002197,
+    "dis": 4.468510627746582,
+    "loud": 4.401127338409424
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1326_book_01406_chp_0030_reader_10089_19_seg.wav": {
+    "mos": 3.9569592475891113,
+    "noi": 3.760457992553711,
+    "col": 3.7116713523864746,
+    "dis": 4.147196292877197,
+    "loud": 4.168564796447754
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1331_som_08784_01773285355_seg.wav": {
+    "mos": 2.3434362411499023,
+    "noi": 3.577291965484619,
+    "col": 2.4401087760925293,
+    "dis": 2.4275593757629395,
+    "loud": 3.3520004749298096
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1332_book_08358_chp_0003_reader_00080_1_seg.wav": {
+    "mos": 4.131096839904785,
+    "noi": 4.108471393585205,
+    "col": 3.8789730072021484,
+    "dis": 4.123512268066406,
+    "loud": 4.270654678344727
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1341_book_10191_chp_0005_reader_06909_17_seg.wav": {
+    "mos": 4.2280120849609375,
+    "noi": 4.268071174621582,
+    "col": 3.759383201599121,
+    "dis": 4.349424839019775,
+    "loud": 4.157736778259277
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1342_som_09799_01553554998_seg.wav": {
+    "mos": 4.276114463806152,
+    "noi": 4.446480751037598,
+    "col": 4.256805419921875,
+    "dis": 3.9683985710144043,
+    "loud": 4.505048751831055
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1346_nom_00610_02050343247_seg.wav": {
+    "mos": 4.519358158111572,
+    "noi": 4.487906455993652,
+    "col": 4.128779411315918,
+    "dis": 4.506985664367676,
+    "loud": 4.329586505889893
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1348_book_04366_chp_0011_reader_05727_57_seg.wav": {
+    "mos": 4.231490135192871,
+    "noi": 3.8900346755981445,
+    "col": 4.079862117767334,
+    "dis": 4.309107780456543,
+    "loud": 4.185826301574707
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1353_sof_03397_01250774406_seg.wav": {
+    "mos": 1.1850950717926025,
+    "noi": 3.02812123298645,
+    "col": 1.297444462776184,
+    "dis": 3.08638334274292,
+    "loud": 1.7049129009246826
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1359_2_918_2_7_001-ch6-speaker_seg29.wav": {
+    "mos": 4.336462020874023,
+    "noi": 4.0306243896484375,
+    "col": 4.1331610679626465,
+    "dis": 4.3104705810546875,
+    "loud": 4.33510684967041
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1370_3_972_2_7_001-ch6-speaker_seg41.wav": {
+    "mos": 2.530622959136963,
+    "noi": 3.817143201828003,
+    "col": 2.342320442199707,
+    "dis": 3.4852256774902344,
+    "loud": 2.6411361694335938
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1382_1_89_2_7_001-ch6-speaker_seg65.wav": {
+    "mos": 3.689939498901367,
+    "noi": 3.7784388065338135,
+    "col": 3.4570605754852295,
+    "dis": 3.888725757598877,
+    "loud": 3.884243965148926
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1391_book_10547_chp_0010_reader_09934_4_seg.wav": {
+    "mos": 4.0749006271362305,
+    "noi": 3.7349352836608887,
+    "col": 3.9428443908691406,
+    "dis": 4.349985599517822,
+    "loud": 4.184776782989502
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1403_sof_04310_01884991018_seg.wav": {
+    "mos": 4.137293815612793,
+    "noi": 4.201878547668457,
+    "col": 3.7725658416748047,
+    "dis": 4.245086193084717,
+    "loud": 4.202169895172119
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1406_book_03028_chp_0016_reader_09104_1_seg.wav": {
+    "mos": 4.266627311706543,
+    "noi": 4.326165676116943,
+    "col": 3.8321692943573,
+    "dis": 4.3198676109313965,
+    "loud": 4.236461639404297
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1408_book_03171_chp_0002_reader_11133_5_seg.wav": {
+    "mos": 3.7213828563690186,
+    "noi": 2.982682228088379,
+    "col": 3.843973159790039,
+    "dis": 4.192216873168945,
+    "loud": 4.0181355476379395
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1410_4_666_2_7_001-ch6-speaker_seg77.wav": {
+    "mos": 4.482292175292969,
+    "noi": 4.236383438110352,
+    "col": 4.153351783752441,
+    "dis": 4.434019565582275,
+    "loud": 4.400440692901611
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1411_book_02131_chp_0074_reader_02552_11_seg.wav": {
+    "mos": 4.469195365905762,
+    "noi": 4.347926139831543,
+    "col": 4.100107192993164,
+    "dis": 4.4601521492004395,
+    "loud": 4.330193996429443
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1413_book_10183_chp_0026_reader_11112_15_seg.wav": {
+    "mos": 4.678643226623535,
+    "noi": 4.565505027770996,
+    "col": 4.226689338684082,
+    "dis": 4.599387168884277,
+    "loud": 4.5303850173950195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1417_2_1027_2_7_001-ch6-speaker_seg6.wav": {
+    "mos": 3.895627021789551,
+    "noi": 3.4818270206451416,
+    "col": 3.9162590503692627,
+    "dis": 4.090758800506592,
+    "loud": 4.113199710845947
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1419_2_529_2_7_001-ch6-speaker_seg78.wav": {
+    "mos": 2.1074817180633545,
+    "noi": 3.0879459381103516,
+    "col": 2.145385980606079,
+    "dis": 3.3697762489318848,
+    "loud": 2.24446964263916
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1420_book_03334_chp_0017_reader_06127_3_seg.wav": {
+    "mos": 1.7342913150787354,
+    "noi": 1.5360487699508667,
+    "col": 2.8603267669677734,
+    "dis": 3.6786751747131348,
+    "loud": 2.69765305519104
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1422_3_112_2_7_001-ch6-speaker_seg58.wav": {
+    "mos": 3.8355979919433594,
+    "noi": 3.309574842453003,
+    "col": 3.960977077484131,
+    "dis": 4.05830192565918,
+    "loud": 4.120894908905029
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1423_book_00955_chp_0009_reader_06471_1_seg.wav": {
+    "mos": 2.3846282958984375,
+    "noi": 3.3625102043151855,
+    "col": 1.9278994798660278,
+    "dis": 3.3527278900146484,
+    "loud": 2.7406418323516846
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1428_book_00260_chp_0015_reader_00469_21_seg.wav": {
+    "mos": 4.100113868713379,
+    "noi": 3.5007474422454834,
+    "col": 4.042860984802246,
+    "dis": 4.242131233215332,
+    "loud": 4.298886299133301
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1432_book_03125_chp_0011_reader_04009_2_seg.wav": {
+    "mos": 3.3951058387756348,
+    "noi": 3.967683792114258,
+    "col": 2.6879496574401855,
+    "dis": 4.105985641479492,
+    "loud": 3.5419578552246094
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1440_book_03901_chp_0002_reader_01954_2_seg.wav": {
+    "mos": 2.7739815711975098,
+    "noi": 3.8066437244415283,
+    "col": 2.477734088897705,
+    "dis": 2.968165159225464,
+    "loud": 3.441645622253418
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1445_book_05143_chp_0000_reader_07006_80_seg.wav": {
+    "mos": 2.6897811889648438,
+    "noi": 3.4512689113616943,
+    "col": 2.201469898223877,
+    "dis": 3.483396053314209,
+    "loud": 3.137403964996338
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1453_som_08784_01517146561_seg.wav": {
+    "mos": 1.8076751232147217,
+    "noi": 1.6347432136535645,
+    "col": 2.88037109375,
+    "dis": 3.4302282333374023,
+    "loud": 2.6619720458984375
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1458_book_09677_chp_0025_reader_10487_3_seg.wav": {
+    "mos": 1.694271445274353,
+    "noi": 1.6121898889541626,
+    "col": 2.7565903663635254,
+    "dis": 3.301734209060669,
+    "loud": 2.6290292739868164
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1459_book_04308_chp_0094_reader_10467_12_seg.wav": {
+    "mos": 2.359257221221924,
+    "noi": 2.108206033706665,
+    "col": 3.14505672454834,
+    "dis": 3.8098342418670654,
+    "loud": 3.1073451042175293
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1460_book_02379_chp_0014_reader_08322_2_seg.wav": {
+    "mos": 2.020815849304199,
+    "noi": 1.7599244117736816,
+    "col": 2.9485673904418945,
+    "dis": 3.55031681060791,
+    "loud": 2.8194165229797363
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1463_4_443_2_7_001-ch6-speaker_seg67.wav": {
+    "mos": 1.7180900573730469,
+    "noi": 1.6908818483352661,
+    "col": 2.8471357822418213,
+    "dis": 3.282867908477783,
+    "loud": 2.5821590423583984
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1468_book_08454_chp_0017_reader_08427_0_seg.wav": {
+    "mos": 1.9528343677520752,
+    "noi": 1.5866475105285645,
+    "col": 2.756155490875244,
+    "dis": 3.5294346809387207,
+    "loud": 2.869048595428467
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1473_4_1113_2_7_001-ch6-speaker_seg4.wav": {
+    "mos": 2.5131583213806152,
+    "noi": 1.8814399242401123,
+    "col": 3.2309467792510986,
+    "dis": 3.5759801864624023,
+    "loud": 3.3172836303710938
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1474_book_10184_chp_0030_reader_05711_1_seg.wav": {
+    "mos": 2.268223285675049,
+    "noi": 1.9180858135223389,
+    "col": 3.0316383838653564,
+    "dis": 3.7119686603546143,
+    "loud": 3.056941032409668
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1490_som_09799_01284091247_seg.wav": {
+    "mos": 3.660162925720215,
+    "noi": 2.820469379425049,
+    "col": 3.99566650390625,
+    "dis": 4.1954522132873535,
+    "loud": 4.085208892822266
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1494_3_112_2_7_001-ch6-speaker_seg93.wav": {
+    "mos": 2.869593620300293,
+    "noi": 2.4757165908813477,
+    "col": 3.279409170150757,
+    "dis": 3.9808239936828613,
+    "loud": 3.338836431503296
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1500_3_567_2_7_001-ch6-speaker_seg98.wav": {
+    "mos": 3.2065839767456055,
+    "noi": 2.6238183975219727,
+    "col": 3.442668914794922,
+    "dis": 3.8770930767059326,
+    "loud": 3.741924524307251
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1511_2_740_2_7_001-ch6-speaker_seg16.wav": {
+    "mos": 3.984896659851074,
+    "noi": 3.329019546508789,
+    "col": 4.137173652648926,
+    "dis": 4.2649030685424805,
+    "loud": 4.232436656951904
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1516_1_114_2_7_001-ch6-speaker_seg36.wav": {
+    "mos": 4.055442810058594,
+    "noi": 3.670111656188965,
+    "col": 3.9849963188171387,
+    "dis": 4.300623416900635,
+    "loud": 4.199957370758057
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1519_4_167_2_7_001-ch6-speaker_seg83.wav": {
+    "mos": 4.084469318389893,
+    "noi": 3.4033493995666504,
+    "col": 4.2315287590026855,
+    "dis": 4.352743625640869,
+    "loud": 4.2834553718566895
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1520_book_08203_chp_0019_reader_10166_5_seg.wav": {
+    "mos": 3.822098731994629,
+    "noi": 3.0906505584716797,
+    "col": 4.002161979675293,
+    "dis": 4.19708776473999,
+    "loud": 4.121798515319824
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1527_4_947_2_7_001-ch6-speaker_seg50.wav": {
+    "mos": 3.421628475189209,
+    "noi": 3.1776766777038574,
+    "col": 3.4338996410369873,
+    "dis": 3.97676944732666,
+    "loud": 3.6750268936157227
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1534_sof_05679_01189499777_seg.wav": {
+    "mos": 4.2299299240112305,
+    "noi": 4.181032657623291,
+    "col": 4.0334367752075195,
+    "dis": 4.176544189453125,
+    "loud": 4.273599624633789
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1535_book_04246_chp_0012_reader_09129_3_seg.wav": {
+    "mos": 4.1726274490356445,
+    "noi": 4.057308197021484,
+    "col": 3.8405256271362305,
+    "dis": 4.173212051391602,
+    "loud": 4.271481513977051
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1538_sof_04310_01333334118_seg.wav": {
+    "mos": 3.934908866882324,
+    "noi": 3.6709585189819336,
+    "col": 3.7045626640319824,
+    "dis": 4.329136848449707,
+    "loud": 4.005866527557373
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1539_nof_06136_00907307928_seg.wav": {
+    "mos": 4.548953533172607,
+    "noi": 4.506076335906982,
+    "col": 4.224902153015137,
+    "dis": 4.484785556793213,
+    "loud": 4.478991508483887
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1542_4_443_2_7_001-ch6-speaker_seg36.wav": {
+    "mos": 2.9496469497680664,
+    "noi": 2.9586899280548096,
+    "col": 3.3659090995788574,
+    "dis": 3.830211639404297,
+    "loud": 3.0502097606658936
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1545_som_09799_00095913603_seg.wav": {
+    "mos": 3.270958423614502,
+    "noi": 3.9575624465942383,
+    "col": 2.574719190597534,
+    "dis": 3.889514446258545,
+    "loud": 3.5052709579467773
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1547_4_682_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.1382641792297363,
+    "noi": 2.123347759246826,
+    "col": 2.065173387527466,
+    "dis": 3.1706154346466064,
+    "loud": 2.8278651237487793
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1548_3_417_2_7_001-ch6-speaker_seg68.wav": {
+    "mos": 2.227858543395996,
+    "noi": 2.345449447631836,
+    "col": 2.0937066078186035,
+    "dis": 3.2835896015167236,
+    "loud": 2.86843204498291
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1549_book_03959_chp_0032_reader_05061_79_seg.wav": {
+    "mos": 2.8855490684509277,
+    "noi": 3.7848379611968994,
+    "col": 2.3468503952026367,
+    "dis": 3.474970817565918,
+    "loud": 3.2960853576660156
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1552_2_1280_2_7_001-ch6-speaker_seg68.wav": {
+    "mos": 3.6196799278259277,
+    "noi": 3.5258305072784424,
+    "col": 3.2784605026245117,
+    "dis": 4.07255220413208,
+    "loud": 3.761714458465576
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1554_book_11240_chp_0015_reader_01390_3_seg.wav": {
+    "mos": 4.359224796295166,
+    "noi": 4.251645088195801,
+    "col": 4.000090599060059,
+    "dis": 4.369020462036133,
+    "loud": 4.321374416351318
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1556_book_02919_chp_0003_reader_01441_30_seg.wav": {
+    "mos": 4.372328281402588,
+    "noi": 4.297325134277344,
+    "col": 4.12165641784668,
+    "dis": 4.508210182189941,
+    "loud": 4.222451210021973
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1558_book_01182_chp_0005_reader_05542_25_seg.wav": {
+    "mos": 4.279786109924316,
+    "noi": 3.9538886547088623,
+    "col": 4.080314636230469,
+    "dis": 4.319694995880127,
+    "loud": 4.300666809082031
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1563_2_1027_2_7_001-ch6-speaker_seg31.wav": {
+    "mos": 2.5015640258789062,
+    "noi": 3.2149665355682373,
+    "col": 2.7598328590393066,
+    "dis": 2.6495766639709473,
+    "loud": 3.4195396900177
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1576_sof_03397_01440273713_seg.wav": {
+    "mos": 4.6628007888793945,
+    "noi": 4.450536251068115,
+    "col": 4.305045127868652,
+    "dis": 4.558733940124512,
+    "loud": 4.5049896240234375
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1582_book_09835_chp_0028_reader_04330_1_seg.wav": {
+    "mos": 4.092360496520996,
+    "noi": 4.212672233581543,
+    "col": 3.7116355895996094,
+    "dis": 4.2636871337890625,
+    "loud": 3.9927101135253906
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1589_3_790_2_7_001-ch6-speaker_seg9.wav": {
+    "mos": 0.8398513793945312,
+    "noi": 1.3209563493728638,
+    "col": 1.5938615798950195,
+    "dis": 2.353701114654541,
+    "loud": 1.7611809968948364
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1590_book_01824_chp_0002_reader_01457_0_seg.wav": {
+    "mos": 2.5436758995056152,
+    "noi": 3.583989143371582,
+    "col": 2.0086417198181152,
+    "dis": 3.5626001358032227,
+    "loud": 2.8805904388427734
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1597_4_1151_2_7_001-ch6-speaker_seg33.wav": {
+    "mos": 2.516861915588379,
+    "noi": 2.279188394546509,
+    "col": 2.942842483520508,
+    "dis": 3.5725555419921875,
+    "loud": 3.0927722454071045
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1601_book_06349_chp_0005_reader_00249_49_seg.wav": {
+    "mos": 4.081932067871094,
+    "noi": 4.3902587890625,
+    "col": 3.6224894523620605,
+    "dis": 4.087540626525879,
+    "loud": 4.116353988647461
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1603_2_945_2_7_001-ch6-speaker_seg108.wav": {
+    "mos": 2.649935245513916,
+    "noi": 2.212545394897461,
+    "col": 3.267500400543213,
+    "dis": 3.7796359062194824,
+    "loud": 3.254199504852295
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1604_3_878_2_7_001-ch6-speaker_seg61.wav": {
+    "mos": 3.581234931945801,
+    "noi": 3.418704032897949,
+    "col": 3.3434832096099854,
+    "dis": 4.099505424499512,
+    "loud": 3.7019121646881104
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1610_1_1327_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.8186192512512207,
+    "noi": 3.756533145904541,
+    "col": 2.699117660522461,
+    "dis": 3.502652168273926,
+    "loud": 2.978929281234741
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1612_book_05021_chp_0020_reader_08317_0_seg.wav": {
+    "mos": 4.202110290527344,
+    "noi": 4.517627716064453,
+    "col": 3.9319307804107666,
+    "dis": 4.140832901000977,
+    "loud": 4.251084327697754
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1613_1_949_2_7_001-ch6-speaker_seg38.wav": {
+    "mos": 3.9471607208251953,
+    "noi": 3.7594106197357178,
+    "col": 3.9269721508026123,
+    "dis": 4.043256759643555,
+    "loud": 4.095554351806641
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1614_book_10538_chp_0023_reader_09046_52_seg.wav": {
+    "mos": 2.8448781967163086,
+    "noi": 3.6722865104675293,
+    "col": 2.775799036026001,
+    "dis": 3.0239992141723633,
+    "loud": 3.4359357357025146
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1618_book_04216_chp_0066_reader_06872_6_seg.wav": {
+    "mos": 3.68176007270813,
+    "noi": 3.611755847930908,
+    "col": 3.528578519821167,
+    "dis": 3.9432382583618164,
+    "loud": 3.905707359313965
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1619_2_1329_2_7_001-ch6-speaker_seg39.wav": {
+    "mos": 3.973416328430176,
+    "noi": 3.772383213043213,
+    "col": 3.9895477294921875,
+    "dis": 4.018041610717773,
+    "loud": 4.191009521484375
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1620_2_529_2_7_001-ch6-speaker_seg4.wav": {
+    "mos": 3.7014029026031494,
+    "noi": 3.543294906616211,
+    "col": 3.6245174407958984,
+    "dis": 4.1331329345703125,
+    "loud": 3.8506393432617188
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1624_2_553_2_7_001-ch6-speaker_seg53.wav": {
+    "mos": 4.123142242431641,
+    "noi": 3.8401222229003906,
+    "col": 3.9865846633911133,
+    "dis": 4.1823954582214355,
+    "loud": 4.200009822845459
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1633_nom_07508_00203352921_seg.wav": {
+    "mos": 3.4049439430236816,
+    "noi": 4.193602561950684,
+    "col": 2.623901605606079,
+    "dis": 3.9797182083129883,
+    "loud": 3.584334135055542
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1647_1_580_2_7_001-ch6-speaker_seg15.wav": {
+    "mos": 3.7645263671875,
+    "noi": 3.352283477783203,
+    "col": 3.7597908973693848,
+    "dis": 4.072257995605469,
+    "loud": 3.924543857574463
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1648_4_1203_2_7_001-ch6-speaker_seg37.wav": {
+    "mos": 4.258762359619141,
+    "noi": 4.05638313293457,
+    "col": 4.011728286743164,
+    "dis": 4.325191497802734,
+    "loud": 4.280725479125977
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1652_book_09027_chp_0001_reader_07466_12_seg.wav": {
+    "mos": 3.9897985458374023,
+    "noi": 3.8995630741119385,
+    "col": 3.7758054733276367,
+    "dis": 4.1116838455200195,
+    "loud": 4.106213569641113
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1658_nom_04310_00159757728_seg.wav": {
+    "mos": 3.9165937900543213,
+    "noi": 4.315849304199219,
+    "col": 3.7235753536224365,
+    "dis": 3.6804358959198,
+    "loud": 4.233249664306641
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1659_1_301_2_7_001-ch6-speaker_seg89.wav": {
+    "mos": 3.7768306732177734,
+    "noi": 3.1839895248413086,
+    "col": 3.95913028717041,
+    "dis": 4.152786731719971,
+    "loud": 4.093558311462402
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1663_nom_04310_00409108508_seg.wav": {
+    "mos": 4.529562473297119,
+    "noi": 4.412345886230469,
+    "col": 4.191333770751953,
+    "dis": 4.405364990234375,
+    "loud": 4.478211402893066
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1665_4_706_2_7_001-ch6-speaker_seg13.wav": {
+    "mos": 3.5674242973327637,
+    "noi": 3.0842268466949463,
+    "col": 3.8102574348449707,
+    "dis": 3.985476016998291,
+    "loud": 3.953683376312256
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1667_som_09799_00975143981_seg.wav": {
+    "mos": 4.809810161590576,
+    "noi": 4.641407012939453,
+    "col": 4.47128438949585,
+    "dis": 4.596998691558838,
+    "loud": 4.677332878112793
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1673_book_10306_chp_0023_reader_04645_1_seg.wav": {
+    "mos": 3.7415738105773926,
+    "noi": 3.7959656715393066,
+    "col": 3.415658473968506,
+    "dis": 4.045094966888428,
+    "loud": 3.89571475982666
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1674_2_740_2_7_001-ch6-speaker_seg10.wav": {
+    "mos": 4.29495906829834,
+    "noi": 4.150184631347656,
+    "col": 4.043338775634766,
+    "dis": 4.175188064575195,
+    "loud": 4.310817241668701
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1681_book_02477_chp_0003_reader_10633_2_seg.wav": {
+    "mos": 2.171272039413452,
+    "noi": 3.1261050701141357,
+    "col": 1.955344796180725,
+    "dis": 2.7612180709838867,
+    "loud": 2.9114136695861816
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1685_1_947_2_7_001-ch6-speaker_seg50.wav": {
+    "mos": 2.725414752960205,
+    "noi": 3.4933278560638428,
+    "col": 2.1601314544677734,
+    "dis": 3.7322211265563965,
+    "loud": 2.916893482208252
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1693_3_112_2_7_001-ch6-speaker_seg80.wav": {
+    "mos": 3.934330463409424,
+    "noi": 3.694688320159912,
+    "col": 3.807079315185547,
+    "dis": 4.082319259643555,
+    "loud": 4.064870834350586
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1695_sof_04310_01639505436_seg.wav": {
+    "mos": 3.5271849632263184,
+    "noi": 3.9653306007385254,
+    "col": 3.2834665775299072,
+    "dis": 4.11550760269165,
+    "loud": 3.519404888153076
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1697_book_02045_chp_0008_reader_10520_66_seg.wav": {
+    "mos": 4.460229396820068,
+    "noi": 4.5201945304870605,
+    "col": 3.993195056915283,
+    "dis": 4.383927345275879,
+    "loud": 4.293595790863037
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1699_book_09391_chp_0002_reader_09728_14_seg.wav": {
+    "mos": 3.9450275897979736,
+    "noi": 4.011992454528809,
+    "col": 3.6513402462005615,
+    "dis": 4.102810859680176,
+    "loud": 4.146315574645996
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1702_book_09987_chp_0025_reader_01957_8_seg.wav": {
+    "mos": 4.145023345947266,
+    "noi": 4.037208557128906,
+    "col": 3.9601938724517822,
+    "dis": 4.28402042388916,
+    "loud": 4.240901947021484
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1707_nom_04310_02053632620_seg.wav": {
+    "mos": 4.446406841278076,
+    "noi": 4.382696151733398,
+    "col": 4.105793476104736,
+    "dis": 4.380010604858398,
+    "loud": 4.421783924102783
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1717_nom_07508_01431536211_seg.wav": {
+    "mos": 4.377471446990967,
+    "noi": 4.527987003326416,
+    "col": 4.218789577484131,
+    "dis": 4.105216979980469,
+    "loud": 4.518890380859375
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1718_1_301_2_7_001-ch6-speaker_seg99.wav": {
+    "mos": 3.2793025970458984,
+    "noi": 3.0876808166503906,
+    "col": 3.436520576477051,
+    "dis": 3.575920581817627,
+    "loud": 3.733978748321533
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1726_2_1027_2_7_001-ch6-speaker_seg18.wav": {
+    "mos": 2.766842842102051,
+    "noi": 3.032382011413574,
+    "col": 2.391937017440796,
+    "dis": 3.7233774662017822,
+    "loud": 3.2204275131225586
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1733_2_1280_2_7_001-ch6-speaker_seg30.wav": {
+    "mos": 4.017002582550049,
+    "noi": 3.805149793624878,
+    "col": 3.733151912689209,
+    "dis": 4.12750768661499,
+    "loud": 4.109236717224121
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1734_book_00497_chp_0002_reader_06629_25_seg.wav": {
+    "mos": 4.113305568695068,
+    "noi": 4.12276554107666,
+    "col": 3.788923740386963,
+    "dis": 4.22311544418335,
+    "loud": 4.255854606628418
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1741_4_1062_2_7_001-ch6-speaker_seg115.wav": {
+    "mos": 4.170906066894531,
+    "noi": 4.2282023429870605,
+    "col": 3.7478575706481934,
+    "dis": 4.169548988342285,
+    "loud": 4.1796770095825195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1753_3_112_2_7_001-ch6-speaker_seg62.wav": {
+    "mos": 3.461825370788574,
+    "noi": 3.0427112579345703,
+    "col": 3.7724621295928955,
+    "dis": 3.7875986099243164,
+    "loud": 3.8930230140686035
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1758_4_1203_2_7_001-ch6-speaker_seg34.wav": {
+    "mos": 4.5470991134643555,
+    "noi": 4.2729902267456055,
+    "col": 4.309141159057617,
+    "dis": 4.418193817138672,
+    "loud": 4.504700660705566
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1759_4_1345_2_7_001-ch6-speaker_seg9.wav": {
+    "mos": 3.8597261905670166,
+    "noi": 3.8276491165161133,
+    "col": 3.8914055824279785,
+    "dis": 4.068761348724365,
+    "loud": 4.052145004272461
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1760_book_11176_chp_0003_reader_05024_5_seg.wav": {
+    "mos": 2.6821045875549316,
+    "noi": 4.005836486816406,
+    "col": 2.9128577709198,
+    "dis": 2.464940071105957,
+    "loud": 3.6130290031433105
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1764_3_567_2_7_001-ch6-speaker_seg127.wav": {
+    "mos": 4.350178241729736,
+    "noi": 4.096165657043457,
+    "col": 4.082365989685059,
+    "dis": 4.376418113708496,
+    "loud": 4.338990688323975
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1771_nom_07508_01648816257_seg.wav": {
+    "mos": 3.027827739715576,
+    "noi": 3.9267494678497314,
+    "col": 2.435042381286621,
+    "dis": 3.554633617401123,
+    "loud": 3.4695308208465576
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1773_book_09987_chp_0025_reader_01957_5_seg.wav": {
+    "mos": 2.8668413162231445,
+    "noi": 3.447021245956421,
+    "col": 2.2674994468688965,
+    "dis": 3.4590835571289062,
+    "loud": 3.4054787158966064
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1776_1_279_2_7_001-ch6-speaker_seg55.wav": {
+    "mos": 3.5116324424743652,
+    "noi": 3.725306987762451,
+    "col": 3.020935535430908,
+    "dis": 3.9720659255981445,
+    "loud": 3.6135988235473633
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1781_4_167_2_7_001-ch6-speaker_seg42.wav": {
+    "mos": 3.3602402210235596,
+    "noi": 3.9059271812438965,
+    "col": 3.099447250366211,
+    "dis": 3.8856773376464844,
+    "loud": 3.448601007461548
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1782_book_09273_chp_0008_reader_03265_36_seg.wav": {
+    "mos": 4.342597007751465,
+    "noi": 4.1372456550598145,
+    "col": 3.9525673389434814,
+    "dis": 4.358907222747803,
+    "loud": 4.277763366699219
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1787_2_1027_2_7_001-ch6-speaker_seg66.wav": {
+    "mos": 3.8631839752197266,
+    "noi": 3.9345905780792236,
+    "col": 3.53916335105896,
+    "dis": 4.100638389587402,
+    "loud": 3.8897061347961426
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1792_1_580_2_7_001-ch6-speaker_seg66.wav": {
+    "mos": 2.811689615249634,
+    "noi": 3.264697313308716,
+    "col": 3.364956855773926,
+    "dis": 3.6518492698669434,
+    "loud": 2.9348087310791016
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1804_nom_04310_00251288135_seg.wav": {
+    "mos": 4.401153564453125,
+    "noi": 4.110671520233154,
+    "col": 4.1572723388671875,
+    "dis": 4.419251441955566,
+    "loud": 4.383053779602051
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1808_som_00295_00552987145_seg.wav": {
+    "mos": 4.313240051269531,
+    "noi": 4.444093704223633,
+    "col": 3.9838638305664062,
+    "dis": 4.0783538818359375,
+    "loud": 4.397759437561035
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1810_nom_00610_00952901322_seg.wav": {
+    "mos": 4.547983169555664,
+    "noi": 4.421639442443848,
+    "col": 4.231629848480225,
+    "dis": 4.5324788093566895,
+    "loud": 4.362082481384277
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1811_1_492_2_7_001-ch6-speaker_seg23.wav": {
+    "mos": 2.9086785316467285,
+    "noi": 2.7107930183410645,
+    "col": 2.717982769012451,
+    "dis": 3.9260408878326416,
+    "loud": 3.2330548763275146
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1821_book_02293_chp_0026_reader_09801_9_seg.wav": {
+    "mos": 4.308244705200195,
+    "noi": 4.26658821105957,
+    "col": 3.917811393737793,
+    "dis": 4.457756042480469,
+    "loud": 4.257314682006836
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1825_3_790_2_7_001-ch6-speaker_seg54.wav": {
+    "mos": 1.897518277168274,
+    "noi": 1.8877594470977783,
+    "col": 2.559872627258301,
+    "dis": 2.893744707107544,
+    "loud": 2.6835360527038574
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1829_book_08450_chp_0004_reader_08295_51_seg.wav": {
+    "mos": 3.7681703567504883,
+    "noi": 3.9112839698791504,
+    "col": 3.652099847793579,
+    "dis": 3.80393123626709,
+    "loud": 4.088068008422852
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1851_som_08784_00833497186_seg.wav": {
+    "mos": 4.299757957458496,
+    "noi": 4.481322765350342,
+    "col": 4.04696798324585,
+    "dis": 4.235450267791748,
+    "loud": 4.158761978149414
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1854_book_11070_chp_0012_reader_04907_0_seg.wav": {
+    "mos": 4.146969795227051,
+    "noi": 3.890636682510376,
+    "col": 3.9396843910217285,
+    "dis": 4.262809753417969,
+    "loud": 4.1793036460876465
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1857_wem_02484_01180724483_seg.wav": {
+    "mos": 3.0496182441711426,
+    "noi": 3.9019484519958496,
+    "col": 2.304483413696289,
+    "dis": 3.872349262237549,
+    "loud": 3.250586986541748
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1859_book_02379_chp_0014_reader_08322_0_seg.wav": {
+    "mos": 2.7827749252319336,
+    "noi": 3.6433539390563965,
+    "col": 2.1760754585266113,
+    "dis": 4.020143032073975,
+    "loud": 2.924748420715332
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1865_1_949_2_7_001-ch6-speaker_seg10.wav": {
+    "mos": 3.2923221588134766,
+    "noi": 3.3552253246307373,
+    "col": 3.396815299987793,
+    "dis": 3.521219253540039,
+    "loud": 3.6889090538024902
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1867_book_03334_chp_0017_reader_06127_0_seg.wav": {
+    "mos": 4.2338666915893555,
+    "noi": 4.073149681091309,
+    "col": 3.908048391342163,
+    "dis": 4.413337707519531,
+    "loud": 4.19560432434082
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1878_sof_03397_01339139212_seg.wav": {
+    "mos": 4.280148506164551,
+    "noi": 4.311127662658691,
+    "col": 3.9337236881256104,
+    "dis": 4.357887268066406,
+    "loud": 4.257718086242676
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1879_scm_08421_01326807764_seg.wav": {
+    "mos": 4.607062339782715,
+    "noi": 4.517226219177246,
+    "col": 4.19873571395874,
+    "dis": 4.469405651092529,
+    "loud": 4.548826217651367
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1884_book_03324_chp_0017_reader_05437_4_seg.wav": {
+    "mos": 1.791765570640564,
+    "noi": 3.294248580932617,
+    "col": 2.05705189704895,
+    "dis": 1.9937149286270142,
+    "loud": 3.084700107574463
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1887_2_81_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 3.9884562492370605,
+    "noi": 3.8161425590515137,
+    "col": 3.943059206008911,
+    "dis": 4.010018348693848,
+    "loud": 4.225953102111816
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1888_book_00827_chp_0003_reader_06966_0_seg.wav": {
+    "mos": 4.466485023498535,
+    "noi": 4.525430679321289,
+    "col": 3.9290928840637207,
+    "dis": 4.332691192626953,
+    "loud": 4.319961071014404
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1891_som_03397_00294559925_seg.wav": {
+    "mos": 4.570843696594238,
+    "noi": 4.389316558837891,
+    "col": 4.229785442352295,
+    "dis": 4.616208076477051,
+    "loud": 4.4380059242248535
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1902_1_213_2_7_001-ch6-speaker_seg94.wav": {
+    "mos": 2.506648540496826,
+    "noi": 2.0649168491363525,
+    "col": 3.5224623680114746,
+    "dis": 3.650773286819458,
+    "loud": 3.2549121379852295
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1903_4_554_2_7_001-ch6-speaker_seg15.wav": {
+    "mos": 1.2779223918914795,
+    "noi": 1.5134031772613525,
+    "col": 2.3259530067443848,
+    "dis": 3.021765947341919,
+    "loud": 2.120410203933716
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1906_book_09049_chp_0014_reader_05415_6_seg.wav": {
+    "mos": 3.539686441421509,
+    "noi": 2.7937049865722656,
+    "col": 3.8034932613372803,
+    "dis": 4.108676910400391,
+    "loud": 3.9155735969543457
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1913_1_947_2_7_001-ch6-speaker_seg132.wav": {
+    "mos": 2.963639259338379,
+    "noi": 2.248176336288452,
+    "col": 3.413046360015869,
+    "dis": 3.7898333072662354,
+    "loud": 3.540130615234375
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1919_book_05610_chp_0011_reader_10418_22_seg.wav": {
+    "mos": 2.8767004013061523,
+    "noi": 2.631377935409546,
+    "col": 3.3066647052764893,
+    "dis": 3.2394943237304688,
+    "loud": 3.73293399810791
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1920_2_182_2_7_001-ch6-speaker_seg117.wav": {
+    "mos": 3.956601619720459,
+    "noi": 3.6246449947357178,
+    "col": 4.032939434051514,
+    "dis": 3.971212387084961,
+    "loud": 4.109767913818359
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1928_3_878_2_7_001-ch6-speaker_seg23.wav": {
+    "mos": 2.9396514892578125,
+    "noi": 2.9904093742370605,
+    "col": 2.657562017440796,
+    "dis": 3.973693370819092,
+    "loud": 3.2218892574310303
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1929_book_05448_chp_0032_reader_07722_2_seg.wav": {
+    "mos": 2.02162766456604,
+    "noi": 2.094066619873047,
+    "col": 2.1304311752319336,
+    "dis": 2.852519989013672,
+    "loud": 2.913609027862549
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1936_book_07826_chp_0012_reader_05739_1_seg.wav": {
+    "mos": 3.2614808082580566,
+    "noi": 4.047731399536133,
+    "col": 3.2984328269958496,
+    "dis": 3.210742473602295,
+    "loud": 3.831941604614258
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1937_nom_06136_00019805040_seg.wav": {
+    "mos": 1.9818239212036133,
+    "noi": 2.1427416801452637,
+    "col": 2.6415843963623047,
+    "dis": 2.2003700733184814,
+    "loud": 3.2885613441467285
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1941_2_529_2_7_001-ch6-speaker_seg53.wav": {
+    "mos": 1.9963873624801636,
+    "noi": 1.9936847686767578,
+    "col": 2.6818642616271973,
+    "dis": 3.660853624343872,
+    "loud": 2.5795555114746094
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1945_4_1302_2_7_001-ch6-speaker_seg58.wav": {
+    "mos": 1.7536537647247314,
+    "noi": 3.445260524749756,
+    "col": 2.1905362606048584,
+    "dis": 1.6805874109268188,
+    "loud": 3.148947238922119
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1954_book_03968_chp_0007_reader_10257_12_seg.wav": {
+    "mos": 1.6732255220413208,
+    "noi": 2.022758960723877,
+    "col": 2.0707364082336426,
+    "dis": 1.9548991918563843,
+    "loud": 3.1186623573303223
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1955_1_802_2_7_001-ch6-speaker_seg27.wav": {
+    "mos": 3.944730758666992,
+    "noi": 3.7363576889038086,
+    "col": 3.8899388313293457,
+    "dis": 4.005767822265625,
+    "loud": 4.151111602783203
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1960_som_03397_01667824281_seg.wav": {
+    "mos": 3.0172765254974365,
+    "noi": 3.672273635864258,
+    "col": 2.610852003097534,
+    "dis": 3.6418726444244385,
+    "loud": 3.322540283203125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1961_wem_02484_00994145437_seg.wav": {
+    "mos": 4.329412460327148,
+    "noi": 4.374427795410156,
+    "col": 3.994391441345215,
+    "dis": 4.273571491241455,
+    "loud": 4.326688766479492
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1965_som_09799_00353474059_seg.wav": {
+    "mos": 4.630303859710693,
+    "noi": 4.46882963180542,
+    "col": 4.2767839431762695,
+    "dis": 4.582838535308838,
+    "loud": 4.496324062347412
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1978_book_01230_chp_0016_reader_09245_25_seg.wav": {
+    "mos": 4.097164154052734,
+    "noi": 4.3183088302612305,
+    "col": 3.7044830322265625,
+    "dis": 4.242615699768066,
+    "loud": 4.096434116363525
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1980_4_695_2_7_001-ch6-speaker_seg97.wav": {
+    "mos": 2.442202091217041,
+    "noi": 1.8221843242645264,
+    "col": 3.387063503265381,
+    "dis": 3.7660489082336426,
+    "loud": 3.2398176193237305
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1984_som_02484_00316935911_seg.wav": {
+    "mos": 2.0251364707946777,
+    "noi": 3.7292442321777344,
+    "col": 2.433971405029297,
+    "dis": 1.9672034978866577,
+    "loud": 3.3602166175842285
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1989_book_00872_chp_0010_reader_02162_2_seg.wav": {
+    "mos": 2.269399642944336,
+    "noi": 2.0642249584198,
+    "col": 2.7232768535614014,
+    "dis": 2.7578227519989014,
+    "loud": 3.284306526184082
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1993_nom_09697_00703710106_seg.wav": {
+    "mos": 3.546156167984009,
+    "noi": 2.7130069732666016,
+    "col": 3.6577835083007812,
+    "dis": 4.091475009918213,
+    "loud": 4.11456298828125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1996_1_374_2_7_001-ch6-speaker_seg92.wav": {
+    "mos": 3.0518314838409424,
+    "noi": 2.3211669921875,
+    "col": 3.500004291534424,
+    "dis": 3.964287757873535,
+    "loud": 3.6495909690856934
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c1997_nom_04310_01544822123_seg.wav": {
+    "mos": 4.57411527633667,
+    "noi": 4.163824558258057,
+    "col": 4.38171911239624,
+    "dis": 4.52419376373291,
+    "loud": 4.500636100769043
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2001_book_00625_chp_0018_reader_07723_22_seg.wav": {
+    "mos": 3.659771680831909,
+    "noi": 3.890658140182495,
+    "col": 3.420928478240967,
+    "dis": 3.798344135284424,
+    "loud": 3.8894476890563965
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2003_book_03365_chp_0010_reader_08262_31_seg.wav": {
+    "mos": 4.067491054534912,
+    "noi": 3.8615505695343018,
+    "col": 3.916036605834961,
+    "dis": 4.246467590332031,
+    "loud": 4.272825241088867
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2019_book_07772_chp_0023_reader_06587_37_seg.wav": {
+    "mos": 3.6311211585998535,
+    "noi": 4.239829063415527,
+    "col": 3.6665802001953125,
+    "dis": 3.4619455337524414,
+    "loud": 4.129736423492432
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2020_book_08761_chp_0015_reader_06321_32_seg.wav": {
+    "mos": 2.3526110649108887,
+    "noi": 3.2043089866638184,
+    "col": 2.179912567138672,
+    "dis": 2.724459648132324,
+    "loud": 3.2799339294433594
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2024_4_554_2_7_001-ch6-speaker_seg25.wav": {
+    "mos": 1.0471500158309937,
+    "noi": 1.5302026271820068,
+    "col": 1.594347357749939,
+    "dis": 2.944401741027832,
+    "loud": 1.853258490562439
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2030_1_1155_2_7_001-ch6-speaker_seg56.wav": {
+    "mos": 1.6085970401763916,
+    "noi": 2.916309356689453,
+    "col": 1.6876256465911865,
+    "dis": 2.1133878231048584,
+    "loud": 2.4894156455993652
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2037_2_464_2_7_001-ch6-speaker_seg97.wav": {
+    "mos": 1.893035888671875,
+    "noi": 2.825592517852783,
+    "col": 2.641373634338379,
+    "dis": 1.710087776184082,
+    "loud": 3.324173927307129
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2038_book_09309_chp_0010_reader_11115_11_seg.wav": {
+    "mos": 1.7697032690048218,
+    "noi": 1.7030422687530518,
+    "col": 2.7037434577941895,
+    "dis": 3.3980746269226074,
+    "loud": 2.7400012016296387
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2043_nom_07508_00451694544_seg.wav": {
+    "mos": 1.9772497415542603,
+    "noi": 2.478480815887451,
+    "col": 1.9128981828689575,
+    "dis": 3.432814121246338,
+    "loud": 2.7012906074523926
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2056_4_682_2_7_001-ch6-speaker_seg76.wav": {
+    "mos": 2.038889169692993,
+    "noi": 2.907989978790283,
+    "col": 2.324079990386963,
+    "dis": 2.142122268676758,
+    "loud": 3.2577104568481445
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2065_3_132_2_7_001-ch6-speaker_seg15.wav": {
+    "mos": 3.6872329711914062,
+    "noi": 3.1326487064361572,
+    "col": 3.788689613342285,
+    "dis": 4.084120273590088,
+    "loud": 3.987935781478882
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2069_book_03444_chp_0038_reader_05118_7_seg.wav": {
+    "mos": 1.7050384283065796,
+    "noi": 2.531116008758545,
+    "col": 1.5062311887741089,
+    "dis": 3.089085102081299,
+    "loud": 2.357227087020874
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2072_book_05632_chp_0003_reader_10435_2_seg.wav": {
+    "mos": 2.159816265106201,
+    "noi": 2.3305435180664062,
+    "col": 2.6744794845581055,
+    "dis": 3.0664994716644287,
+    "loud": 2.327634811401367
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2073_book_10795_chp_0003_reader_02697_14_seg.wav": {
+    "mos": 1.3980413675308228,
+    "noi": 2.5015459060668945,
+    "col": 1.676902413368225,
+    "dis": 1.8097290992736816,
+    "loud": 2.86484432220459
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2080_som_02121_01917358163_seg.wav": {
+    "mos": 2.102402687072754,
+    "noi": 2.2663395404815674,
+    "col": 2.3692703247070312,
+    "dis": 3.1926281452178955,
+    "loud": 3.0510339736938477
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2081_1_993_2_7_001-ch6-speaker_seg79.wav": {
+    "mos": 3.229252815246582,
+    "noi": 3.3593010902404785,
+    "col": 3.5523104667663574,
+    "dis": 3.368992328643799,
+    "loud": 3.766495704650879
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2087_1_929_2_7_001-ch6-speaker_seg11.wav": {
+    "mos": 1.447792410850525,
+    "noi": 1.5946816205978394,
+    "col": 2.5913989543914795,
+    "dis": 3.173201084136963,
+    "loud": 2.288480043411255
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2091_book_04288_chp_0092_reader_11224_6_seg.wav": {
+    "mos": 2.583714485168457,
+    "noi": 2.5924601554870605,
+    "col": 2.9649689197540283,
+    "dis": 3.248659610748291,
+    "loud": 3.2263379096984863
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2093_sof_04310_00580981328_seg.wav": {
+    "mos": 1.675855040550232,
+    "noi": 1.7079124450683594,
+    "col": 2.6682794094085693,
+    "dis": 3.206517219543457,
+    "loud": 2.5571060180664062
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2096_3_997_2_7_001-ch6-speaker_seg57.wav": {
+    "mos": 2.766084909439087,
+    "noi": 2.2910358905792236,
+    "col": 3.240744113922119,
+    "dis": 3.60614275932312,
+    "loud": 3.436005115509033
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2098_3_731_2_7_001-ch6-speaker_seg32.wav": {
+    "mos": 2.5936102867126465,
+    "noi": 2.2036633491516113,
+    "col": 3.0280227661132812,
+    "dis": 3.3361563682556152,
+    "loud": 3.248624801635742
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2099_3_972_2_7_001-ch6-speaker_seg57.wav": {
+    "mos": 3.242558002471924,
+    "noi": 3.5689966678619385,
+    "col": 3.398913860321045,
+    "dis": 3.0025229454040527,
+    "loud": 3.9046545028686523
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2102_book_07661_chp_0002_reader_02679_6_seg.wav": {
+    "mos": 2.0236799716949463,
+    "noi": 2.263723373413086,
+    "col": 2.352047920227051,
+    "dis": 2.8548738956451416,
+    "loud": 3.125246047973633
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2104_1_371_2_7_001-ch6-speaker_seg68.wav": {
+    "mos": 1.9468125104904175,
+    "noi": 1.8436228036880493,
+    "col": 2.7230472564697266,
+    "dis": 3.326977491378784,
+    "loud": 2.7545511722564697
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2106_book_08344_chp_0016_reader_01487_5_seg.wav": {
+    "mos": 2.2006659507751465,
+    "noi": 3.277297019958496,
+    "col": 1.8342386484146118,
+    "dis": 3.531101942062378,
+    "loud": 2.41898250579834
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2107_som_01208_00183728359_seg.wav": {
+    "mos": 2.877464771270752,
+    "noi": 3.1294727325439453,
+    "col": 3.053534507751465,
+    "dis": 3.150306463241577,
+    "loud": 3.5843539237976074
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2112_3_132_2_7_001-ch6-speaker_seg59.wav": {
+    "mos": 3.9427075386047363,
+    "noi": 3.8542277812957764,
+    "col": 3.7341465950012207,
+    "dis": 4.096376419067383,
+    "loud": 4.099177837371826
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2115_book_08504_chp_0005_reader_02138_1_seg.wav": {
+    "mos": 3.365514039993286,
+    "noi": 3.3183188438415527,
+    "col": 2.814466714859009,
+    "dis": 4.062039375305176,
+    "loud": 3.7610673904418945
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2117_som_09799_00427399354_seg.wav": {
+    "mos": 3.64253568649292,
+    "noi": 4.3154449462890625,
+    "col": 3.5188562870025635,
+    "dis": 3.4356420040130615,
+    "loud": 4.071997165679932
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2119_book_02952_chp_0073_reader_06954_18_seg.wav": {
+    "mos": 2.710416793823242,
+    "noi": 2.20222806930542,
+    "col": 3.4399666786193848,
+    "dis": 3.2465624809265137,
+    "loud": 3.7421422004699707
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2128_3_1026_2_7_001-ch6-speaker_seg85.wav": {
+    "mos": 2.451087474822998,
+    "noi": 2.76796817779541,
+    "col": 2.1467533111572266,
+    "dis": 3.714057445526123,
+    "loud": 3.045074462890625
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2133_wem_02484_01914578834_seg.wav": {
+    "mos": 3.3274447917938232,
+    "noi": 2.590583562850952,
+    "col": 3.6666600704193115,
+    "dis": 3.9920287132263184,
+    "loud": 3.876634120941162
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2134_book_10306_chp_0023_reader_04645_3_seg.wav": {
+    "mos": 2.0640385150909424,
+    "noi": 2.291818618774414,
+    "col": 2.11448073387146,
+    "dis": 2.646023750305176,
+    "loud": 3.1403002738952637
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2135_2_214_2_7_001-ch6-speaker_seg32.wav": {
+    "mos": 1.6372689008712769,
+    "noi": 2.9425864219665527,
+    "col": 1.9025803804397583,
+    "dis": 2.1060092449188232,
+    "loud": 2.492152214050293
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2137_3_997_2_7_001-ch6-speaker_seg55.wav": {
+    "mos": 2.388576030731201,
+    "noi": 1.7831664085388184,
+    "col": 3.002946138381958,
+    "dis": 3.4912006855010986,
+    "loud": 3.2208547592163086
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2139_nom_07508_01009722389_seg.wav": {
+    "mos": 2.016963481903076,
+    "noi": 3.4644880294799805,
+    "col": 1.5747895240783691,
+    "dis": 3.7396421432495117,
+    "loud": 2.456188917160034
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2140_book_02726_chp_0028_reader_08303_10_seg.wav": {
+    "mos": 2.6015989780426025,
+    "noi": 2.442631483078003,
+    "col": 2.6473922729492188,
+    "dis": 3.3705873489379883,
+    "loud": 3.30307674407959
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2145_som_01208_01774814638_seg.wav": {
+    "mos": 1.9507776498794556,
+    "noi": 1.935293197631836,
+    "col": 2.8257174491882324,
+    "dis": 3.230740547180176,
+    "loud": 2.7911276817321777
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2147_book_04980_chp_0021_reader_05975_19_seg.wav": {
+    "mos": 2.980005979537964,
+    "noi": 2.6647448539733887,
+    "col": 3.2117714881896973,
+    "dis": 3.7179007530212402,
+    "loud": 3.4779324531555176
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2148_2_529_2_7_001-ch6-speaker_seg92.wav": {
+    "mos": 2.776165008544922,
+    "noi": 2.469771385192871,
+    "col": 2.7753915786743164,
+    "dis": 3.865043878555298,
+    "loud": 3.243229627609253
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2149_som_02484_01414212128_seg.wav": {
+    "mos": 3.1071889400482178,
+    "noi": 3.1094799041748047,
+    "col": 2.670088529586792,
+    "dis": 4.001579761505127,
+    "loud": 3.4856317043304443
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2156_nom_07049_01678363362_seg.wav": {
+    "mos": 3.4147090911865234,
+    "noi": 3.894505262374878,
+    "col": 2.789724349975586,
+    "dis": 3.8134281635284424,
+    "loud": 3.733819007873535
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2157_4_443_2_7_001-ch6-speaker_seg114.wav": {
+    "mos": 2.672844409942627,
+    "noi": 2.2125396728515625,
+    "col": 3.210865020751953,
+    "dis": 3.336596965789795,
+    "loud": 3.3997106552124023
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2158_book_00394_chp_0013_reader_05142_19_seg.wav": {
+    "mos": 3.750091314315796,
+    "noi": 3.6014766693115234,
+    "col": 3.7057604789733887,
+    "dis": 4.015512943267822,
+    "loud": 3.9512689113616943
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2160_3_387_2_7_001-ch6-speaker_seg4.wav": {
+    "mos": 1.9304720163345337,
+    "noi": 2.978912830352783,
+    "col": 1.928272008895874,
+    "dis": 2.3190813064575195,
+    "loud": 2.9229671955108643
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2161_3_417_2_7_001-ch6-speaker_seg39.wav": {
+    "mos": 0.8422858715057373,
+    "noi": 1.3477177619934082,
+    "col": 1.5247831344604492,
+    "dis": 2.278547763824463,
+    "loud": 1.8156110048294067
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2168_1_1155_2_7_001-ch6-speaker_seg81.wav": {
+    "mos": 4.216006755828857,
+    "noi": 3.945533275604248,
+    "col": 4.056151866912842,
+    "dis": 4.226508617401123,
+    "loud": 4.302417278289795
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2175_4_1203_2_7_001-ch6-speaker_seg110.wav": {
+    "mos": 3.587035894393921,
+    "noi": 3.843508720397949,
+    "col": 3.03135085105896,
+    "dis": 4.094285011291504,
+    "loud": 3.8292009830474854
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2180_book_09703_chp_0036_reader_08986_28_seg.wav": {
+    "mos": 2.482839584350586,
+    "noi": 2.103687286376953,
+    "col": 2.5533230304718018,
+    "dis": 3.66343355178833,
+    "loud": 2.824097156524658
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2187_3_387_2_7_001-ch6-speaker_seg16.wav": {
+    "mos": 1.2682958841323853,
+    "noi": 3.271134853363037,
+    "col": 1.5612270832061768,
+    "dis": 3.29510498046875,
+    "loud": 1.78599214553833
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2190_book_04849_chp_0028_reader_02852_16_seg.wav": {
+    "mos": 2.319408893585205,
+    "noi": 3.1953773498535156,
+    "col": 2.580197811126709,
+    "dis": 2.7416343688964844,
+    "loud": 3.2982640266418457
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2192_4_1062_2_7_001-ch6-speaker_seg50.wav": {
+    "mos": 2.2147741317749023,
+    "noi": 3.422412395477295,
+    "col": 2.2219557762145996,
+    "dis": 2.290151596069336,
+    "loud": 3.172366142272949
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2195_4_554_2_7_001-ch6-speaker_seg49.wav": {
+    "mos": 2.142364263534546,
+    "noi": 1.8152378797531128,
+    "col": 2.9849963188171387,
+    "dis": 3.2956900596618652,
+    "loud": 2.948331117630005
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2197_4_1145_2_7_001-ch6-speaker_seg5.wav": {
+    "mos": 1.6287468671798706,
+    "noi": 1.6174331903457642,
+    "col": 2.3363780975341797,
+    "dis": 2.955329418182373,
+    "loud": 2.5269298553466797
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2208_book_08134_chp_0013_reader_08131_45_seg.wav": {
+    "mos": 1.4582798480987549,
+    "noi": 3.325103521347046,
+    "col": 1.8956304788589478,
+    "dis": 1.656401515007019,
+    "loud": 2.878384590148926
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2210_book_06205_chp_0005_reader_07462_21_seg.wav": {
+    "mos": 2.4168338775634766,
+    "noi": 2.7809903621673584,
+    "col": 2.25258469581604,
+    "dis": 3.470118284225464,
+    "loud": 2.9135634899139404
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2215_2_740_2_7_001-ch6-speaker_seg7.wav": {
+    "mos": 1.6076620817184448,
+    "noi": 3.489345073699951,
+    "col": 2.521571636199951,
+    "dis": 1.3866934776306152,
+    "loud": 3.276294231414795
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2218_2_740_2_7_001-ch6-speaker_seg77.wav": {
+    "mos": 2.3208649158477783,
+    "noi": 3.625392198562622,
+    "col": 1.972621202468872,
+    "dis": 2.870962142944336,
+    "loud": 2.8175201416015625
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2230_1_89_2_7_001-ch6-speaker_seg3.wav": {
+    "mos": 1.5757296085357666,
+    "noi": 2.463547945022583,
+    "col": 2.223654270172119,
+    "dis": 1.5671063661575317,
+    "loud": 3.051684856414795
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2250_book_00827_chp_0003_reader_06966_2_seg.wav": {
+    "mos": 4.349169731140137,
+    "noi": 4.3360443115234375,
+    "col": 3.9265518188476562,
+    "dis": 4.19045877456665,
+    "loud": 4.273435592651367
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2253_book_09309_chp_0010_reader_11115_36_seg.wav": {
+    "mos": 2.2828562259674072,
+    "noi": 3.633565902709961,
+    "col": 2.5891339778900146,
+    "dis": 2.0306153297424316,
+    "loud": 3.351881504058838
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2265_4_644_2_7_001-ch6-speaker_seg129.wav": {
+    "mos": 2.547132730484009,
+    "noi": 3.264122247695923,
+    "col": 1.8027750253677368,
+    "dis": 3.4714293479919434,
+    "loud": 2.791872501373291
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2270_book_02131_chp_0074_reader_02552_48_seg.wav": {
+    "mos": 1.588614583015442,
+    "noi": 2.591585636138916,
+    "col": 1.9005142450332642,
+    "dis": 1.9385432004928589,
+    "loud": 2.8972268104553223
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2272_book_05872_chp_0020_reader_03783_2_seg.wav": {
+    "mos": 4.104705810546875,
+    "noi": 3.401970148086548,
+    "col": 4.114034652709961,
+    "dis": 4.419089317321777,
+    "loud": 4.313370704650879
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2274_book_02044_chp_0000_reader_04921_2_seg.wav": {
+    "mos": 1.8224281072616577,
+    "noi": 1.9346261024475098,
+    "col": 2.3051233291625977,
+    "dis": 3.1590094566345215,
+    "loud": 2.567877769470215
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2278_2_1027_2_7_001-ch6-speaker_seg34.wav": {
+    "mos": 1.454187273979187,
+    "noi": 1.871827483177185,
+    "col": 2.3592896461486816,
+    "dis": 2.008495807647705,
+    "loud": 2.6919167041778564
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2280_2_1027_2_7_001-ch6-speaker_seg27.wav": {
+    "mos": 1.4226887226104736,
+    "noi": 2.548565149307251,
+    "col": 2.0142879486083984,
+    "dis": 1.5624815225601196,
+    "loud": 2.9257445335388184
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2283_book_02252_chp_0007_reader_09010_34_seg.wav": {
+    "mos": 2.6982192993164062,
+    "noi": 3.313279867172241,
+    "col": 2.1226301193237305,
+    "dis": 3.68812894821167,
+    "loud": 3.0232646465301514
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2287_3_112_2_7_001-ch6-speaker_seg7.wav": {
+    "mos": 1.4814249277114868,
+    "noi": 1.5417592525482178,
+    "col": 2.3421359062194824,
+    "dis": 3.0079214572906494,
+    "loud": 2.3572230339050293
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2288_book_07269_chp_0015_reader_11888_37_seg.wav": {
+    "mos": 3.973329544067383,
+    "noi": 3.619368553161621,
+    "col": 3.8843159675598145,
+    "dis": 4.211980819702148,
+    "loud": 4.068795204162598
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2290_book_08134_chp_0017_reader_11094_15_seg.wav": {
+    "mos": 2.5481293201446533,
+    "noi": 2.979397773742676,
+    "col": 2.1835711002349854,
+    "dis": 3.3788723945617676,
+    "loud": 2.9990859031677246
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2295_4_695_2_7_001-ch6-speaker_seg39.wav": {
+    "mos": 2.117654323577881,
+    "noi": 2.054753065109253,
+    "col": 2.272636890411377,
+    "dis": 3.4187209606170654,
+    "loud": 2.768009662628174
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2297_book_03245_chp_0008_reader_05578_4_seg.wav": {
+    "mos": 4.047412395477295,
+    "noi": 3.902371883392334,
+    "col": 3.89546799659729,
+    "dis": 4.163730621337891,
+    "loud": 4.083879470825195
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2298_2_1329_2_7_001-ch6-speaker_seg71.wav": {
+    "mos": 1.564333200454712,
+    "noi": 1.7132701873779297,
+    "col": 2.3205254077911377,
+    "dis": 2.7062911987304688,
+    "loud": 2.593196153640747
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2309_book_05975_chp_0016_reader_01343_3_seg.wav": {
+    "mos": 2.4142606258392334,
+    "noi": 1.8267714977264404,
+    "col": 3.2311489582061768,
+    "dis": 3.7737317085266113,
+    "loud": 3.239513635635376
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2310_3_1026_2_7_001-ch6-speaker_seg103.wav": {
+    "mos": 1.3637871742248535,
+    "noi": 1.759871482849121,
+    "col": 1.9045709371566772,
+    "dis": 2.9613733291625977,
+    "loud": 2.152238607406616
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2312_som_09799_01588564087_seg.wav": {
+    "mos": 1.7730767726898193,
+    "noi": 1.6361796855926514,
+    "col": 2.8966331481933594,
+    "dis": 3.351778268814087,
+    "loud": 2.8101189136505127
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2317_nom_06136_01782161113_seg.wav": {
+    "mos": 3.1327853202819824,
+    "noi": 2.594308853149414,
+    "col": 3.3966481685638428,
+    "dis": 3.780078172683716,
+    "loud": 3.652414083480835
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2323_book_00057_chp_0006_reader_07339_52_seg.wav": {
+    "mos": 1.6336722373962402,
+    "noi": 1.7542095184326172,
+    "col": 2.2115068435668945,
+    "dis": 2.747220039367676,
+    "loud": 2.63265061378479
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2325_book_09423_chp_0020_reader_05319_29_seg.wav": {
+    "mos": 1.403197169303894,
+    "noi": 1.6192903518676758,
+    "col": 2.3700923919677734,
+    "dis": 3.0303220748901367,
+    "loud": 2.1669113636016846
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2327_4_1145_2_7_001-ch6-speaker_seg45.wav": {
+    "mos": 1.119322419166565,
+    "noi": 1.4260151386260986,
+    "col": 2.19258451461792,
+    "dis": 2.9740591049194336,
+    "loud": 1.9340862035751343
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2328_4_1113_2_7_001-ch6-speaker_seg58.wav": {
+    "mos": 2.5952208042144775,
+    "noi": 2.149484157562256,
+    "col": 3.433560848236084,
+    "dis": 3.612762451171875,
+    "loud": 3.330582618713379
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2336_1_580_2_7_001-ch6-speaker_seg29.wav": {
+    "mos": 1.8855242729187012,
+    "noi": 1.9049961566925049,
+    "col": 2.2686498165130615,
+    "dis": 3.1938486099243164,
+    "loud": 2.4696991443634033
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2342_som_08784_01030166516_seg.wav": {
+    "mos": 1.3713675737380981,
+    "noi": 1.70041823387146,
+    "col": 1.9062482118606567,
+    "dis": 2.443828821182251,
+    "loud": 2.385087251663208
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2345_book_05272_chp_0033_reader_05284_0_seg.wav": {
+    "mos": 2.4011342525482178,
+    "noi": 2.1205501556396484,
+    "col": 3.174241542816162,
+    "dis": 3.3977103233337402,
+    "loud": 3.194230556488037
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2347_4_554_2_7_001-ch6-speaker_seg12.wav": {
+    "mos": 2.4262900352478027,
+    "noi": 2.018507719039917,
+    "col": 2.9855899810791016,
+    "dis": 3.3279495239257812,
+    "loud": 3.1503119468688965
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2350_book_00578_chp_0039_reader_09021_10_seg.wav": {
+    "mos": 4.406935691833496,
+    "noi": 4.187273025512695,
+    "col": 4.064284324645996,
+    "dis": 4.363871097564697,
+    "loud": 4.33978796005249
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2351_wem_02484_00537794312_seg.wav": {
+    "mos": 2.630275249481201,
+    "noi": 2.340256690979004,
+    "col": 2.5242528915405273,
+    "dis": 3.637373685836792,
+    "loud": 3.27683424949646
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2354_book_06260_chp_0022_reader_06499_5_seg.wav": {
+    "mos": 1.2612237930297852,
+    "noi": 1.8812812566757202,
+    "col": 2.059586763381958,
+    "dis": 1.9752556085586548,
+    "loud": 2.5039303302764893
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2370_3_997_2_7_001-ch6-speaker_seg51.wav": {
+    "mos": 2.5528945922851562,
+    "noi": 2.015413761138916,
+    "col": 3.1604533195495605,
+    "dis": 3.725799798965454,
+    "loud": 3.183831214904785
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2375_book_07907_chp_0011_reader_07487_23_seg.wav": {
+    "mos": 3.337031364440918,
+    "noi": 2.707343339920044,
+    "col": 3.5175461769104004,
+    "dis": 4.0237016677856445,
+    "loud": 3.7242493629455566
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2394_3_132_2_7_001-ch6-speaker_seg177.wav": {
+    "mos": 0.9718737602233887,
+    "noi": 1.2565205097198486,
+    "col": 1.7654331922531128,
+    "dis": 2.5552196502685547,
+    "loud": 1.7511392831802368
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2396_sof_04310_01555173557_seg.wav": {
+    "mos": 2.4267354011535645,
+    "noi": 2.0340850353240967,
+    "col": 3.097999095916748,
+    "dis": 3.1567330360412598,
+    "loud": 3.297912120819092
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2406_4_1203_2_7_001-ch6-speaker_seg84.wav": {
+    "mos": 3.129706859588623,
+    "noi": 2.9099082946777344,
+    "col": 3.0663094520568848,
+    "dis": 3.850731611251831,
+    "loud": 3.6000444889068604
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2411_book_10665_chp_0009_reader_07152_1_seg.wav": {
+    "mos": 2.1868975162506104,
+    "noi": 1.8691236972808838,
+    "col": 2.4032468795776367,
+    "dis": 3.395293951034546,
+    "loud": 2.9931299686431885
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2414_book_10995_chp_0004_reader_01615_22_seg.wav": {
+    "mos": 2.045567512512207,
+    "noi": 3.439049005508423,
+    "col": 2.5560154914855957,
+    "dis": 3.9254748821258545,
+    "loud": 1.7308199405670166
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2415_book_02045_chp_0008_reader_10520_47_seg.wav": {
+    "mos": 2.9056363105773926,
+    "noi": 3.9014360904693604,
+    "col": 3.207479476928711,
+    "dis": 3.7798662185668945,
+    "loud": 2.754936695098877
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2416_book_03324_chp_0017_reader_05437_0_seg.wav": {
+    "mos": 3.339590549468994,
+    "noi": 3.7489495277404785,
+    "col": 3.310476303100586,
+    "dis": 4.15435791015625,
+    "loud": 2.9983606338500977
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2420_book_05289_chp_0004_reader_11225_12_seg.wav": {
+    "mos": 3.8719239234924316,
+    "noi": 3.8747057914733887,
+    "col": 3.6965551376342773,
+    "dis": 4.230437278747559,
+    "loud": 3.813483238220215
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2427_book_01653_chp_0020_reader_00160_13_seg.wav": {
+    "mos": 3.605703353881836,
+    "noi": 2.8261799812316895,
+    "col": 3.8191707134246826,
+    "dis": 4.269362449645996,
+    "loud": 3.9975574016571045
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2429_nof_06136_00095393421_seg.wav": {
+    "mos": 2.360898494720459,
+    "noi": 3.9601495265960693,
+    "col": 2.603044271469116,
+    "dis": 2.4419827461242676,
+    "loud": 3.235478401184082
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2440_1_993_2_7_001-ch6-speaker_seg83.wav": {
+    "mos": 3.3343613147735596,
+    "noi": 2.292386770248413,
+    "col": 3.861865997314453,
+    "dis": 4.141498565673828,
+    "loud": 3.9753730297088623
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2441_book_05185_chp_0003_reader_11382_56_seg.wav": {
+    "mos": 4.647383689880371,
+    "noi": 4.320017337799072,
+    "col": 4.34041166305542,
+    "dis": 4.568298816680908,
+    "loud": 4.522088050842285
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2442_3_387_2_7_001-ch6-speaker_seg31.wav": {
+    "mos": 3.2882447242736816,
+    "noi": 3.5654189586639404,
+    "col": 2.711554527282715,
+    "dis": 3.8037030696868896,
+    "loud": 3.6738390922546387
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2460_nom_09697_00502567880_seg.wav": {
+    "mos": 0.940945029258728,
+    "noi": 1.377766489982605,
+    "col": 1.8736902475357056,
+    "dis": 2.1163835525512695,
+    "loud": 2.04514217376709
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2462_book_05250_chp_0043_reader_08475_20_seg.wav": {
+    "mos": 1.5273154973983765,
+    "noi": 1.578791618347168,
+    "col": 2.4548168182373047,
+    "dis": 2.7090823650360107,
+    "loud": 2.445892095565796
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2482_3_1035_2_7_001-ch6-speaker_seg86.wav": {
+    "mos": 2.084489583969116,
+    "noi": 2.2194671630859375,
+    "col": 2.499786853790283,
+    "dis": 3.7531867027282715,
+    "loud": 2.2857446670532227
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2484_book_08889_chp_0018_reader_07722_0_seg.wav": {
+    "mos": 2.7665867805480957,
+    "noi": 3.398581027984619,
+    "col": 2.239868640899658,
+    "dis": 3.779217481613159,
+    "loud": 2.989696502685547
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2485_sof_05679_01656488545_seg.wav": {
+    "mos": 2.380824565887451,
+    "noi": 2.3921680450439453,
+    "col": 2.9015398025512695,
+    "dis": 2.937066078186035,
+    "loud": 3.1284244060516357
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2492_book_06300_chp_0026_reader_09947_29_seg.wav": {
+    "mos": 1.2974525690078735,
+    "noi": 1.459913730621338,
+    "col": 2.3307361602783203,
+    "dis": 3.228682518005371,
+    "loud": 2.1336047649383545
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2496_nom_07049_02002667939_seg.wav": {
+    "mos": 2.0632359981536865,
+    "noi": 1.7213255167007446,
+    "col": 2.9010684490203857,
+    "dis": 3.5908432006835938,
+    "loud": 2.6696319580078125
+  },
+  "DATA_ROOT/NISQA_Corpus/NISQA_VAL_SIM/deg/c2497_book_04189_chp_0005_reader_10125_60_seg.wav": {
+    "mos": 0.9174495935440063,
+    "noi": 1.527153730392456,
+    "col": 1.863609790802002,
+    "dis": 2.697117805480957,
+    "loud": 1.2024201154708862
+  }
+}

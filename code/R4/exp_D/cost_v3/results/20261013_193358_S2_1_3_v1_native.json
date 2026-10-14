@@ -1,0 +1,42 @@
+{
+  "instrumented_stages_ns": {
+    "L": 502590800,
+    "R": 1596118900,
+    "G": 51999900,
+    "F": 881430900,
+    "I": 6398562700,
+    "O": 6292600
+  },
+  "adapter": "adapters.v1_native:Runner",
+  "core": 2,
+  "actual_affinity": [
+    2
+  ],
+  "n_files": 600,
+  "warmup_files": 20,
+  "wall_ns": 9486684700,
+  "stages_ns": {
+    "L": 502590800,
+    "R": 1596118900,
+    "G": 51999900,
+    "F": 881430900,
+    "I": 6398562700,
+    "O": 55981500
+  },
+  "cold_ns": 2471692600,
+  "rss_end_bytes": 373542912,
+  "t_start": 1791898592.2814884,
+  "t_end": 1791898601.7682445,
+  "metadata": {
+    "frozen_folder": "code/R4/exp_A/frozen/A_distill",
+    "precision": "CPU fp32 originalruntime",
+    "stages": "L decode+mono; R originalresample; G peak normalization; F librosa mel/log; I originalmodel (includes normalized inputcopy); O outputformat",
+    "threads": 1
+  },
+  "threads_actual": 7,
+  "torch_num_threads": 1,
+  "scope": "CLEAN_COST_V3_VAL600_ONE_ROUND",
+  "pagecache": "allfilesreadbeforewarmup",
+  "timing_observer": "no sampling thread, no perfile output",
+  "O_unattributed_ns": 49688900
+}

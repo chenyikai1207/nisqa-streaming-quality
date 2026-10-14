@@ -1,0 +1,42 @@
+{
+  "instrumented_stages_ns": {
+    "L": 1065745500,
+    "R": 0,
+    "G": 0,
+    "F": 28779819100,
+    "I": 82502140300,
+    "O": 34620100
+  },
+  "adapter": "adapters.official:NISQAMOS",
+  "core": 16,
+  "actual_affinity": [
+    16
+  ],
+  "n_files": 600,
+  "warmup_files": 20,
+  "wall_ns": 112411446200,
+  "stages_ns": {
+    "L": 1065745500,
+    "R": 0,
+    "G": 0,
+    "F": 28779819100,
+    "I": 82502140300,
+    "O": 63741300
+  },
+  "cold_ns": 7853256500,
+  "rss_end_bytes": 569413632,
+  "t_start": 1791909137.693414,
+  "t_end": 1791909250.1053102,
+  "metadata": {
+    "weights": "code/R4/exp_C/weights/nisqa_mos_only.tar",
+    "stages": "officialdataset frontend F merges authorlevel handling/STFT/mel; decodeL/resampleR nestedexclusive; officialwholemodel I",
+    "parameters": 218402,
+    "official_output_heads": 1
+  },
+  "threads_actual": 4,
+  "torch_num_threads": 1,
+  "scope": "CLEAN_COST_V3_VAL600_ONE_ROUND",
+  "pagecache": "allfilesreadbeforewarmup",
+  "timing_observer": "no sampling thread, no perfile output",
+  "O_unattributed_ns": 29121200
+}

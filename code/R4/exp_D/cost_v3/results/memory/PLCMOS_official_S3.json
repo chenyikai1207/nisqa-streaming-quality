@@ -1,0 +1,22 @@
+{
+  "adapter": "adapters.official:PLCMOS",
+  "core": 16,
+  "n_files": 600,
+  "baseline_rss_bytes": 279166976,
+  "baseline_rss_mb": 279.166976,
+  "peak_rss_bytes": 405913600,
+  "peak_rss_mb": 405.9136,
+  "sampling_interval_ms": 10,
+  "samples": 33290,
+  "lifetime_peak_working_set_bytes": 406241280,
+  "scope": "independentmemorypass; afterlibraries/modelbeforefirstaudio baseline; notRTF",
+  "metadata": {
+    "weights": "code/R4/exp_B/official/PLC_WEIGHT.onnx",
+    "calls": 15,
+    "stages": "L mono decode; R originaltorchaudio16k; F authorSTFT once; I all15fullofficialcalls noencoderreuse; O peraudio seed23/15rater generation+float32conversion/mean",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "rater_embedding_precomputed": false
+  }
+}

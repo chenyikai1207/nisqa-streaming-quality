@@ -1,0 +1,12 @@
+{
+  "complete_four": true,
+  "actual_fit_count": 120,
+  "B_reproduction": {
+    "reference": 0.4176,
+    "tolerance": 0.002,
+    "actual": 0.41758075429657593,
+    "absolute_difference": 1.9245703424097815e-05,
+    "passed": true,
+    "scope": "pipeline reproduction check; no hyperparameter/seed retuning or model selection"
+  }
+}

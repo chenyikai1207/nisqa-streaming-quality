@@ -1,0 +1,7 @@
+model,dataset,status,protocol_revision,registered_utc,native_repetitions,selection,freeze_required,new_TEST_openings,external_audio_reads
+UTMOSv2,NISQA_TEST_FOR,REGISTERED_BEFORE_INFERENCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,5fold x5 native random crops,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0
+UTMOSv2,NISQA_TEST_P501,REGISTERED_BEFORE_INFERENCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,5fold x5 native random crops,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0
+UTMOSv2,NISQA_TEST_LIVETALK,REGISTERED_BEFORE_INFERENCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,5fold x5 native random crops,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0
+UTMOSv2,TCD_VOIP,REGISTERED_BEFORE_INFERENCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,5fold x5 native random crops,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0
+NISQA5D,TCD_VOIP,COMPLETE_EXTERNAL_ONCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,author native5D,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0
+PLCMOS,TCD_VOIP,COMPLETE_EXTERNAL_ONCE,v3_synthetic_review,2026-10-11T20:42:03.992311+00:00,PLCMOS15seed23,never from VAL/TEST,FROZEN_v2.md names v3_synthetic_review and frozen_v3/manifest.json,0,0

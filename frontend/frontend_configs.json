@@ -1,0 +1,64 @@
+{
+  "human_frontend_definition_confirmed": true,
+  "analysis": "postfreeze_firstpaper_GRU96_frontend_robustness",
+  "stage": "code/R4",
+  "configs": {
+    "A": {
+      "normalization": "whole_utterance_peak",
+      "cache": "peak16000_mel48",
+      "side": "zero4"
+    },
+    "B": {
+      "normalization": "TRAIN_fixed_gain",
+      "cache": "power16000_mel48",
+      "side": "raw4"
+    },
+    "C": {
+      "normalization": "TRAIN_fixed_gain",
+      "cache": "power16000_mel48",
+      "side": "zero4"
+    },
+    "D": {
+      "normalization": "whole_utterance_peak",
+      "cache": "peak16000_mel48",
+      "side": "raw4"
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "required_configs": [
+    "A",
+    "B"
+  ],
+  "suggested_configs": [
+    "C",
+    "D"
+  ],
+  "reuse_legacy_B": false,
+  "reuse_legacy_D": false,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261014,
+  "primary_comparison": [
+    "B",
+    "A"
+  ],
+  "secondary_comparisons": [
+    [
+      "C",
+      "A"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "D",
+      "A"
+    ]
+  ],
+  "B_CV_equal_domain_MOS_MAE_reference": 0.4176,
+  "B_CV_reproduction_tolerance": 0.002
+}

@@ -1,0 +1,101 @@
+{
+  "family": "cubic",
+  "maps": [
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.01024713818782483,
+        0.07415431560208509,
+        0.7847063220210725,
+        0.24746034300431305
+      ],
+      "linear_coef": [
+        0.9384362343099906,
+        0.16277181483366152
+      ],
+      "prediction_range": [
+        0.071428776,
+        4.7626863
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "linear",
+      "coef": [
+        0.9662319229913329,
+        0.13845620262103148
+      ],
+      "linear_coef": [
+        0.9662319229913329,
+        0.13845620262103148
+      ],
+      "prediction_range": [
+        0.38419083,
+        4.713501
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.05174698208520689,
+        0.4295358851584895,
+        -0.18277244877104443,
+        1.060271625393191
+      ],
+      "linear_coef": [
+        0.9413293587297075,
+        0.1382891511557762
+      ],
+      "prediction_range": [
+        0.5020271,
+        4.550132
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "cubic",
+      "coef": [
+        -0.017068389500000385,
+        0.17118137075089845,
+        0.33459165906020466,
+        0.9146821500553413
+      ],
+      "linear_coef": [
+        0.8828468027810243,
+        0.36298377463609605
+      ],
+      "prediction_range": [
+        0.8465432,
+        4.600754
+      ]
+    },
+    {
+      "requested": "cubic",
+      "n": 11020,
+      "used": "linear",
+      "coef": [
+        0.9577129568415905,
+        0.09805354770450117
+      ],
+      "linear_coef": [
+        0.9577129568415905,
+        0.09805354770450117
+      ],
+      "prediction_range": [
+        -4.97036,
+        4.638559
+      ]
+    }
+  ],
+  "fit_source": "fixed seed0 original A2 TRAIN grouped fivefold OOF,11020 unique files",
+  "unique_files": 11020,
+  "selection_using_target": false,
+  "requested": "cubic; original monotonicity check and linear fallback",
+  "raw_main": true
+}

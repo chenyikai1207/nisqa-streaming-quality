@@ -1,0 +1,17 @@
+arm,protocol,dim,metric,value,files,ref_groups,strata,seeds_averaged,aggregation,statistical_rule_received_after_fit_results
+A,SIM_TO_LIVE,mos,MAE,0.4502460635007783,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+A,SIM_TO_LIVE,mos,Pearson,0.6520862644087732,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+A,SIM_TO_LIVE,loud,MAE,0.7731922015870687,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+A,SIM_TO_LIVE,loud,Pearson,0.4940699205647324,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+B,SIM_TO_LIVE,mos,MAE,0.41651810606442535,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+B,SIM_TO_LIVE,mos,Pearson,0.6819511280423786,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+B,SIM_TO_LIVE,loud,MAE,0.49087090543860895,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+B,SIM_TO_LIVE,loud,Pearson,0.6621478735202974,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+C,SIM_TO_LIVE,mos,MAE,0.410806888631964,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+C,SIM_TO_LIVE,mos,Pearson,0.6878658075956383,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+C,SIM_TO_LIVE,loud,MAE,0.4641727553947244,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+C,SIM_TO_LIVE,loud,Pearson,0.6846227072803929,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+D,SIM_TO_LIVE,mos,MAE,0.4121412888658575,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+D,SIM_TO_LIVE,mos,Pearson,0.6949076356849266,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+D,SIM_TO_LIVE,loud,MAE,0.5651151235301116,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True
+D,SIM_TO_LIVE,loud,Pearson,0.6550236461154143,1020,495,1,3,"filewise mean of seed0/1/2 predictions, then within-stratum metric and equal strata",True

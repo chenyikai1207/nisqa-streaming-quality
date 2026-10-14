@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-14T13:12:13.406620+08:00",
+  "status": "ACTUAL_MEANPREDICTION_POSTPROCESS_COMPLETE",
+  "existing_fit_inputs": 120,
+  "new_fits": 0,
+  "metric_rows": 120,
+  "contrast_rows": 120,
+  "mean_prediction_CSVs": 12,
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261014,
+  "teacher_or_student_forward": 0,
+  "audio_reads": 0,
+  "original_B_reproduction_gate_pass": true,
+  "tier": 1,
+  "tier_status": "MOS_AND_LOUD_PASS",
+  "statistical_rule_received_after_fit_results": true
+}

@@ -1,0 +1,737 @@
+{
+  "time": "2026-10-14T04:22:26.347976+08:00",
+  "status": "ACTUAL_STATE_BOUNDS_COMPLETE",
+  "method": "integer-source-count enumeration of allstartup N, alljointresidual/FIRpolyphase states and postfinish states; exact original state_bytes convention; bounded actual zero-array length reads only",
+  "state_definition": "retainedarrays +27 logical64bit slots (13 Stream +7 perFIR); excludesimmutableweights/coefficients, inputpacket, temporaryFFT/GRU scratch, Pythonobjectoverhead andRSS",
+  "actual_inventory": {
+    "source": "code/R4/exp_A/results_v2/A0_TRAIN_frontend_metadata.csv",
+    "header_rows": 11020,
+    "rates": {
+      "48000": 11020
+    },
+    "highest_native_input_sr": 48000,
+    "maximum_source_frames": 576001,
+    "scope": "completeexistingNISQA TRAIN header inventory; codec bandwidth is not WAV samplerate"
+  },
+  "frozen_cache": {
+    "source": "code/R4/exp_D2/lean_raw_v5/exact_causal_FIR_values.npz",
+    "keys": {
+      "h_16000_16000": [
+        1,
+        "float32"
+      ],
+      "h_16000_48000": [
+        62,
+        "float32"
+      ],
+      "h_48000_16000": [
+        64,
+        "float32"
+      ],
+      "h_48000_48000": [
+        1,
+        "float32"
+      ]
+    },
+    "supported_native_input_rates": [
+      16000,
+      48000
+    ],
+    "unobserved_supported_rates": [
+      16000
+    ],
+    "unsupported_requested_rates": [
+      8000,
+      32000
+    ],
+    "changed": false
+  },
+  "models": [
+    {
+      "method": "v2_pure",
+      "layers": 2,
+      "width": 96,
+      "nfft": 320,
+      "main_hop": 160,
+      "hidden_dtype": "float32",
+      "hidden_bytes": 768,
+      "initial_numerator_dtype": "float32",
+      "active_numerator_dtype": "float64",
+      "numerator_bytes": 768,
+      "logical_counter_slots": 27,
+      "logical_counter_bytes": 216
+    },
+    {
+      "method": "v2_64",
+      "layers": 2,
+      "width": 64,
+      "nfft": 320,
+      "main_hop": 160,
+      "hidden_dtype": "float32",
+      "hidden_bytes": 512,
+      "initial_numerator_dtype": "float32",
+      "active_numerator_dtype": "float64",
+      "numerator_bytes": 512,
+      "logical_counter_slots": 27,
+      "logical_counter_bytes": 216
+    }
+  ],
+  "bounds": [
+    {
+      "method": "v2_pure",
+      "input_sr": 8000,
+      "supported": false,
+      "observed_header_rows": 0,
+      "status": "UNSUPPORTED_BY_UNCHANGED_FROZEN_FIR_CACHE",
+      "state_bytes_upper": null,
+      "post_push_upper": null,
+      "post_finish_upper": null,
+      "startup_upper": null,
+      "steady_post_push_upper": null,
+      "componentwise_envelope_bytes": null,
+      "source_sample_period": null,
+      "enumerated_N_max": null,
+      "worst_mode": "",
+      "worst_N": null,
+      "worst_input_phase": null,
+      "worst_main_residual": null,
+      "worst_side_residual": null,
+      "worst_main_history": null,
+      "worst_side_history": null,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_pure",
+      "input_sr": 16000,
+      "supported": true,
+      "observed_header_rows": 0,
+      "status": "ACTUAL_SOURCE_EXACT_PHASE_BOUND",
+      "state_bytes_upper": 6896,
+      "post_push_upper": 6812,
+      "post_finish_upper": 6896,
+      "startup_upper": 6428,
+      "steady_post_push_upper": 6812,
+      "componentwise_envelope_bytes": 6944,
+      "source_sample_period": 160,
+      "enumerated_N_max": 651,
+      "worst_mode": "post_finish",
+      "worst_N": 479,
+      "worst_input_phase": 159,
+      "worst_main_residual": 319,
+      "worst_side_residual": 957,
+      "worst_main_history": 0,
+      "worst_side_history": 10,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_pure",
+      "input_sr": 32000,
+      "supported": false,
+      "observed_header_rows": 0,
+      "status": "UNSUPPORTED_BY_UNCHANGED_FROZEN_FIR_CACHE",
+      "state_bytes_upper": null,
+      "post_push_upper": null,
+      "post_finish_upper": null,
+      "startup_upper": null,
+      "steady_post_push_upper": null,
+      "componentwise_envelope_bytes": null,
+      "source_sample_period": null,
+      "enumerated_N_max": null,
+      "worst_mode": "",
+      "worst_N": null,
+      "worst_input_phase": null,
+      "worst_main_residual": null,
+      "worst_side_residual": null,
+      "worst_main_history": null,
+      "worst_side_history": null,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_pure",
+      "input_sr": 48000,
+      "supported": true,
+      "observed_header_rows": 11020,
+      "status": "ACTUAL_SOURCE_EXACT_PHASE_BOUND",
+      "state_bytes_upper": 7072,
+      "post_push_upper": 7072,
+      "post_finish_upper": 6976,
+      "startup_upper": 6688,
+      "steady_post_push_upper": 7072,
+      "componentwise_envelope_bytes": 7116,
+      "source_sample_period": 480,
+      "enumerated_N_max": 1951,
+      "worst_mode": "post_push",
+      "worst_N": 1439,
+      "worst_input_phase": 479,
+      "worst_main_residual": 309,
+      "worst_side_residual": 959,
+      "worst_main_history": 62,
+      "worst_side_history": 0,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 8000,
+      "supported": false,
+      "observed_header_rows": 0,
+      "status": "UNSUPPORTED_BY_UNCHANGED_FROZEN_FIR_CACHE",
+      "state_bytes_upper": null,
+      "post_push_upper": null,
+      "post_finish_upper": null,
+      "startup_upper": null,
+      "steady_post_push_upper": null,
+      "componentwise_envelope_bytes": null,
+      "source_sample_period": null,
+      "enumerated_N_max": null,
+      "worst_mode": "",
+      "worst_N": null,
+      "worst_input_phase": null,
+      "worst_main_residual": null,
+      "worst_side_residual": null,
+      "worst_main_history": null,
+      "worst_side_history": null,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 16000,
+      "supported": true,
+      "observed_header_rows": 0,
+      "status": "ACTUAL_SOURCE_EXACT_PHASE_BOUND",
+      "state_bytes_upper": 6384,
+      "post_push_upper": 6300,
+      "post_finish_upper": 6384,
+      "startup_upper": 6044,
+      "steady_post_push_upper": 6300,
+      "componentwise_envelope_bytes": 6432,
+      "source_sample_period": 160,
+      "enumerated_N_max": 651,
+      "worst_mode": "post_finish",
+      "worst_N": 479,
+      "worst_input_phase": 159,
+      "worst_main_residual": 319,
+      "worst_side_residual": 957,
+      "worst_main_history": 0,
+      "worst_side_history": 10,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 32000,
+      "supported": false,
+      "observed_header_rows": 0,
+      "status": "UNSUPPORTED_BY_UNCHANGED_FROZEN_FIR_CACHE",
+      "state_bytes_upper": null,
+      "post_push_upper": null,
+      "post_finish_upper": null,
+      "startup_upper": null,
+      "steady_post_push_upper": null,
+      "componentwise_envelope_bytes": null,
+      "source_sample_period": null,
+      "enumerated_N_max": null,
+      "worst_mode": "",
+      "worst_N": null,
+      "worst_input_phase": null,
+      "worst_main_residual": null,
+      "worst_side_residual": null,
+      "worst_main_history": null,
+      "worst_side_history": null,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 48000,
+      "supported": true,
+      "observed_header_rows": 11020,
+      "status": "ACTUAL_SOURCE_EXACT_PHASE_BOUND",
+      "state_bytes_upper": 6560,
+      "post_push_upper": 6560,
+      "post_finish_upper": 6464,
+      "startup_upper": 6304,
+      "steady_post_push_upper": 6560,
+      "componentwise_envelope_bytes": 6604,
+      "source_sample_period": 480,
+      "enumerated_N_max": 1951,
+      "worst_mode": "post_push",
+      "worst_N": 1439,
+      "worst_input_phase": 479,
+      "worst_main_residual": 309,
+      "worst_side_residual": 959,
+      "worst_main_history": 62,
+      "worst_side_history": 0,
+      "state_definition": "same existing state_bytes retainedarrays +27 logical64bit slots, excludesweights/scratch/inputblock/PythonobjectRSS"
+    }
+  ],
+  "all_supported_rate_maxima": {
+    "v2_pure": 7072,
+    "v2_64": 6560
+  },
+  "actual_NISQA_inventory_rate_maxima": {
+    "v2_pure": 7072,
+    "v2_64": 6560
+  },
+  "witnesses": [
+    {
+      "method": "v2_pure",
+      "input_sr": 16000,
+      "joint_max": {
+        "N": 479,
+        "mode": "post_finish",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 0,
+        "side_history": 10,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 1,
+        "state_bytes": 6896,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 0,
+          "side_FIR_history": 40,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_push_witness": {
+        "N": 479,
+        "mode": "post_push",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 926,
+        "main_history": 0,
+        "side_history": 20,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6812,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3704,
+          "main_FIR_history": 0,
+          "side_FIR_history": 80,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_finish_witness": {
+        "N": 479,
+        "mode": "post_finish",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 0,
+        "side_history": 10,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 1,
+        "state_bytes": 6896,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 0,
+          "side_FIR_history": 40,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "phase_period": 160,
+      "steady_start": 331,
+      "all_startup_N_enumerated": true,
+      "all_steady_residue_classes_enumerated": true,
+      "induction": "For N>=steady_start, adding period adds exactinteger main/side hops; residuals/FIRhistory/polyphase/dtypes repeat, so no later larger retainedarray state",
+      "main_filter": {
+        "up": 1,
+        "down": 1,
+        "remove": 0,
+        "length": 1
+      },
+      "side_filter": {
+        "up": 3,
+        "down": 1,
+        "remove": 31,
+        "length": 62
+      }
+    },
+    {
+      "method": "v2_pure",
+      "input_sr": 48000,
+      "joint_max": {
+        "N": 1439,
+        "mode": "post_push",
+        "input_phase": 479,
+        "main_residual": 309,
+        "side_residual": 959,
+        "main_history": 62,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 7072,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1236,
+          "side_RMS_residual": 3836,
+          "main_FIR_history": 248,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_push_witness": {
+        "N": 1439,
+        "mode": "post_push",
+        "input_phase": 479,
+        "main_residual": 309,
+        "side_residual": 959,
+        "main_history": 62,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 7072,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1236,
+          "side_RMS_residual": 3836,
+          "main_FIR_history": 248,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_finish_witness": {
+        "N": 1437,
+        "mode": "post_finish",
+        "input_phase": 477,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 30,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6976,
+        "parts": {
+          "GRU_hidden": 768,
+          "attention_numerator": 768,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 120,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "phase_period": 480,
+      "steady_start": 991,
+      "all_startup_N_enumerated": true,
+      "all_steady_residue_classes_enumerated": true,
+      "induction": "For N>=steady_start, adding period adds exactinteger main/side hops; residuals/FIRhistory/polyphase/dtypes repeat, so no later larger retainedarray state",
+      "main_filter": {
+        "up": 1,
+        "down": 3,
+        "remove": 11,
+        "length": 64
+      },
+      "side_filter": {
+        "up": 1,
+        "down": 1,
+        "remove": 0,
+        "length": 1
+      }
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 16000,
+      "joint_max": {
+        "N": 479,
+        "mode": "post_finish",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 0,
+        "side_history": 10,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 1,
+        "state_bytes": 6384,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 0,
+          "side_FIR_history": 40,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_push_witness": {
+        "N": 479,
+        "mode": "post_push",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 926,
+        "main_history": 0,
+        "side_history": 20,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6300,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3704,
+          "main_FIR_history": 0,
+          "side_FIR_history": 80,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_finish_witness": {
+        "N": 479,
+        "mode": "post_finish",
+        "input_phase": 159,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 0,
+        "side_history": 10,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 1,
+        "state_bytes": 6384,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 0,
+          "side_FIR_history": 40,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "phase_period": 160,
+      "steady_start": 331,
+      "all_startup_N_enumerated": true,
+      "all_steady_residue_classes_enumerated": true,
+      "induction": "For N>=steady_start, adding period adds exactinteger main/side hops; residuals/FIRhistory/polyphase/dtypes repeat, so no later larger retainedarray state",
+      "main_filter": {
+        "up": 1,
+        "down": 1,
+        "remove": 0,
+        "length": 1
+      },
+      "side_filter": {
+        "up": 3,
+        "down": 1,
+        "remove": 31,
+        "length": 62
+      }
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 48000,
+      "joint_max": {
+        "N": 1439,
+        "mode": "post_push",
+        "input_phase": 479,
+        "main_residual": 309,
+        "side_residual": 959,
+        "main_history": 62,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6560,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1236,
+          "side_RMS_residual": 3836,
+          "main_FIR_history": 248,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_push_witness": {
+        "N": 1439,
+        "mode": "post_push",
+        "input_phase": 479,
+        "main_residual": 309,
+        "side_residual": 959,
+        "main_history": 62,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6560,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1236,
+          "side_RMS_residual": 3836,
+          "main_FIR_history": 248,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "post_finish_witness": {
+        "N": 1437,
+        "mode": "post_finish",
+        "input_phase": 477,
+        "main_residual": 319,
+        "side_residual": 957,
+        "main_history": 30,
+        "side_history": 0,
+        "main_next_polyphase": 0,
+        "side_next_polyphase": 0,
+        "state_bytes": 6464,
+        "parts": {
+          "GRU_hidden": 512,
+          "attention_numerator": 512,
+          "attention_maximum_denominator": 16,
+          "mel_residual": 1276,
+          "side_RMS_residual": 3828,
+          "main_FIR_history": 120,
+          "side_FIR_history": 0,
+          "main_FIR_logical_registers": 56,
+          "side_FIR_logical_registers": 56,
+          "other_stream_logical_registers": 88
+        }
+      },
+      "phase_period": 480,
+      "steady_start": 991,
+      "all_startup_N_enumerated": true,
+      "all_steady_residue_classes_enumerated": true,
+      "induction": "For N>=steady_start, adding period adds exactinteger main/side hops; residuals/FIRhistory/polyphase/dtypes repeat, so no later larger retainedarray state",
+      "main_filter": {
+        "up": 1,
+        "down": 3,
+        "remove": 11,
+        "length": 64
+      },
+      "side_filter": {
+        "up": 1,
+        "down": 1,
+        "remove": 0,
+        "length": 1
+      }
+    }
+  ],
+  "array_evidence": [
+    {
+      "method": "v2_pure",
+      "input_sr": 16000,
+      "actual_state_bytes_at_witness": 6896,
+      "actual_hidden_dtype": "float32",
+      "actual_attention_numerator_dtype": "float64",
+      "FIR_array_length_reads": 10,
+      "NN_forward_calls": 0,
+      "Stream_push_calls": 0,
+      "audio_files_opened": 0
+    },
+    {
+      "method": "v2_pure",
+      "input_sr": 48000,
+      "actual_state_bytes_at_witness": 7072,
+      "actual_hidden_dtype": "float32",
+      "actual_attention_numerator_dtype": "float64",
+      "FIR_array_length_reads": 10,
+      "NN_forward_calls": 0,
+      "Stream_push_calls": 0,
+      "audio_files_opened": 0
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 16000,
+      "actual_state_bytes_at_witness": 6384,
+      "actual_hidden_dtype": "float32",
+      "actual_attention_numerator_dtype": "float64",
+      "FIR_array_length_reads": 10,
+      "NN_forward_calls": 0,
+      "Stream_push_calls": 0,
+      "audio_files_opened": 0
+    },
+    {
+      "method": "v2_64",
+      "input_sr": 48000,
+      "actual_state_bytes_at_witness": 6560,
+      "actual_hidden_dtype": "float32",
+      "actual_attention_numerator_dtype": "float64",
+      "FIR_array_length_reads": 10,
+      "NN_forward_calls": 0,
+      "Stream_push_calls": 0,
+      "audio_files_opened": 0
+    }
+  ],
+  "historical_observations_preserved": [
+    {
+      "method": "v2_pure",
+      "observed_state_bytes": 7056,
+      "scope": "samefixedTRAIN200 threechunks observedmax, not universalbound",
+      "source": "code/R4/exp_D/cost_v3/deploy_v2/candidate1/qualification/v2_pure_float32/COMPLETE.json"
+    },
+    {
+      "method": "v2_pure",
+      "observed_state_bytes": 5160,
+      "scope": "single48kfile cyclic1000blocks20ms observedmax, phase0 afterstartup, not universalbound",
+      "source": "code/R4/exp_D/cost_v3/results/streaming/v2_pure_20_timing.json"
+    },
+    {
+      "method": "v2_64",
+      "observed_state_bytes": 6544,
+      "scope": "samefixedTRAIN200 threechunks observedmax, not universalbound",
+      "source": "code/R4/exp_D/cost_v3/deploy_v2/candidate1/qualification/v2_64_float32/COMPLETE.json"
+    },
+    {
+      "method": "v2_64",
+      "observed_state_bytes": 4648,
+      "scope": "single48kfile cyclic1000blocks20ms observedmax, phase0 afterstartup, not universalbound",
+      "source": "code/R4/exp_D/cost_v3/results/streaming/v2_64_20_timing.json"
+    }
+  ],
+  "phase0_48k_explanation": "fixed10/20/100ms packets add480/960/4800 source samples; sameNmod480 zero state gives5160/4648. Lastpartialpacket can enter otherphases. 48k sideFIR identity haszerohistory but sideRMS residual is stillretained.",
+  "counter_scope": "Existing logical64bit slots exactly match state_bytes; actual Python int object memory can grow with streamlength and is not an RSS bound. All actual metadata samplecounts fit64bits.",
+  "new_audio_inference": 0,
+  "NN_forward_calls": 0,
+  "model_weights_changed": false,
+  "frontend_changed": false,
+  "new_timing": 0,
+  "cost_benchmark": false,
+  "outputs": {
+    "bounds": "code/R4/exp_D/cost_v3/results/stream_state_bounds_by_samplerate.csv",
+    "components": "code/R4/exp_D/cost_v3/results/stream_state_bound_components.csv"
+  },
+  "numpy_version": "2.4.6",
+  "source_backend_paths": [
+    "outputs/nisqa_temporal_structure_method_20261011/R4_RESOURCE_LIMITED/exp_D/cost_v3/deploy_v2/candidate1_stream.py",
+    "outputs/nisqa_temporal_structure_method_20261011/R4_RESOURCE_LIMITED/exp_D/cost_v3/deploy_v2/numpy_backend.py",
+    "outputs/nisqa_temporal_structure_method_20261011/R4_RESOURCE_LIMITED/exp_D2/lean_raw_numpy_minimal_v5.py"
+  ]
+}
