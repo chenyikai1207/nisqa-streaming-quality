@@ -43,10 +43,14 @@ The frontend reporting analysis averages three seed predictions before metrics a
 
 ## Software and licensing
 
-See `LICENSE_AND_ATTRIBUTION.md`. No repository-wide MIT claim is made. The manuscript authors must select the license for their own code and data before publication; authors remain blank; no DOI is assigned or requested. The upload target is the author's existing Git; actual URL/tag/access status will be supplied by the depositor. Third-party code/weights retain their providers' separate licenses. Public readers can inspect all deposited numerical results while those publication metadata are being finalized.
+See `LICENSE_AND_ATTRIBUTION.md`. No repository-wide MIT claim is made. The authors have not selected an additional license for their own code and data. Authors remain blank in the manuscript, and no DOI is assigned or requested. The repository is public at https://github.com/chenyikai1207/nisqa-streaming-quality. Third-party code/weights retain their providers' separate licenses. Public readers can inspect all deposited numerical results while those publication metadata are being finalized.
 
 This package has been read completely and its CSV/JSON payloads parsed. Source-to-derived scientific values were checked; machine paths and operational metadata were the only intended changes. No new model inference, fit, timing or hash calculation was performed in assembling it.
 
-## Repository publication target
+## Manuscript, figures and version
 
-Confirmed target: https://github.com/chenyikai1207/nisqa-streaming-quality , intended public access and release tag `nisqa-paper1-ecice-v32-20261014`. At local package preparation, repository creation/push/tag had not yet been confirmed. `REPOSITORY_METADATA.json` keeps actual URL/tag/access unset until the depositor records the successful operation. No DOI is assigned. Authors remain blank.
+The Computer Engineering manuscript is available in `manuscript/` as an editable DOCX and a PDF: **11 pages including references, 8 editable tables, 4 main figures and 7 editable equations**. Chinese and English abstracts, captions and reference entries follow the journal's structure. The main text presents the evidence needed for its conclusions; detailed results are provided in this repository.
+
+`manuscript_sources/` contains the manuscript text, eight-table definitions, number-filling scripts and their small scientific inputs. `figures/` contains the four final Chinese-labeled figures, plotting code, source tables, vector PDF/SVG and 600-dpi PNG files. The framework additionally has an editable Visio VSDX and EMF source.
+
+Version: `nisqa-paper1-ecice-v32-20261014` at https://github.com/chenyikai1207/nisqa-streaming-quality. The documents were exported with **WPS Office**, as requested by the authors. Equations are native editable OMML objects; they have not been converted to MathType. Author and funding fields are intentionally blank pending author completion. No Zenodo deposit or DOI is assigned.

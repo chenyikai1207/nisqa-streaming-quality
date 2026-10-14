@@ -1,0 +1,61 @@
+codec,concealment,statistic,truth,estimate,value,ci_low,ci_high,n,n_refs,missing,n_boot,scope,target_Ppl
+G711,zero,Spearman,target_BurstR,t2_80_burstR,-0.0113,-0.0243,0.0013,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+G711,zero,Spearman,actual_BurstR,t2_80_burstR,-0.0278,-0.0447,-0.0104,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+G711,zero,Spearman,actual_Ppl,t2_80_Ppl,0.2074,0.1921,0.2242,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+G711,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4856,0.4790,0.4917,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+G711,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4768,0.4688,0.4846,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+G711,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4679,0.4590,0.4758,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+G711,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4672,0.4567,0.4773,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+G711,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4636,0.4513,0.4747,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+G711,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4893,0.4770,0.5022,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+G711,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4416,0.4258,0.4572,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+G711,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4408,0.4241,0.4570,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+G711,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4948,0.4781,0.5112,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+G711,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.3894,0.3704,0.4096,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+G711,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4237,0.4007,0.4468,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+G711,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4968,0.4741,0.5196,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,native_PLC,Spearman,target_BurstR,t2_80_burstR,0.0379,0.0247,0.0510,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,native_PLC,Spearman,actual_BurstR,t2_80_burstR,0.0363,0.0200,0.0531,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,native_PLC,Spearman,actual_Ppl,t2_80_Ppl,0.2674,0.2483,0.2871,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4891,0.4792,0.4991,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4804,0.4703,0.4909,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4749,0.4641,0.4858,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4760,0.4611,0.4895,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4727,0.4581,0.4875,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5008,0.4847,0.5171,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4606,0.4428,0.4791,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4568,0.4367,0.4770,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5533,0.5319,0.5743,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4200,0.3959,0.4437,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4874,0.4605,0.5133,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,native_PLC,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5834,0.5579,0.6091,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,zero,Spearman,target_BurstR,t2_80_burstR,0.0339,0.0189,0.0485,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,zero,Spearman,actual_BurstR,t2_80_burstR,0.0264,0.0089,0.0447,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,zero,Spearman,actual_Ppl,t2_80_Ppl,0.2920,0.2731,0.3116,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+Opus16k,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4866,0.4767,0.4965,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4670,0.4564,0.4772,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4575,0.4452,0.4692,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+Opus16k,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4502,0.4360,0.4634,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4554,0.4409,0.4705,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5120,0.4968,0.5273,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+Opus16k,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4280,0.4088,0.4473,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4396,0.4187,0.4608,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5403,0.5194,0.5609,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+Opus16k,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.3827,0.3589,0.4060,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4738,0.4457,0.5010,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+Opus16k,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.5737,0.5456,0.6002,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+PCM,zero,Spearman,target_BurstR,t2_80_burstR,-0.0311,-0.0453,-0.0177,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+PCM,zero,Spearman,actual_BurstR,t2_80_burstR,-0.0519,-0.0706,-0.0334,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+PCM,zero,Spearman,actual_Ppl,t2_80_Ppl,0.2133,0.1974,0.2306,8000,500,0,2000,blind acoustic chain versus packet process; conditional GE,
+PCM,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4874,0.4805,0.4942,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+PCM,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4712,0.4618,0.4803,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+PCM,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4629,0.4532,0.4718,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0200
+PCM,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4571,0.4452,0.4684,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+PCM,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4444,0.4299,0.4570,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+PCM,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4721,0.4577,0.4862,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.0500
+PCM,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.4242,0.4070,0.4404,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+PCM,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.4177,0.3995,0.4355,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+PCM,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4753,0.4577,0.4923,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.1000
+PCM,zero,AUC_random_vs_burst,1_vs_2,t2_80_burstR,0.3682,0.3488,0.3878,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+PCM,zero,AUC_random_vs_burst,1_vs_4,t2_80_burstR,0.3936,0.3710,0.4163,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000
+PCM,zero,AUC_random_vs_burst,1_vs_8,t2_80_burstR,0.4754,0.4524,0.4989,1000,500,0,2000,"paired exact packet count; classification of controlled masks, not MOS accuracy",0.2000

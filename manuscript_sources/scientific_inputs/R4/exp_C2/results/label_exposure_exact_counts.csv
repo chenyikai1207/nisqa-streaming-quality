@@ -1,0 +1,8 @@
+path,visible_characters,complete_csv_rows,partial_csv_rows,complete_visible_rating_cells,label_columns,stage,utc,output_truncated,original_tool_token_count
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_FOR/NISQA_TEST_FOR_con.csv,1000,2,1,15,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_FOR/NISQA_TEST_FOR_file.csv,1000,2,1,10,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_LIVETALK/NISQA_TEST_LIVETALK_con.csv,1000,2,1,15,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_LIVETALK/NISQA_TEST_LIVETALK_file.csv,1000,3,1,15,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_LIVETALK/NISQA_TEST_LIVETALK_listening_test_ratings.csv,1000,18,1,93,QOE|NOI|DIS|COL|LOU,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_P501/NISQA_TEST_P501_con.csv,1000,2,1,15,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591
+/mnt/d/NISQA_PUBLIC_CORPUS_20261011/NISQA_Corpus/NISQA_TEST_P501/NISQA_TEST_P501_file.csv,1000,2,1,10,mos|noi|col|dis|loud,B1 initial corpus table/schema inspection,2026-10-11T13:23:49.997Z,False,9591

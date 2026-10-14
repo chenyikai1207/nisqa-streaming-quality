@@ -1,0 +1,35 @@
+{
+  "time": "2026-10-12T15:08:39.612207+08:00",
+  "protocol_revision": "v4_transfer_cost_review",
+  "core_models": [
+    "A_distill",
+    "PLCMOS",
+    "OfficialNISQA5D",
+    "DNSMOS",
+    "SQUIM",
+    "P563"
+  ],
+  "MOS_implementation_supplement": true,
+  "finite_MAC_methods": 6,
+  "NA_MAC_methods": [
+    "P563"
+  ],
+  "TRAIN_n": 200,
+  "same_sample": true,
+  "source_audio_s": 1794.8619583333334,
+  "SQUIM_analytic_shape_propagation": true,
+  "SQUIM_first_actual10s_trace_calibration_delta_MACeq": 0.0,
+  "SQUIM_calibration_source": "code/R4/exp_D2/D0_cost_parameters_MAC_v3.csv",
+  "SQUIM_GPU_attempt_retained": "code/R4/exp_D2/D0_TRAIN200_uniform_v4/SQUIM_GPU_ATTEMPT_RETAINED.json",
+  "NISQA_budget_unchanged": 14696345.190408906,
+  "CSV": "code/R4/exp_D2/D0_all_core_methods_TRAIN200_v4.csv",
+  "actual_RTF_remeasurement_complete": false,
+  "quality_recalculations": 0,
+  "extra_quality_methods_pending_cost": [
+    "A_G0",
+    "A_newT",
+    "A_tiny",
+    "UTMOSv2"
+  ],
+  "old_versions_preserved": true
+}

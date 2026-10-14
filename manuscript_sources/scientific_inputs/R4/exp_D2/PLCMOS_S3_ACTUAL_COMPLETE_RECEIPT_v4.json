@@ -1,0 +1,80 @@
+{
+  "time": "2026-10-12T19:03:11.428298+08:00",
+  "status": "ACTUAL_COMPLETE_FULL_VAL2700_3WARM_10FORMAL",
+  "model": "PLCMOS",
+  "setting": "S3",
+  "summary": {
+    "model": "PLCMOS",
+    "setting": "S3",
+    "cost_device": "Windows CPU",
+    "measured_repeats": 10,
+    "warmup_repeats": 3,
+    "n_VAL": 2700,
+    "formal_environment_passed": false,
+    "observed_background_policy": true,
+    "scope": "FULL_VAL2700_OBSERVED_BACKGROUND_COST",
+    "peak_RSS_MB": 549.953536,
+    "model_disk_MB": 1.344808,
+    "decode_load_s_median": 27.465688149955895,
+    "decode_load_s_IQR": 20.259823325027355,
+    "resample_normalize_s_median": 18.391922150076425,
+    "resample_normalize_s_IQR": 4.951839249888508,
+    "frontend_s_median": 30.13021600000866,
+    "frontend_s_IQR": 6.129902550059342,
+    "infer_s_median": 3223.8017056000263,
+    "infer_s_IQR": 370.09075232514533,
+    "end_to_end_s_median": 3293.979639350022,
+    "end_to_end_s_IQR": 379.43254032490586,
+    "RTF_median": 0.14105236919950848,
+    "RTF_IQR": 0.016247780685971908,
+    "wall_s_median": 3297.261585450002,
+    "wall_s_IQR": 380.58229762500014
+  },
+  "repeat_rows": 13,
+  "perfile_rows": 35100,
+  "actual_processor_numbers": [
+    16
+  ],
+  "binding_affinity": [
+    16
+  ],
+  "physical_topology": [
+    {
+      "cpu_set_id": 272,
+      "group": 0,
+      "logical": 16,
+      "core": 16,
+      "efficiency_class": 0,
+      "flags": 0
+    }
+  ],
+  "threads": 1,
+  "batch": 1,
+  "workers": 0,
+  "cache": "hot current OS page cache; not cleared; no waveform or feature caching",
+  "formal_environment_passed": false,
+  "observed_background_policy": true,
+  "formal_environment_false_reason": "actual background compute detected by original registered load policy; result retained under explicitly authorized observed-background scope, not unloaded/fixedfrequency; not numerical failure",
+  "formal_background_samples": 2362,
+  "formal_background_busy_samples": 2362,
+  "formal_background_probe_unavailable_samples": 7,
+  "observed_max_external_process_Windows_CPU_percent_one_core": 1589.8,
+  "observed_max_external_process_WSL_CPU_percent_one_core": 1334.9,
+  "observed_GPU_util_pct_min": 1.0,
+  "observed_GPU_util_pct_max": 100.0,
+  "background_selection": "sample timestamps within the ten actual formal whole-repeat intervals; 10s observation and boundary snapshots, ownworker/ancestors/children excluded by existing source",
+  "formal_start_iso": "2026-10-12T07:59:59.525045+08:00",
+  "formal_end_iso": "2026-10-12T18:51:39.601551+08:00",
+  "D1_cost_csv": "code/R4/exp_D2/D1_cost.csv",
+  "D1_selector": {
+    "model": "PLCMOS",
+    "setting": "S3",
+    "measurement_id": "FORMAL_VAL2700_PLCMOS_S3_20261012_042646"
+  },
+  "source_summary": "code/R4/exp_D2/measurements/FORMAL_VAL2700_PLCMOS_S3_20261012_042646/summary.csv",
+  "source_complete": "code/R4/exp_D2/measurements/FORMAL_VAL2700_PLCMOS_S3_20261012_042646/COMPLETE.json",
+  "source_env": "code/R4/exp_D2/measurements/FORMAL_VAL2700_PLCMOS_S3_20261012_042646/env.json",
+  "source_background": "code/R4/exp_D2/measurements/FORMAL_VAL2700_PLCMOS_S3_20261012_042646/background_load.jsonl",
+  "quality_calculations": 0,
+  "controlled_remeasurement": false
+}

@@ -1,0 +1,5 @@
+candidate,kind,with_b,mae_mean,mae_sd,parameters,mean_seconds,seeds,folds
+tiny_cnn_b0,cnn,False,0.5291,0.0192,5510,16.1375,5,5
+tiny_cnn_b1,cnn,True,0.5349,0.0116,5542,15.2873,5,5
+tiny_gru_b0,gru,False,0.4960,0.0070,8070,20.1640,5,5
+tiny_gru_b1,gru,True,0.4951,0.0058,8166,20.5096,5,5

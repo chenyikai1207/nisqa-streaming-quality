@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-12T20:10:58.106811+08:00",
+  "status": "ACTUAL_B2_B5_DIAGNOSTIC_ROWS_COPIED",
+  "source_complete": "code/R4/exp_B2/B2_B5_DIAGNOSTIC_COMPLETE_v3.json",
+  "source_rows": 560,
+  "copied_rows": 7,
+  "selected_method": "CNN_mask20",
+  "selected_score": "estimated_logBurstR",
+  "target_Ppl": 0.1,
+  "new_metrics": 0,
+  "new_inferences": 0,
+  "new_audio_reads": 0,
+  "scope": "same-reference same-actual-lost-count burst/random diagnostic; dev source, no model selection"
+}

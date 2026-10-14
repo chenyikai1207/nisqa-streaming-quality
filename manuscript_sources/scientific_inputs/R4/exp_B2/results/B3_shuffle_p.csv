@@ -1,0 +1,9 @@
+family,group,seeds,k,p,role
+new,T,20,2,0.1429,primary
+new,T,200,26,0.1343,sensitivity
+new,T_ord,20,0,0.0476,primary
+new,T_ord,200,14,0.0746,sensitivity
+old,T,20,0,0.0476,primary
+old,T,200,0,0.0050,sensitivity
+old,T_ord,20,0,0.0476,primary
+old,T_ord,200,0,0.0050,sensitivity

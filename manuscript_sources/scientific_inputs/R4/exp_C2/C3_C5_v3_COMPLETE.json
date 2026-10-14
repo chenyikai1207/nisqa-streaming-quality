@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-10-12T21:04:37.090081+00:00",
+  "protocol_revision": "v3_synthetic_review",
+  "G1": "code/R4/exp_A/FROZEN_v2.md",
+  "frozen_manifest": "code/R4/exp_A/frozen_v3/manifest.json",
+  "predict_entry": "code/R4/exp_A/frozen_v3/code/predict.py",
+  "runtime": "code/R4/exp_A/frozen_v3/code/runtime_model_v3.py",
+  "VAL_barrier": "code/R4/exp_C2/C_VAL_CANDIDATES_COMPLETE_v3.json",
+  "TEST_barrier": "code/R4/exp_C2/C_SELECTED_TEST_COMPLETE_v3.json",
+  "external_barrier": "code/R4/exp_C2/C_EXTERNAL_STUDENT_COMPLETE_v3.json",
+  "Holm_barrier": "code/R4/exp_C2/C5_HOLM72_COMPLETE_v3.json",
+  "selected_v2": "v2_pure",
+  "final_main_model": "v2_pure",
+  "stop_loss_return_v1": false,
+  "candidate_reselection": false,
+  "raw_correlation": true,
+  "frozen_TRAIN_mapping_only": true,
+  "old_predictions_and_results_unchanged": true,
+  "unified_accuracy": "code/R4/exp_C2/unified_accuracy.csv",
+  "D6_accuracy": "code/R4/exp_C2/results/C_D6_PARETO_accuracy_v3.csv",
+  "UTMOS": "existing independent queue retains native5fold5rep comparator protocol",
+  "review_revision": "v5_submission_freeze_review",
+  "actual_VAL_candidates": [
+    "v2_pure",
+    "v2_64",
+    "v2_conv64"
+  ],
+  "excluded_search_results_used": false
+}

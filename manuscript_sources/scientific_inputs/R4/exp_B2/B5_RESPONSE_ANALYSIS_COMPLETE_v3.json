@@ -1,0 +1,34 @@
+{
+  "time": "2026-10-13T05:11:58+08:00",
+  "status": "B5_NEW_V3_ALL_FIVE_RESPONSES_ACTUAL_COMPLETE",
+  "n": 14000,
+  "n_references": 100,
+  "models": [
+    "NISQA5D",
+    "PLCMOS",
+    "v1_GRU",
+    "G0_oldT",
+    "selected_v2"
+  ],
+  "tables": {
+    "response_curve": "code/R4/exp_B2/results/B5_response_curve_v3.csv",
+    "monotonicity": "code/R4/exp_B2/results/B5_monotonicity_v3.csv",
+    "burst_minus_random": "code/R4/exp_B2/results/B5_burst_minus_random_v3.csv",
+    "emodel_rank": "code/R4/exp_B2/results/B5_emodel_rank_v3.csv",
+    "curve_detail": "code/R4/exp_B2/results/B5_curve_detail_v3.csv",
+    "paired_detail": "code/R4/exp_B2/results/B5_paired_detail_v3.csv"
+  },
+  "predictions": {
+    "NISQA5D": "code/R4/exp_B2/B5_quality_v3/NISQA5D_predictions.csv",
+    "PLCMOS": "code/R4/exp_B2/B5_quality_v3/PLCMOS_predictions.csv",
+    "v1_GRU": "code/R4/exp_B2/B5_quality_v3/v1_GRU_predictions.csv",
+    "G0_oldT": "code/R4/exp_B2/B5_quality_v3/G0_oldT_predictions.csv",
+    "selected_v2": "code/R4/exp_B2/B5_quality_v3/selected_v2_predictions.csv"
+  },
+  "selected_v2_model": "selected_v2",
+  "final_main_model": "v2_pure",
+  "frozen_manifest": "code/R4/exp_A/frozen_v3/manifest.json",
+  "MOS_subjective_accuracy": false,
+  "VAL_TEST_TCD_reads": 0,
+  "old_32000_queue_resumed": false
+}

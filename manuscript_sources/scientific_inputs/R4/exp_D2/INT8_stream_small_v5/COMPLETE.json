@@ -1,0 +1,14 @@
+{
+  "time": "2026-10-13T03:53:24.500525+08:00",
+  "TRAIN_n_per_model": 4,
+  "rows": 24,
+  "threshold": 1e-05,
+  "max_abs_error": 0.013225078582763672,
+  "passed_all": false,
+  "status": "INT8_DYNAMIC_CHUNK_NUMERIC_FAILURE_PRESERVED",
+  "scope": "sameCPU genuineINT8 fullmodel vs trueINT8 stream; dynamicactivation scale/chunk shapes change numerics; no200 expansion ifsmallfails; fullTRAIN weights unchanged beforequantization",
+  "OOF_variant_complete": "code/R4/exp_D2/INT8_outerOOF_v5/COMPLETE.json",
+  "VAL_TEST_audio": 0,
+  "no_main_model_selection": true,
+  "failed_rows": 24
+}

@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-13T01:07:29.845373+08:00",
+  "status": "ACTUAL_C_FIXED_TRAIN_BAND_MASK_COMPLETE",
+  "main_rows": 15,
+  "strata_rows": 60,
+  "seed_predictions": 3,
+  "source_candidate": "A1V3_sr48000_mel48_global_gain_band0",
+  "threshold_hz": 8000,
+  "frequency_rule": "strictly above threshold in FFTpower; original side/gain/mean/std unchanged",
+  "n_boot": 2000,
+  "bootstrap_unit": "ref_group",
+  "new_inference_runs_C": 0,
+  "new_training_runs": 0,
+  "model_selection_changed": false,
+  "VAL_TEST_TCD_audio_reads": 0,
+  "main_csv": "code/R4/exp_C2/results/C_B48k_mask_main_full_precision_v4.csv"
+}

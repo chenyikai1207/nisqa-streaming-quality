@@ -1,0 +1,27 @@
+{
+  "time": "2026-10-13T05:20:36+08:00",
+  "status": "EXACT_COMPLETED_B_RESULTS_TRANSFER",
+  "copies": [
+    {
+      "source": "code/R4/exp_B2/results/B2_PLC_cues_primary_full_precision_v4.csv",
+      "target": "code/R4/exp_C2/results/C_PLC_cues_report_v5.csv",
+      "complete": "code/R4/exp_B2/B2_PLC_CUES_TEST_THCHS_COMPLETE_v4.json",
+      "rows": 598
+    },
+    {
+      "source": "code/R4/exp_B2/results/B2_packet_lengths_summary_full_precision_v4.csv",
+      "target": "code/R4/exp_C2/results/C_PLC_packet_lengths_report_v5.csv",
+      "complete": "code/R4/exp_B2/B2_PACKET_LENGTH_FIXED_EVALUATION_COMPLETE_v4.json",
+      "rows": 208
+    },
+    {
+      "source": "code/R4/exp_B2/results/B2_packet_lengths_paired_full_precision_v4.csv",
+      "target": "code/R4/exp_C2/results/C_PLC_packet_lengths_paired_v5.csv",
+      "complete": "code/R4/exp_B2/B2_PACKET_LENGTH_FIXED_EVALUATION_COMPLETE_v4.json",
+      "rows": 300
+    }
+  ],
+  "new_metrics": 0,
+  "new_audio_reads": 0,
+  "main_A_inputs_changed": false
+}

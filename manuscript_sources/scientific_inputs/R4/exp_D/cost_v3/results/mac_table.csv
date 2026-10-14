@@ -1,0 +1,104 @@
+method,component,mmac_per_s,source,note
+v1_native,GRU_affine,0.766293699411361,analytic frozenweightdimensions,"3H(I+H), layer/frame; bias/activation notMAC"
+v1_native,attention_affine_and_weighted_pool,0.006385780828428009,analytic frozenmodel,attention dot plus weightedpool; softmax transcendental unpriced
+v1_native,head_affine,1.8498785713870246e-05,analytic frozenmodel,oneutterance rawhead; fixedoutputmapping notcalled inregisteredrawcostpath
+v1_native,main_realFFT_estimate,0.33213755552430085,analytic FFT convention,"FFT estimate, notexacthardwareMAC"
+v1_native,main_window,0.031928904142140044,analytic actualwindow,1MACeq perwindowmultiply peruserpolicy
+v1_native,main_dense_mel,0.771083035032682,analytic densemel,dense counts; sparse notused
+v1_native,main_power_proxy,0.04016057474128552,analytic scalarproxy,complexabs+square5scalarops/bin ->2.5MACeq; not exacthardwareinstructioncount
+v1_native,log_and_normalization,0.014368006863963018,analytic policyproxy,"log1, subtract1, divide1 per element; notNNbias"
+v1_native,main_resampler,1.0240039829484302,analytic actualfrozenFIR coefficientlength,"ceil outputs; coefficientlength/output/upfactor, native16k mainbypass0"
+v1_native,peak_normalization_proxy,0.032000124467138444,analytic scalarpolicy,wholeutterance max/absolute anddivision; originalv1noncausalpeak scope
+v2_96_native,GRU_affine,9.655300612583149,analytic frozenweightdimensions,"3H(I+H), layer/frame; bias/activation notMAC"
+v2_96_native,attention_affine_and_weighted_pool,0.019157342485284026,analytic frozenmodel,attention dot plus weightedpool; softmax transcendental unpriced
+v2_96_native,head_affine,5.780870535584452e-05,analytic frozenmodel,oneutterance rawhead; fixedoutputmapping notcalled inregisteredrawcostpath
+v2_96_native,main_realFFT_estimate,0.33213755552430085,analytic FFT convention,"FFT estimate, notexacthardwareMAC"
+v2_96_native,main_window,0.031928904142140044,analytic actualwindow,1MACeq perwindowmultiply peruserpolicy
+v2_96_native,main_dense_mel,0.771083035032682,analytic densemel,dense counts; sparse notused
+v2_96_native,main_power_proxy,0.04016057474128552,analytic scalarproxy,complexabs+square5scalarops/bin ->2.5MACeq; not exacthardwareinstructioncount
+v2_96_native,log_and_normalization,0.014368006863963018,analytic policyproxy,"log1, subtract1, divide1 per element; notNNbias"
+v2_96_native,main_resampler,1.0240039829484302,analytic actualfrozenFIR coefficientlength,"ceil outputs; coefficientlength/output/upfactor, native16k mainbypass0"
+v2_96_native,raw_level_and_active_level_proxy,0.3836748744204008,analytic exactcalledleveldefinitions,"raw RMSproduct/sum, clipping/nearzero comparisons; activeframe RMSandterminal scalar proxy"
+v2_96_native,fixedgain_and_side_normalization,0.0047902605606067,analytic scalarpolicy,gain squared multiplication permel; four side subtract/divide
+v2_96_native,side_resampler,0.0,analytic actualfrozenFIR,native48k bypass0
+v2_96_native,native_unused_band_realFFT_estimate,1.186185600651949,analytic FFT convention,actual frozenRunningSide computes this branch evenband0; nativeonly
+v2_96_native,native_unused_band_window,0.09578671242642013,analytic actualwindow,actualnative960point window
+v2_96_native,native_unused_band_power_and_ratios_proxy,0.15522935193479492,analytic scalarpolicy,"calledpower/band cumulative sums andratios; scalar estimate, removedonlyinqualifieddeployment"
+v2_96_deploy,GRU_affine,9.655300612583149,analytic frozenweightdimensions,"3H(I+H), layer/frame; bias/activation notMAC"
+v2_96_deploy,attention_affine_and_weighted_pool,0.019157342485284026,analytic frozenmodel,attention dot plus weightedpool; softmax transcendental unpriced
+v2_96_deploy,head_affine,5.780870535584452e-05,analytic frozenmodel,oneutterance rawhead; fixedoutputmapping notcalled inregisteredrawcostpath
+v2_96_deploy,main_realFFT_estimate,0.33213755552430085,analytic FFT convention,"FFT estimate, notexacthardwareMAC"
+v2_96_deploy,main_window,0.031928904142140044,analytic actualwindow,1MACeq perwindowmultiply peruserpolicy
+v2_96_deploy,main_dense_mel,0.771083035032682,analytic densemel,dense counts; sparse notused
+v2_96_deploy,main_power_proxy,0.04016057474128552,analytic scalarproxy,complexabs+square5scalarops/bin ->2.5MACeq; not exacthardwareinstructioncount
+v2_96_deploy,log_and_normalization,0.014368006863963018,analytic policyproxy,"log1, subtract1, divide1 per element; notNNbias"
+v2_96_deploy,main_resampler,1.0240039829484302,analytic actualfrozenFIR coefficientlength,"ceil outputs; coefficientlength/output/upfactor, native16k mainbypass0"
+v2_96_deploy,raw_level_and_active_level_proxy,0.3836748744204008,analytic exactcalledleveldefinitions,"raw RMSproduct/sum, clipping/nearzero comparisons; activeframe RMSandterminal scalar proxy"
+v2_96_deploy,fixedgain_and_side_normalization,0.0047902605606067,analytic scalarpolicy,gain squared multiplication permel; four side subtract/divide
+v2_96_deploy,side_resampler,0.0,analytic actualfrozenFIR,native48k bypass0
+v2_64_native,GRU_affine,4.597762196468166,analytic frozenweightdimensions,"3H(I+H), layer/frame; bias/activation notMAC"
+v2_64_native,attention_affine_and_weighted_pool,0.012771561656856018,analytic frozenmodel,attention dot plus weightedpool; softmax transcendental unpriced
+v2_64_native,head_affine,3.9309919641974267e-05,analytic frozenmodel,oneutterance rawhead; fixedoutputmapping notcalled inregisteredrawcostpath
+v2_64_native,main_realFFT_estimate,0.33213755552430085,analytic FFT convention,"FFT estimate, notexacthardwareMAC"
+v2_64_native,main_window,0.031928904142140044,analytic actualwindow,1MACeq perwindowmultiply peruserpolicy
+v2_64_native,main_dense_mel,0.771083035032682,analytic densemel,dense counts; sparse notused
+v2_64_native,main_power_proxy,0.04016057474128552,analytic scalarproxy,complexabs+square5scalarops/bin ->2.5MACeq; not exacthardwareinstructioncount
+v2_64_native,log_and_normalization,0.014368006863963018,analytic policyproxy,"log1, subtract1, divide1 per element; notNNbias"
+v2_64_native,main_resampler,1.0240039829484302,analytic actualfrozenFIR coefficientlength,"ceil outputs; coefficientlength/output/upfactor, native16k mainbypass0"
+v2_64_native,raw_level_and_active_level_proxy,0.3836748744204008,analytic exactcalledleveldefinitions,"raw RMSproduct/sum, clipping/nearzero comparisons; activeframe RMSandterminal scalar proxy"
+v2_64_native,fixedgain_and_side_normalization,0.0047902605606067,analytic scalarpolicy,gain squared multiplication permel; four side subtract/divide
+v2_64_native,side_resampler,0.0,analytic actualfrozenFIR,native48k bypass0
+v2_64_native,native_unused_band_realFFT_estimate,1.186185600651949,analytic FFT convention,actual frozenRunningSide computes this branch evenband0; nativeonly
+v2_64_native,native_unused_band_window,0.09578671242642013,analytic actualwindow,actualnative960point window
+v2_64_native,native_unused_band_power_and_ratios_proxy,0.15522935193479492,analytic scalarpolicy,"calledpower/band cumulative sums andratios; scalar estimate, removedonlyinqualifieddeployment"
+v2_64_deploy,GRU_affine,4.597762196468166,analytic frozenweightdimensions,"3H(I+H), layer/frame; bias/activation notMAC"
+v2_64_deploy,attention_affine_and_weighted_pool,0.012771561656856018,analytic frozenmodel,attention dot plus weightedpool; softmax transcendental unpriced
+v2_64_deploy,head_affine,3.9309919641974267e-05,analytic frozenmodel,oneutterance rawhead; fixedoutputmapping notcalled inregisteredrawcostpath
+v2_64_deploy,main_realFFT_estimate,0.33213755552430085,analytic FFT convention,"FFT estimate, notexacthardwareMAC"
+v2_64_deploy,main_window,0.031928904142140044,analytic actualwindow,1MACeq perwindowmultiply peruserpolicy
+v2_64_deploy,main_dense_mel,0.771083035032682,analytic densemel,dense counts; sparse notused
+v2_64_deploy,main_power_proxy,0.04016057474128552,analytic scalarproxy,complexabs+square5scalarops/bin ->2.5MACeq; not exacthardwareinstructioncount
+v2_64_deploy,log_and_normalization,0.014368006863963018,analytic policyproxy,"log1, subtract1, divide1 per element; notNNbias"
+v2_64_deploy,main_resampler,1.0240039829484302,analytic actualfrozenFIR coefficientlength,"ceil outputs; coefficientlength/output/upfactor, native16k mainbypass0"
+v2_64_deploy,raw_level_and_active_level_proxy,0.3836748744204008,analytic exactcalledleveldefinitions,"raw RMSproduct/sum, clipping/nearzero comparisons; activeframe RMSandterminal scalar proxy"
+v2_64_deploy,fixedgain_and_side_normalization,0.0047902605606067,analytic scalarpolicy,gain squared multiplication permel; four side subtract/divide
+v2_64_deploy,side_resampler,0.0,analytic actualfrozenFIR,native48k bypass0
+NISQA_MOS_official,network_affine,128.47551708762884,fvcore verifiedfrozen shape polynomial code/R4/exp_D2/D0_NISQA_TRAIN200_v3/OfficialNISQA_MOS_shape_profiles.json,CNN/linear/attention N+N2; original400window verificationresidual=7.3909759521484375e-06
+NISQA_MOS_official,network_normalization_proxy,0.650927872185381,fvcore per-operator normalizedelement conversion,eval batch_norm tool2ops/element and layer_norm5ops/element individually converted to policy1; arithmeticproxy not hardwareMAC
+NISQA_MOS_official,author_realFFT_estimate,6.144556662719141,analytic frozenauthorSTFT,center=True frames1+floor(samples/hop)
+NISQA_MOS_official,author_padded_window,0.4096371108479427,analytic librosaactualpaddedwindow,actual4096element multiply includingzeropadded960 Hann
+NISQA_MOS_official,author_dense_mel,9.836091095243374,analytic densemel,frozen48x2049
+NISQA_MOS_official,author_log_power_proxy,0.5170968461033417,analytic scalarpolicy,powerabs-square andauthor log per-element proxy; noframegainchange
+NISQA5D_official,network_affine,129.3014212741246,fvcore verifiedfrozen shape polynomial code/R4/exp_D2/D0_NISQA_TRAIN200_v3/OfficialNISQA5D_shape_profiles.json,CNN/linear/attention N+N2; original400window verificationresidual=6.4373016357421875e-06
+NISQA5D_official,network_normalization_proxy,0.650927872185381,fvcore per-operator normalizedelement conversion,eval batch_norm tool2ops/element and layer_norm5ops/element individually converted to policy1; arithmeticproxy not hardwareMAC
+NISQA5D_official,author_realFFT_estimate,6.144556662719141,analytic frozenauthorSTFT,center=True frames1+floor(samples/hop)
+NISQA5D_official,author_padded_window,0.4096371108479427,analytic librosaactualpaddedwindow,actual4096element multiply includingzeropadded960 Hann
+NISQA5D_official,author_dense_mel,9.836091095243374,analytic densemel,frozen48x2049
+NISQA5D_official,author_log_power_proxy,0.5170968461033417,analytic scalarpolicy,powerabs-square andauthor log per-element proxy; noframegainchange
+PLCMOS_official,external_STFT_FFT_estimate,0.3609483068490362,analytic authorstana synthframe formula,"ceil((n16+256)/256); author run computes degraded_STFT once before15 rater fullnetworkcalls, same officialadapter; noencodercache"
+PLCMOS_official,external_STFT_window_power_log_proxy,0.08845113456899559,analytic authorSTFT/scalarpolicy,one degraded_STFT peraudio outside15 raterloop; window1/magnitude/power/log proxy; no mel; NN15fullcalls retained
+PLCMOS_official,network_affine_including_fixed_frontend,2373.2904474004836,onnx-tool actualnewshape,DNSfixedSTFTconv included; calls=15; PLC15fullnetworkcalls noencoderreuse
+PLCMOS_official,network_normalization_proxy,0.0,onnx-tool actualnewshape,oneequivalent pernormalizedelement; biases/nonlinear activation unpriced
+PLCMOS_official,official_resampler_dense_upperbound,0.6560025515763381,actualtorchaudio kernelgeometry,denseconv includeszerotaps; upperbound separatefromexactNN affine
+DNSMOS_official,network_affine_including_fixed_frontend,17954.239415449792,onnx-tool actualnewshape,DNSfixedSTFTconv included; calls=8; PLC15fullnetworkcalls noencoderreuse
+DNSMOS_official,network_normalization_proxy,0.0,onnx-tool actualnewshape,oneequivalent pernormalizedelement; biases/nonlinear activation unpriced
+DNSMOS_official,official_resampler_dense_upperbound,0.6560025515763381,actualtorchaudio kernelgeometry,denseconv includeszerotaps; upperbound separatefromexactNN affine
+SQUIM_official,network_Conv1d,8.188953665644654,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_LSTM,4269.363938588456,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_Linear,1319.8328643275004,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_GroupNorm,1.0423251803194473,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_Conv2d,66.70881154044463,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_MultiheadAttention,3711.8991537554907,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,network_LayerNorm,0.7677144061541862,PyTorchMETA actualshapes calibratedagainstfvcore frozenprofile,LSTM4gate/MHA affine explicitlycounted; norms1/element; allthree objectiveheads computed
+SQUIM_official,official_resampler_dense_upperbound,0.6560025515763381,actualtorchaudio kernelgeometry,"same16k conversionasofficial; internallearnedfrontend isalreadyConv1d, noextraSTFT claim"
+P563_reference,TOTAL,,ITU native C,No validated wholealgorithm operationcounter; unavailableMAC notzero; optionalalgorithm nottimed
+DNSMOS_official,TOTAL,17954.895418001368,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+NISQA5D_official,TOTAL,146.8597308612238,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+NISQA_MOS_official,TOTAL,146.03382667472803,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+PLCMOS_official,TOTAL,2374.395849393478,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+SQUIM_official,TOTAL,9378.459764015586,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+v1_native,TOTAL,3.018380162745443,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+v2_64_deploy,TOTAL,7.212720262278473,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+v2_64_native,TOTAL,8.649921927291636,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+v2_96_deploy,TOTAL,12.276662958007599,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"
+v2_96_native,TOTAL,13.713864623020761,sum ofexplicitcomponents,"VALmean=8.649216358024692s; outputlengthceil,centerFalseframefloor/nativeNIcenterTrue; arithmeticMACeqestimates+FFT/FIRupperbounds, nothardwareexact orRTF"

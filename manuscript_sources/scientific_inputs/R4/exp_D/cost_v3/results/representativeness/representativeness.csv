@@ -1,0 +1,3 @@
+method,path,n_files,audio_s,rtf_fullVAL_single,rtf_bench600_fiveround_median,relative_difference,within5percent,fullVAL_source,bench600_session,scope
+v2_96,deploy,2700,23352.884166666667,0.011530596198663685,0.012002928491472093,0.03935142104228928,True,code/R4/exp_D/cost_v3/results/representativeness/20261014_032457_v2_96.json,20261013_235416,one completed fullVAL check; not a five-round cost replacement
+NISQA_MOS,official,2700,23352.884166666667,0.02169770926296363,0.021921587840208402,0.010212698955781696,True,code/R4/exp_D/cost_v3/results/representativeness/20261014_034219_NISQA_MOS_recovered_once.json,20261014_002857,one completed fullVAL check; not a five-round cost replacement

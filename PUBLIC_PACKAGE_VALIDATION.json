@@ -21,13 +21,16 @@
   "new_forward_fit_timing_hash": false,
   "authors": [],
   "DOI": null,
-  "repository_url": null,
-  "repository_tag": null,
-  "access_status": null,
-  "upload_status": "awaiting root actual Git push; no Zenodo upload",
+  "repository_url": "https://github.com/chenyikai1207/nisqa-streaming-quality",
+  "repository_tag": "nisqa-paper1-ecice-v32-20261014",
+  "access_status": "public",
+  "upload_status": "science package pushed; final publication version prepared",
   "payload_bytes": 159727524,
   "formal_run_result_links_resolved": 185,
   "available_first_round_prediction_links_resolved": 37,
   "method_calibration_before_after_links_resolved": 370,
-  "round_calibration_before_after_links_resolved": 370
+  "round_calibration_before_after_links_resolved": 370,
+  "initial_science_package_files": 1124,
+  "publication_source_files_added": 112,
+  "manuscript_documents_added": 2
 }

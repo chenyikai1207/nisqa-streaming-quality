@@ -1,0 +1,37 @@
+{
+  "fig1": {
+    "title_zh": "本文模型的因果流式质量预测框架",
+    "title_en": "Causal streaming architecture of the proposed quality model",
+    "caption_zh": "训练侧固定增益和对数梅尔谱前端连接双层单向GRU96与增量注意力池化，预测总体质量及噪声、音色、不连续性、响度。归一化前4项原始电平统计独立累积，在池化后、输出头前拼接。各模块保留有界状态；虚线为独立时间解释支路。",
+    "native_geometry": "fig1_nodes_edges_zh_v32.json",
+    "reuse_v31_native_visio": false,
+    "native_source_status": "Prior native VSDX retained as editable source; final compact geometry changed, use compact SVG or regenerate from compact172x58JSON"
+  },
+  "fig2": {
+    "title_zh": "不同方法的质量预测性能",
+    "title_en": "Quality prediction performance of different methods",
+    "caption_zh": "(a) 原始Pearson相关；(b) 训练侧映射的总体质量RMSE，官方NISQA五维按既定协议保留原值RMSE。首版为8070参数蒸馏GRU，本文模型为冻结双层GRU96。点形区分数据集，线段为已有95%区间，模拟域与真实域等权。UTMOSv2没有TRAIN映射，因此(b)无点；其已有原始相关仅覆盖VAL。"
+  },
+  "fig3": {
+    "title_zh": "七种方法的原值总体质量均方误差分解",
+    "title_en": "Raw overall-quality MSE decomposition for seven methods",
+    "caption_zh": "(a) VAL；(b) FOR；(c) P501；(d) LIVETALK。七方法依次为首版、本文模型、NISQA五维、PLCMOS、DNSMOS、SQUIM与P.563。按逐文件、模拟域与真实域等权显示均值偏移平方、相关调整尺度失配平方和线性相关残差；误差线为已有总MSE的95%区间。新增本文模型VAL柱为冻结后对既有预测所做的一次授权描述性分解：2700文件、2602参照组，2000次ref_group重抽样；测试集沿用原condition_id区间。",
+    "formula": "MSE=(mu_p-mu_y)^2+(sigma_p-r*sigma_y)^2+(1-r^2)*sigma_y^2; population variances. EQUAL_DOMAIN is arithmetic mean of separate domain components and draws, not pooled moments.",
+    "VAL_MSE": 0.3114245892969028,
+    "VAL_components": [
+      0.005180200340378471,
+      0.004873770626326471,
+      0.3013706183301978
+    ],
+    "VAL_MSE_CI": [
+      0.2843883258419243,
+      0.3394854497555041
+    ],
+    "interpretation": "Scale mismatch is correlation-adjusted; linear-correlation residual is not a pure rank error or causal attribution; marginal CI endpoints need not add."
+  },
+  "fig4": {
+    "title_zh": "质量预测与部署成本的权衡",
+    "title_en": "Trade-off between quality prediction and deployment cost",
+    "caption_zh": "左列为含前端计算量估计，右列为Windows CPU单能效核实测RTF，均为对数横轴；三行依次为VAL、三测试集等权宏平均及TCD-VoIP。纵轴为原始Pearson相关。右列实心点为已验收环境，空心†为保留的未验收测量，横线为五轮RTF的IQR。质量来自GPU推理，成本来自Windows CPU测量；不同模型的质量与成本保持同模型对应。双层GRU64只显示已完成的VAL评价。"
+  }
+}

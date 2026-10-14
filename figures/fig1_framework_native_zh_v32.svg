@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 fig1_framework_native_zh_v32.svg 模型框架 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="6.77165in" height="2.28346in" viewBox="0 0 487.559 164.409" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st13">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:宋体;font-size:0.75em}
+		.st4 {fill:#000000;font-family:华文中宋;font-size:0.691658em}
+		.st5 {font-family:宋体;font-size:1em}
+		.st6 {fill:#000000;font-family:宋体;font-size:0.691658em}
+		.st7 {font-family:华文中宋;font-size:1em}
+		.st8 {font-size:1em}
+		.st9 {marker-end:url(#mrkr4-94);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st10 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.29411764705882}
+		.st11 {marker-end:url(#mrkr4-94);stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st12 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st13 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-94" class="st10" refX="-6.8" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.4,-3.4) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>模型框架</title>
+		<g id="shape1-1" transform="translate(2.83465,-96.378)">
+			<title>box_wave</title>
+			<rect x="0" y="102.047" width="86.4567" height="62.3622" class="st1"/>
+		</g>
+		<g id="shape2-3" transform="translate(5.66929,-136.063)">
+			<title>title_wave</title>
+			<desc>输入波形</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">输入波形</text>		</g>
+		<g id="shape3-6" transform="translate(5.66929,-99.2126)">
+			<title>body_wave</title>
+			<desc>16/48 kHz 因果分块</desc>
+			<rect x="0" y="127.559" width="80.7874" height="36.8504" class="st2"/>
+			<text x="18.4" y="143.2" class="st4">16/48 kHz <tspan x="23.79" dy="1.253em" class="st5">因果分块</tspan></text>		</g>
+		<g id="shape4-10" transform="translate(99.2126,-96.378)">
+			<title>box_front</title>
+			<rect x="0" y="102.047" width="86.4567" height="62.3622" class="st1"/>
+		</g>
+		<g id="shape5-12" transform="translate(102.047,-136.063)">
+			<title>title_front</title>
+			<desc>频谱前端</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">频谱前端</text>		</g>
+		<g id="shape6-15" transform="translate(102.047,-99.2126)">
+			<title>body_front</title>
+			<desc>训练固定增益 48通道对数梅尔谱</desc>
+			<rect x="0" y="127.559" width="80.7874" height="36.8504" class="st2"/>
+			<text x="15.49" y="143.35" class="st6">训练固定增益 <tspan x="6.2" dy="1.271em" class="st7">48</tspan>通道对数梅尔谱</text>		</g>
+		<g id="shape7-19" transform="translate(195.591,-96.378)">
+			<title>box_gru</title>
+			<rect x="0" y="102.047" width="86.4567" height="62.3622" class="st1"/>
+		</g>
+		<g id="shape8-21" transform="translate(198.425,-136.063)">
+			<title>title_gru</title>
+			<desc>递归编码</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">递归编码</text>		</g>
+		<g id="shape9-24" transform="translate(198.425,-99.2126)">
+			<title>body_gru</title>
+			<desc>双层单向GRU96</desc>
+			<rect x="0" y="127.559" width="80.7874" height="36.8504" class="st2"/>
+			<text x="9.1" y="148.62" class="st6">双层单向<tspan class="st7">GRU96</tspan></text>		</g>
+		<g id="shape10-28" transform="translate(291.969,-96.378)">
+			<title>box_pool</title>
+			<rect x="0" y="102.047" width="86.4567" height="62.3622" class="st1"/>
+		</g>
+		<g id="shape11-30" transform="translate(294.803,-136.063)">
+			<title>title_pool</title>
+			<desc>注意力池化</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="17.89" y="157.35" class="st3">注意力池化</text>		</g>
+		<g id="shape12-33" transform="translate(294.803,-99.2126)">
+			<title>body_pool</title>
+			<desc>逐块递增更新</desc>
+			<rect x="0" y="127.559" width="80.7874" height="36.8504" class="st2"/>
+			<text x="15.49" y="148.62" class="st6">逐块递增更新</text>		</g>
+		<g id="shape13-36" transform="translate(388.346,-96.378)">
+			<title>box_output</title>
+			<rect x="0" y="102.047" width="93.5433" height="62.3622" class="st1"/>
+		</g>
+		<g id="shape14-38" transform="translate(391.181,-136.063)">
+			<title>title_output</title>
+			<desc>质量输出</desc>
+			<rect x="0" y="144.567" width="87.874" height="19.8425" class="st2"/>
+			<text x="25.94" y="157.35" class="st3">质量输出</text>		</g>
+		<g id="shape15-41" transform="translate(391.181,-99.2126)">
+			<title>body_output</title>
+			<desc>拼接原始电平统计 总体质量、噪声程度 音色、不连续性、响度</desc>
+			<rect x="0" y="127.559" width="87.874" height="36.8504" class="st2"/>
+			<text x="10.74" y="138.07" class="st6">拼接原始电平统计 <tspan x="6.59" dy="1.271em" class="st8">总体质量</tspan>、噪声程度 <tspan
+						x="2.44" dy="1.271em" class="st8">音色</tspan>、不连续性、响度</text>		</g>
+		<g id="shape16-46" transform="translate(2.83465,-19.8425)">
+			<title>box_time</title>
+			<rect x="0" y="116.22" width="86.4567" height="48.189" class="st1"/>
+		</g>
+		<g id="shape17-48" transform="translate(5.66929,-45.3543)">
+			<title>title_time</title>
+			<desc>时间分析</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">时间分析</text>		</g>
+		<g id="shape18-51" transform="translate(5.66929,-22.6772)">
+			<title>body_time</title>
+			<desc>顺序及突发特征</desc>
+			<rect x="0" y="141.732" width="80.7874" height="22.6772" class="st2"/>
+			<text x="11.34" y="155.71" class="st6">顺序及突发特征</text>		</g>
+		<g id="shape19-54" transform="translate(99.2126,-19.8425)">
+			<title>box_front_state</title>
+			<rect x="0" y="116.22" width="86.4567" height="48.189" class="st1"/>
+		</g>
+		<g id="shape20-56" transform="translate(102.047,-45.3543)">
+			<title>title_front_state</title>
+			<desc>前端状态</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">前端状态</text>		</g>
+		<g id="shape21-59" transform="translate(102.047,-22.6772)">
+			<title>body_front_state</title>
+			<desc>滤波与窗口 重采样历史</desc>
+			<rect x="0" y="141.732" width="80.7874" height="22.6772" class="st2"/>
+			<text x="19.64" y="150.43" class="st6">滤波与窗口 <tspan x="19.64" dy="1.271em" class="st8">重采样历史</tspan></text>		</g>
+		<g id="shape22-63" transform="translate(195.591,-19.8425)">
+			<title>box_gru_state</title>
+			<rect x="0" y="116.22" width="86.4567" height="48.189" class="st1"/>
+		</g>
+		<g id="shape23-65" transform="translate(198.425,-45.3543)">
+			<title>title_gru_state</title>
+			<desc>递归状态</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">递归状态</text>		</g>
+		<g id="shape24-68" transform="translate(198.425,-22.6772)">
+			<title>body_gru_state</title>
+			<desc>两层隐状态</desc>
+			<rect x="0" y="141.732" width="80.7874" height="22.6772" class="st2"/>
+			<text x="19.64" y="155.71" class="st6">两层隐状态</text>		</g>
+		<g id="shape25-71" transform="translate(291.969,-19.8425)">
+			<title>box_pool_state</title>
+			<rect x="0" y="116.22" width="86.4567" height="48.189" class="st1"/>
+		</g>
+		<g id="shape26-73" transform="translate(294.803,-45.3543)">
+			<title>title_pool_state</title>
+			<desc>池化状态</desc>
+			<rect x="0" y="144.567" width="80.7874" height="19.8425" class="st2"/>
+			<text x="22.39" y="157.35" class="st3">池化状态</text>		</g>
+		<g id="shape27-76" transform="translate(294.803,-22.6772)">
+			<title>body_pool_state</title>
+			<desc>累计量递增更新</desc>
+			<rect x="0" y="141.732" width="80.7874" height="22.6772" class="st2"/>
+			<text x="11.34" y="155.71" class="st6">累计量递增更新</text>		</g>
+		<g id="shape28-79" transform="translate(388.346,-19.8425)">
+			<title>box_raw4</title>
+			<rect x="0" y="116.22" width="93.5433" height="48.189" class="st1"/>
+		</g>
+		<g id="shape29-81" transform="translate(391.181,-45.3543)">
+			<title>title_raw4</title>
+			<desc>原始电平统计</desc>
+			<rect x="0" y="144.567" width="87.874" height="19.8425" class="st2"/>
+			<text x="16.94" y="157.35" class="st3">原始电平统计</text>		</g>
+		<g id="shape30-84" transform="translate(391.181,-22.6772)">
+			<title>body_raw4</title>
+			<desc>归一化前4项 独立有界累计</desc>
+			<rect x="0" y="141.732" width="87.874" height="22.6772" class="st2"/>
+			<text x="20.61" y="150.43" class="st6">归一化前<tspan class="st7">4</tspan>项 <tspan x="19.04" dy="1.271em" class="st8">独立有界累计</tspan></text>		</g>
+		<g id="shape31-89" transform="translate(90,-127.559)">
+			<title>edge_1_0</title>
+			<path d="M0 164.41 L3.26 164.41" class="st9"/>
+		</g>
+		<g id="shape32-95" transform="translate(186.378,-127.559)">
+			<title>edge_2_0</title>
+			<path d="M0 164.41 L3.26 164.41" class="st9"/>
+		</g>
+		<g id="shape33-100" transform="translate(282.756,-127.559)">
+			<title>edge_3_0</title>
+			<path d="M0 164.41 L3.26 164.41" class="st9"/>
+		</g>
+		<g id="shape34-105" transform="translate(379.134,-127.559)">
+			<title>edge_4_0</title>
+			<path d="M0 164.41 L3.26 164.41" class="st9"/>
+		</g>
+		<g id="shape35-110" transform="translate(-21.9685,94.9606) rotate(-90)">
+			<title>edge_5_0</title>
+			<path d="M0 164.41 L20.41 164.41" class="st9"/>
+		</g>
+		<g id="shape36-115" transform="translate(74.4094,94.9606) rotate(-90)">
+			<title>edge_6_0</title>
+			<path d="M0 164.41 L20.41 164.41" class="st9"/>
+		</g>
+		<g id="shape37-120" transform="translate(170.787,94.9606) rotate(-90)">
+			<title>edge_7_0</title>
+			<path d="M0 164.41 L20.41 164.41" class="st9"/>
+		</g>
+		<g id="shape38-125" transform="translate(270.709,94.9606) rotate(-90)">
+			<title>edge_8_0</title>
+			<path d="M0 164.41 L20.41 164.41" class="st9"/>
+		</g>
+		<g id="shape39-130" transform="translate(210.472,69.4488) rotate(90)">
+			<title>edge_9_0</title>
+			<path d="M0 164.41 L20.41 164.41" class="st11"/>
+		</g>
+		<g id="shape40-135" transform="translate(2.83465,201.26) rotate(180)">
+			<title>edge_10_0</title>
+			<path d="M0 164.41 L2.27 164.41" class="st12"/>
+		</g>
+		<g id="shape41-138" transform="translate(164.976,36.8504) rotate(90)">
+			<title>edge_10_1</title>
+			<path d="M0 164.41 L121.89 164.41" class="st12"/>
+		</g>
+		<g id="shape42-141" transform="translate(0.566929,-5.66929)">
+			<title>edge_10_2</title>
+			<path d="M0 164.41 L434.55 164.41" class="st12"/>
+		</g>
+		<g id="shape43-144" transform="translate(270.709,158.74) rotate(-90)">
+			<title>edge_10_3</title>
+			<path d="M0 164.41 L7.66 164.41" class="st9"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,89 @@
+{
+  "v1_native": {
+    "parameters": 8070,
+    "weights_bytes": 35959,
+    "weight_paths": [
+      "code/R4/exp_A/frozen/A_distill/model.pt"
+    ],
+    "parameter_source": "actualfrozen recordedscalarcounts; nn bias includedinparametercount butnotMAC",
+    "precision": "nativefp32 orselecteddeployment; logicalMAC no bitwidthspeedweighting"
+  },
+  "v2_96_native": {
+    "parameters": 98522,
+    "weights_bytes": 398620,
+    "weight_paths": [
+      "code/R4/exp_A/frozen_v3/v2_pure/model.pt"
+    ],
+    "parameter_source": "actualfrozen recordedscalarcounts; nn bias includedinparametercount butnotMAC",
+    "precision": "nativefp32 orselecteddeployment; logicalMAC no bitwidthspeedweighting"
+  },
+  "v2_96_deploy": {
+    "parameters": 98522,
+    "weights_bytes": 433924,
+    "weight_paths": [
+      "code/R4/exp_D2/lean_raw_v5/v2_pure_frozen_arrays.npz",
+      "code/R4/exp_D2/lean_raw_v5/exact_causal_FIR_values.npz"
+    ],
+    "parameter_source": "actualfrozen recordedscalarcounts; nn bias includedinparametercount butnotMAC",
+    "precision": "nativefp32 orselecteddeployment; logicalMAC no bitwidthspeedweighting"
+  },
+  "v2_64_native": {
+    "parameters": 47258,
+    "weights_bytes": 193564,
+    "weight_paths": [
+      "code/R4/exp_A/frozen_v3/v2_64/model.pt"
+    ],
+    "parameter_source": "actualfrozen recordedscalarcounts; nn bias includedinparametercount butnotMAC",
+    "precision": "nativefp32 orselecteddeployment; logicalMAC no bitwidthspeedweighting"
+  },
+  "v2_64_deploy": {
+    "parameters": 47258,
+    "weights_bytes": 228868,
+    "weight_paths": [
+      "code/R4/exp_D2/lean_raw_v5/v2_64_frozen_arrays.npz",
+      "code/R4/exp_D2/lean_raw_v5/exact_causal_FIR_values.npz"
+    ],
+    "parameter_source": "actualfrozen recordedscalarcounts; nn bias includedinparametercount butnotMAC",
+    "precision": "nativefp32 orselecteddeployment; logicalMAC no bitwidthspeedweighting"
+  },
+  "NISQA_MOS_official": {
+    "parameters": 218402,
+    "weights_bytes": 907215,
+    "weight_paths": [
+      "code/R4/exp_C/weights/nisqa_mos_only.tar"
+    ],
+    "parameter_source": "actualfrozen officialtrainednn counts"
+  },
+  "NISQA5D_official": {
+    "parameters": 252458,
+    "weights_bytes": 1051663,
+    "weight_paths": [
+      "O:\\NISQA_RESEARCH_20261012\\project\\nisqa_temporal_structure_method_20261011\\R2R3_EXECUTION\\LANE_C_MODELS\\OFFICIAL_NISQA\\weights\\nisqa.tar"
+    ],
+    "parameter_source": "actualfrozen officialtrainednn counts"
+  },
+  "PLCMOS_official": {
+    "parameters": 299265,
+    "weights_bytes": 1344808,
+    "weight_paths": [
+      "code/R4/exp_B/official/PLC_WEIGHT.onnx"
+    ],
+    "parameter_source": "unique learnedaffine initializerroles; DNSfixedSTFT103040 excludedfromparams includedMAC"
+  },
+  "DNSMOS_official": {
+    "parameters": 184032,
+    "weights_bytes": 1157965,
+    "weight_paths": [
+      "code/R4/exp_B/official/DNSMOS_WEIGHT.onnx"
+    ],
+    "parameter_source": "unique learnedaffine initializerroles; DNSfixedSTFT103040 excludedfromparams includedMAC"
+  },
+  "SQUIM_official": {
+    "parameters": 7387658,
+    "weights_bytes": 29584237,
+    "weight_paths": [
+      "code/R4/exp_D2/torch_hub/torchaudio/models/squim_objective_dns2020.pth"
+    ],
+    "parameter_source": "actualofficial nn.Parameters"
+  }
+}

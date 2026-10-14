@@ -1,0 +1,77 @@
+key,value,source_csv,selector
+D.status,ACTUAL_PARTIAL_REQUIRED_V5,code/R4/exp_D2/submission_cost_queue_v5/state.json,actual required completed settings=9/10; globalD_ALL barrier separate
+D.review_revision,v5_submission_freeze_review,code/R4/CONTRACT_v5.md,current user submission scope
+D.table6_csv,code/R4/exp_D2/D_WORD_TABLE6_v5.csv,code/R4/exp_D2/D1_cost.csv,only actualcomplete mandatoryfive methodsxS1/S3; missing omitted
+D.table6_complete_settings,9,code/R4/exp_D2/D_WORD_TABLE6_v5.csv,actual rows; full2700 3warm10formal each
+D.lean.v2_pure.steady_RSS_MB,41.488384,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.steady_RSS_IQR_MB,2.828288,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.peak_RSS_MB,42.090496,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.lifetime_PeakWorkingSet_MB,42.192896,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.state_bytes_max,7824,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.model_loaded_RSS_MB,35.04128,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.interpreter_RSS_MB,19.74272,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.libraries_RSS_MB,33.697792,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.model_increment_MB,1.343488,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.audio_peak_increment_MB,7.049216,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_pure.max_abs_error,4.5299530029296875e-06,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_pure; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.steady_RSS_MB,37.66272,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.steady_RSS_IQR_MB,3.479552,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.peak_RSS_MB,41.295872,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.lifetime_PeakWorkingSet_MB,41.295872,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.state_bytes_max,7056,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.model_loaded_RSS_MB,33.775616,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.interpreter_RSS_MB,19.828736,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.libraries_RSS_MB,33.083392,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.model_increment_MB,0.692224,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.audio_peak_increment_MB,7.520256,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.lean.v2_64.max_abs_error,4.5299530029296875e-06,code/R4/exp_D2/D_lean_raw_RSS_v5.csv,"model=v2_64; implementation=rawcausal_numpy_minimal; MBdecimal wholeprocess, stateseparate"
+D.INT8.v2_pure.FP32_MAE,0.4649824882709151,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_pure.INT8_MAE,0.464900522333895,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_pure.FP32_RMSE,0.6128893320949574,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_pure.INT8_RMSE,0.6127172767856538,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_pure.INT8_vs_FP32_max_abs_prediction_difference,0.4965355396270752,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_pure.CPU_FP32_vs_original_CUDA_OOF_max_abs_difference,0.0032761096954345,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.FP32_MAE,0.4865071648389004,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.INT8_MAE,0.4872330739178525,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.FP32_RMSE,0.6377364221199471,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.INT8_RMSE,0.6383902890524479,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.INT8_vs_FP32_max_abs_prediction_difference,0.4324711561203003,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.v2_64.CPU_FP32_vs_original_CUDA_OOF_max_abs_difference,0.0028445720672607,code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv,"pooled mos; raw outerTRAINOOF seed0, engineeringonly, noVALselection"
+D.INT8.stream_pass,False,code/R4/exp_D2/INT8_stream_small_v5/COMPLETE.json,sameCPU genuinefullINT8 vsstream4TRAINx3chunksx2models
+D.INT8.stream_max_error,0.013225078582763672,code/R4/exp_D2/INT8_stream_small_v5/COMPLETE.json,"threshold1e-5, negative preserved, no200expansion"
+D.crossdevice.v2_64.nativeCPU_vs_nativeCUDA_max_abs,1.811981201171875e-05,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.crossdevice.v2_64.leanCPU_vs_nativeCUDA_max_abs,1.8835067749023438e-05,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.crossdevice.v2_64.leanCPU_vs_nativeCPU_max_abs,4.5299530029296875e-06,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.crossdevice.v2_pure.nativeCPU_vs_nativeCUDA_max_abs,1.5974044799804688e-05,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.crossdevice.v2_pure.leanCPU_vs_nativeCUDA_max_abs,1.9073486328125e-05,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.crossdevice.v2_pure.leanCPU_vs_nativeCPU_max_abs,4.5299530029296875e-06,code/R4/exp_D2/D_existing_TRAIN200_device_difference_v5.csv,"existing genuinewholeCPU/CUDA andqualifiedleanCPU200TRAIN only; not newinference, no qualityrecalculation, notsamedevicegate"
+D.main.model_name,v2_pure,code/R4/exp_A/FROZEN_SELECTION_v3.json,"actual final main identity, selecteddiagnostic separately"
+D.selected_v2,v2_pure,code/R4/exp_A/FROZEN_SELECTION_v3.json,fixedTRAIN decision
+D.main.total_mac_estimate,13361115.050177006,code/R4/exp_D2/A7_D200_COST_v3/v2_pure/COMPLETE.json,actual nativeincremental sameTRAIN200 FFTestimate/densemel/FIRupper; MACeq/audio_s
+D.main.total_mac_estimate_unit,MAC-equivalent estimate/audio_s; frontend FFT estimated and FIRupperbound,code/R4/exp_D2/A7_D200_COST_v3/v2_pure/COMPLETE.json,not exact hardware count
+D.main.state_bytes,6664,code/R4/exp_D2/A7_D200_COST_v3/v2_pure/COMPLETE.json,"nativefp32 frozenruntime retainedpayload, not processRSS/leanf64 state"
+D.stream.max_error,6.198883056640625e-06,code/R4/exp_D2/A7_D200_COST_v3/v2_pure/COMPLETE.json,"native sameCUDA whole vsstream200x3, threshold1e-5"
+D.stream.delay,0.625,code/R4/exp_D2/A7_D200_COST_v3/v2_pure/COMPLETE.json,ms FIRalgorithm latency; 20mswindow and packetgranularity additionally required
+D.main.macs,9684592.711598272,code/R4/exp_D2/v1_v15_sameTRAIN200_totals_v5.csv,"exactmodel affine+attentionpool only; MACeq/audio_s, frontendseparate"
+D.main.s1_rtf,0.01464170331851294,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S1_20261013_091204/COMPLETE.json,"actual COMPLETE exactRTF median; full2700 3warm10formal, observedbackground; no partial"
+D.main.s1_e2e_s,341.9260015999316,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S1_20261013_091204/COMPLETE.json,actual COMPLETE exactE2E median seconds; full2700 3warm10formal
+D.main.s1_rtf_IQR,0.0011168170059026646,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S1_20261013_091204/COMPLETE.json,"actual COMPLETE exactRTF IQR; full2700 3warm10formal, observedbackground; no partial"
+D.main.s1_e2e_s_IQR,26.080898174208414,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S1_20261013_091204/COMPLETE.json,actual COMPLETE exactE2E IQR seconds; full2700 3warm10formal
+D.main.s3_rtf,0.021624289719232914,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S3_20261013_045651/COMPLETE.json,"actual COMPLETE exactRTF median; full2700 3warm10formal, observedbackground; no partial"
+D.main.s3_e2e_s,504.98953299968707,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S3_20261013_045651/COMPLETE.json,actual COMPLETE exactE2E median seconds; full2700 3warm10formal
+D.main.s3_rtf_IQR,0.0023236826621855257,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S3_20261013_045651/COMPLETE.json,"actual COMPLETE exactRTF IQR; full2700 3warm10formal, observedbackground; no partial"
+D.main.s3_e2e_s_IQR,54.26469205011017,code/R4/exp_D2/measurements/FORMAL_VAL2700_v2_pure_S3_20261013_045651/COMPLETE.json,actual COMPLETE exactE2E IQR seconds; full2700 3warm10formal
+D.stream.chunk10,0.2609478749915676,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms/file packetaverage median200 (I/O and checks included); not standalone predictlatency
+D.stream.chunk10_IQR,0.010636836798564975,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms IQR of200 perfile packetaverages; exactpackets denominator from referencecsv
+D.stream.chunk20,0.38283563093933637,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms/file packetaverage median200 (I/O and checks included); not standalone predictlatency
+D.stream.chunk20_IQR,0.016535659073175446,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms IQR of200 perfile packetaverages; exactpackets denominator from referencecsv
+D.stream.chunk100,1.529841298708396,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms/file packetaverage median200 (I/O and checks included); not standalone predictlatency
+D.stream.chunk100_IQR,0.11358107324419708,code/R4/exp_D2/lean_raw_minimal_v5/v2_pure/TRAIN200_equivalence.csv,ms IQR of200 perfile packetaverages; exactpackets denominator from referencecsv
+D.stream.limitation,"Native fp32 CUDA full/stream qualification and CPU f64 NumPy minimal qualification distinct; raw finite delayedFIR+20mswindow, nofullutterancepeak. DynamicINT8 stream failed1e-5 and notsubstituted.",code/R4/exp_D2/D_LEAN_RAW_RSS_COMPLETE_v5.json,preserve originalv1crossdevice1e-6 failure andsemi-stream lineage separately
+D.figures.Pearson_png,code/R4/exp_D2/figures/D6_Pearson_MAC_TRAIN200_palette_v5.png,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.Pearson_svg,code/R4/exp_D2/figures/D6_Pearson_MAC_TRAIN200_palette_v5.svg,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.Pearson_pdf,code/R4/exp_D2/figures/D6_Pearson_MAC_TRAIN200_palette_v5.pdf,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.RMSE_png,code/R4/exp_D2/figures/D6_RMSE_MAC_TRAIN200_palette_v5.png,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.RMSE_svg,code/R4/exp_D2/figures/D6_RMSE_MAC_TRAIN200_palette_v5.svg,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.RMSE_pdf,code/R4/exp_D2/figures/D6_RMSE_MAC_TRAIN200_palette_v5.pdf,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,"actual rendered and visually reviewed; Cquality copied, frontendMAC sameTRAIN200 estimates"
+D.figures.points_csv,code/R4/exp_D2/D6_MAC_quality_points_TRAIN200_v5.csv,code/R4/exp_D2/D6_VISUAL_REVIEW_COMPLETE_v5.json,exactCselectors and sources perpoint; quality_recalculations_D=0

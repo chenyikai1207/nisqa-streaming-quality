@@ -1,0 +1,3 @@
+domain,n,defined,defined_fraction,scope
+SIM,10000,9930,0.9930,"detector-transition defined, not actual network PLC truth"
+LIVE,1020,1010,0.9902,"detector-transition defined, not actual network PLC truth"

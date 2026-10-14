@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-13T05:20:36+08:00",
+  "status": "ACTUAL_FIVE_MODEL_RESPONSES_EXACT_ROW_TRANSFER",
+  "rows": 75,
+  "models": [
+    "NISQA5D",
+    "PLCMOS",
+    "v1_GRU",
+    "G0_oldT",
+    "selected_v2"
+  ],
+  "source_complete": "code/R4/exp_B2/B5_RESPONSE_ANALYSIS_COMPLETE_v3.json",
+  "new_metrics": 0,
+  "new_audio_reads": 0,
+  "final_v2_response_complete": true,
+  "old_four_model_snapshot": "code/R4/exp_C2/results/C_B5_response_four_fixed_snapshot_v4.csv"
+}

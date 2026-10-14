@@ -1,0 +1,42 @@
+{
+  "time": "2026-10-12T18:16:01.682712+08:00",
+  "status": "ACTUAL_COMPLETED_ROWS_EXTRACTED",
+  "source": "code/R4/exp_B2/results/B2_primary_heldout_full_precision_v3.csv",
+  "source_complete": {
+    "status": "B2_TEST_THCHS_ACTUAL_COMPLETE",
+    "time": "2026-10-12T17:53:08+08:00",
+    "selected_hidden": 64,
+    "seed": 0,
+    "n": 20000,
+    "summary_rows": 304,
+    "zero_success_line": 0.7,
+    "results": [
+      {
+        "source": "test",
+        "zero_logBurstR_Spearman": 0.8379124300396787,
+        "joint_BurstR_n": 2828,
+        "n": 4181,
+        "success": true
+      },
+      {
+        "source": "thchs",
+        "zero_logBurstR_Spearman": 0.6786368337581757,
+        "joint_BurstR_n": 2784,
+        "n": 4103,
+        "success": false
+      }
+    ],
+    "stream_qualification": "PASS_ACTUAL_TRAIN200_STABLE64",
+    "D200_receipt": "code/R4/exp_D2/B2_STREAMING_VALIDATION_stable64_v3.json",
+    "numeric_backend": "stable20ms_fp64_no_cudnn",
+    "NISQA_VAL_TEST_TCD_reads": 0
+  },
+  "rows": 16,
+  "new_metrics": 0,
+  "new_inferences": 0,
+  "new_audio_reads": 0,
+  "root_fallback": "C routing discovery timeout; exact completed rows copied, no statistical recomputation",
+  "qualification": "304 real summary rows and unique source/PLC/method selectors",
+  "scope": "new mixed codec/noise synthetic holdouts; separate from old noise-free probes",
+  "Spearman_scope": "only rows with both true and estimated defined BurstR; joint denominator reported"
+}

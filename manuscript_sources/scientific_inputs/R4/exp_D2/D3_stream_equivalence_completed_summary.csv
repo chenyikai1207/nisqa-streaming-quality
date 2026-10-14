@@ -1,0 +1,7 @@
+platform,chunk_ms,TRAIN_n,max_prediction_difference,max_feature_difference,max_mutable_kernel_state_bytes,scope
+WSL CPU,10,200,9.5367431640625e-07,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming
+WSL CPU,20,200,1.430511474609375e-06,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming
+WSL CPU,100,200,1.430511474609375e-06,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming
+Windows P core (S2),10,200,9.5367431640625e-07,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming
+Windows P core (S2),20,200,1.430511474609375e-06,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming
+Windows P core (S2),100,200,1.430511474609375e-06,1.9073486328125e-06,1676,same-device equivalence after full preparation; not strict end-to-end streaming

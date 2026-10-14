@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-13T04:17:02+08:00",
+  "status": "EXACT_COMPLETED_D_ENGINEERING_TABLE_COPY",
+  "source": "code/R4/exp_D2/INT8_outerOOF_v5/INT8_OOF_metrics_v5.csv",
+  "source_receipt": "code/R4/exp_D2/INT8_outerOOF_v5/COMPLETE.json",
+  "target": "code/R4/exp_C2/results/C_INT8_engineering_report_v5.csv",
+  "rows": 30,
+  "metric_recalculations": 0,
+  "audio_reads": 0,
+  "estimand": "seed0 pooled/SIM/LIVE raw outerTRAIN OOF engineering; no primary model selection",
+  "replaces_C_primary_accuracy": false
+}

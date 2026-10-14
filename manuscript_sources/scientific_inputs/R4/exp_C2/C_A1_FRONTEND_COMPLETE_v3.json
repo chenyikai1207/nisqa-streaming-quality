@@ -1,0 +1,61 @@
+{
+  "time_utc": "2026-10-11T23:50:19.503211+00:00",
+  "status": "ACTUAL_COMPLETE_TRAIN_AGGREGATE_EXPORT",
+  "source_csv_files": [
+    "code/R4/exp_A/results_v3/A1_frontend.csv",
+    "code/R4/exp_A/results_v3/A1_frontend_full_precision.csv",
+    "code/R4/exp_A/results_v3/A1_frontend_runs.csv",
+    "code/R4/exp_A/results_v3/A1_frontend_runs_full_precision.csv",
+    "code/R4/exp_A/results_v3/A0_v1_baseline.csv",
+    "code/R4/exp_A/results_v3/A0_v1_baseline_full_precision.csv"
+  ],
+  "source_bytes_unchanged": true,
+  "candidates": 12,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "A1_actual_CV_fits": 180,
+  "A1_actual_LOSO_fits": 180,
+  "dimensions": [
+    "mos",
+    "noi",
+    "col",
+    "dis",
+    "loud"
+  ],
+  "source_run_rows": 720,
+  "seed_rows": 180,
+  "summary_rows": 60,
+  "Word_wide_rows": 12,
+  "factor_seed_rows": 1200,
+  "factor_summary_rows": 400,
+  "C_reaggregation_max_abs_difference": 2.220446049250313e-16,
+  "original_OOF_result_formula_verified_in_code": true,
+  "OOF_prediction_files_read": 0,
+  "OOF_limits": "aggregates validate listed MAEs, seed variability and planned weighted score; per-source patterns/reference-cluster CIs/correlations would require original OOF predictions, not inferred here",
+  "baseline_seeds": [
+    20261011
+  ],
+  "baseline_seed_count": 1,
+  "baseline_vsA1_delta_status": "descriptive unpaired seed comparison; no paired seed inference",
+  "selected_frontend_by_A": "A1V3_sr16000_mel48_global_gain_band0",
+  "selected_frontend_is_final_main_model": false,
+  "teacher_identity": "allA1 .7true TRAIN labels+.3officialNISQA teacher, teacher not crossfit; development analysis",
+  "source_LOSO_definition": "other3SIM sources+allLIVE train; DNS LIVE stays train, no full-source/speaker exclusion claim",
+  "mapping": "none",
+  "new_model_fit": 0,
+  "new_bootstrap": 0,
+  "new_VAL_TEST_TCD_audio_reads": 0,
+  "Holm_family_changed": false,
+  "primary_summary_csv": "code/R4/exp_C2/results/C_A1_frontend_summary_v3.csv",
+  "seed_csv": "code/R4/exp_C2/results/C_A1_frontend_seed_metrics_v3.csv",
+  "Word_csv": "code/R4/exp_C2/results/C_A1_frontend_word_v3.csv",
+  "Word_summary": "code/R4/exp_C2/results/C_A1_frontend_WORD_SUMMARY_v3.csv",
+  "factor_Word_range_csv": "code/R4/exp_C2/results/C_A1_frontend_factor_word_ranges_v3.csv",
+  "factor_Word_range_rows": 48,
+  "Word_summary_keys": 8,
+  "baseline_waiter_actual_verified_alive": true,
+  "factor_summary_published_utc": "2026-10-11T23:52:07.785902+00:00"
+}
