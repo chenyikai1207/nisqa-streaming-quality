@@ -53,5 +53,29 @@
     "statement_pages": 1,
     "all_final_pages_actually_viewed": true,
     "repository_tag": "nisqa-paper1-ecice-v33-20261014"
+  },
+  "v34_update": {
+    "aggregation_unchanged": true,
+    "abstract_comparison": "A to B",
+    "MOS_MAE": [
+      0.4502,
+      0.4165
+    ],
+    "LOUD_MAE": [
+      0.7732,
+      0.4909
+    ],
+    "main_deploy_S3_IQR_percent": 0.169,
+    "main_deploy_S3_max_calibration_percent": 2.208,
+    "figure3_bars": 28,
+    "VAL_main_bar_present": true,
+    "new_forward": 0,
+    "new_training": 0,
+    "new_timing": 0,
+    "new_statistics": 0,
+    "original_scientific_values_unchanged": true,
+    "pages": 11,
+    "all_pages_actually_viewed": true,
+    "tag": "nisqa-paper1-ecice-v34-20261014"
   }
 }

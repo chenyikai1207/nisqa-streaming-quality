@@ -2,7 +2,7 @@
 from pathlib import Path
 import os
 import pandas as pd,json,re
-HERE=Path(__file__).resolve().parent;STAGE=Path(__file__).resolve().parent/'scientific_inputs/R4'
+HERE=Path(__file__).resolve().parent;STAGE=HERE/'scientific_inputs/R4'
 values={};mapping={}
 def put(key,value,path,selector,column='value',digits=4):
     if value is None or pd.isna(value):return
@@ -438,6 +438,11 @@ for method in ['NISQA_MOS','PLCMOS']:
     sel=dict(method=method,path='official',setting='S3');r=row(q,**sel)
     for label,col in [('iqr_pct','iqr_ratio'),('drift_pct','calib_drift')]:
         put('paper.cost.'+method+'.S3.'+label,r[col]*100,p,sel,col+'*100',6)
+
+# Deployment/S3 table-note precision, same current fixed-session cost CSV.
+p=cost_source();q=pd.read_csv(p);sel=dict(method='v2_96',path='deploy',setting='S3');r=row(q,**sel)
+for label,col in [('iqr_pct','iqr_ratio'),('drift_pct','calib_drift')]:
+    put('paper.cost.main_deploy.S3.'+label,r[col]*100,p,sel,col+'*100',3)
 
 # Current acceptance and existing contrast numbers from the fixed-session interface.
 p=AMENDMENT/'COST_THRESHOLD_INTERFACE.json'

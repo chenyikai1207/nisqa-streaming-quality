@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 import pandas as pd,json
-HERE=Path(__file__).resolve().parent;STAGE=Path(__file__).resolve().parent/'scientific_inputs/R4'
+HERE=Path(__file__).resolve().parent;STAGE=HERE/'scientific_inputs/R4'
 q=pd.read_csv(STAGE/'exp_C2/results/C_primary_accuracy_v3.csv');tables=[]
 names={'A_G0':'G0 HGB','A_newT':'G0+新T','A_tiny':'GRU真实标签','A_distill':'GRU蒸馏v1','NISQA5D':'NISQA五维','DNSMOS':'DNSMOS OVRL','PLCMOS':'PLCMOS','SQUIM':'SQUIM PESQ代理','P563':'P.563'}
 for model in q.model.unique():
@@ -468,6 +468,8 @@ def compose(tables,here):
     for method in ['NISQA_MOS','PLCMOS']:
         r=failures[failures.method.eq(method)&failures.path.eq('official')&failures.setting.eq('S3')].iloc[0]
         pieces.append(f'{method} S3（'+('通过' if r.accepted else '†')+f'）：IQR/中位数{r.iqr_ratio*100:.6f}%、最大校准漂移{r.calib_drift*100:.6f}%')
+    deployment=failures[failures.method.eq('v2_96')&failures.path.eq('deploy')&failures.setting.eq('S3')].iloc[0]
+    pieces.insert(0,f'本文模型部署/S3：IQR/中位数{deployment.iqr_ratio*100:.3f}%、最大校准漂移{deployment.calib_drift*100:.3f}%')
     main[7]['note']+=' S3实际值：'+'；'.join(pieces)+'；当前IQR/中位数<10%、校准漂移<11%，这些测量量及敏感性范围均非置信区间。'
     return main
 
