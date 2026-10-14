@@ -1229,7 +1229,7 @@ protocols/B_minus_D_scientific_completion.json,3021,"scientific result/method ch
 protocols/frontend_meanprediction_scientific_completion.json,510,"scientific result/method chronology, without operational metadata",publication_derivative,scientific protocol extraction or relocatable publication derivative
 protocols/SCIENTIFIC_PROTOCOL.md,4609,README/access/license/scientific protocol or relocatable configuration,publication_derivative,scientific protocol extraction or relocatable publication derivative
 PUBLIC_PACKAGE_VALIDATION.json,1310,publication metadata or file inventory,publication_derivative,publication derivative
-README.md,8593,README/access/license/scientific protocol or relocatable configuration,publication_derivative,scientific protocol extraction or relocatable publication derivative
+README.md,7438,README/access/license/scientific protocol or relocatable configuration,publication_derivative,scientific protocol extraction or relocatable publication derivative
 REPOSITORY_METADATA.json,901,README/access/license/scientific protocol or relocatable configuration,publication_derivative,scientific protocol extraction or relocatable publication derivative
 scientific_value_preservation.csv,11095,publication metadata or file inventory,publication_derivative,publication derivative
 VAL_MSE/decompose_existing_VAL.py,3289,requested postfreeze raw VAL decomposition or existing source selections,VAL_MSE/decompose_existing_VAL.py,process metadata removed; machine paths relocated; scientific values retained
