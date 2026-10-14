@@ -1,0 +1,48 @@
+{
+  "dataset": "TCD_VOIP",
+  "model": "NISQA_MOSONLY",
+  "actual_complete": true,
+  "support": {
+    "files": 384,
+    "reference_groups": 96,
+    "conditions": 96,
+    "rating_listener_values": [
+      24
+    ],
+    "chop_files": 96,
+    "chop_reference_groups": 24,
+    "chop_conditions": 24
+  },
+  "identity": {
+    "model": "NISQA_MOSONLY",
+    "parameters": 218402,
+    "weight_filename": "nisqa_mos_only.tar",
+    "weight_bytes": 907215,
+    "same_cost_weight_bytes": true,
+    "variant": "MOSONLY",
+    "torch": "2.8.0+cu128",
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "batch_size": 16,
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "frontend": "original author dataset/checkpoint whole preprocessing; no changes",
+    "output_heads": [
+      "mos"
+    ],
+    "other_heads_unavailable": true,
+    "official_code_source": "https://github.com/gabrielmittag/NISQA",
+    "official_weight_source": "https://github.com/gabrielmittag/NISQA/blob/master/weights/nisqa_mos_only.tar"
+  },
+  "raw_scores": {
+    "Pearson": 0.8420599973613129,
+    "MAE": 0.6065984550347223,
+    "RMSE": 0.7633518508893653,
+    "Spearman": 0.8432514921308016
+  },
+  "actual_inference_passes": 1,
+  "post_original_evaluation_completion": true,
+  "bootstrap_draws": 0,
+  "mapping": "none",
+  "new_cost_measurement": false
+}

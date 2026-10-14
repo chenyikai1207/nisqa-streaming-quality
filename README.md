@@ -10,7 +10,9 @@ This repository contains the numerical evidence and research code accompanying t
 | Paired comparisons, 72 rows / 24 three-comparison Holm families | `code/R4/exp_C2/results/C5_Holm72_v3.csv` |
 | Original registered prediction tables | `code/R4/exp_B/preds/` and `code/R4/exp_C2/preds/` |
 | VAL / TEST evaluation-registration facts | `code/R4/shared/VAL_LEDGER.csv`, `TEST_LEDGER.csv` |
-| Final cost results, 16 settings | `code/R4/exp_D/cost_v3/results/cost_final.csv` |
+| Current v33 fixed-session cost classification | `cost_threshold_amendment_20261014/calibration11_20261014/` |
+| New same-weight official MOS-only TCD prediction and raw metrics | `postfreeze_TCD_MOS_completion/` |
+| Original final cost results, 16 settings | `code/R4/exp_D/cost_v3/results/cost_final.csv` |
 | All 185 formal runs and bounded repeats | `code/R4/exp_D/cost_v3/results/run_index.csv`; linked run, prediction and calibration JSONs in the same directory |
 | Acceptance outcomes and measured environment | `code/R4/exp_D/cost_v3/results/COST_ACCEPTANCE.json` |
 | Independent process memory, 16 measurements | `code/R4/exp_D/cost_v3/results/memory/` |
@@ -27,7 +29,7 @@ This repository contains the numerical evidence and research code accompanying t
 | File-level source mapping and sizes | `source_data_manifest.csv` |
 | Scientific-value preservation checks | `scientific_value_preservation.csv`, `PUBLIC_PACKAGE_VALIDATION.json` |
 
-The 16 final cost settings are **completed**, with **8 accepted** and **8 environment-terminal** after the permitted bounded repeats. Failed calibration/frequency/dispersion gates and historical cross-device numerical differences are retained. Completion does not imply environment acceptance. No third repeat was added. S3 speed contrasts against unaccepted references use an explicitly labeled calibration-drift sensitivity assumption, not a confidence interval or an accepted speedup claim.
+The 16 final cost settings are completed. Under the current strict IQR/median <10% and calibration-drift <11% criteria, **13 settings are accepted, including all 6 S3 settings**; three S1 frequency-gate failures remain. The original 5%/3% criteria accepted 8 settings. These thresholds were changed after the saved results, with <11% selected using the observed S3 maximum of 10.852779636%; the separate one-page statement and `protocols/COST_ACCEPTANCE_STANDARD_v33.md` record the full sequence and original/current classifications. No measured time, prediction or selected session changed, and no new cost timing was run. Reported drift-perturbation ranges are sensitivity ranges, not confidence intervals.
 
 ## Data and external assets
 
@@ -37,7 +39,7 @@ Saved-prediction statistical reproduction requires no waveform or model weights.
 
 ## Analysis conventions
 
-Quality identities are preserved: official NISQA five-dimensional quality and official MOS-only runtime cost are different models and must not be combined into a single quality-cost point. Primary raw correlations and frozen-TRAIN-mapped RMSE are separate outcomes. Reference-group bootstrap is used for TRAIN/VAL, condition bootstrap for NISQA TEST, and the originally specified source/domain weighting is preserved. Macro intervals that were not estimated remain unavailable. P563's eight unavailable VAL estimates remain missing.
+Quality identities are preserved: official NISQA five-dimensional quality and official MOS-only runtime cost are different models and must not be combined into a single quality-cost point. `postfreeze_TCD_MOS_completion/` provides the new 384-file MOS-only quality result from the same checkpoint as MOS-only cost. Table 4 retains the original five-dimensional result; Figure 4 separately includes the same-identity MOS-only point. Primary raw correlations and frozen-TRAIN-mapped RMSE are separate outcomes. Reference-group bootstrap is used for TRAIN/VAL, condition bootstrap for NISQA TEST, and the originally specified source/domain weighting is preserved. Macro intervals that were not estimated remain unavailable. P563's eight unavailable VAL estimates remain missing.
 
 The frontend reporting analysis averages three seed predictions before metrics and bootstrap. Its tier rule was received after the 120-fit outcomes; the request chronology is disclosed. The original B reproduction gate remains based on the original seed-metric-mean statistic, not the new ensemble statistic. Original and new aggregation tables have distinct names. Negative effects across all five heads are retained.
 
@@ -45,7 +47,7 @@ The frontend reporting analysis averages three seed predictions before metrics a
 
 See `LICENSE_AND_ATTRIBUTION.md`. No repository-wide MIT claim is made. The authors have not selected an additional license for their own code and data. Authors remain blank in the manuscript, and no DOI is assigned or requested. The repository is public at https://github.com/chenyikai1207/nisqa-streaming-quality. Third-party code/weights retain their providers' separate licenses. Public readers can inspect all deposited numerical results while those publication metadata are being finalized.
 
-This package has been read completely and its CSV/JSON payloads parsed. Source-to-derived scientific values were checked; machine paths and operational metadata were the only intended changes. No new model inference, fit, timing or hash calculation was performed in assembling it.
+This package has been read completely and its CSV/JSON payloads parsed. Source-to-derived scientific values were checked; machine paths and operational metadata were the only intended changes. Package assembly adds no fit, cost timing or hash calculation. One separately documented official MOS-only CUDA inference pass on the fixed 384 TCD files was added in v33 to complete the same-weight quality point; its raw Pearson is 0.8420599974, and it is not added to the original paired/Holm families.
 
 ## Manuscript, figures and version
 
@@ -53,4 +55,6 @@ The Computer Engineering manuscript is available in `manuscript/` as an editable
 
 `manuscript_sources/` contains the manuscript text, eight-table definitions, number-filling scripts and their small scientific inputs. `figures/` contains the four final Chinese-labeled figures, plotting code, source tables, vector PDF/SVG and 600-dpi PNG files. The framework additionally has an editable Visio VSDX and EMF source.
 
-Version: `nisqa-paper1-ecice-v32-20261014` at https://github.com/chenyikai1207/nisqa-streaming-quality. The documents were exported with **WPS Office**, as requested by the authors. Equations are native editable OMML objects; they have not been converted to MathType. Author and funding fields are intentionally blank pending author completion. No Zenodo deposit or DOI is assigned.
+Version: `nisqa-paper1-ecice-v33-20261014` at https://github.com/chenyikai1207/nisqa-streaming-quality. The documents were exported with **WPS Office**, as requested by the authors. Equations are native editable OMML objects; they have not been converted to MathType. Author and funding fields are intentionally blank pending author completion. No Zenodo deposit or DOI is assigned.
+
+The v33 manuscript has 11 pages; its separate cost-acceptance statement has one page. Figure 4 displays all 29 finite eligible points using filled symbols. The v32 release and original scientific results remain available unchanged.

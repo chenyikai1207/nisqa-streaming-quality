@@ -8,6 +8,16 @@ HERE = Path(__file__).resolve().parent
 STAGE=Path(__file__).resolve().parent/'scientific_inputs/R4'
 C = STAGE / 'exp_D/cost_v3'
 R = C / 'results'
+AMENDMENT = HERE.parent / 'cost_threshold_amendment_20261014/calibration11_20261014'
+
+def current_cost_interface():
+    path=AMENDMENT/'COST_THRESHOLD_INTERFACE.json'
+    return json.loads(path.read_text(encoding='utf-8')) if path.exists() else None
+
+def cost_source():
+    interface=current_cost_interface()
+    return AMENDMENT/interface['cost_csv'] if interface is not None else R/'cost_final.csv'
+
 LABELS = {
     ('v1', 'native'): '首版 v1',
     ('v2_96', 'native'): '双层GRU96 原生',
@@ -26,7 +36,7 @@ def truth(value):
     return value is True or str(value).lower() == 'true'
 
 def ready():
-    path=R/'cost_final.csv'
+    path=cost_source()
     if not path.exists():return False
     rows=csv_rows(path)
     return len(rows)==16 and all(truth(r['RSS_complete']) and truth(r['MAC_complete']) for r in rows)
@@ -34,7 +44,7 @@ def ready():
 def dataset():
     if not ready():
         raise RuntimeError('Cost measurement window still active; manuscript publication deferred')
-    costs = csv_rows(R / 'cost_final.csv')
+    costs = csv_rows(cost_source())
     stream = csv_rows(R / 'streaming_kernel.csv')
     mac = csv_rows(R / 'mac_table.csv')
     if len(costs) != 16 or any(not truth(row['RSS_complete']) for row in costs):
@@ -55,6 +65,9 @@ def cost_tables():
     by = {(row['method'], row['path'], row['setting']): row for row in costs}
     totals = {row['method']: row for row in mac if row['component'] == 'TOTAL'}
     inventory = json.loads((R / 'model_inventory.json').read_text(encoding='utf-8'))
+    interface=current_cost_interface()
+    accepted_count=interface['accepted_current'] if interface is not None else sum(truth(r['accepted']) for r in costs)
+    failed_count=len(costs)-accepted_count
     tables = []
     def add(suffix, title, headers, rows, note):
         tables.append(dict(number=8, cn=f'表8({suffix}) {title}', en=f'Table 8({suffix})',
@@ -86,7 +99,7 @@ def cost_tables():
         rows.append(vals)
     add('b', '同一600条VAL的热缓存端到端RTF',
         ['方法/路径', 'S3 RTF', 'S3 IQR/%', 'S3漂移/%', 'S1 RTF', 'S1 IQR/%', 'S1漂移/%'], rows,
-        '每项20文件预热、5个独立进程；S3固定E16单线程，S1不绑核且库默认线程，Torch实际16个算子内线程、可调度范围24逻辑核。基础应用背景下受控测量，核心温度不可用。16设置中8个通过全部标准，8个未同时通过预定稳定性标准并加†，原始测量保留；每项最多两次额外重测。IQR/%为四分位距/中位数；漂移为块及整轮前后校准最大相对差。' + '；'.join(failures))
+        f'每项20文件预热、5个独立进程；S3固定E16单线程，S1库默认线程、Torch实际16线程。基础应用背景受控，温度不可用。{len(costs)}设置中{accepted_count}个通过、{failed_count}个未通过并加†；当前IQR/中位数<10%、校准漂移<11%，其余资格要求沿用。IQR/%为四分位距/中位数，漂移为块及整轮前后校准最大相对差。' + '；'.join(failures))
     rows = []
     for key in [('v1', 'native'), ('v2_96', 'native'), ('v2_96', 'deploy'), ('NISQA_MOS', 'official')]:
         row = by[(*key, 'S3')]
@@ -120,7 +133,7 @@ def cost_tables():
         rows.append([LABELS[key], fmt(row['rtf_median'], 6), fmt(float(row['iqr_ratio'])*100, 3),
                      fmt(float(row['calib_drift'])*100, 3), '通过' if truth(row['accepted']) else '未通过'])
     add('h', '单性能核补充测量', ['方法/路径', 'RTF', 'IQR/%', '漂移/%', '验收'], rows,
-        'P2固定单线程，与S3同一600列表；四设置均按事前规则验收。补充口径不替代S3摘要主口径。')
+        'P2固定单线程，与S3同一600列表；四设置均按当前标准验收。补充口径不替代S3摘要主口径。')
     representative = csv_rows(R/'representativeness/representativeness.csv')
     add('i', '完整VAL单次代表性核对', ['方法/路径', '文件数', '完整VAL RTF', '600条RTF', '相对差/%', '<5%'],
         [[LABELS[(row['method'], row['path'])], row['n_files'], fmt(row['rtf_fullVAL_single'], 6),
@@ -143,9 +156,9 @@ def fill_cost_numbers(put):
         selector = dict(zip(['method', 'path', 'setting'], key))
         prefix = 'D.cost.' + '.'.join(key)
         for col in ['rtf_median', 'iqr_ratio', 'calib_drift', 'baseline_rss_mb', 'peak_rss_mb', 'cold_s']:
-            put(prefix + '.' + col, float(row[col]), R/'cost_final.csv', selector, col,
+            put(prefix + '.' + col, float(row[col]), cost_source(), selector, col,
                 6 if col in ['rtf_median','iqr_ratio','calib_drift'] else 4)
-        put(prefix + '.t_I', float(row['t_I']), R/'cost_final.csv', selector, 't_I', 4)
+        put(prefix + '.t_I', float(row['t_I']), cost_source(), selector, 't_I', 4)
     main_stream = next(r for r in stream if r['method'] == 'v2_pure' and r['chunk_ms'] == '20')
     selector = dict(method='v2_pure', chunk_ms=20)
     for col in ['resident_rss_mb', 'state_bytes', 'block_ms_median', 'block_ms_p99', 'algorithm_delay_ms', 'first_prediction_input_ms']:
@@ -169,10 +182,10 @@ def fill_cost_numbers(put):
     put('D.main.total_mac_estimate', f'{native_mac:.4f}百万MAC等价量/音频秒', R/'mac_table.csv',
         dict(method='v2_96_native', component='TOTAL'), 'mmac_per_s')
     put('D.main.mac_million', native_mac, R/'mac_table.csv', dict(method='v2_96_native', component='TOTAL'), 'mmac_per_s')
-    put('D.main.s3_rtf', float(by[('v2_96','deploy','S3')]['rtf_median']), R/'cost_final.csv',
+    put('D.main.s3_rtf', float(by[('v2_96','deploy','S3')]['rtf_median']), cost_source(),
         dict(method='v2_96', path='deploy', setting='S3'), 'rtf_median', 6)
     put('D.cost.s2.nisqa_ratio', float(by[('NISQA_MOS','official','S2')]['rtf_median']) /
-        float(by[('v2_96','deploy','S2')]['rtf_median']), R/'cost_final.csv',
+        float(by[('v2_96','deploy','S2')]['rtf_median']), cost_source(),
         dict(reference='NISQA_MOS/official/S2', target='v2_96/deploy/S2'), 'rtf_median ratio', 2)
 
 if __name__ == '__main__':

@@ -1,0 +1,21 @@
+{
+  "model": "NISQA_MOSONLY",
+  "parameters": 218402,
+  "weight_filename": "nisqa_mos_only.tar",
+  "weight_bytes": 907215,
+  "same_cost_weight_bytes": true,
+  "variant": "MOSONLY",
+  "torch": "2.8.0+cu128",
+  "cuda_version": "12.8",
+  "device": "cuda",
+  "batch_size": 16,
+  "matmul_tf32": false,
+  "cudnn_tf32": true,
+  "frontend": "original author dataset/checkpoint whole preprocessing; no changes",
+  "output_heads": [
+    "mos"
+  ],
+  "other_heads_unavailable": true,
+  "official_code_source": "https://github.com/gabrielmittag/NISQA",
+  "official_weight_source": "https://github.com/gabrielmittag/NISQA/blob/master/weights/nisqa_mos_only.tar"
+}

@@ -1,0 +1,17 @@
+method,path,setting,session_original,iqr_ratio_from_fixed_runs,accepted_original,accepted_previous6,reason_original,frequency_pass_unchanged,CPU_numerical_pass_unchanged,temperature_policy_pass_unchanged,formal_marker_pass_unchanged
+NISQA_MOS,official,S1,20261013_214529,0.0215513559684601,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+NISQA_MOS,official,S2,20261013_193358,0.0144108810268527,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+NISQA_MOS,official,S3,20261014_002857,0.010059501270337,False,True,calibration,True,True,True,True
+PLCMOS,official,S1,20261014_004436,0.0037337475674691,False,False,calibration;frequency_or_scientific_GPU,False,True,True,True
+PLCMOS,official,S3,20261014_011138,0.0209325760425457,False,False,calibration,True,True,True,True
+v1,native,S1,20261014_020940,0.0093173039826663,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v1,native,S2,20261013_193358,0.0186770697718021,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v1,native,S3,20261013_231619,0.0044735496073874,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v2_64,deploy,S1,20261014_021335,0.0474673488691316,False,False,calibration;frequency_or_scientific_GPU,False,True,True,True
+v2_64,deploy,S3,20261014_021936,0.0194759209475515,False,False,calibration,True,True,True,True
+v2_96,deploy,S1,20261014_023010,0.0083217663496892,False,False,frequency_or_scientific_GPU,False,True,True,True
+v2_96,deploy,S2,20261013_193358,0.0035379210067894,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v2_96,deploy,S3,20261013_235416,0.0016936911095883,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v2_96,native,S1,20261014_023756,0.0178819140201263,False,False,calibration,True,True,True,True
+v2_96,native,S2,20261013_193358,0.0147926174346732,True,True,all_original_other_gates_and_applicable_thresholds_pass,True,True,True,True
+v2_96,native,S3,20261014_024459,0.0248679191078085,False,True,calibration,True,True,True,True

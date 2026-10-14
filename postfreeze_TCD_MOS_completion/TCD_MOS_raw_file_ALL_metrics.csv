@@ -1,0 +1,5 @@
+model,dataset,domain,level,dim,metric,mapping,value,ci_low,ci_high,n,n_boot,quality_device,model_version,source_prediction_path,protocol,parameters
+NISQA_MOSONLY,TCD_VOIP,ALL,file,mos,Pearson,none,0.8420599973613129,,,384,0,CUDA,author nisqa_mos_only.tar,TCD_MOS_predictions.csv,POSTFREEZE_FIXED_OFFICIAL_MOS_TCD_COMPLETION,218402
+NISQA_MOSONLY,TCD_VOIP,ALL,file,mos,MAE,none,0.6065984550347223,,,384,0,CUDA,author nisqa_mos_only.tar,TCD_MOS_predictions.csv,POSTFREEZE_FIXED_OFFICIAL_MOS_TCD_COMPLETION,218402
+NISQA_MOSONLY,TCD_VOIP,ALL,file,mos,RMSE,none,0.7633518508893653,,,384,0,CUDA,author nisqa_mos_only.tar,TCD_MOS_predictions.csv,POSTFREEZE_FIXED_OFFICIAL_MOS_TCD_COMPLETION,218402
+NISQA_MOSONLY,TCD_VOIP,ALL,file,mos,Spearman,none,0.8432514921308016,,,384,0,CUDA,author nisqa_mos_only.tar,TCD_MOS_predictions.csv,POSTFREEZE_FIXED_OFFICIAL_MOS_TCD_COMPLETION,218402

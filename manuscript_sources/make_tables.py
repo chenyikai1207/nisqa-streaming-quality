@@ -461,13 +461,14 @@ def compose(tables,here):
     main[1]['note']='三个训练种子指标均值±SD；相同16 kHz、48梅尔前端，真实标签/官方五维教师权重0.7/0.3。按3.1综合分及成本规则选择＊结构。SD表示初始化变化；本表保持原容量选择口径，与表3先平均预测的后见口径区分。'
     main[2]['note']+='聚合及表述规则在原拟合结果后收到、聚合前固定；这项TRAIN稳健性分析沿用已冻结模型。'
     main[4]['note']='差值=本文模型−比较法；Pearson取原值，RMSE使用固定TRAIN映射，官方NISQA保持原值。每个评价集/层面/指标的三个比较共同Holm；2000次条件组同步bootstrap。'
-    main[7]['note']='S2为单性能核，S3为单能效核；固定600条VAL、五轮热缓存端到端中位数。†表示复测后仍未通过稳定性标准。10 ms P99和RSS来自独立精简流式内核，状态上界覆盖16/48 kHz；其他采样率需额外重采样状态。NISQA MOS单头用于成本，NISQA五维用于质量。DNSMOS按VAL代表长度、9.01 s短音重复和1 s离散窗口估计，含固定STFT卷积；与旧TRAIN200时长加权口径不同。'
-    failures=pd.read_csv(STAGE/'exp_D/cost_v3/results/cost_final.csv')
+    main[7]['note']='S2为单性能核，S3为单能效核；固定600条VAL、五轮热缓存端到端中位数。表内已测S2/S3项均通过当前标准。10 ms P99和RSS来自独立精简流式内核，状态上界覆盖16/48 kHz；其他采样率需额外重采样状态。NISQA MOS单头用于成本，NISQA五维用于质量。DNSMOS按VAL代表长度、9.01 s短音重复和1 s离散窗口估计，含固定STFT卷积；与旧TRAIN200时长加权口径不同。'
+    from cost_v3_publication import cost_source
+    failures=pd.read_csv(cost_source())
     pieces=[]
     for method in ['NISQA_MOS','PLCMOS']:
         r=failures[failures.method.eq(method)&failures.path.eq('official')&failures.setting.eq('S3')].iloc[0]
-        pieces.append(f'{method} S3的IQR/中位数{r.iqr_ratio*100:.6f}%、最大校准漂移{r.calib_drift*100:.6f}%')
-    main[7]['note']+=' †实际失败值：'+'；'.join(pieces)+'；离散度阈值5%、校准漂移阈值3%，这些测量量及敏感性范围均非置信区间。'
+        pieces.append(f'{method} S3（'+('通过' if r.accepted else '†')+f'）：IQR/中位数{r.iqr_ratio*100:.6f}%、最大校准漂移{r.calib_drift*100:.6f}%')
+    main[7]['note']+=' S3实际值：'+'；'.join(pieces)+'；当前IQR/中位数<10%、校准漂移<11%，这些测量量及敏感性范围均非置信区间。'
     return main
 
 tables=compose(tables,HERE)

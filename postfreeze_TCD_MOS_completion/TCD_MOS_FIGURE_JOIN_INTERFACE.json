@@ -1,0 +1,53 @@
+{
+  "status": "ACTUAL_SAME_IDENTITY_TCD_MOS_QUALITY_READY",
+  "model": "NISQA_MOSONLY",
+  "dataset": "TCD_VOIP",
+  "quality_metrics": "TCD_MOS_raw_file_ALL_metrics.csv",
+  "predictions": "TCD_MOS_predictions.csv",
+  "metadata": "TCD_fixed_support_metadata.csv",
+  "identity": {
+    "model": "NISQA_MOSONLY",
+    "parameters": 218402,
+    "weight_filename": "nisqa_mos_only.tar",
+    "weight_bytes": 907215,
+    "same_cost_weight_bytes": true,
+    "variant": "MOSONLY",
+    "torch": "2.8.0+cu128",
+    "cuda_version": "12.8",
+    "device": "cuda",
+    "batch_size": 16,
+    "matmul_tf32": false,
+    "cudnn_tf32": true,
+    "frontend": "original author dataset/checkpoint whole preprocessing; no changes",
+    "output_heads": [
+      "mos"
+    ],
+    "other_heads_unavailable": true,
+    "official_code_source": "https://github.com/gabrielmittag/NISQA",
+    "official_weight_source": "https://github.com/gabrielmittag/NISQA/blob/master/weights/nisqa_mos_only.tar"
+  },
+  "support": {
+    "files": 384,
+    "reference_groups": 96,
+    "conditions": 96,
+    "rating_listener_values": [
+      24
+    ],
+    "chop_files": 96,
+    "chop_reference_groups": 24,
+    "chop_conditions": 24
+  },
+  "Pearson": 0.8420599973613129,
+  "mapping": "none",
+  "domain_for_saved_metrics": "ALL",
+  "plot_join_scope": "one-domain TCD all384; same as existing TCD/EQUAL_DOMAIN support, no domain averaging required",
+  "quality_device": "CUDA",
+  "cost_device": "existing Windows CPU measurement; no new cost",
+  "existing_cost_identity": "NISQA_MOS/official",
+  "quality_bootstrap": 0,
+  "paired_Holm": 0,
+  "model_selection": 0,
+  "other_datasets_reinferred": 0,
+  "source_overlap": "TSP source pool/four speakers overlap disclosed; exact NISQA concatenation crosswalk unknown",
+  "post_original_evaluation_completion": true
+}

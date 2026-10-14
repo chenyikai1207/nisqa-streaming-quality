@@ -337,7 +337,7 @@ p=STAGE/'exp_D2/INT8_stream_small_v5/COMPLETE.json'
 if p.exists():
     r=json.loads(p.read_text(encoding='utf-8-sig'));put('D.int8.stream.error',r['max_abs_error'],p,dict(rows=24,passed_all=False),'max_abs_error')
 
-from cost_v3_publication import ready as cost_v3_ready, fill_cost_numbers
+from cost_v3_publication import ready as cost_v3_ready, fill_cost_numbers, cost_source, current_cost_interface, AMENDMENT
 if cost_v3_ready():
     fill_cost_numbers(put)
 # Existing early frontend comparison: exact registered candidate, not new GRU96 outcomes.
@@ -414,7 +414,7 @@ for aggregate in ['min','max']:
 p=STAGE/'exp_C2/results/C_B5_response_report_v4.csv';q=pd.read_csv(p);sel=dict(table='emodel_rank',model='NISQA5D',metric='planning_Spearman');r=row(q,**sel)
 for key,col in [('n','n'),('conditions','network_conditions'),('unavailable','unavailable_joint_coefficient_rows')]:
     put('paper.emodel.'+key,r[col],p,sel,col,0)
-p=STAGE/'exp_D/cost_v3/results/cost_final.csv';q=pd.read_csv(p)
+p=cost_source();q=pd.read_csv(p)
 r=q[q.method.eq('v2_96')&q.path.eq('deploy')&q.setting.isin(['S1','S2','S3'])]
 put('paper.deploy.max_error',f'{r.prediction_max_abs.max():.2e}',p,dict(method='v2_96',path='deploy',setting=['S1','S2','S3']),'prediction_max_abs_max')
 
@@ -433,11 +433,32 @@ for label,reference,rounding in [('NISQA','NISQA_MOS_official','lower integer de
     put('paper.mac.native.'+label+'.conservative_fraction','1/'+str(denominator),p,sel,'estimated_MAC_ratio; display '+rounding)
 
 # Existing S3 failure values are percentages, not confidence intervals.
-p=STAGE/'exp_D/cost_v3/results/cost_final.csv';q=pd.read_csv(p)
+p=cost_source();q=pd.read_csv(p)
 for method in ['NISQA_MOS','PLCMOS']:
     sel=dict(method=method,path='official',setting='S3');r=row(q,**sel)
     for label,col in [('iqr_pct','iqr_ratio'),('drift_pct','calib_drift')]:
         put('paper.cost.'+method+'.S3.'+label,r[col]*100,p,sel,col+'*100',6)
+
+# Current acceptance and existing contrast numbers from the fixed-session interface.
+p=AMENDMENT/'COST_THRESHOLD_INTERFACE.json'
+interface=current_cost_interface()
+for key,col in [('settings','settings'),('accepted','accepted_current'),('unaccepted','unaccepted_current')]:
+    put('paper.cost.'+key,interface[col],p,dict(field=col),col,0)
+for rec in interface['existing_contrast_rows_with_only_acceptance_annotation']:
+    if rec['comparison']=='S3_NISQA_MOS_over_main_deploy':
+        sel=dict(comparison=rec['comparison'],source='existing saved contrast; ratio unchanged')
+        put('paper.cost.S3.nisqa_ratio',float(rec['observed_k']),p,sel,'observed_k',2)
+        put('paper.cost.S3.nisqa_sensitivity',f"{float(rec['sensitivity_lower']):.2f}–{float(rec['sensitivity_upper']):.2f}",p,sel,'sensitivity_lower|sensitivity_upper')
+    if rec['comparison']=='S3_PLCMOS_over_main_deploy':
+        sel=dict(comparison=rec['comparison'],source='existing saved contrast; ratio unchanged')
+        put('paper.cost.S3.plc_ratio',float(rec['observed_k']),p,sel,'observed_k',2)
+        put('paper.cost.S3.plc_sensitivity',f"{float(rec['sensitivity_lower']):.2f}–{float(rec['sensitivity_upper']):.2f}",p,sel,'sensitivity_lower|sensitivity_upper')
+
+# Completed independent same-cost-weight MOS-only TCD point; no Holm/paired reuse.
+p=HERE.parent/'postfreeze_TCD_MOS_completion/TCD_MOS_raw_file_ALL_metrics.csv'
+q=pd.read_csv(p);sel=dict(model='NISQA_MOSONLY',dataset='TCD_VOIP',domain='ALL',level='file',dim='mos',metric='Pearson',mapping='none');r=row(q,**sel)
+put('paper.nisqa_mos_tcd.r',r.value,p,sel,'value',6)
+put('paper.nisqa_mos_tcd.n',r.n,p,sel,'n',0)
 
 text=(HERE/'manuscript.md').read_text(encoding='utf-8-sig').replace('{{REFERENCES}}',refs)
 for key,value in values.items():text=text.replace('{{'+key+'}}',value)
@@ -445,6 +466,6 @@ for key,value in values.items():text=text.replace('{{'+key+'}}',value)
 (HERE/'manuscript_filled.md').write_text(text,encoding='utf-8')
 (HERE/'number_map.json').write_text(json.dumps(mapping,ensure_ascii=False,indent=2),encoding='utf-8')
 pending=sorted(set(re.findall(r'\{\{([^{}]+)\}\}',text)))
-(HERE/'number_receipt.json').write_text(json.dumps(dict(filled=len(values),pending=pending,accuracy_source=str(accuracy_path),cost_source=str(STAGE/'exp_D/cost_v3/results/cost_final.csv') if cost_v3_ready() else 'historical_cost_v5',status='ecice_selfcontained_v32_source_complete_doi_and_author_deferred' if cost_v3_ready() else 'working_draft_remaining_cost_matrix_and_author_metadata',frontend_robustness_complete=True,author_metadata_deferred=True,submission_final=False),ensure_ascii=False,indent=2),encoding='utf-8')
+(HERE/'number_receipt.json').write_text(json.dumps(dict(filled=len(values),pending=pending,accuracy_source=str(accuracy_path),cost_source=str(cost_source()) if cost_v3_ready() else 'historical_cost_v5',status='ecice_selfcontained_v32_source_complete_doi_and_author_deferred' if cost_v3_ready() else 'working_draft_remaining_cost_matrix_and_author_metadata',frontend_robustness_complete=True,author_metadata_deferred=True,submission_final=False),ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(dict(filled=len(values),pending=pending),ensure_ascii=False))
 

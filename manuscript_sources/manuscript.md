@@ -108,7 +108,7 @@ TRAIN/VAL按参考组、TEST按条件组作2000次同步配对bootstrap，报告
 
 首版（无蒸馏）指仅真实标签监督的8070参数GRU；首版指相同容量的蒸馏GRU；本文模型指冻结双层GRU96。NISQA采用作者官方五维权重，其MOS单头仅末层偏置与五维MOS头相差{{C.nisqa.bias_shift}}，单头只作成本实现参照。PLCMOS使用官方权重及作者重采样和15次调用；DNSMOS沿用官方16 kHz处理及OVRL输出；SQUIM采用官方16 kHz输入及PESQ代理；P.563在8 kHz输入上报告有效样本。UTMOSv2沿用作者五折权重、每折五次随机裁剪，提供VAL原值指标，无TRAIN映射。
 
-质量训练使用RTX4090，成本平台为i7-13700KF。S1为不绑核的库默认线程，S2/S3分别为单性能核/单能效核单线程；固定600条VAL、热缓存、20文件预热和五个独立进程重复，分离读取、预处理、前端与推理，报告常驻内存（resident set size，RSS）及实时因子（real-time factor，RTF，处理耗时/音频时长）。基础应用背景受控，核心温度不可用；16设置中8项通过稳定性标准，失败项保留实测标记。完整2700条VAL核对代表性。流式在200个随机TRAIN文件上比较同设备完整与分块输出，最大绝对差门限10⁻⁵；CPU/CUDA差异另记。动态INT8在TRAIN折外检验，局部线性量化与GRU及线性量化分别报告。
+质量训练使用RTX4090，成本平台为i7-13700KF。S1为不绑核的库默认线程，S2/S3分别为单性能核/单能效核单线程；固定600条VAL、热缓存、20文件预热和五个独立进程重复，分离读取、预处理、前端与推理，报告常驻内存（resident set size，RSS）及实时因子（real-time factor，RTF，处理耗时/音频时长）。基础应用背景受控，核心温度不可用；{{paper.cost.settings}}设置中{{paper.cost.accepted}}项通过当前标准，未通过项均为S1频率门。完整2700条VAL核对代表性。流式在200个随机TRAIN文件上比较同设备完整与分块输出，最大绝对差门限10⁻⁵；CPU/CUDA差异另记。动态INT8在TRAIN折外检验，局部线性量化与GRU及线性量化分别报告。
 
 # 4 结果与分析
 
@@ -156,7 +156,7 @@ FOR训练映射RMSE由首版{{paper.v1.for.rmse}}降至{{paper.v2.for.rmse}}，P
 
 ## 4.4 计算成本与流式运行
 
-表8与图4联合精度和成本。本文模型含{{paper.main.parameters}}参数，原生与部署路径为{{D.cost.mac.v2_96_native}}、{{D.cost.mac.v2_96_deploy}} MMACeq/音频秒；官方NISQA MOS为{{D.cost.mac.NISQA_MOS_official}}，PLCMOS为{{D.cost.mac.PLCMOS_official}}。S2的首版、本文模型原生/部署与NISQA MOS四项测量通过标准，NISQA MOS/部署耗时比为{{D.cost.s2.nisqa_ratio}}，漂移扰动敏感性范围2.16–2.29；范围并非置信区间。S3部署RTF为{{D.cost.v2_96.deploy.S3.rtf_median}}且通过标准，NISQA与PLCMOS在允许复测后仍未通过、保留†；其IQR/中位数及最大校准漂移分别为{{paper.cost.NISQA_MOS.S3.iqr_pct}}%/{{paper.cost.NISQA_MOS.S3.drift_pct}}%和{{paper.cost.PLCMOS.S3.iqr_pct}}%/{{paper.cost.PLCMOS.S3.drift_pct}}%，阈值为离散度5%、校准漂移3%。PLCMOS实测耗时约慢一个数量级。MAC比约12而S2时间比约2，GRU逐帧小矩阵、前端占比和算子并行造成不同缩放；S1默认多线程部署RTF {{D.cost.v2_96.deploy.S1.rtf_median}}高于S2 {{D.cost.v2_96.deploy.S2.rtf_median}}，符合线程调度开销。DNSMOS按作者9.01 s短音重复、1 s离散滑窗并计固定STFT卷积，其旧TRAIN200时长加权估计与本次VAL代表长度口径不同。
+表8与图4联合精度和成本。本文模型含{{paper.main.parameters}}参数，原生与部署路径为{{D.cost.mac.v2_96_native}}、{{D.cost.mac.v2_96_deploy}} MMACeq/音频秒；官方NISQA MOS为{{D.cost.mac.NISQA_MOS_official}}，PLCMOS为{{D.cost.mac.PLCMOS_official}}。S2的首版、本文模型原生/部署与NISQA MOS四项测量通过标准，NISQA MOS/部署耗时比为{{D.cost.s2.nisqa_ratio}}，漂移扰动敏感性范围2.16–2.29；范围并非置信区间。当前标准为IQR/中位数<10%、校准漂移<11%。S3部署RTF为{{D.cost.v2_96.deploy.S3.rtf_median}}，包括GRU64在内的全部六项S3测量均通过。NISQA MOS/部署耗时比为{{paper.cost.S3.nisqa_ratio}}、漂移敏感性范围{{paper.cost.S3.nisqa_sensitivity}}，PLCMOS/部署为{{paper.cost.S3.plc_ratio}}、{{paper.cost.S3.plc_sensitivity}}。NISQA与PLCMOS的IQR/中位数和最大漂移分别为{{paper.cost.NISQA_MOS.S3.iqr_pct}}%/{{paper.cost.NISQA_MOS.S3.drift_pct}}%及{{paper.cost.PLCMOS.S3.iqr_pct}}%/{{paper.cost.PLCMOS.S3.drift_pct}}%；上述敏感性范围均非置信区间。MAC比约12而S2时间比约2，GRU逐帧小矩阵、前端占比和算子并行造成不同缩放；S1默认多线程部署RTF {{D.cost.v2_96.deploy.S1.rtf_median}}高于S2 {{D.cost.v2_96.deploy.S2.rtf_median}}，符合线程调度开销。DNSMOS按作者9.01 s短音重复、1 s离散滑窗并计固定STFT卷积，其旧TRAIN200时长加权估计与本次VAL代表长度口径不同。
 
 【TABLE8】
 
@@ -170,7 +170,7 @@ FOR训练映射RMSE由首版{{paper.v1.for.rmse}}降至{{paper.v2.for.rmse}}，P
 
 真实通话来源的泛化、丢包响应单调性和盲突发度跨源误差仍有限；教师与历史测试曝光、TCD录音池重叠、仿真16 kHz原生带宽及E-model参数范围限定了评价解释。现有成本来自桌面平台，支持16/48 kHz输入。后续研究重点是缩小合成与无标签真实语音的分布差距。
 
-数据与代码可用性：本文使用NISQA、TCD-VoIP、AISHELL-1和THCHS-30的公开研究数据。版本化评价协议、预测、完整结果表、成本分解和复现代码的存档地址为已建立的公开GitHub仓库https://github.com/chenyikai1207/nisqa-streaming-quality，本稿关联版本标签为nisqa-paper1-ecice-v32-20261014；原始音频按各数据集许可从作者来源获取。
+数据与代码可用性：本文使用NISQA、TCD-VoIP、AISHELL-1和THCHS-30的公开研究数据。版本化评价协议、预测、完整结果表、成本分解和复现代码的存档地址为已建立的公开GitHub仓库https://github.com/chenyikai1207/nisqa-streaming-quality，本稿关联版本标签为nisqa-paper1-ecice-v33-20261014；原始音频按各数据集许可从作者来源获取。
 
 # 参考文献
 

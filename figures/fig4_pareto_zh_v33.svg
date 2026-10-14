@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="493.228346pt" height="391.181102pt" viewBox="0 0 493.228346 391.181102" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-14T17:54:10.858069</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 391.181102 
+L 493.228346 391.181102 
+L 493.228346 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 54.255118 97.38066 
+L 242.460671 97.38066 
+L 242.460671 23.470866 
+L 54.255118 23.470866 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 67.236835 66.373742 
+L 86.93526 59.048413 
+L 98.961864 57.563091 
+L 154.953798 44.341584 
+" clip-path="url(#p2b477bfab6)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_2">
+      <defs>
+       <path id="m380eb9302f" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m380eb9302f" x="94.323679" y="97.38066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="94.323679" y="110.274214" transform="rotate(-0 94.323679 110.274214)">10</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m380eb9302f" x="146.391126" y="97.38066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="146.391126" y="110.274214" transform="rotate(-0 146.391126 110.274214)">100</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m380eb9302f" x="198.458574" y="97.38066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="198.458574" y="110.274214" transform="rotate(-0 198.458574 110.274214)">1000</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="148.357895" y="123.200406" transform="rotate(-0 148.357895 123.200406)">含前端计算量（百万MACeq/音频秒）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_5">
+      <defs>
+       <path id="ma2b5037d62" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="90.341632" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="93.288409" transform="rotate(-0 47.255118 93.288409)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="72.744062" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="75.690839" transform="rotate(-0 47.255118 75.690839)">0.7</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="55.146492" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="58.093269" transform="rotate(-0 47.255118 58.093269)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="37.548922" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="40.495699" transform="rotate(-0 47.255118 40.495699)">0.9</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="30.687735" y="60.425763" transform="rotate(-90 30.687735 60.425763)">原始Pearson相关系数 ↑</text>
+    </g>
+   </g>
+   <g id="line2d_9">
+    <defs>
+     <path id="m135e2d580d" d="M -3.9 3.9 
+L 3.9 3.9 
+L 3.9 -3.9 
+L -3.9 -3.9 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#m135e2d580d" x="155.081325" y="44.341584" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 54.255118 97.38066 
+L 54.255118 23.470866 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 54.255118 97.38066 
+L 242.460671 97.38066 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <defs>
+     <path id="m701941e367" d="M 0 2.7 
+C 0.716048 2.7 1.402866 2.415511 1.909188 1.909188 
+C 2.415511 1.402866 2.7 0.716048 2.7 0 
+C 2.7 -0.716048 2.415511 -1.402866 1.909188 -1.909188 
+C 1.402866 -2.415511 0.716048 -2.7 0 -2.7 
+C -0.716048 -2.7 -1.402866 -2.415511 -1.909188 -1.909188 
+C -2.415511 -1.402866 -2.7 -0.716048 -2.7 0 
+C -2.7 0.716048 -2.415511 1.402866 -1.909188 1.909188 
+C -1.402866 2.415511 -0.716048 2.7 0 2.7 
+z
+" style="stroke: #000000; stroke-width: 0.95"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#m701941e367" x="67.236835" y="66.373742" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="72.236835" y="83.703771" transform="rotate(-0 72.236835 83.703771)">首版</text>
+   </g>
+   <g id="line2d_11">
+    <defs>
+     <path id="m882f8d1593" d="M -1.033333 3.1 
+L 1.033333 3.1 
+L 1.033333 1.033333 
+L 3.1 1.033333 
+L 3.1 -1.033333 
+L 1.033333 -1.033333 
+L 1.033333 -3.1 
+L -1.033333 -3.1 
+L -1.033333 -1.033333 
+L -3.1 -1.033333 
+L -3.1 1.033333 
+L -1.033333 1.033333 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#m882f8d1593" x="98.961864" y="57.563091" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="103.961864" y="72.769604" transform="rotate(-0 103.961864 72.769604)">双层GRU96</text>
+   </g>
+   <g id="line2d_12">
+    <defs>
+     <path id="m286eb91f9f" d="M 0 3.818377 
+L 3.818377 0 
+L 0 -3.818377 
+L -3.818377 0 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#m286eb91f9f" x="86.93526" y="59.048413" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="86.93526" y="41.254927" transform="rotate(-0 86.93526 41.254927)">双层GRU64</text>
+   </g>
+   <g id="line2d_13">
+    <defs>
+     <path id="mb1fcf34812" d="M -1.35 2.7 
+L 0 1.35 
+L 1.35 2.7 
+L 2.7 1.35 
+L 1.35 0 
+L 2.7 -1.35 
+L 1.35 -2.7 
+L 0 -1.35 
+L -1.35 -2.7 
+L -2.7 -1.35 
+L -1.35 0 
+L -2.7 1.35 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#mb1fcf34812" x="154.953798" y="44.341584" style="fill: #bbbbbb; stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="160.953798" y="59.688215" transform="rotate(-0 160.953798 59.688215)">NISQA仅MOS</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="150.081325" y="32.641731" transform="rotate(-0 150.081325 32.641731)">NISQA五维</text>
+   </g>
+   <g id="line2d_14">
+    <defs>
+     <path id="m2e1cc683ba" d="M 0 -2.7 
+L -2.7 2.7 
+L 2.7 2.7 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#p2b477bfab6)">
+     <use xlink:href="#m2e1cc683ba" x="218.012666" y="73.62394" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="213.012666" y="86.653481" transform="rotate(-0 213.012666 86.653481)">PLCMOS</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="54.255118" y="15.470866" transform="rotate(-0 54.255118 15.470866)">(a) 验证集（VAL）</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 295.158226 97.38066 
+L 483.36378 97.38066 
+L 483.36378 23.470866 
+L 295.158226 23.470866 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 317.233581 66.373742 
+L 347.389947 59.048413 
+L 351.171217 57.563091 
+L 378.547191 44.341584 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_4">
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m380eb9302f" x="342.873468" y="97.38066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_17">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="342.873468" y="110.274214" transform="rotate(-0 342.873468 110.274214)">0.01</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m380eb9302f" x="447.527772" y="97.38066" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_18">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="447.527772" y="110.274214" transform="rotate(-0 447.527772 110.274214)">0.1</text>
+     </g>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="389.261003" y="123.137125" transform="rotate(-0 389.261003 123.137125)">实时因子（RTF，5轮中位数/IQR）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_5">
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="90.341632" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="72.744062" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_20">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="55.146492" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_21">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="37.548922" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 317.149983 66.373742 
+L 317.353228 66.373742 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_22">
+    <defs>
+     <path id="ma89f116cda" d="M 0 1.7 
+L 0 -1.7 
+" style="stroke: #444444"/>
+    </defs>
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="317.149983" y="66.373742" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_23">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="317.353228" y="66.373742" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_2">
+    <path d="M 351.147877 57.563091 
+L 351.224831 57.563091 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_24">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="351.147877" y="57.563091" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_25">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="351.224831" y="57.563091" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_3">
+    <path d="M 346.797743 59.048413 
+L 347.685815 59.048413 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_26">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="346.797743" y="59.048413" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_27">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="347.685815" y="59.048413" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_4">
+    <path d="M 378.442304 44.341584 
+L 378.898278 44.341584 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_28">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="378.442304" y="44.341584" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_29">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="378.898278" y="44.341584" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_5">
+    <path d="M 454.593842 73.62394 
+L 455.542039 73.62394 
+" clip-path="url(#paa2cd1fc52)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_30">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="454.593842" y="73.62394" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_31">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#ma89f116cda" x="455.542039" y="73.62394" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 295.158226 97.38066 
+L 295.158226 23.470866 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 295.158226 97.38066 
+L 483.36378 97.38066 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#m701941e367" x="317.233581" y="66.373742" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="322.233581" y="83.703771" transform="rotate(-0 322.233581 83.703771)">首版</text>
+   </g>
+   <g id="line2d_33">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#m882f8d1593" x="351.171217" y="57.563091" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="356.171217" y="76.769604" transform="rotate(-0 356.171217 76.769604)">双层GRU96</text>
+   </g>
+   <g id="line2d_34">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#m286eb91f9f" x="347.389947" y="59.048413" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="359.389947" y="47.254927" transform="rotate(-0 359.389947 47.254927)">双层GRU64</text>
+   </g>
+   <g id="line2d_35">
+    <defs>
+     <path id="m39e533956c" d="M -1.35 2.7 
+L 0 1.35 
+L 1.35 2.7 
+L 2.7 1.35 
+L 1.35 0 
+L 2.7 -1.35 
+L 1.35 -2.7 
+L 0 -1.35 
+L -1.35 -2.7 
+L -2.7 -1.35 
+L -1.35 0 
+L -2.7 1.35 
+z
+" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </defs>
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#m39e533956c" x="378.547191" y="44.341584" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="384.547191" y="34.688215" transform="rotate(-0 384.547191 34.688215)">NISQA仅MOS</text>
+   </g>
+   <g id="line2d_36">
+    <g clip-path="url(#paa2cd1fc52)">
+     <use xlink:href="#m2e1cc683ba" x="454.915379" y="73.62394" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="449.915379" y="86.653481" transform="rotate(-0 449.915379 86.653481)">PLCMOS</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="295.158226" y="15.470866" transform="rotate(-0 295.158226 15.470866)">(b) 验证集（VAL）</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 54.255118 220.810015 
+L 242.460671 220.810015 
+L 242.460671 146.900221 
+L 54.255118 146.900221 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_37">
+    <path d="M 67.236835 201.645351 
+L 154.953798 164.169303 
+" clip-path="url(#pd3f49f066f)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_6">
+     <g id="line2d_38">
+      <g>
+       <use xlink:href="#m380eb9302f" x="94.323679" y="220.810015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_26">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="94.323679" y="233.70357" transform="rotate(-0 94.323679 233.70357)">10</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_39">
+      <g>
+       <use xlink:href="#m380eb9302f" x="146.391126" y="220.810015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_27">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="146.391126" y="233.70357" transform="rotate(-0 146.391126 233.70357)">100</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_40">
+      <g>
+       <use xlink:href="#m380eb9302f" x="198.458574" y="220.810015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_28">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="198.458574" y="233.70357" transform="rotate(-0 198.458574 233.70357)">1000</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="148.357895" y="246.629761" transform="rotate(-0 148.357895 246.629761)">含前端计算量（百万MACeq/音频秒）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_9">
+     <g id="line2d_41">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="213.770987" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_30">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="216.717764" transform="rotate(-0 47.255118 216.717764)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_42">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="196.173417" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_31">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="199.120194" transform="rotate(-0 47.255118 199.120194)">0.7</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_43">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="178.575847" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_32">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="181.522624" transform="rotate(-0 47.255118 181.522624)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_44">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="160.978277" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_33">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="163.925055" transform="rotate(-0 47.255118 163.925055)">0.9</text>
+     </g>
+    </g>
+    <g id="text_34">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="30.687735" y="183.855118" transform="rotate(-90 30.687735 183.855118)">原始Pearson相关系数 ↑</text>
+    </g>
+   </g>
+   <g id="line2d_45">
+    <g clip-path="url(#pd3f49f066f)">
+     <use xlink:href="#m135e2d580d" x="155.081325" y="164.169303" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 54.255118 220.810015 
+L 54.255118 146.900221 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 54.255118 220.810015 
+L 242.460671 220.810015 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_46">
+    <g clip-path="url(#pd3f49f066f)">
+     <use xlink:href="#m701941e367" x="67.236835" y="201.645351" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="72.236835" y="214.975381" transform="rotate(-0 72.236835 214.975381)">首版</text>
+   </g>
+   <g id="line2d_47">
+    <g clip-path="url(#pd3f49f066f)">
+     <use xlink:href="#m882f8d1593" x="98.961864" y="204.207547" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="103.961864" y="214.414061" transform="rotate(-0 103.961864 214.414061)">双层GRU96</text>
+   </g>
+   <g id="line2d_48">
+    <g clip-path="url(#pd3f49f066f)">
+     <use xlink:href="#mb1fcf34812" x="154.953798" y="164.169303" style="fill: #bbbbbb; stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="160.953798" y="179.515934" transform="rotate(-0 160.953798 179.515934)">NISQA仅MOS</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="150.081325" y="152.469449" transform="rotate(-0 150.081325 152.469449)">NISQA五维</text>
+   </g>
+   <g id="line2d_49">
+    <g clip-path="url(#pd3f49f066f)">
+     <use xlink:href="#m2e1cc683ba" x="218.012666" y="178.646237" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="213.012666" y="191.675778" transform="rotate(-0 213.012666 191.675778)">PLCMOS</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="54.255118" y="138.900221" transform="rotate(-0 54.255118 138.900221)">(c) 三测试集等权宏平均</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_11">
+    <path d="M 295.158226 220.810015 
+L 483.36378 220.810015 
+L 483.36378 146.900221 
+L 295.158226 146.900221 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_50">
+    <path d="M 317.233581 201.645351 
+L 378.547191 164.169303 
+" clip-path="url(#p761ace6cb9)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_7">
+    <g id="xtick_9">
+     <g id="line2d_51">
+      <g>
+       <use xlink:href="#m380eb9302f" x="342.873468" y="220.810015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_41">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="342.873468" y="233.70357" transform="rotate(-0 342.873468 233.70357)">0.01</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_52">
+      <g>
+       <use xlink:href="#m380eb9302f" x="447.527772" y="220.810015" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_42">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="447.527772" y="233.70357" transform="rotate(-0 447.527772 233.70357)">0.1</text>
+     </g>
+    </g>
+    <g id="text_43">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="389.261003" y="246.56648" transform="rotate(-0 389.261003 246.56648)">实时因子（RTF，5轮中位数/IQR）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_13">
+     <g id="line2d_53">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="213.770987" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_54">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="196.173417" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_55">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="178.575847" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_56">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="160.978277" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_6">
+    <path d="M 317.149983 201.645351 
+L 317.353228 201.645351 
+" clip-path="url(#p761ace6cb9)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_57">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="317.149983" y="201.645351" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_58">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="317.353228" y="201.645351" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_7">
+    <path d="M 351.147877 204.207547 
+L 351.224831 204.207547 
+" clip-path="url(#p761ace6cb9)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_59">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="351.147877" y="204.207547" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_60">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="351.224831" y="204.207547" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_8">
+    <path d="M 378.442304 164.169303 
+L 378.898278 164.169303 
+" clip-path="url(#p761ace6cb9)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_61">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="378.442304" y="164.169303" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_62">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="378.898278" y="164.169303" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_9">
+    <path d="M 454.593842 178.646237 
+L 455.542039 178.646237 
+" clip-path="url(#p761ace6cb9)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_63">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="454.593842" y="178.646237" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_64">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#ma89f116cda" x="455.542039" y="178.646237" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="patch_12">
+    <path d="M 295.158226 220.810015 
+L 295.158226 146.900221 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 295.158226 220.810015 
+L 483.36378 220.810015 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_65">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#m701941e367" x="317.233581" y="201.645351" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="322.233581" y="214.975381" transform="rotate(-0 322.233581 214.975381)">首版</text>
+   </g>
+   <g id="line2d_66">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#m882f8d1593" x="351.171217" y="204.207547" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="356.171217" y="214.414061" transform="rotate(-0 356.171217 214.414061)">双层GRU96</text>
+   </g>
+   <g id="line2d_67">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#m39e533956c" x="378.547191" y="164.169303" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="384.547191" y="154.515934" transform="rotate(-0 384.547191 154.515934)">NISQA仅MOS</text>
+   </g>
+   <g id="line2d_68">
+    <g clip-path="url(#p761ace6cb9)">
+     <use xlink:href="#m2e1cc683ba" x="454.915379" y="178.646237" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="449.915379" y="191.675778" transform="rotate(-0 449.915379 191.675778)">PLCMOS</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="295.158226" y="138.900221" transform="rotate(-0 295.158226 138.900221)">(d) 三测试集等权宏平均</text>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_14">
+    <path d="M 54.255118 344.23937 
+L 242.460671 344.23937 
+L 242.460671 270.329577 
+L 54.255118 270.329577 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_69">
+    <path d="M 67.236835 320.247181 
+L 98.961864 314.793008 
+L 154.953798 294.603665 
+" clip-path="url(#p609ae3964c)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_9">
+    <g id="xtick_11">
+     <g id="line2d_70">
+      <g>
+       <use xlink:href="#m380eb9302f" x="94.323679" y="344.23937" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_49">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="94.323679" y="357.132925" transform="rotate(-0 94.323679 357.132925)">10</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_71">
+      <g>
+       <use xlink:href="#m380eb9302f" x="146.391126" y="344.23937" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_50">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="146.391126" y="357.132925" transform="rotate(-0 146.391126 357.132925)">100</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_72">
+      <g>
+       <use xlink:href="#m380eb9302f" x="198.458574" y="344.23937" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_51">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="198.458574" y="357.132925" transform="rotate(-0 198.458574 357.132925)">1000</text>
+     </g>
+    </g>
+    <g id="text_52">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="148.357895" y="370.059116" transform="rotate(-0 148.357895 370.059116)">含前端计算量（百万MACeq/音频秒）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_17">
+     <g id="line2d_73">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="337.200342" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_53">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="340.147119" transform="rotate(-0 47.255118 340.147119)">0.6</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_74">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="319.602772" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_54">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="322.54955" transform="rotate(-0 47.255118 322.54955)">0.7</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_75">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="302.005202" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_55">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="304.95198" transform="rotate(-0 47.255118 304.95198)">0.8</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_76">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="54.255118" y="284.407632" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_56">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end" x="47.255118" y="287.35441" transform="rotate(-0 47.255118 287.35441)">0.9</text>
+     </g>
+    </g>
+    <g id="text_57">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="30.687735" y="307.284473" transform="rotate(-90 30.687735 307.284473)">原始Pearson相关系数 ↑</text>
+    </g>
+   </g>
+   <g id="line2d_77">
+    <g clip-path="url(#p609ae3964c)">
+     <use xlink:href="#m135e2d580d" x="155.081325" y="294.605931" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="patch_15">
+    <path d="M 54.255118 344.23937 
+L 54.255118 270.329577 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 54.255118 344.23937 
+L 242.460671 344.23937 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_78">
+    <g clip-path="url(#p609ae3964c)">
+     <use xlink:href="#m701941e367" x="67.236835" y="320.247181" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="72.236835" y="337.57721" transform="rotate(-0 72.236835 337.57721)">首版</text>
+   </g>
+   <g id="line2d_79">
+    <g clip-path="url(#p609ae3964c)">
+     <use xlink:href="#m882f8d1593" x="98.961864" y="314.793008" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="103.961864" y="329.999522" transform="rotate(-0 103.961864 329.999522)">双层GRU96</text>
+   </g>
+   <g id="line2d_80">
+    <g clip-path="url(#p609ae3964c)">
+     <use xlink:href="#mb1fcf34812" x="154.953798" y="294.603665" style="fill: #bbbbbb; stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="160.953798" y="309.950296" transform="rotate(-0 160.953798 309.950296)">NISQA仅MOS</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="150.081325" y="282.906078" transform="rotate(-0 150.081325 282.906078)">NISQA五维</text>
+   </g>
+   <g id="line2d_81">
+    <g clip-path="url(#p609ae3964c)">
+     <use xlink:href="#m2e1cc683ba" x="218.012666" y="315.283945" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="213.012666" y="328.313486" transform="rotate(-0 213.012666 328.313486)">PLCMOS</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="54.255118" y="262.329577" transform="rotate(-0 54.255118 262.329577)">(e) TCD-VoIP测试集</text>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_17">
+    <path d="M 295.158226 344.23937 
+L 483.36378 344.23937 
+L 483.36378 270.329577 
+L 295.158226 270.329577 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_82">
+    <path d="M 317.233581 320.247181 
+L 351.171217 314.793008 
+L 378.547191 294.603665 
+" clip-path="url(#pc36fd810de)" style="fill: none; stroke-dasharray: 2.96,1.28; stroke-dashoffset: 0; stroke: #666666; stroke-width: 0.8"/>
+   </g>
+   <g id="matplotlib.axis_11">
+    <g id="xtick_14">
+     <g id="line2d_83">
+      <g>
+       <use xlink:href="#m380eb9302f" x="342.873468" y="344.23937" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_64">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="342.873468" y="357.132925" transform="rotate(-0 342.873468 357.132925)">0.01</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_84">
+      <g>
+       <use xlink:href="#m380eb9302f" x="447.527772" y="344.23937" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_65">
+      <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle" x="447.527772" y="357.132925" transform="rotate(-0 447.527772 357.132925)">0.1</text>
+     </g>
+    </g>
+    <g id="text_66">
+     <text style="font-size: 9px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: middle; fill: #111111" x="389.261003" y="369.995835" transform="rotate(-0 389.261003 369.995835)">实时因子（RTF，5轮中位数/IQR）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_12">
+    <g id="ytick_21">
+     <g id="line2d_85">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="337.200342" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_86">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="319.602772" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_87">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="302.005202" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_88">
+      <g>
+       <use xlink:href="#ma2b5037d62" x="295.158226" y="284.407632" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="LineCollection_10">
+    <path d="M 317.149983 320.247181 
+L 317.353228 320.247181 
+" clip-path="url(#pc36fd810de)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_89">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="317.149983" y="320.247181" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_90">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="317.353228" y="320.247181" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_11">
+    <path d="M 351.147877 314.793008 
+L 351.224831 314.793008 
+" clip-path="url(#pc36fd810de)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_91">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="351.147877" y="314.793008" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_92">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="351.224831" y="314.793008" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_12">
+    <path d="M 378.442304 294.603665 
+L 378.898278 294.603665 
+" clip-path="url(#pc36fd810de)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_93">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="378.442304" y="294.603665" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_94">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="378.898278" y="294.603665" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="LineCollection_13">
+    <path d="M 454.593842 315.283945 
+L 455.542039 315.283945 
+" clip-path="url(#pc36fd810de)" style="fill: none; stroke: #444444; stroke-width: 0.6"/>
+   </g>
+   <g id="line2d_95">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="454.593842" y="315.283945" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="line2d_96">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#ma89f116cda" x="455.542039" y="315.283945" style="fill: #1f77b4; stroke: #444444"/>
+    </g>
+   </g>
+   <g id="patch_18">
+    <path d="M 295.158226 344.23937 
+L 295.158226 270.329577 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 295.158226 344.23937 
+L 483.36378 344.23937 
+" style="fill: none; stroke: #111111; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_97">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#m701941e367" x="317.233581" y="320.247181" style="stroke: #000000; stroke-width: 0.95"/>
+    </g>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="322.233581" y="337.57721" transform="rotate(-0 322.233581 337.57721)">首版</text>
+   </g>
+   <g id="line2d_98">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#m882f8d1593" x="351.171217" y="314.793008" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_68">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="356.171217" y="329.999522" transform="rotate(-0 356.171217 329.999522)">双层GRU96</text>
+   </g>
+   <g id="line2d_99">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#m39e533956c" x="378.547191" y="294.603665" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="384.547191" y="284.950296" transform="rotate(-0 384.547191 284.950296)">NISQA仅MOS</text>
+   </g>
+   <g id="line2d_100">
+    <g clip-path="url(#pc36fd810de)">
+     <use xlink:href="#m2e1cc683ba" x="454.915379" y="315.283945" style="stroke: #000000; stroke-width: 0.95; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 8.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: end; fill: #111111" x="449.915379" y="328.313486" transform="rotate(-0 449.915379 328.313486)">PLCMOS</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 9.5px; font-family: 'Times New Roman', 'STZhongsong'; text-anchor: start; fill: #111111" x="295.158226" y="262.329577" transform="rotate(-0 295.158226 262.329577)">(f) TCD-VoIP测试集</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2b477bfab6">
+   <rect x="54.255118" y="23.470866" width="188.205553" height="73.909794"/>
+  </clipPath>
+  <clipPath id="paa2cd1fc52">
+   <rect x="295.158226" y="23.470866" width="188.205553" height="73.909794"/>
+  </clipPath>
+  <clipPath id="pd3f49f066f">
+   <rect x="54.255118" y="146.900221" width="188.205553" height="73.909794"/>
+  </clipPath>
+  <clipPath id="p761ace6cb9">
+   <rect x="295.158226" y="146.900221" width="188.205553" height="73.909794"/>
+  </clipPath>
+  <clipPath id="p609ae3964c">
+   <rect x="54.255118" y="270.329577" width="188.205553" height="73.909794"/>
+  </clipPath>
+  <clipPath id="pc36fd810de">
+   <rect x="295.158226" y="270.329577" width="188.205553" height="73.909794"/>
+  </clipPath>
+ </defs>
+</svg>

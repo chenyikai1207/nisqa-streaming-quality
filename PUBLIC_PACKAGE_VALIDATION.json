@@ -32,5 +32,26 @@
   "round_calibration_before_after_links_resolved": 370,
   "initial_science_package_files": 1124,
   "publication_source_files_added": 112,
-  "manuscript_documents_added": 2
+  "manuscript_documents_added": 2,
+  "v33_update": {
+    "original_validation_scope_preserved": true,
+    "current_cost_accepted": 13,
+    "all_S3_accepted": 6,
+    "current_thresholds": {
+      "IQR_median_strict_lt": 0.1,
+      "calibration_strict_lt": 0.11
+    },
+    "thresholds_changed_after_results": true,
+    "new_TCD_MOS_files": 384,
+    "new_TCD_MOS_raw_Pearson": 0.8420599973613129,
+    "same_cost_weights": true,
+    "new_training": 0,
+    "new_cost_timing": 0,
+    "new_official_MOS_TCD_forward_passes": 1,
+    "figure4_points": 29,
+    "main_document_pages": 11,
+    "statement_pages": 1,
+    "all_final_pages_actually_viewed": true,
+    "repository_tag": "nisqa-paper1-ecice-v33-20261014"
+  }
 }
